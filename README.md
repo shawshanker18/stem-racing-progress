@@ -106,21 +106,21 @@ Our team is building, part by part, a computer system that designs the fastest l
 
 ### 4. Parts and the referee
 
-*Turns a carved body into a whole car, makes the build files, and judges it.* 27.8% · being built
+*Turns a carved body into a whole car, makes the build files, and judges it.* 28.3% · being built
 
 - Adds everything except the body: nose, front and rear wings, wheel supports, wheels, tether guides and the cartridge, and cuts the joints into the body.
 - Makes the files the team needs to print the parts and mill the body.
 - Holds the referee: an independent check of the finished car against every rule, measured from the outside like a scrutineer, showing how much room is left on each rule.
 - The referee shares nothing with the cutter, so one cannot hide the other's mistakes.
 
-**Now:** Running the first batch of just-inside and just-outside test cars on GitHub.
+**Now:** Teaching the checker to measure wings, wheels and the cartridge hole itself, each with pass and fail test cars.
 
 **Timeline:** 1 of 10 steps done
 
 | # | Step | Status | Started | Finished | Note |
 |---|---|---|---|---|---|
 | 1 | List every rule and its check | ✅ Done | 2026-11-09 | 2026-11-09 | Every rule matched to a check or a reason. |
-| 2 | Just-inside and just-outside tests | 🔄 Working on it | 2026-11-09 |  | First batch of test cars written; running on GitHub. |
+| 2 | Just-inside and just-outside tests | 🔄 Working on it | 2026-11-09 |  | First batch passed. The checker now measures the wings and wheels itself; those tests are running. |
 | 3 | Make the referee independent | ⬜ To do |  |  |  |
 | 4 | Parts on carved bodies (2,000 cars) | ⬜ To do |  |  |  |
 | 5 | Real part weights | ⬜ To do |  |  |  |
