@@ -186,9 +186,9 @@
  ],
  "status": "active",
  "updated": "2026-11-09",
- "now": "Wind-tunnel test runs, the first timing-noise measurement and a first real compare-two-cars test are running.",
+ "now": "Ranking check started on twenty borrowed machines; wind-tunnel experiments, noise measurement and a compare-two-cars test also running.",
  "agent_state": "waiting_on_compute",
- "agent_note": "About thirty-three machines busy: wind-tunnel setting experiments, the noise measurement and a compare-two-cars test.",
+ "agent_note": "Wind-tunnel test reads too high so far; trying settings side by side to find why.",
  "needs_you": "",
  "log": [
   {
@@ -218,6 +218,14 @@
   {
    "date": "2026-11-09",
    "text": "Compare-two-cars tool written; its built-in checks pass. A real test with two full cars is running."
+  },
+  {
+   "date": "2026-11-09",
+   "text": "Wind-tunnel shape reads about a quarter too high on drag; a finer mesh does not fix it. A still floor in our setup adds some of it. More experiments running."
+  },
+  {
+   "date": "2026-11-09",
+   "text": "Ranking check started: twenty cars on the detailed mesh, using twenty extra machines lent for about twelve hours."
   }
  ],
  "tasks": [
@@ -227,7 +235,7 @@
    "status": "doing",
    "started": "2026-11-09",
    "finished": "",
-   "note": "Both test shapes are running on three levels of detail."
+   "note": "Drag reads too high so far; testing settings to find out why."
   },
   {
    "title": "Cut the timing noise",
@@ -240,10 +248,10 @@
   {
    "title": "Quick vs detailed ranking check",
    "short": "Ranking check",
-   "status": "todo",
-   "started": "",
+   "status": "doing",
+   "started": "2026-11-09",
    "finished": "",
-   "note": ""
+   "note": "Twenty cars on the detailed mesh are running; the quick-mesh twins follow."
   },
   {
    "title": "Warm start",
