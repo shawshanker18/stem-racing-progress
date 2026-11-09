@@ -174,7 +174,7 @@
   }
  ],
  "agent_state": "waiting_on_compute",
- "agent_note": "The simple wing test is running on twenty machines: twenty small bumps measured directly and five map settings compared.",
+ "agent_note": "Two checks running: the simple wing test, and a direction and coverage check of the map on ten cars. Writing the map-to-race-time step meanwhile.",
  "tasks": [
   {
    "title": "Known-answer test",
