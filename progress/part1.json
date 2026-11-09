@@ -177,9 +177,9 @@
    ]
   }
  ],
- "status": "waiting",
+ "status": "active",
  "updated": "2026-11-09",
- "now": "Waiting for the go. First job: the last failing mesh test.",
+ "now": "Found which shape rule causes the failing mesh test. Next: confirm why, then fix it.",
  "log": [
   {
    "date": "2026-11-09",
@@ -188,6 +188,10 @@
   {
    "date": "2026-11-09",
    "text": "Repository cleaned: unused and outdated files removed. The symmetry test is fixed; one mesh test still fails and is the first job."
+  },
+  {
+   "date": "2026-11-09",
+   "text": "Started. A test that switches shape rules off one at a time found the one behind the failing mesh test. Fix comes next."
   }
  ]
 }
