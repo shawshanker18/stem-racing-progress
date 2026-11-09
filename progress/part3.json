@@ -69,7 +69,7 @@
     {
      "name": "Map to race time",
      "cells": 20,
-     "done": 0,
+     "done": 16,
      "failed": 0,
      "short": "Map to time"
     },
@@ -130,7 +130,7 @@
     {
      "name": "Unit tests",
      "cells": 100,
-     "done": 0,
+     "done": 100,
      "failed": 0,
      "short": "Unit tests"
     }
@@ -183,11 +183,15 @@
   {
    "date": "2026-11-09",
    "text": "Nose test on eighteen real cars: the map now says growing the nose adds drag on every one. Still open: the car flow does not fully settle, and the map misses about one twelfth of the car surface."
+  },
+  {
+   "date": "2026-11-09",
+   "text": "Map to race time: built and checked against the race model, including where the weight sits now that the race time accounts for it. All unit tests pass."
   }
  ],
- "agent_state": "waiting_on_compute",
+ "agent_state": "working",
  "needs_you": "",
- "agent_note": "Waiting on four runs: a finer wing mesh, the shipped turbulent wing setup, a wing test with two-way shapes to explain the map size, and ten cars with a longer flow run.",
+ "agent_note": "Waiting on four runs (finer wing mesh, shipped turbulent wing setup, wing size test, ten cars with a longer flow run); building the car bump test meanwhile.",
  "tasks": [
   {
    "title": "Known-answer test",
@@ -224,10 +228,10 @@
   {
    "title": "Map to race time",
    "short": "Map to time",
-   "status": "blocked",
+   "status": "doing",
    "started": "2026-11-09",
    "finished": "",
-   "note": "Blocked: waiting on Part 2 to put the centre of mass into the race time; the rest of this step is built and tested."
+   "note": "Built and its check against the race model passes, including where the weight sits; waiting for Part 1 to confirm how it re-sizes the skin."
   },
   {
    "title": "One-cut proof",
