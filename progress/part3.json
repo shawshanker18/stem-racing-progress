@@ -109,7 +109,7 @@
     {
      "name": "Direction sanity check",
      "cells": 2,
-     "done": 0,
+     "done": 1,
      "failed": 0,
      "short": "Direction"
     },
@@ -124,7 +124,7 @@
      "name": "Map placement check",
      "cells": 10,
      "done": 0,
-     "failed": 0,
+     "failed": 10,
      "short": "Placement"
     },
     {
@@ -158,7 +158,7 @@
  ],
  "status": "active",
  "updated": "2026-11-09",
- "now": "Fixed which way the map points and the early stop in the map tool; testing why its strength still matches only loosely.",
+ "now": "Map direction now right on the wing and on eighteen real cars; working on how strongly it matches, on settling the car flow, and on covering the whole car surface.",
  "log": [
   {
    "date": "2026-11-09",
@@ -179,10 +179,14 @@
   {
    "date": "2026-11-09",
    "text": "Changed the shared map tool (in the stopwatch folder) for Part 2 to know: the map now reads the surface direction the right way round, and its flow run no longer stops early. Proven on the wing test: the map now has the right direction on all twenty bumps."
+  },
+  {
+   "date": "2026-11-09",
+   "text": "Nose test on eighteen real cars: the map now says growing the nose adds drag on every one. Still open: the car flow does not fully settle, and the map misses about one twelfth of the car surface."
   }
  ],
  "agent_state": "waiting_on_compute",
- "agent_note": "Three wing tests running side by side. Map-to-race-time check blocked: waiting on Part 2 (centre of mass in the race time).",
+ "agent_note": "Running: finer wing mesh, the shipped turbulent wing setup, and ten cars with a longer flow run. Map-to-race-time check blocked: waiting on Part 2.",
  "tasks": [
   {
    "title": "Known-answer test",
