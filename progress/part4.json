@@ -193,7 +193,7 @@
  ],
  "status": "active",
  "updated": "2026-11-09",
- "now": "The checker now measures wings, wheels, tether guides and the cartridge hole itself. Fixing one hole measurement, then starting the big carved-car batch.",
+ "now": "Big batch of carved cars running; the checker measures every size rule itself now.",
  "log": [
   {
    "date": "2026-11-09",
@@ -244,10 +244,10 @@
   {
    "title": "Parts on carved bodies (2,000 cars)",
    "short": "2,000 cars",
-   "status": "todo",
-   "started": "",
+   "status": "doing",
+   "started": "2026-11-09",
    "finished": "",
-   "note": ""
+   "note": "First batch of about a thousand carved cars running."
   },
   {
    "title": "Real part weights",
@@ -299,7 +299,7 @@
   }
  ],
  "agent_state": "waiting_on_compute",
- "agent_note": "Found the cause: a hair-thin seam in the body file fooled the hole measurement. Fix is running on three whole test cars; the big carved-car batch starts once they pass.",
+ "agent_note": "About a thousand carved cars are being built and judged on GitHub; a last check of the cartridge hole measurement runs alongside.",
  "needs_you": "",
  "unlocks": {
   "D": {
