@@ -237,7 +237,7 @@
    "status": "doing",
    "started": "2026-11-09",
    "finished": "",
-   "note": "First test: a few bodies came out slightly heavy; finding out why."
+   "note": "Cause found: the weight jumps in steps. Fix written; retesting."
   },
   {
    "title": "Big random carving test (2,000 bodies)",
@@ -288,8 +288,8 @@
    "note": ""
   }
  ],
- "agent_state": "working",
- "agent_note": "Fixing the weight sizing so carved bodies land on the target weight; a first small carving test is running.",
+ "agent_state": "waiting_on_compute",
+ "agent_note": "Rerunning the weight test with the fix, and a first small carving test, on GitHub.",
  "needs_you": "",
  "unlocks": {
   "A": {
