@@ -30,21 +30,21 @@ Our team is building, part by part, a computer system that designs the fastest l
 
 ### 1. The cutter
 
-*Carves the car body out of the legal block, one safe cut at a time.* 27.7% · being built
+*Carves the car body out of the legal block, one safe cut at a time.* 28.9% · being built
 
 - Starts from the full block of material the rules allow, with every rule zone already marked.
 - Moves the surface in or out wherever it is told, in small steps, and checks every rule after each step: required solid areas, required open areas, left-right symmetry, one single piece, and a shape a real milling machine can cut.
 - Re-sizes the whole body after each cut so the car always weighs the target.
 - Hands over a clean, closed 3D shape. It never decides what is faster; it only cuts safely.
 
-**Now:** Building the cutting tool and its checks.
+**Now:** The cutting tool is written; its checks are running on GitHub.
 
 **Timeline:** 1 of 9 steps done
 
 | # | Step | Status | Started | Finished | Note |
 |---|---|---|---|---|---|
 | 1 | Fix the last failing test | ✅ Done | 2026-11-09 | 2026-11-09 | Both failing tests fixed; every check passes. |
-| 2 | Build the cutting tool | 🔄 Working on it | 2026-11-09 |  | Writing the tool and its checks. |
+| 2 | Build the cutting tool | 🔄 Working on it | 2026-11-09 |  | Tool written; its checks are running on GitHub. |
 | 3 | Weight sizing for carved shapes | ⬜ To do |  |  |  |
 | 4 | Big random carving test (2,000 bodies) | ⬜ To do |  |  |  |
 | 5 | Grid-size check | ⬜ To do |  |  |  |
