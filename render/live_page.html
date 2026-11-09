@@ -34,6 +34,12 @@ button:disabled{background:#2a2a2a;color:var(--mute);cursor:wait}
 .sq{display:grid;grid-template-columns:repeat(auto-fill,12px);gap:3px;margin-top:10px}
 .sq i{width:12px;height:12px;border-radius:2px;background:#232323;border:1px solid #2e2e2e}
 .sq i.on{background:var(--white);border-color:var(--white)}
+i.p1{background:#f2f2f2;border-color:#f2f2f2}i.p2{background:#bdbdbd;border-color:#bdbdbd}
+i.p3{background:#8a8a8a;border-color:#8a8a8a}i.p4{background:#5c5c5c;border-color:#5c5c5c}
+i.p5{background:#3a3a3a;border-color:#cfcfcf}i.p0{background:repeating-linear-gradient(45deg,#9a9a9a 0 2px,#2a2a2a 2px 4px);border-color:#6a6a6a}
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;align-items:center;margin:0 0 10px;color:var(--mute);font-size:12px}
+.legend span{display:inline-flex;align-items:center;gap:6px}.legend i{width:12px;height:12px;border-radius:2px;border:1px solid #2e2e2e;display:inline-block}
+.legend b{color:var(--text);font-weight:600}.sw{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:0;border:1px solid #2e2e2e}
 table{width:100%;border-collapse:collapse}
 th{color:var(--dim);font-weight:500;text-align:left;font-size:11px;letter-spacing:.08em;text-transform:uppercase;padding:6px 8px;border-bottom:1px solid var(--line)}
 td{padding:9px 8px;border-bottom:1px solid var(--soft);vertical-align:middle}
@@ -68,7 +74,7 @@ footer{margin-top:36px;color:var(--dim);font-size:12px}a{color:var(--text)}
 
 <h2>Agents</h2><div class="agents" id="agents"></div>
 <h2>Ready to start?</h2><div class="card" id="gates"></div>
-<h2 id="mhead">Machines</h2><div class="accs" id="accounts"></div>
+<h2 id="mhead">Machines</h2><div class="legend" id="legend"></div><div class="accs" id="accounts"></div>
 <h2 id="rhead">Running on GitHub</h2><div class="card" id="runs"></div>
 <h2>Timelines</h2><div class="grid" id="parts"></div>
 
@@ -111,15 +117,22 @@ function render(d){
       return `<div class="ms ${u.done?"ok":""}"><span class="mono">${u.done?"[x]":"[ ]"}</span><span>${esc(k)} · ${esc(u.label)} <span class="sub">(Part ${u.part})</span></span><span class="mono">${u.done?esc(u.date):"not yet"}</span></div>`; }).join("") + `</div>`;
 
   $("mhead").innerHTML = `Machines <span class="mono" style="color:var(--dim)">· ${busy}/${cap} busy${queued?`, ${queued} queued`:""}</span>`;
+  const SHADE = {1:"p1",2:"p2",3:"p3",4:"p4",5:"p5",0:"p0"};
+  const totals = {}; for (const a of d.accounts) for (const [k,v] of Object.entries(a.by_part||{})) totals[k] = (totals[k]||0) + v;
+  const pname = k => k === "0" ? "unlabelled" : `Part ${k}`;
+  $("legend").innerHTML = ["1","2","3","4","5","0"].map(k => `<span><i class="sq-l ${SHADE[k]}"></i>${pname(k)} <b class="mono">${totals[k]||0}</b></span>`).join("")
+    + `<span><i style="background:#232323"></i>free <b class="mono">${cap-busy}</b></span>`;
+  const cells = a => { const out = []; for (const k of ["1","2","3","4","5","0"]) for (let i=0;i<((a.by_part||{})[k]||0);i++) out.push(`<i class="${SHADE[k]}"></i>`);
+    while (out.length < a.running) out.push('<i class="p0"></i>'); while (out.length < a.cap) out.push("<i></i>"); return out.slice(0, Math.max(a.cap, out.length)).join(""); };
   $("accounts").innerHTML = d.accounts.map(a => `
     <div class="card acc"><div class="head"><div>${esc(a.name)}<div class="who">${a.part ? "Part " + a.part : esc(a.note || "shared")}</div></div>
     <div class="mono">${a.running}/${a.cap}${a.queued ? `<div class="who">${a.queued} queued</div>` : ""}</div></div>
-    <div class="sq" title="${a.running} of ${a.cap} machines running">${Array.from({length:a.cap},(_,i)=>`<i class="${i<a.running?"on":""}"></i>`).join("")}</div></div>`).join("");
+    <div class="sq" title="${a.running} of ${a.cap} machines running: ${Object.entries(a.by_part||{}).map(([k,v])=>pname(k)+" "+v).join(", ") || "none"}">${cells(a)}</div></div>`).join("");
 
   const runs = [...d.runs].sort((a,b)=>(a.status!=="in_progress")-(b.status!=="in_progress") || (a.part||9)-(b.part||9));
   $("rhead").innerHTML = `Running on GitHub <span class="mono" style="color:var(--dim)">· ${runs.length} runs</span>`;
   $("runs").innerHTML = runs.length ? `<table class="runs"><thead><tr><th>Part</th><th>What</th><th>State</th><th>Started</th><th>Progress</th></tr></thead><tbody>` +
-    runs.map(r => `<tr><td data-l="Part">${r.part ? "Part " + r.part : "shared"}</td>
+    runs.map(r => `<tr><td data-l="Part"><i class="${SHADE[String(r.part||0)]} sw"></i>${r.part ? "Part " + r.part : "shared"}</td>
       <td data-l="What">${esc(r.title)}<div class="sub">${esc(r.account)}</div></td>
       <td data-l="State" class="sub">${r.status === "in_progress" ? "running" : "queued"}</td>
       <td data-l="Started" class="mono"><span data-t="${esc(r.started||"")}">${ago(r.started)}</span>${r.typical_min ? `<div class="sub">usually ${r.typical_min} min</div>` : ""}</td>

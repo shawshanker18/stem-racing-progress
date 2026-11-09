@@ -97,6 +97,7 @@ def collect_runs(cfg, gh, workers=12):
             if a and b:
                 typical.setdefault(r["path"], []).append((b - a).total_seconds())
         running_jobs = queued_jobs = 0
+        by_part = {}
         for r in found[name]:
             wf_file = Path(r.get("path", "")).stem
             title = r.get("display_title") or r.get("name") or wf_file
@@ -106,6 +107,8 @@ def collect_runs(cfg, gh, workers=12):
             running = [j for j in jobs if j["status"] == "in_progress"]
             queued = [j for j in jobs if j["status"] in ("queued", "waiting", "pending")]
             running_jobs += len(running)
+            _pn = str(_part_from(wf_file, title, acc.get("part")) or 0)
+            by_part[_pn] = by_part.get(_pn, 0) + len(running)
             queued_jobs += len(queued) if jobs else (1 if r["status"] == "queued" else 0)
             typ = statistics.median(typical[r["path"]]) if typical.get(r["path"]) else None
             frac = float(n_done)
@@ -120,7 +123,8 @@ def collect_runs(cfg, gh, workers=12):
                          "percent": round(100 * frac / len(jobs), 1) if jobs else 0.0,
                          "typical_min": round(typ / 60, 1) if typ else None})
         accounts.append({"name": name, "cap": acc["cap"], "part": acc.get("part"), "note": acc.get("note", ""),
-                         "running": running_jobs, "queued": queued_jobs})
+                         "running": running_jobs, "queued": queued_jobs,
+                         "by_part": {k: v for k, v in by_part.items() if v}})
     return runs, accounts
 
 
