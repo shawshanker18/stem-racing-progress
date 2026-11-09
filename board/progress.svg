@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 648" width="1000" height="648">
 <rect x="0.00" y="0.00" width="1000.00" height="648.00" fill="#0d1117" stroke="#0d1117" stroke-width="0"/>
-<text x="4.00" y="21.00" font-family="sans-serif" font-size="16" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Work done: 64.7% (2,713/4,193)</text>
+<text x="4.00" y="21.00" font-family="sans-serif" font-size="16" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Work done: 64.8% (2,716/4,193)</text>
 <g><title>Part 1, Groundwork (built before): Older body: random cars tested (1 square = 10 cars): 400/400 done</title>
 <rect x="1.00" y="31.00" width="5.78" height="5.92" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="6.78" y="31.00" width="5.78" height="5.92" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
@@ -4419,10 +4419,10 @@
 <rect x="489.22" y="314.92" width="4.78" height="5.70" fill="#da3633" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="473.87" y="308.21" width="21.13" height="13.41" fill="none" stroke="#0d1117" stroke-width="2"/>
 </g>
-<g><title>Part 4, Build: Referee independence check: 0/5 done</title>
-<rect x="474.87" y="322.62" width="3.83" height="6.38" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="478.69" y="322.62" width="3.83" height="6.38" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="482.52" y="322.62" width="3.83" height="6.38" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
+<g><title>Part 4, Build: Referee independence check: 3/5 done</title>
+<rect x="474.87" y="322.62" width="3.83" height="6.38" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="478.69" y="322.62" width="3.83" height="6.38" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="482.52" y="322.62" width="3.83" height="6.38" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="486.35" y="322.62" width="3.83" height="6.38" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="490.17" y="322.62" width="3.83" height="6.38" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="473.87" y="321.62" width="21.13" height="8.38" fill="none" stroke="#0d1117" stroke-width="2"/>
@@ -9995,8 +9995,8 @@
 <text x="495.00" y="429.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="end" stroke="#0d1117" stroke-width="3" paint-order="stroke">27.1%</text>
 <text x="4.00" y="449.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">4 Parts and the referee</text>
 <rect x="154" y="438" width="267" height="14" fill="#6e7681"/>
-<rect x="154" y="438" width="75.65" height="14" fill="#2ea043"/>
-<text x="495.00" y="449.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="end" stroke="#0d1117" stroke-width="3" paint-order="stroke">28.3%</text>
+<rect x="154" y="438" width="75.88" height="14" fill="#2ea043"/>
+<text x="495.00" y="449.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="end" stroke="#0d1117" stroke-width="3" paint-order="stroke">28.4%</text>
 <text x="4.00" y="469.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">5 The loop</text>
 <rect x="154" y="458" width="267" height="14" fill="#6e7681"/>
 <rect x="154" y="458" width="61.59" height="14" fill="#2ea043"/>
