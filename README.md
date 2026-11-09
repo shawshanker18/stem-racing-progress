@@ -14,6 +14,18 @@ Our team is building, part by part, a computer system that designs the fastest l
 
 <sub>Each square is one piece of work or one test case, counted from each part's progress file. "Groundwork" is work finished before this phase. Each part's builder updates its own file after every step.</sub>
 
+## Ready to start?
+
+- **Part 3 (The compass):** ⏳ Not yet. Waiting for A (Cutting tool finished and tested, Part 1).
+- **Part 5 (The loop):** ⏳ Not yet. Waiting for A (Cutting tool finished and tested, Part 1), C (Compare-two-cars finished and tested, Part 2), D (Full-car building finished and tested, Part 4).
+
+| Milestone | From | Done |
+|---|---|---|
+| A: Cutting tool finished and tested | Part 1 | ⬜ not yet |
+| B: Timing noise measured (helps Part 3, not required) | Part 2 | ⬜ not yet |
+| C: Compare-two-cars finished and tested | Part 2 | ⬜ not yet |
+| D: Full-car building finished and tested | Part 4 | ⬜ not yet |
+
 ## The five parts
 
 ### 1. The cutter
@@ -25,14 +37,14 @@ Our team is building, part by part, a computer system that designs the fastest l
 - Re-sizes the whole body after each cut so the car always weighs the target.
 - Hands over a clean, closed 3D shape. It never decides what is faster; it only cuts safely.
 
-**Now:** The failing mesh test is fixed and every check passes. Next: build the cutting tool.
+**Now:** Building the cutting tool and its checks.
 
-**Timeline:** 0 of 9 steps done
+**Timeline:** 1 of 9 steps done
 
 | # | Step | Status | Started | Finished | Note |
 |---|---|---|---|---|---|
-| 1 | Fix the last failing test | 🔄 Working on it | 2026-11-09 |  | One of two failing tests fixed; cause of the other found. |
-| 2 | Build the cutting tool | ⬜ To do |  |  |  |
+| 1 | Fix the last failing test | ✅ Done | 2026-11-09 | 2026-11-09 | Both failing tests fixed; every check passes. |
+| 2 | Build the cutting tool | 🔄 Working on it | 2026-11-09 |  | Writing the tool and its checks. |
 | 3 | Weight sizing for carved shapes | ⬜ To do |  |  |  |
 | 4 | Big random carving test (2,000 bodies) | ⬜ To do |  |  |  |
 | 5 | Grid-size check | ⬜ To do |  |  |  |
@@ -69,20 +81,20 @@ Our team is building, part by part, a computer system that designs the fastest l
 
 ### 3. The compass
 
-*Draws a map over the car showing where a cut would make it faster.* 27.1% · waiting to start
+*Draws a map over the car showing where a cut would make it faster.* 27.1% · being built
 
 - Looks at one car and draws a map over its whole surface: where pushing the surface in or out would make the race time faster or slower.
 - One special simulation gives the whole map for about the cost of one normal run.
 - The cutter carves along this map, so the map must be proven against real measurements before anyone trusts it.
 - If the fast map cannot be made right, a slower map built from direct measurements is the backup.
 
-**Now:** Waiting for the go to start this phase.
+**Now:** Building a simple wing test with a known answer, to check the map tool before trusting it on the car.
 
 **Timeline:** 0 of 9 steps done
 
 | # | Step | Status | Started | Finished | Note |
 |---|---|---|---|---|---|
-| 1 | Known-answer test | ⬜ To do |  |  |  |
+| 1 | Known-answer test | 🔄 Working on it | 2026-11-09 |  | Writing the simple wing test with ten small bumps. |
 | 2 | Compass test on the car | ⬜ To do |  |  |  |
 | 3 | Fixes, tried in order | ⬜ To do |  |  |  |
 | 4 | Backup measured map (only if needed) | ⬜ To do |  |  |  |
@@ -94,21 +106,21 @@ Our team is building, part by part, a computer system that designs the fastest l
 
 ### 4. Parts and the referee
 
-*Turns a carved body into a whole car, makes the build files, and judges it.* 26.6% · being built
+*Turns a carved body into a whole car, makes the build files, and judges it.* 27.8% · being built
 
 - Adds everything except the body: nose, front and rear wings, wheel supports, wheels, tether guides and the cartridge, and cuts the joints into the body.
 - Makes the files the team needs to print the parts and mill the body.
 - Holds the referee: an independent check of the finished car against every rule, measured from the outside like a scrutineer, showing how much room is left on each rule.
 - The referee shares nothing with the cutter, so one cannot hide the other's mistakes.
 
-**Now:** Rule list finished and saved. Planning the just-inside and just-outside tests next.
+**Now:** Running the first batch of just-inside and just-outside test cars on GitHub.
 
-**Timeline:** 0 of 10 steps done
+**Timeline:** 1 of 10 steps done
 
 | # | Step | Status | Started | Finished | Note |
 |---|---|---|---|---|---|
-| 1 | List every rule and its check | ⬜ To do |  |  |  |
-| 2 | Just-inside and just-outside tests | ⬜ To do |  |  |  |
+| 1 | List every rule and its check | ✅ Done | 2026-11-09 | 2026-11-09 | Every rule matched to a check or a reason. |
+| 2 | Just-inside and just-outside tests | 🔄 Working on it | 2026-11-09 |  | First batch of test cars written; running on GitHub. |
 | 3 | Make the referee independent | ⬜ To do |  |  |  |
 | 4 | Parts on carved bodies (2,000 cars) | ⬜ To do |  |  |  |
 | 5 | Real part weights | ⬜ To do |  |  |  |

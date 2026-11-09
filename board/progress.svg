@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 648" width="1000" height="648">
-<rect x="0.00" y="0.00" width="1000.00" height="648.00" fill="#0d1117" stroke="#0d1117" stroke-width="0"/>
-<text x="4.00" y="21.00" font-family="sans-serif" font-size="16" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Work done: 61.4% (2,573/4,193)</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 636" width="1000" height="636">
+<rect x="0.00" y="0.00" width="1000.00" height="636.00" fill="#0d1117" stroke="#0d1117" stroke-width="0"/>
+<text x="4.00" y="21.00" font-family="sans-serif" font-size="16" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Work done: 62.3% (2,613/4,193)</text>
 <g><title>Part 1, Groundwork (built before): Older body: random cars tested (1 square = 10 cars): 400/400 done</title>
 <rect x="1.00" y="31.00" width="5.78" height="5.92" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="6.78" y="31.00" width="5.78" height="5.92" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
@@ -1489,47 +1489,47 @@
 <rect x="158.19" y="30.00" width="63.75" height="66.67" fill="none" stroke="#0d1117" stroke-width="2"/>
 <text x="162.19" y="45.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Rule lis</text>
 </g>
-<g><title>Part 4, Build: Just-inside and just-outside tests: 0/120 done</title>
-<rect x="159.19" y="97.67" width="5.61" height="5.88" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="164.81" y="97.67" width="5.61" height="5.88" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="170.42" y="97.67" width="5.61" height="5.88" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="176.03" y="97.67" width="5.61" height="5.88" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="181.65" y="97.67" width="5.61" height="5.88" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="187.26" y="97.67" width="5.61" height="5.88" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="192.87" y="97.67" width="5.61" height="5.88" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="198.49" y="97.67" width="5.61" height="5.88" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="204.10" y="97.67" width="5.61" height="5.88" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="209.71" y="97.67" width="5.61" height="5.88" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="215.33" y="97.67" width="5.61" height="5.88" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="159.19" y="103.55" width="5.61" height="5.88" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="164.81" y="103.55" width="5.61" height="5.88" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="170.42" y="103.55" width="5.61" height="5.88" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="176.03" y="103.55" width="5.61" height="5.88" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="181.65" y="103.55" width="5.61" height="5.88" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="187.26" y="103.55" width="5.61" height="5.88" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="192.87" y="103.55" width="5.61" height="5.88" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="198.49" y="103.55" width="5.61" height="5.88" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="204.10" y="103.55" width="5.61" height="5.88" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="209.71" y="103.55" width="5.61" height="5.88" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="215.33" y="103.55" width="5.61" height="5.88" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="159.19" y="109.42" width="5.61" height="5.88" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="164.81" y="109.42" width="5.61" height="5.88" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="170.42" y="109.42" width="5.61" height="5.88" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="176.03" y="109.42" width="5.61" height="5.88" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="181.65" y="109.42" width="5.61" height="5.88" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="187.26" y="109.42" width="5.61" height="5.88" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="192.87" y="109.42" width="5.61" height="5.88" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="198.49" y="109.42" width="5.61" height="5.88" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="204.10" y="109.42" width="5.61" height="5.88" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="209.71" y="109.42" width="5.61" height="5.88" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="215.33" y="109.42" width="5.61" height="5.88" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="159.19" y="115.30" width="5.61" height="5.88" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="164.81" y="115.30" width="5.61" height="5.88" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="170.42" y="115.30" width="5.61" height="5.88" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="176.03" y="115.30" width="5.61" height="5.88" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="181.65" y="115.30" width="5.61" height="5.88" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="187.26" y="115.30" width="5.61" height="5.88" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="192.87" y="115.30" width="5.61" height="5.88" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
+<g><title>Part 4, Build: Just-inside and just-outside tests: 40/120 done</title>
+<rect x="159.19" y="97.67" width="5.61" height="5.88" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="164.81" y="97.67" width="5.61" height="5.88" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="170.42" y="97.67" width="5.61" height="5.88" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="176.03" y="97.67" width="5.61" height="5.88" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="181.65" y="97.67" width="5.61" height="5.88" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="187.26" y="97.67" width="5.61" height="5.88" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="192.87" y="97.67" width="5.61" height="5.88" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="198.49" y="97.67" width="5.61" height="5.88" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="204.10" y="97.67" width="5.61" height="5.88" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="209.71" y="97.67" width="5.61" height="5.88" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="215.33" y="97.67" width="5.61" height="5.88" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="159.19" y="103.55" width="5.61" height="5.88" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="164.81" y="103.55" width="5.61" height="5.88" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="170.42" y="103.55" width="5.61" height="5.88" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="176.03" y="103.55" width="5.61" height="5.88" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="181.65" y="103.55" width="5.61" height="5.88" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="187.26" y="103.55" width="5.61" height="5.88" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="192.87" y="103.55" width="5.61" height="5.88" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="198.49" y="103.55" width="5.61" height="5.88" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="204.10" y="103.55" width="5.61" height="5.88" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="209.71" y="103.55" width="5.61" height="5.88" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="215.33" y="103.55" width="5.61" height="5.88" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="159.19" y="109.42" width="5.61" height="5.88" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="164.81" y="109.42" width="5.61" height="5.88" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="170.42" y="109.42" width="5.61" height="5.88" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="176.03" y="109.42" width="5.61" height="5.88" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="181.65" y="109.42" width="5.61" height="5.88" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="187.26" y="109.42" width="5.61" height="5.88" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="192.87" y="109.42" width="5.61" height="5.88" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="198.49" y="109.42" width="5.61" height="5.88" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="204.10" y="109.42" width="5.61" height="5.88" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="209.71" y="109.42" width="5.61" height="5.88" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="215.33" y="109.42" width="5.61" height="5.88" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="159.19" y="115.30" width="5.61" height="5.88" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="164.81" y="115.30" width="5.61" height="5.88" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="170.42" y="115.30" width="5.61" height="5.88" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="176.03" y="115.30" width="5.61" height="5.88" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="181.65" y="115.30" width="5.61" height="5.88" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="187.26" y="115.30" width="5.61" height="5.88" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="192.87" y="115.30" width="5.61" height="5.88" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="198.49" y="115.30" width="5.61" height="5.88" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="204.10" y="115.30" width="5.61" height="5.88" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="209.71" y="115.30" width="5.61" height="5.88" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
@@ -9994,8 +9994,8 @@
 <text x="495.00" y="429.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="end" stroke="#0d1117" stroke-width="3" paint-order="stroke">27.1%</text>
 <text x="4.00" y="449.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">4 Parts and the referee</text>
 <rect x="154" y="438" width="267" height="14" fill="#6e7681"/>
-<rect x="154" y="438" width="71.01" height="14" fill="#2ea043"/>
-<text x="495.00" y="449.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="end" stroke="#0d1117" stroke-width="3" paint-order="stroke">26.6%</text>
+<rect x="154" y="438" width="74.10" height="14" fill="#2ea043"/>
+<text x="495.00" y="449.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="end" stroke="#0d1117" stroke-width="3" paint-order="stroke">27.8%</text>
 <text x="4.00" y="469.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">5 The loop</text>
 <rect x="154" y="458" width="267" height="14" fill="#6e7681"/>
 <rect x="154" y="458" width="61.59" height="14" fill="#2ea043"/>
@@ -10020,17 +10020,16 @@
 <text x="495.00" y="601.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="end" stroke="#0d1117" stroke-width="3" paint-order="stroke">0/467</text>
 <text x="505.00" y="364.00" font-family="sans-serif" font-size="16" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Now</text>
 <text x="505.00" y="384.00" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">1 The cutter</text>
-<text x="513.00" y="400.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">The failing mesh test is fixed and every check passes. Next: build the cutting</text>
-<text x="513.00" y="416.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">tool.</text>
-<text x="505.00" y="438.00" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">2 The stopwatch</text>
-<text x="513.00" y="454.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Built-in checks all pass. Next is checking the airflow simulation against</text>
-<text x="513.00" y="470.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">published wind-tunnel results.</text>
-<text x="505.00" y="492.00" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">3 The compass</text>
-<text x="513.00" y="508.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Waiting for the go to start this phase.</text>
+<text x="513.00" y="400.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Building the cutting tool and its checks.</text>
+<text x="505.00" y="422.00" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">2 The stopwatch</text>
+<text x="513.00" y="438.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Built-in checks all pass. Next is checking the airflow simulation against</text>
+<text x="513.00" y="454.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">published wind-tunnel results.</text>
+<text x="505.00" y="476.00" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">3 The compass</text>
+<text x="513.00" y="492.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Building a simple wing test with a known answer, to check the map tool before</text>
+<text x="513.00" y="508.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">trusting it on the car.</text>
 <text x="505.00" y="530.00" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">4 Parts and the referee</text>
-<text x="513.00" y="546.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Rule list finished and saved. Planning the just-inside and just-outside tests</text>
-<text x="513.00" y="562.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">next.</text>
-<text x="505.00" y="584.00" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">5 The loop</text>
-<text x="513.00" y="600.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Waiting for the go to start this phase.</text>
-<text x="4.00" y="638.00" font-family="sans-serif" font-size="11" font-weight="normal" fill="#8b949e" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Each square is one piece of work or one test case. Green: done. Red: failed, being redone. Grey: still to do. Counted from each part&#x27;s progress file.</text>
+<text x="513.00" y="546.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Running the first batch of just-inside and just-outside test cars on GitHub.</text>
+<text x="505.00" y="568.00" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">5 The loop</text>
+<text x="513.00" y="584.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Waiting for the go to start this phase.</text>
+<text x="4.00" y="626.00" font-family="sans-serif" font-size="11" font-weight="normal" fill="#8b949e" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Each square is one piece of work or one test case. Green: done. Red: failed, being redone. Grey: still to do. Counted from each part&#x27;s progress file.</text>
 </svg>
