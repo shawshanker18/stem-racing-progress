@@ -83,7 +83,7 @@
     {
      "name": "Referee independence check",
      "cells": 5,
-     "done": 0,
+     "done": 3,
      "failed": 0,
      "short": "Independence"
     },
@@ -236,10 +236,10 @@
   {
    "title": "Make the referee independent",
    "short": "Independent",
-   "status": "todo",
-   "started": "",
+   "status": "doing",
+   "started": "2026-11-09",
    "finished": "",
-   "note": ""
+   "note": "The checker has its own rule numbers now; tests running."
   },
   {
    "title": "Parts on carved bodies (2,000 cars)",
@@ -299,7 +299,7 @@
   }
  ],
  "agent_state": "waiting_on_compute",
- "agent_note": "About a thousand carved cars are being built and judged on GitHub; a last check of the cartridge hole measurement runs alongside.",
+ "agent_note": "About a thousand carved cars are being built and judged; the checker now uses only its own copy of the rule numbers, and its tests are running.",
  "needs_you": "",
  "unlocks": {
   "D": {
