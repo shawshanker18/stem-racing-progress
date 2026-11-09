@@ -62,7 +62,7 @@
     {
      "name": "Cut tool",
      "cells": 60,
-     "done": 40,
+     "done": 60,
      "failed": 0,
      "short": "Cut tool"
     },
@@ -179,7 +179,7 @@
  ],
  "status": "active",
  "updated": "2026-11-09",
- "now": "The cutting tool is written; its checks are running on GitHub.",
+ "now": "Cutting tool done. Now testing that carved bodies hit the target weight.",
  "log": [
   {
    "date": "2026-11-09",
@@ -204,6 +204,10 @@
   {
    "date": "2026-11-09",
    "text": "Cutting tool written, with checks for direction, refusals, rules and saving."
+  },
+  {
+   "date": "2026-11-09",
+   "text": "Cutting tool finished: all checks of all five parts pass. Parts three and five can use it now."
   }
  ],
  "tasks": [
@@ -218,18 +222,18 @@
   {
    "title": "Build the cutting tool",
    "short": "Cutting tool",
-   "status": "doing",
+   "status": "done",
    "started": "2026-11-09",
-   "finished": "",
-   "note": "Tool written; its checks are running on GitHub."
+   "finished": "2026-11-09",
+   "note": "Built and all its checks pass; other parts can now use it."
   },
   {
    "title": "Weight sizing for carved shapes",
    "short": "Carved weight",
-   "status": "todo",
-   "started": "",
+   "status": "doing",
+   "started": "2026-11-09",
    "finished": "",
-   "note": ""
+   "note": "First small test of carved bodies is running."
   },
   {
    "title": "Big random carving test (2,000 bodies)",
