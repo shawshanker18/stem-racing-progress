@@ -89,7 +89,8 @@ function render(d){
         queued = d.accounts.reduce((a,x)=>a+x.queued,0);
   $("meta").innerHTML = `Data <span data-t="${esc(d.generated)}">${ago(d.generated)}</span> · ` +
     (d.source === "live" ? "live from GitHub" : "snapshot (updates every 5–15 min)") +
-    ` · ${d.api_calls} GitHub calls` + (d.rate_remaining != null ? `, ${d.rate_remaining} left this hour` : "");
+    ` · ${d.api_calls} GitHub calls` + (d.rate_remaining != null ? `, ${d.rate_remaining} left this hour` : "")
+    + (d.source === "live" && !d.has_key ? ` · <b style="color:var(--white)">no GitHub key yet: only about 2 full refreshes an hour</b>` : "");
 
   const order = {"NEEDS YOU":0,"BLOCKED":1,"WAITING ON COMPUTE":2,"WORKING":3,"QUIET":4,"WAITING TO START":5,"SIGNED OFF":6};
   $("agents").innerHTML = [...d.parts].sort((a,b)=>(order[a.state]??9)-(order[b.state]??9) || a.part-b.part).map(p => `

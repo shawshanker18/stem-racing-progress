@@ -35,7 +35,7 @@ class GitHub:
         self.token, self.max_calls, self.calls, self.remaining = token, max_calls, 0, None
 
     def get(self, path):
-        if self.calls >= self.max_calls or (self.remaining is not None and self.remaining < 50):
+        if self.calls >= self.max_calls or (self.remaining is not None and self.remaining < (50 if self.token else 2)):
             return None
         self.calls += 1
         headers = {"Accept": "application/vnd.github+json", "User-Agent": "stem-racing-panel"}
@@ -174,7 +174,7 @@ def build_data(token=None, root=ROOT, source="snapshot"):
     parts, unlocks, gates = parts_and_agents(cfg, runs, root)
     return {"generated": dt.datetime.now(dt.timezone.utc).isoformat(), "source": source,
             "accounts": accounts, "runs": runs, "parts": parts, "unlocks": unlocks, "gates": gates,
-            "api_calls": gh.calls, "rate_remaining": gh.remaining,
+            "api_calls": gh.calls, "rate_remaining": gh.remaining, "has_key": bool(token),
             "board": "https://github.com/shawshanker18/stem-racing-progress"}
 
 
