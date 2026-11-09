@@ -158,7 +158,7 @@
  ],
  "status": "active",
  "updated": "2026-11-09",
- "now": "Found two faults in the map tool on a simple wing test; rerunning with the first fixed.",
+ "now": "Fixed which way the map points and the early stop in the map tool; testing why its strength still matches only loosely.",
  "log": [
   {
    "date": "2026-11-09",
@@ -175,18 +175,22 @@
   {
    "date": "2026-11-09",
    "text": "Started. Read the code: found a likely mix-up about which way the surface points, to be checked first on a simple wing."
+  },
+  {
+   "date": "2026-11-09",
+   "text": "Changed the shared map tool (in the stopwatch folder) for Part 2 to know: the map now reads the surface direction the right way round, and its flow run no longer stops early. Found on the wing test; the final check of the changed tool is running."
   }
  ],
  "agent_state": "waiting_on_compute",
- "agent_note": "Wing test rerunning; the ten-car direction check and the unit tests are running too.",
+ "agent_note": "Three wing tests running side by side. Map-to-race-time check blocked: waiting on Part 2 (centre of mass in the race time).",
  "tasks": [
   {
    "title": "Known-answer test",
    "short": "Known answer",
-   "status": "failed",
+   "status": "doing",
    "started": "2026-11-09",
    "finished": "",
-   "note": "First try failed: the map pointed the wrong way on every bump, and the flow run stopped too early. Rerunning with the early stop removed."
+   "note": "Direction fixed and proven on all twenty bumps with fully settled runs; the strength of the map still matches only loosely, now testing why."
   },
   {
    "title": "Compass test on the car",
@@ -215,10 +219,10 @@
   {
    "title": "Map to race time",
    "short": "Map to time",
-   "status": "todo",
-   "started": "",
+   "status": "blocked",
+   "started": "2026-11-09",
    "finished": "",
-   "note": ""
+   "note": "Blocked: waiting on Part 2 to put the centre of mass into the race time; the rest of this step is built and tested."
   },
   {
    "title": "One-cut proof",
