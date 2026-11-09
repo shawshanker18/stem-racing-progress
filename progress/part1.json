@@ -288,12 +288,15 @@
    "note": ""
   }
  ],
+ "agent_state": "working",
+ "agent_note": "Fixing the weight sizing so carved bodies land on the target weight; a first small carving test is running.",
+ "needs_you": "",
  "unlocks": {
   "A": {
    "label": "Cutting tool finished and tested",
-   "done": false,
-   "date": "",
-   "note": ""
+   "done": true,
+   "date": "2026-11-09",
+   "note": "The failing mesh test is fixed and the cutting tool passed all its checks, along with every other part."
   }
  }
 }
