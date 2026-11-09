@@ -179,7 +179,7 @@
  ],
  "status": "active",
  "updated": "2026-11-09",
- "now": "Found which shape rule causes the failing mesh test. Next: confirm why, then fix it.",
+ "now": "Found why the mesh test fails: a hair-thin leftover strip of material. Choosing the fix with the team lead.",
  "log": [
   {
    "date": "2026-11-09",
@@ -192,6 +192,10 @@
   {
    "date": "2026-11-09",
    "text": "Started. A test that switches shape rules off one at a time found the one behind the failing mesh test. Fix comes next."
+  },
+  {
+   "date": "2026-11-09",
+   "text": "A closer look showed the cause: a hair-thin strip of material left behind, too thin to turn into a clean surface."
   }
  ]
 }
