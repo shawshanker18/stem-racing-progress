@@ -256,6 +256,10 @@
   {
    "date": "2026-11-09",
    "text": "Chamber agreed with Part 4: the plug gauge passes and the leftover crack is gone. Part 2 found the body jumps between two nearby skin thicknesses; finding the cause."
+  },
+  {
+   "date": "2026-11-09",
+   "text": "Found and fixed two causes: the tidy-up of the shape field shrank the body a little each time (the main grid weight gap), and the skin made the front of the body creep into the nose (the sudden shape jump Part 2 saw). Rechecking."
   }
  ],
  "tasks": [
@@ -333,7 +337,7 @@
   }
  ],
  "agent_state": "waiting_on_compute",
- "agent_note": "Waiting on: reference cars, all checks, grid study, and a check of a sudden shape jump between two skin thicknesses that Part 2 found. Chamber agreed fine with Part 4.",
+ "agent_note": "Two causes fixed: the shape-tidying step was slowly shrinking the body, and the skin was moving the front face into the nose. Checks and studies queued; GitHub Actions has an outage so runs are slow to start.",
  "needs_you": "",
  "unlocks": {
   "A": {
