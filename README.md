@@ -37,7 +37,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - Re-sizes the whole body after each cut so the car always weighs the target.
 - Hands over a clean, closed 3D shape. It never decides what is faster; it only cuts safely.
 
-**Now:** Weight fix works on twenty bodies; the two hundred body proof is running.
+**Now:** Big carving test running while three open failures are being fixed.
 
 **Timeline:** 2 of 9 steps done
 
