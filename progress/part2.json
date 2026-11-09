@@ -187,9 +187,9 @@
  "status": "active",
  "updated": "2026-11-09",
  "now": "Compare-two-cars is done (milestone C). The centre of mass now acts through real physics in the race time. Noise and ranking runs are going.",
- "agent_state": "needs_you",
- "agent_note": "Waiting for noise, reshaped-mesh noise and ranking runs; the gentler wind-tunnel slope and the cube are now the pass cases.",
- "needs_you": "The time-factor answer came through blank: keep it, recalibrate it against a real timed run, or drop it?",
+ "agent_state": "waiting_on_compute",
+ "agent_note": "Ranking, noise and reshaped-mesh runs going; testing whether the wind-tunnel floor explains the gentle-slope gap; long-run test on a cloud machine.",
+ "needs_you": "",
  "log": [
   {
    "date": "2026-11-09",
@@ -246,6 +246,14 @@
   {
    "date": "2026-11-09",
    "text": "The team's centre-of-mass test is not reproduced: our physics loses time only once a wheel lifts. Load-sensitive bearings do not explain it at sensible values. Asked for the test car's details."
+  },
+  {
+   "date": "2026-11-09",
+   "text": "Decided: the time factor stays, so model times are relative only until one real timed run. The noise report now shows how much of the noise comes from each car's own averaging error."
+  },
+  {
+   "date": "2026-11-09",
+   "text": "Wind-tunnel gap: our still floor grows a slow-air layer about twice as thick as in the real tunnel. Now testing a floor that starts where the real ground plate did."
   }
  ],
  "tasks": [
