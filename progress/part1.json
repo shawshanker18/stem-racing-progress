@@ -324,9 +324,9 @@
    "note": ""
   }
  ],
- "agent_state": "waiting_on_compute",
- "agent_note": "Two thousand car test restarted on the fixed code; testing what is left of the grid weight difference.",
- "needs_you": "",
+ "agent_state": "needs_you",
+ "agent_note": "Asked the team lead how to handle milling in the grid test; meanwhile making the halo zones exact. Two thousand car test running.",
+ "needs_you": "Grid weight test: without milling it is within the bar, with milling it is about one percent off because the milling decisions change with grid size. Should milling always be done on one fixed fine grid?",
  "unlocks": {
   "A": {
    "label": "Cutting tool finished and tested",
