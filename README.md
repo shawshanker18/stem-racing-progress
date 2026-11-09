@@ -23,7 +23,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - Re-sizes the whole body after each cut so the car always weighs the target.
 - Hands over a clean, closed 3D shape. It never decides what is faster; it only cuts safely.
 
-**Now:** Found which shape rule causes the failing mesh test. Next: confirm why, then fix it.
+**Now:** Found why the mesh test fails: a hair-thin leftover strip of material. Choosing the fix with the team lead.
 
 ### 2. The stopwatch
 
