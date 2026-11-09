@@ -193,8 +193,12 @@
  ],
  "status": "active",
  "updated": "2026-11-10",
- "now": "Trial older-style cars all crashed on an earlier body-builder version (body pieces not closed). The body builder has since fixed this; a 20-car check on its newest code is running.",
+ "now": "The body builder's newer code fixes the crash (19 of 20 trial cars built). New rejects found: something sits 75 mm ahead of the front reference (limit 40), and printed files have too many thin triangles, possibly from my blunt wing edge. Tracing both; 1,000+ trial cars and the reference cars running.",
  "log": [
+  {
+   "date": "2026-11-10",
+   "text": "Body builder's newer code: 19 of 20 trial cars built. New rejects: a part 75 mm ahead of the front reference, and thin triangles in printed files. Checks now name the part and file. Started 900+ trial cars and the reference cars at 0.7, 1.0 and 1.2 mm walls."
+  },
   {
    "date": "2026-11-10",
    "text": "875 trial older-style cars on the body builder's in-progress code all crashed (body pieces not closed). Not counted. Checking its newer fix with 20 cars."
@@ -302,8 +306,8 @@
    "note": ""
   }
  ],
- "agent_state": "waiting_on_compute",
- "agent_note": "Checking whether the body builder's newest fixes clear the crash seen in every trial older-style car. Counted runs wait for its frozen version.",
+ "agent_state": "working",
+ "agent_note": "Tracing two new rejects (part too far forward, thin triangles in printed files) on 20 rebuilt cars; large trial batches and reference cars at three wall settings running.",
  "needs_you": "Team items: print material and the printer's thinnest wall, part weights, a hand check of three cars, and whether one exported car can be made.",
  "unlocks": {
   "D": {
