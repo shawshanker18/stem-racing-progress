@@ -23,7 +23,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - Re-sizes the whole body after each cut so the car always weighs the target.
 - Hands over a clean, closed 3D shape. It never decides what is faster; it only cuts safely.
 
-**Now:** Waiting for the go to start this phase.
+**Now:** Waiting for the go. First job: the last failing mesh test.
 
 ### 2. The stopwatch
 
