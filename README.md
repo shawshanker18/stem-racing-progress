@@ -37,7 +37,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - Re-sizes the whole body after each cut so the car always weighs the target.
 - Hands over a clean, closed 3D shape. It never decides what is faster; it only cuts safely.
 
-**Now:** Big carving test running while three open failures are being fixed.
+**Now:** Chamber fixed and confirmed; big carving test restarted; still working on the grid weight test.
 
 **Timeline:** 2 of 9 steps done
 
@@ -46,7 +46,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 | 1 | Fix the last failing test | ✅ Done | 2026-11-09 | 2026-11-09 | Both failing tests fixed; every check passes. |
 | 2 | Build the cutting tool | ✅ Done | 2026-11-09 | 2026-11-09 | Built and all its checks pass; other parts can now use it. |
 | 3 | Weight sizing for carved shapes | ❌ Failed, being redone | 2026-11-09 |  | Two hundred bodies: one hundred ninety nine on target, one came out light and under the floor. Open failure, being fixed. |
-| 4 | Big random carving test (2,000 bodies) | 🔄 Working on it | 2026-11-09 |  | Big run started. Open failure: every car still has too wide a cartridge chamber. |
+| 4 | Big random carving test (2,000 bodies) | 🔄 Working on it | 2026-11-09 |  | Restarted on the fixed code. First try: two hundred cars, no crashes, all had the old chamber problem. |
 | 5 | Grid-size check | 🔄 Working on it | 2026-11-09 |  | Milling fix brought the spread down; exact rule zones written; retesting against the original bar. |
 | 6 | Same result on every machine | 🔄 Working on it | 2026-11-09 |  | First try: all ten bodies identical on both runs. Final proof to be rerun across two accounts on the final code. |
 | 7 | Write-up | ⬜ To do |  |  |  |
