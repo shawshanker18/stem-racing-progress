@@ -220,6 +220,10 @@
   {
    "date": "2026-11-09",
    "text": "Weight now lands on target for all twenty test bodies. First carving test: all six cars built, but all had too wide a cartridge chamber."
+  },
+  {
+   "date": "2026-11-09",
+   "text": "Found why carved cars had too wide a cartridge chamber: the grid put its wall half a step out. The finished body now has the chamber at its exact size."
   }
  ],
  "tasks": [
@@ -253,23 +257,23 @@
    "status": "doing",
    "started": "2026-11-09",
    "finished": "",
-   "note": "First small try: every car broke the cartridge chamber rules the same way; finding the cause."
+   "note": "Chamber cause found and fixed; checking it on twelve cars before the big run."
   },
   {
    "title": "Grid-size check",
    "short": "Grid check",
-   "status": "todo",
-   "started": "",
+   "status": "doing",
+   "started": "2026-11-09",
    "finished": "",
-   "note": ""
+   "note": "Twenty bodies at three grid sizes are running."
   },
   {
    "title": "Same result on every machine",
    "short": "Same result",
-   "status": "todo",
-   "started": "",
+   "status": "doing",
+   "started": "2026-11-09",
    "finished": "",
-   "note": ""
+   "note": "Ten bodies built twice on different machines; running."
   },
   {
    "title": "Write-up",
@@ -297,7 +301,7 @@
   }
  ],
  "agent_state": "waiting_on_compute",
- "agent_note": "Big weight test of two hundred carved bodies is running; also checking why carved cars come out with too wide a cartridge chamber.",
+ "agent_note": "Running on all my machines: the two hundred body weight proof, a same-result-on-two-machines test, a grid-size test, and a check of the cartridge chamber fix.",
  "needs_you": "",
  "unlocks": {
   "A": {
