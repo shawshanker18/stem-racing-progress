@@ -62,7 +62,7 @@
     {
      "name": "Cut tool",
      "cells": 60,
-     "done": 0,
+     "done": 40,
      "failed": 0,
      "short": "Cut tool"
     },
@@ -179,7 +179,7 @@
  ],
  "status": "active",
  "updated": "2026-11-09",
- "now": "Building the cutting tool and its checks.",
+ "now": "The cutting tool is written; its checks are running on GitHub.",
  "log": [
   {
    "date": "2026-11-09",
@@ -200,6 +200,10 @@
   {
    "date": "2026-11-09",
    "text": "Fixed: hair-thin strips are now cleaned away after every cut. All checks of all five parts pass."
+  },
+  {
+   "date": "2026-11-09",
+   "text": "Cutting tool written, with checks for direction, refusals, rules and saving."
   }
  ],
  "tasks": [
@@ -217,7 +221,7 @@
    "status": "doing",
    "started": "2026-11-09",
    "finished": "",
-   "note": "Writing the tool and its checks."
+   "note": "Tool written; its checks are running on GitHub."
   },
   {
    "title": "Weight sizing for carved shapes",
