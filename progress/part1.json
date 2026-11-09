@@ -179,7 +179,7 @@
  ],
  "status": "active",
  "updated": "2026-11-09",
- "now": "Some carved bodies come out slightly over the target weight; finding the cause.",
+ "now": "Weight fix works on twenty bodies; the two hundred body proof is running.",
  "log": [
   {
    "date": "2026-11-09",
@@ -216,6 +216,10 @@
   {
    "date": "2026-11-09",
    "text": "Weight sizing fixed for bodies whose weight jumps in steps. Added five hand-checked milling shapes and a finishing step that writes the finished body."
+  },
+  {
+   "date": "2026-11-09",
+   "text": "Weight now lands on target for all twenty test bodies. First carving test: all six cars built, but all had too wide a cartridge chamber."
   }
  ],
  "tasks": [
@@ -241,15 +245,15 @@
    "status": "doing",
    "started": "2026-11-09",
    "finished": "",
-   "note": "Cause found: the weight jumps in steps. Fix written; retesting."
+   "note": "Fix passed on twenty bodies; the two hundred body proof is running."
   },
   {
    "title": "Big random carving test (2,000 bodies)",
    "short": "2,000 bodies",
-   "status": "todo",
-   "started": "",
+   "status": "doing",
+   "started": "2026-11-09",
    "finished": "",
-   "note": ""
+   "note": "First small try: every car broke the cartridge chamber rules the same way; finding the cause."
   },
   {
    "title": "Grid-size check",
@@ -293,7 +297,7 @@
   }
  ],
  "agent_state": "waiting_on_compute",
- "agent_note": "Waiting on GitHub: weight retest, first small carving test, and checks for the new milling tests and the finishing step.",
+ "agent_note": "Big weight test of two hundred carved bodies is running; also checking why carved cars come out with too wide a cartridge chamber.",
  "needs_you": "",
  "unlocks": {
   "A": {
