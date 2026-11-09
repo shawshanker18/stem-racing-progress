@@ -240,6 +240,10 @@
   {
    "date": "2026-11-09",
    "text": "Causes found: milling snapped the surface to the grid, the weight search gave up too early, and a crack along the centre line widened the chamber. Fixes written; one older check broke and is being traced."
+  },
+  {
+   "date": "2026-11-09",
+   "text": "Milling now keeps the drawn surface; grid weight spread fell from up to two percent to under one. Every main rule zone now has an exact edge; checking."
   }
  ],
  "tasks": [
@@ -278,10 +282,10 @@
   {
    "title": "Grid-size check",
    "short": "Grid check",
-   "status": "failed",
+   "status": "doing",
    "started": "2026-11-09",
    "finished": "",
-   "note": "Failed its weight bar. Team lead decided: keep the bar and make every rule zone exact, then retest."
+   "note": "Milling fix brought the spread down; exact rule zones written; retesting against the original bar."
   },
   {
    "title": "Same result on every machine",
@@ -317,7 +321,7 @@
   }
  ],
  "agent_state": "waiting_on_compute",
- "agent_note": "Two thousand car test running; testing fixes for the chamber notch, the light body and the grid weight; one older check broke and is being traced.",
+ "agent_note": "Exact rule zones written and being checked; the grid weight test reruns next. Two thousand car test still running.",
  "needs_you": "",
  "unlocks": {
   "A": {
