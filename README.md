@@ -88,17 +88,17 @@ Our team is building, part by part, a computer system that designs the fastest l
 - The cutter carves along this map, so the map must be proven against real measurements before anyone trusts it.
 - If the fast map cannot be made right, a slower map built from direct measurements is the backup.
 
-**Now:** Found two faults in the map tool on a simple wing test; rerunning with the first fixed.
+**Now:** Fixed which way the map points and the early stop in the map tool; testing why its strength still matches only loosely.
 
 **Timeline:** 0 of 9 steps done
 
 | # | Step | Status | Started | Finished | Note |
 |---|---|---|---|---|---|
-| 1 | Known-answer test | ❌ Failed, being redone | 2026-11-09 |  | First try failed: the map pointed the wrong way on every bump, and the flow run stopped too early. Rerunning with the early stop removed. |
+| 1 | Known-answer test | 🔄 Working on it | 2026-11-09 |  | Direction fixed and proven on all twenty bumps with fully settled runs; the strength of the map still matches only loosely, now testing why. |
 | 2 | Compass test on the car | ⬜ To do |  |  |  |
 | 3 | Fixes, tried in order | ⬜ To do |  |  |  |
 | 4 | Backup measured map (only if needed) | ⬜ To do |  |  |  |
-| 5 | Map to race time | ⬜ To do |  |  |  |
+| 5 | Map to race time | ⏸️ Blocked | 2026-11-09 |  | Blocked: waiting on Part 2 to put the centre of mass into the race time; the rest of this step is built and tested. |
 | 6 | One-cut proof | ⬜ To do |  |  |  |
 | 7 | Write-up | ⬜ To do |  |  |  |
 | 8 | Full clean rerun of every test | ⬜ To do |  |  |  |
