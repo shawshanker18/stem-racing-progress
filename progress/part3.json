@@ -158,7 +158,7 @@
  ],
  "status": "active",
  "updated": "2026-11-09",
- "now": "Backup measured map passes on the wing, also on shapes it was not built from; checking it on a finer mesh. Fast map size gap explained: a missing term in the simple formula.",
+ "now": "Backup measured map on the wing matched twenty shapes outside its building blocks closely and got eighteen of twenty directions right; now testing how many building blocks a car needs and a finer mesh.",
  "log": [
   {
    "date": "2026-11-09",
@@ -199,7 +199,7 @@
  ],
  "agent_state": "waiting_on_compute",
  "needs_you": "",
- "agent_note": "Wing work on all free machines: a much finer mesh, the size test, and a trial of the backup measured map on the wing. One of my machine groups is lent to Part 4 while the car test waits.",
+ "agent_note": "Two backup-map trials running (more building blocks, finer mesh) after a quiet install fault was found and fixed. Car work waits on quieter car runs and the frozen cutter.",
  "tasks": [
   {
    "title": "Known-answer test",
