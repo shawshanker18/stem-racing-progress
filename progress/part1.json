@@ -248,6 +248,10 @@
   {
    "date": "2026-11-09",
    "text": "Chamber now the right size and confirmed. Big carving test restarted on the fixed code. All checks pass. Grid weight difference is down to about one percent; still failing its bar."
+  },
+  {
+   "date": "2026-11-09",
+   "text": "Part 4 found problems on its reference cars with an earlier version; fixing them. Milling now always on one fixed fine grid, as the team lead decided. Big test paused until fixed and tagged."
   }
  ],
  "tasks": [
@@ -278,10 +282,10 @@
   {
    "title": "Big random carving test (2,000 bodies)",
    "short": "2,000 bodies",
-   "status": "doing",
+   "status": "blocked",
    "started": "2026-11-09",
    "finished": "",
-   "note": "Restarted on the fixed code. First try: two hundred cars, no crashes, all had the old chamber problem."
+   "note": "Paused: Part 4 found problems on its reference cars; restarts on a frozen, tagged version once they are fixed."
   },
   {
    "title": "Grid-size check",
@@ -324,9 +328,9 @@
    "note": ""
   }
  ],
- "agent_state": "needs_you",
- "agent_note": "Asked the team lead how to handle milling in the grid test; meanwhile making the halo zones exact. Two thousand car test running.",
- "needs_you": "Grid weight test: without milling it is within the bar, with milling it is about one percent off because the milling decisions change with grid size. Should milling always be done on one fixed fine grid?",
+ "agent_state": "waiting_on_compute",
+ "agent_note": "Fixing problems Part 4 found on its reference cars, now with milling on one fixed fine grid; finding where the remaining grid weight difference comes from. Big test paused until a frozen version is tagged.",
+ "needs_you": "",
  "unlocks": {
   "A": {
    "label": "Cutting tool finished and tested",
