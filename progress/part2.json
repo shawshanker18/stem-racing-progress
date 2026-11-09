@@ -186,7 +186,7 @@
  ],
  "status": "active",
  "updated": "2026-11-09",
- "now": "Reshaped mesh plus warm start keeps nine of ten near-identical cars on one airflow pattern; checking how often the tenth kind of jump happens.",
+ "now": "Reshaped mesh is the key noise fix; warm start alone does not help. Reshaped meshes need one bad cell fixed. Cloud machine ran a three-hour wind-tunnel case on its own.",
  "agent_state": "waiting_on_compute",
  "agent_note": "Waiting on: warm-start noise tests (three variants), time-accurate runs on six cars, a longer-run noise test, the detailed ranking cars, the wind-tunnel floor test and the cloud long-run test.",
  "needs_you": "",
