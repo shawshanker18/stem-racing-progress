@@ -179,7 +179,7 @@
  ],
  "status": "active",
  "updated": "2026-11-09",
- "now": "Fixing the last rule-zone edges (block slot, halo views) and checking the reference cars; big test waits for a frozen version.",
+ "now": "Fixing the last mesh-edge and weight-counting details Part 4 found; then a frozen version, then the big test.",
  "log": [
   {
    "date": "2026-11-09",
@@ -337,7 +337,7 @@
   }
  ],
  "agent_state": "waiting_on_compute",
- "agent_note": "Checks and reference cars running on the latest fixes.",
+ "agent_note": "Checks running on the latest fixes.",
  "needs_you": "",
  "unlocks": {
   "A": {
