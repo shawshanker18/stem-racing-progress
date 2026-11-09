@@ -200,5 +200,87 @@
    "date": "2026-11-09",
    "text": "Started. All built-in checks pass on a fresh copy."
   }
+ ],
+ "tasks": [
+  {
+   "title": "Check against published wind-tunnel results",
+   "short": "Wind tunnel",
+   "status": "doing",
+   "started": "2026-11-09",
+   "finished": "",
+   "note": "Built-in checks pass; starting the comparison."
+  },
+  {
+   "title": "Cut the timing noise",
+   "short": "Cut noise",
+   "status": "todo",
+   "started": "",
+   "finished": "",
+   "note": ""
+  },
+  {
+   "title": "Quick vs detailed ranking check",
+   "short": "Ranking check",
+   "status": "todo",
+   "started": "",
+   "finished": "",
+   "note": ""
+  },
+  {
+   "title": "Warm start",
+   "short": "Warm start",
+   "status": "todo",
+   "started": "",
+   "finished": "",
+   "note": ""
+  },
+  {
+   "title": "Runs longer than one machine slot",
+   "short": "Long runs",
+   "status": "todo",
+   "started": "",
+   "finished": "",
+   "note": ""
+  },
+  {
+   "title": "Real race inputs from the team",
+   "short": "Real inputs",
+   "status": "todo",
+   "started": "",
+   "finished": "",
+   "note": ""
+  },
+  {
+   "title": "Model vs real track times",
+   "short": "Vs track",
+   "status": "todo",
+   "started": "",
+   "finished": "",
+   "note": ""
+  },
+  {
+   "title": "Write-up",
+   "short": "Write-up",
+   "status": "todo",
+   "started": "",
+   "finished": "",
+   "note": ""
+  },
+  {
+   "title": "Full clean rerun of every test",
+   "short": "Clean rerun",
+   "status": "todo",
+   "started": "",
+   "finished": "",
+   "note": ""
+  },
+  {
+   "title": "Team sign-off",
+   "short": "Sign-off",
+   "status": "todo",
+   "started": "",
+   "finished": "",
+   "note": ""
+  }
  ]
 }

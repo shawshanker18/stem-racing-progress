@@ -189,5 +189,79 @@
    "date": "2026-11-09",
    "text": "Repository cleaned: the old one-car optimise option and unused tools removed. All tests pass."
   }
+ ],
+ "tasks": [
+  {
+   "title": "Test bench with fake timings",
+   "short": "Fake bench",
+   "status": "todo",
+   "started": "",
+   "finished": "",
+   "note": ""
+  },
+  {
+   "title": "Machine farm",
+   "short": "Farm",
+   "status": "todo",
+   "started": "",
+   "finished": "",
+   "note": ""
+  },
+  {
+   "title": "Keep-rule check on real runs",
+   "short": "Keep rule",
+   "status": "todo",
+   "started": "",
+   "finished": "",
+   "note": ""
+  },
+  {
+   "title": "Small smoke run",
+   "short": "Smoke run",
+   "status": "todo",
+   "started": "",
+   "finished": "",
+   "note": ""
+  },
+  {
+   "title": "Final-run plan (ready, not started)",
+   "short": "Final plan",
+   "status": "todo",
+   "started": "",
+   "finished": "",
+   "note": ""
+  },
+  {
+   "title": "Settings searched together",
+   "short": "Settings",
+   "status": "todo",
+   "started": "",
+   "finished": "",
+   "note": ""
+  },
+  {
+   "title": "Write-up",
+   "short": "Write-up",
+   "status": "todo",
+   "started": "",
+   "finished": "",
+   "note": ""
+  },
+  {
+   "title": "Full clean rerun of every test",
+   "short": "Clean rerun",
+   "status": "todo",
+   "started": "",
+   "finished": "",
+   "note": ""
+  },
+  {
+   "title": "Team sign-off",
+   "short": "Sign-off",
+   "status": "todo",
+   "started": "",
+   "finished": "",
+   "note": ""
+  }
  ]
 }

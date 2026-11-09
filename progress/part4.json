@@ -207,5 +207,87 @@
    "date": "2026-11-09",
    "text": "Started. Listed every rule and matched each to a check or a reason. Found a few rules the checker only takes on trust; those get real checks next."
   }
+ ],
+ "tasks": [
+  {
+   "title": "List every rule and its check",
+   "short": "Rule list",
+   "status": "todo",
+   "started": "",
+   "finished": "",
+   "note": ""
+  },
+  {
+   "title": "Just-inside and just-outside tests",
+   "short": "Edge tests",
+   "status": "todo",
+   "started": "",
+   "finished": "",
+   "note": ""
+  },
+  {
+   "title": "Make the referee independent",
+   "short": "Independent",
+   "status": "todo",
+   "started": "",
+   "finished": "",
+   "note": ""
+  },
+  {
+   "title": "Parts on carved bodies (2,000 cars)",
+   "short": "2,000 cars",
+   "status": "todo",
+   "started": "",
+   "finished": "",
+   "note": ""
+  },
+  {
+   "title": "Real part weights",
+   "short": "Real weights",
+   "status": "todo",
+   "started": "",
+   "finished": "",
+   "note": ""
+  },
+  {
+   "title": "Build files",
+   "short": "Build files",
+   "status": "todo",
+   "started": "",
+   "finished": "",
+   "note": ""
+  },
+  {
+   "title": "Part setting ranges",
+   "short": "Ranges",
+   "status": "todo",
+   "started": "",
+   "finished": "",
+   "note": ""
+  },
+  {
+   "title": "Write-up",
+   "short": "Write-up",
+   "status": "todo",
+   "started": "",
+   "finished": "",
+   "note": ""
+  },
+  {
+   "title": "Full clean rerun of every test",
+   "short": "Clean rerun",
+   "status": "todo",
+   "started": "",
+   "finished": "",
+   "note": ""
+  },
+  {
+   "title": "Team sign-off",
+   "short": "Sign-off",
+   "status": "todo",
+   "started": "",
+   "finished": "",
+   "note": ""
+  }
  ]
 }

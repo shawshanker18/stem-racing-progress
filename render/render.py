@@ -223,6 +223,94 @@ def write(path, text):
     path.write_text(text, encoding="utf-8")
 
 
+# ------------------------------------------------------------------ timelines (task sheets)
+TASK_STYLE = {"done": ("#2ea043", "Done", "✅"), "doing": ("#388bfd", "Working on it", "🔄"),
+              "failed": ("#da3633", "Failed, being redone", "❌"), "blocked": ("#d29922", "Blocked", "⏸️"),
+              "todo": ("#30363d", "To do", "⬜")}
+
+
+def task_list(p):
+    out = []
+    for k in p.get("tasks", []):
+        s = k.get("status", "todo")
+        if s not in TASK_STYLE:
+            sys.exit(f"part {p['part']}: task status must be one of {list(TASK_STYLE)}, got {s!r}")
+        out.append(k)
+    return out
+
+
+def task_tally(p):
+    ts = task_list(p)
+    return sum(1 for k in ts if k["status"] == "done"), len(ts)
+
+
+def timeline_svg(parts):
+    left, row_h, top = 210, 58, 34
+    H = top + row_h * len(parts) + 40
+    out = [label(8, 22, "Timelines: each part's steps in order", 16)]
+    y = top
+    for p in parts:
+        ts = task_list(p)
+        d, n = task_tally(p)
+        out.append(label(8, y + 20, f"{p['part']} {p['name']}", 13, weight="bold"))
+        out.append(label(8, y + 38, f"{d}/{n} steps done" + (" · waiting to start" if p.get("status") == "waiting" else ""), 11, fill=MUTED))
+        if ts:
+            gap = 4
+            bw = (WIDTH - left - 8 - gap * (len(ts) - 1)) / len(ts)
+            for i, k in enumerate(ts):
+                x = left + i * (bw + gap)
+                colour = TASK_STYLE[k["status"]][0]
+                out.append(f'<g><title>{i + 1}. {escape(k["title"])}: {TASK_STYLE[k["status"]][1]}</title>'
+                           f'<rect x="{x:.2f}" y="{y + 4:.2f}" width="{bw:.2f}" height="{row_h - 14}" rx="4" fill="{colour}" '
+                           f'stroke="#6e7681" stroke-width="{0.8 if k["status"] == "todo" else 0}"/>')
+                lab = f'{i + 1}. ' + (k.get("short") or k["title"])
+                room = max(1, int((bw - 6) / 5.6))
+                lines, cur = [], ""
+                for w_ in lab.split():
+                    if len(cur) + len(w_) + (1 if cur else 0) <= room:
+                        cur = f"{cur} {w_}".strip()
+                    else:
+                        if cur:
+                            lines.append(cur)
+                        cur = w_[:room]
+                if cur:
+                    lines.append(cur)
+                for j, line in enumerate(lines[:3]):
+                    out.append(label(x + bw / 2, y + 19 + j * 12, line, 9.5, anchor="middle"))
+                out.append("</g>")
+        y += row_h
+    x = left
+    for key in ("done", "doing", "failed", "blocked", "todo"):
+        colour, name, _ = TASK_STYLE[key]
+        out.append(f'<rect x="{x}" y="{y + 6}" width="12" height="12" fill="{colour}" stroke="#6e7681" stroke-width="0.8"/>')
+        out.append(label(x + 18, y + 16, name, 11, fill=MUTED))
+        x += 30 + 6.5 * len(name)
+    return "\n".join([f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {WIDTH} {H}" width="{WIDTH}" height="{H}">',
+                      rect(0, 0, WIDTH, H, BG, 0), *out, "</svg>"]) + "\n"
+
+
+def task_table_md(p):
+    ts = task_list(p)
+    if not ts:
+        return []
+    out = ["| # | Step | Status | Started | Finished | Note |", "|---|---|---|---|---|---|"]
+    for i, k in enumerate(ts, 1):
+        _, name, icon = TASK_STYLE[k["status"]]
+        out.append(f"| {i} | {k['title']} | {icon} {name} | {k.get('started', '')} | {k.get('finished', '')} | {k.get('note', '')} |")
+    return out + [""]
+
+
+def task_table_html(p):
+    ts = task_list(p)
+    if not ts:
+        return ""
+    rows = "".join(f"<tr><td>{i}</td><td>{escape(k['title'])}</td><td>{TASK_STYLE[k['status']][2]} {TASK_STYLE[k['status']][1]}</td>"
+                   f"<td>{escape(k.get('started', ''))}</td><td>{escape(k.get('finished', ''))}</td><td>{escape(k.get('note', ''))}</td></tr>"
+                   for i, k in enumerate(ts, 1))
+    return ("<table><tr><th>#</th><th>Step</th><th>Status</th><th>Started</th><th>Finished</th><th>Note</th></tr>"
+            + rows + "</table>")
+
+
 def update_history(parts):
     path = BOARD / "history.json"
     hist = json.loads(path.read_text(encoding="utf-8")) if path.exists() else []
@@ -249,6 +337,8 @@ def readme(parts, overall, tests, signed):
         f"[![parts signed off](board/badge-parts.svg)]({SITE_URL}/progress.html) "
         f"[![updated](board/badge-updated.svg)]({SITE_URL}/history.html)",
         "",
+        "[![timelines](board/timeline.svg)](#the-five-parts)",
+        "",
         f"[![progress map](board/progress.svg)]({SITE_URL}/progress.html)",
         "",
         f"[Full progress, part by part]({SITE_URL}/progress.html) · [Progress history]({SITE_URL}/history.html)",
@@ -265,6 +355,9 @@ def readme(parts, overall, tests, signed):
         out += [f"### {p['part']}. {p['name']}", "", f"*{p['tagline']}* {t['percent']}% · {status}", ""]
         out += [f"- {line}" for line in p["what"]]
         out += ["", f"**Now:** {p.get('now', '')}", ""]
+        d, n = task_tally(p)
+        if n:
+            out += [f"**Timeline:** {d} of {n} steps done", ""] + task_table_md(p)
     out += ["---", "", "*Drawn automatically from the progress files. Nothing here can be used to rebuild the work.*", ""]
     return "\n".join(out)
 
@@ -285,17 +378,18 @@ def bar_html(it):
             f'<i style="width:{100 * f / c:.2f}%;background:{FAIL}"></i></div>')
 
 
-def progress_page(parts, svg, badges):
+def progress_page(parts, svg, badges, tl_svg=''):
     out = [PAGE_HEAD.format(title="STEM Racing car: progress"),
            "<h1>STEM Racing car: progress</h1>",
            " ".join(f'<img src="{b}" alt="">' for b in badges),
+           f"<p>{tl_svg}</p>",
            f"<p>{svg}</p>",
            '<p><a href="history.html">Progress history</a> · <a href="https://github.com/shawshanker18/stem-racing-progress">Repository</a></p>']
     for p in parts:
         t = tally(items([p]))
         out += [f'<h2 id="part{p["part"]}">{p["part"]}. {escape(p["name"])} <span class="muted">{t["percent"]}%</span></h2>',
                 f'<p><i>{escape(p["tagline"])}</i></p><ul>' + "".join(f"<li>{escape(x)}</li>" for x in p["what"]) + "</ul>",
-                f'<p><b>Now:</b> {escape(p.get("now", ""))}</p>']
+                f'<p><b>Now:</b> {escape(p.get("now", ""))}</p>', task_table_html(p)]
         for s in p["sections"]:
             st = tally(s["items"])
             out.append(f'<table><tr><th>{escape(s["name"])}</th><th style="width:45%"></th><th class="n">{st["done"]:,}/{st["total"]:,}</th></tr>')
@@ -347,6 +441,8 @@ def main():
     updated = max(p.get("updated", "") for p in parts)
     svg = progress_svg(parts)
     write(BOARD / "progress.svg", svg)
+    tl_text = timeline_svg(parts)
+    write(BOARD / "timeline.svg", tl_text)
     badges = {
         "badge-overall.svg": badge("overall", f"{overall['percent']}%", scale_colour(overall["percent"])),
         "badge-tests.svg": badge("tests passed", f"{tests['done']:,}/{tests['total']:,}", scale_colour(tests["percent"])),
@@ -361,7 +457,7 @@ def main():
     hist = update_history(parts)
     write(ROOT / "README.md", readme(parts, overall, tests, signed))
     write(SITE / "progress.svg", svg)
-    write(SITE / "progress.html", progress_page(parts, svg, list(badges)))
+    write(SITE / "progress.html", progress_page(parts, svg, list(badges), tl_text))
     write(SITE / "history.html", history_page(parts, hist))
     write(SITE / "index.html", '<!doctype html><meta http-equiv="refresh" content="0; url=progress.html">'
                                '<a href="progress.html">Progress</a>\n')

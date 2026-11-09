@@ -1,7 +1,20 @@
 How a part's builder updates this board
 
-1. Edit only your own file in the progress folder (part1 to part5). Never touch another part's file.
-2. For each item: raise "done" as work and tests pass. Set "failed" for tests that failed and are being redone, and lower it again when they pass.
-3. Keep each item's "short" label (12 characters at most; it is what the map shows). Update "now" (one plain sentence), "updated" (the date), "status" (waiting, active or done), and add one line to "log".
-4. Plain words only. No code, file names, links, settings, measurements of the car, or anything that would let someone rebuild the work. The redraw refuses text that looks like code, a path or a link.
-5. Commit and push. The board redraws itself in about a minute.
+1. Edit only your own file in the progress folder (part1 to part5). Never touch another part's file. Pull right before you edit, and push straight after, so you don't clash with the redraw.
+
+2. TIMELINE ("tasks"): your build steps, in order. Keep it current; this is how the team lead follows you without asking.
+   - When you START a step: set its "status" to "doing" and "started" to today's date (YYYY-MM-DD).
+   - When you FINISH a step and its tests pass on GitHub: "status" "done", "finished" = today's date.
+   - If a step's tests fail and you're redoing it: "status" "failed" (set it back to "doing" when you restart).
+   - If you're waiting on another part or on the team lead: "status" "blocked", and say why in "note".
+   - "note": one short plain sentence about where the step stands.
+   - Allowed statuses: todo, doing, done, failed, blocked. Keep "title" and "short" as they are (short is at most 14 characters; it's what the picture shows).
+   - Only one or two steps should be "doing" at a time.
+
+3. SQUARES ("sections" / "items"): raise "done" as work and tests pass. Set "failed" for tests that failed and are being redone, and lower it again when they pass. Keep each item's "short" label (12 characters at most).
+
+4. Also update "now" (one plain sentence), "updated" (the date), "status" (waiting, active or done), and add one line to "log" for anything worth remembering.
+
+5. Plain words only. No code, file names, links, settings, measurements of the car, or anything that would let someone rebuild the work. The redraw refuses text that looks like code, a path or a link.
+
+6. Commit and push. The board, the timelines and the pages redraw themselves in about a minute.

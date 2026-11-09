@@ -168,5 +168,79 @@
    "date": "2026-11-09",
    "text": "Repository cleaned: the old carving loop is removed. The compass will be built fresh and proven. All tests pass."
   }
+ ],
+ "tasks": [
+  {
+   "title": "Known-answer test",
+   "short": "Known answer",
+   "status": "todo",
+   "started": "",
+   "finished": "",
+   "note": ""
+  },
+  {
+   "title": "Compass test on the car",
+   "short": "Compass test",
+   "status": "todo",
+   "started": "",
+   "finished": "",
+   "note": ""
+  },
+  {
+   "title": "Fixes, tried in order",
+   "short": "Fixes",
+   "status": "todo",
+   "started": "",
+   "finished": "",
+   "note": ""
+  },
+  {
+   "title": "Backup measured map (only if needed)",
+   "short": "Backup map",
+   "status": "todo",
+   "started": "",
+   "finished": "",
+   "note": ""
+  },
+  {
+   "title": "Map to race time",
+   "short": "Map to time",
+   "status": "todo",
+   "started": "",
+   "finished": "",
+   "note": ""
+  },
+  {
+   "title": "One-cut proof",
+   "short": "One-cut proof",
+   "status": "todo",
+   "started": "",
+   "finished": "",
+   "note": ""
+  },
+  {
+   "title": "Write-up",
+   "short": "Write-up",
+   "status": "todo",
+   "started": "",
+   "finished": "",
+   "note": ""
+  },
+  {
+   "title": "Full clean rerun of every test",
+   "short": "Clean rerun",
+   "status": "todo",
+   "started": "",
+   "finished": "",
+   "note": ""
+  },
+  {
+   "title": "Team sign-off",
+   "short": "Sign-off",
+   "status": "todo",
+   "started": "",
+   "finished": "",
+   "note": ""
+  }
  ]
 }
