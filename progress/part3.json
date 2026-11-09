@@ -96,7 +96,7 @@
      "name": "Known-answer bumps",
      "cells": 10,
      "done": 0,
-     "failed": 0,
+     "failed": 10,
      "short": "Known bumps"
     },
     {
@@ -158,8 +158,12 @@
  ],
  "status": "active",
  "updated": "2026-11-09",
- "now": "Building a simple wing test with a known answer, to check the map tool before trusting it on the car.",
+ "now": "Found two faults in the map tool on a simple wing test; rerunning with the first fixed.",
  "log": [
+  {
+   "date": "2026-11-09",
+   "text": "Wing test, first result: the map says the opposite of the measured change on all twenty bumps, and the flow run was stopping long before it had settled. Both look like real causes of the old bad results."
+  },
   {
    "date": "2026-11-09",
    "text": "Board created. Waiting for the go to start this phase."
@@ -174,15 +178,15 @@
   }
  ],
  "agent_state": "waiting_on_compute",
- "agent_note": "Two checks running: the simple wing test, and a direction and coverage check of the map on ten cars. Writing the map-to-race-time step meanwhile.",
+ "agent_note": "Wing test rerunning; the ten-car direction check and the unit tests are running too.",
  "tasks": [
   {
    "title": "Known-answer test",
    "short": "Known answer",
-   "status": "doing",
+   "status": "failed",
    "started": "2026-11-09",
    "finished": "",
-   "note": "Running on GitHub: twenty bumps, five map settings side by side."
+   "note": "First try failed: the map pointed the wrong way on every bump, and the flow run stopped too early. Rerunning with the early stop removed."
   },
   {
    "title": "Compass test on the car",
