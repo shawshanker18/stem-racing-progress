@@ -163,7 +163,7 @@ def parts_and_agents(cfg, runs, root=ROOT):
             state, detail = "WAITING TO START", "Not started yet."
         elif p.get("status") == "done":
             state, detail = "SIGNED OFF", "Finished and signed off."
-        elif needs or said == "NEEDS YOU":
+        elif said == "NEEDS YOU" or (needs and not said):   # the agent's own state wins; a side question doesn't hide work
             state, detail = "NEEDS YOU", needs or note or "Waiting for your answer."
         elif blocked or said == "BLOCKED":
             state, detail = "BLOCKED", note or "; ".join(blocked)
@@ -177,6 +177,8 @@ def parts_and_agents(cfg, runs, root=ROOT):
             state, detail = "WORKING", "Working; nothing on GitHub right now."
         if age_h is not None and age_h > QUIET_HOURS and state in ("WORKING", "WAITING ON COMPUTE") and not (running or queued):
             state, detail = "QUIET", f"Says '{state.lower()}', but no update for {age_h:.0f} h."
+        if needs and state != "NEEDS YOU":
+            detail = f"{detail} Question for you: {needs}"
         parts.append({"part": n, "name": p["name"], "status": p.get("status"), "now": p.get("now", ""),
                       "updated": p.get("updated", ""), "last_update": last, "state": state, "state_detail": detail,
                       "doing": [t["title"] for t in ts if t.get("status") == "doing"],
