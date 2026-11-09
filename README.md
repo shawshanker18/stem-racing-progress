@@ -30,22 +30,22 @@ Our team is building, part by part, a computer system that designs the fastest l
 
 ### 1. The cutter
 
-*Carves the car body out of the legal block, one safe cut at a time.* 28.9% · being built
+*Carves the car body out of the legal block, one safe cut at a time.* 29.4% · being built
 
 - Starts from the full block of material the rules allow, with every rule zone already marked.
 - Moves the surface in or out wherever it is told, in small steps, and checks every rule after each step: required solid areas, required open areas, left-right symmetry, one single piece, and a shape a real milling machine can cut.
 - Re-sizes the whole body after each cut so the car always weighs the target.
 - Hands over a clean, closed 3D shape. It never decides what is faster; it only cuts safely.
 
-**Now:** The cutting tool is written; its checks are running on GitHub.
+**Now:** Cutting tool done. Now testing that carved bodies hit the target weight.
 
-**Timeline:** 1 of 9 steps done
+**Timeline:** 2 of 9 steps done
 
 | # | Step | Status | Started | Finished | Note |
 |---|---|---|---|---|---|
 | 1 | Fix the last failing test | ✅ Done | 2026-11-09 | 2026-11-09 | Both failing tests fixed; every check passes. |
-| 2 | Build the cutting tool | 🔄 Working on it | 2026-11-09 |  | Tool written; its checks are running on GitHub. |
-| 3 | Weight sizing for carved shapes | ⬜ To do |  |  |  |
+| 2 | Build the cutting tool | ✅ Done | 2026-11-09 | 2026-11-09 | Built and all its checks pass; other parts can now use it. |
+| 3 | Weight sizing for carved shapes | 🔄 Working on it | 2026-11-09 |  | First small test of carved bodies is running. |
 | 4 | Big random carving test (2,000 bodies) | ⬜ To do |  |  |  |
 | 5 | Grid-size check | ⬜ To do |  |  |  |
 | 6 | Same result on every machine | ⬜ To do |  |  |  |
@@ -62,14 +62,14 @@ Our team is building, part by part, a computer system that designs the fastest l
 - It must be right (checked against published wind-tunnel results), quiet (a tiny change gives a tiny time change) and give the same answer on every machine.
 - Every other part trusts it to say which car is faster.
 
-**Now:** Building the standard wind-tunnel test shape from its original published measurements, then running it.
+**Now:** Wind-tunnel test runs are going, and the first timing-noise measurement on sixteen near-identical cars has started.
 
 **Timeline:** 0 of 10 steps done
 
 | # | Step | Status | Started | Finished | Note |
 |---|---|---|---|---|---|
-| 1 | Check against published wind-tunnel results | 🔄 Working on it | 2026-11-09 |  | Test shape built; checking it before the airflow runs. |
-| 2 | Cut the timing noise | ⬜ To do |  |  |  |
+| 1 | Check against published wind-tunnel results | 🔄 Working on it | 2026-11-09 |  | Both test shapes are running on three levels of detail. |
+| 2 | Cut the timing noise | 🔄 Working on it | 2026-11-09 |  | Measuring today's noise first, before trying fixes. |
 | 3 | Quick vs detailed ranking check | ⬜ To do |  |  |  |
 | 4 | Warm start | ⬜ To do |  |  |  |
 | 5 | Runs longer than one machine slot | ⬜ To do |  |  |  |
