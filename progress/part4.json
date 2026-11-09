@@ -299,7 +299,7 @@
   }
  ],
  "agent_state": "waiting_on_compute",
- "agent_note": "Carved-car batch about a fifth done; rechecking real cars and the full test suite after fixing how the halo is compared; an experiment traces a groove in the body file.",
+ "agent_note": "Carved-car batch running; real test cars and the full test suite running on a borrowed account; a check of how thin each printed part is runs alongside. The weight file the stopwatch needs is now made with every car.",
  "needs_you": "Team items being asked by the lead: print material, part weights, a hand check of three cars, and whether one exported car can be made.",
  "unlocks": {
   "D": {
