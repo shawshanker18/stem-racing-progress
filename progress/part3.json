@@ -178,7 +178,7 @@
   },
   {
    "date": "2026-11-09",
-   "text": "Changed the shared map tool (in the stopwatch folder) for Part 2 to know: the map now reads the surface direction the right way round, and its flow run no longer stops early. Found on the wing test; the final check of the changed tool is running."
+   "text": "Changed the shared map tool (in the stopwatch folder) for Part 2 to know: the map now reads the surface direction the right way round, and its flow run no longer stops early. Proven on the wing test: the map now has the right direction on all twenty bumps."
   }
  ],
  "agent_state": "waiting_on_compute",
