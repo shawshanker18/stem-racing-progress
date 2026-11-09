@@ -186,7 +186,7 @@
  ],
  "status": "active",
  "updated": "2026-11-09",
- "now": "Building the standard wind-tunnel test shape from its original published measurements, then running it.",
+ "now": "Wind-tunnel test runs are going, and the first timing-noise measurement on sixteen near-identical cars has started.",
  "log": [
   {
    "date": "2026-11-09",
@@ -203,6 +203,14 @@
   {
    "date": "2026-11-09",
    "text": "Test shape added with a still-floor option to match the wind tunnel. The nose now uses the original published measurements."
+  },
+  {
+   "date": "2026-11-09",
+   "text": "Added a second test shape, a cube, at our own car's speed and size. All test shape runs started on three levels of detail."
+  },
+  {
+   "date": "2026-11-09",
+   "text": "First timing-noise measurement started on sixteen near-identical cars."
   }
  ],
  "tasks": [
@@ -212,15 +220,15 @@
    "status": "doing",
    "started": "2026-11-09",
    "finished": "",
-   "note": "Test shape built; checking it before the airflow runs."
+   "note": "Both test shapes are running on three levels of detail."
   },
   {
    "title": "Cut the timing noise",
    "short": "Cut noise",
-   "status": "todo",
-   "started": "",
+   "status": "doing",
+   "started": "2026-11-09",
    "finished": "",
-   "note": ""
+   "note": "Measuring today's noise first, before trying fixes."
   },
   {
    "title": "Quick vs detailed ranking check",
