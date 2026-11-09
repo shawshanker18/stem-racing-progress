@@ -76,7 +76,7 @@
     {
      "name": "Just-inside and just-outside tests",
      "cells": 120,
-     "done": 0,
+     "done": 40,
      "failed": 0,
      "short": "Edge tests"
     },
@@ -193,7 +193,7 @@
  ],
  "status": "active",
  "updated": "2026-11-09",
- "now": "Rule list finished and saved. Planning the just-inside and just-outside tests next.",
+ "now": "Running the first batch of just-inside and just-outside test cars on GitHub.",
  "log": [
   {
    "date": "2026-11-09",
@@ -210,24 +210,28 @@
   {
    "date": "2026-11-09",
    "text": "Rule list finished and saved."
+  },
+  {
+   "date": "2026-11-09",
+   "text": "First batch of just-inside and just-outside test cars written and sent to GitHub."
   }
  ],
  "tasks": [
   {
    "title": "List every rule and its check",
    "short": "Rule list",
-   "status": "todo",
-   "started": "",
-   "finished": "",
-   "note": ""
+   "status": "done",
+   "started": "2026-11-09",
+   "finished": "2026-11-09",
+   "note": "Every rule matched to a check or a reason."
   },
   {
    "title": "Just-inside and just-outside tests",
    "short": "Edge tests",
-   "status": "todo",
-   "started": "",
+   "status": "doing",
+   "started": "2026-11-09",
    "finished": "",
-   "note": ""
+   "note": "First batch of test cars written; running on GitHub."
   },
   {
    "title": "Make the referee independent",
