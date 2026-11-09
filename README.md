@@ -55,20 +55,20 @@ Our team is building, part by part, a computer system that designs the fastest l
 
 ### 2. The stopwatch
 
-*Times a finished car over the 20 m race.* 46.9% · being built
+*Times a finished car over the 20 m race.* 48.9% · being built
 
 - An airflow simulation measures how hard the air pushes back on the car and its wheels.
 - A race model turns that push, the weight and the launch into a race time, and says which inputs matter most.
 - It must be right (checked against published wind-tunnel results), quiet (a tiny change gives a tiny time change) and give the same answer on every machine.
 - Every other part trusts it to say which car is faster.
 
-**Now:** Built-in checks all pass. Next is checking the airflow simulation against published wind-tunnel results.
+**Now:** Building the standard wind-tunnel test shape from its original published measurements, then running it.
 
 **Timeline:** 0 of 10 steps done
 
 | # | Step | Status | Started | Finished | Note |
 |---|---|---|---|---|---|
-| 1 | Check against published wind-tunnel results | 🔄 Working on it | 2026-11-09 |  | Built-in checks pass; starting the comparison. |
+| 1 | Check against published wind-tunnel results | 🔄 Working on it | 2026-11-09 |  | Test shape built; checking it before the airflow runs. |
 | 2 | Cut the timing noise | ⬜ To do |  |  |  |
 | 3 | Quick vs detailed ranking check | ⬜ To do |  |  |  |
 | 4 | Warm start | ⬜ To do |  |  |  |

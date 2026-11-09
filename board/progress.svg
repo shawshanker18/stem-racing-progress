@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 636" width="1000" height="636">
 <rect x="0.00" y="0.00" width="1000.00" height="636.00" fill="#0d1117" stroke="#0d1117" stroke-width="0"/>
-<text x="4.00" y="21.00" font-family="sans-serif" font-size="16" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Work done: 63.3% (2,653/4,193)</text>
+<text x="4.00" y="21.00" font-family="sans-serif" font-size="16" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Work done: 63.7% (2,673/4,193)</text>
 <g><title>Part 1, Groundwork (built before): Older body: random cars tested (1 square = 10 cars): 400/400 done</title>
 <rect x="1.00" y="31.00" width="5.78" height="5.92" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="6.78" y="31.00" width="5.78" height="5.92" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
@@ -2597,27 +2597,27 @@
 <rect x="257.93" y="273.42" width="5.83" height="5.95" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="221.94" y="230.75" width="42.82" height="49.62" fill="none" stroke="#0d1117" stroke-width="2"/>
 </g>
-<g><title>Part 2, Build: Wind-tunnel benchmark cases: 0/60 done</title>
-<rect x="222.94" y="281.38" width="5.10" height="5.95" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="228.04" y="281.38" width="5.10" height="5.95" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="233.15" y="281.38" width="5.10" height="5.95" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="238.25" y="281.38" width="5.10" height="5.95" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="243.35" y="281.38" width="5.10" height="5.95" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="248.45" y="281.38" width="5.10" height="5.95" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="253.56" y="281.38" width="5.10" height="5.95" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="258.66" y="281.38" width="5.10" height="5.95" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="222.94" y="287.33" width="5.10" height="5.95" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="228.04" y="287.33" width="5.10" height="5.95" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="233.15" y="287.33" width="5.10" height="5.95" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="238.25" y="287.33" width="5.10" height="5.95" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="243.35" y="287.33" width="5.10" height="5.95" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="248.45" y="287.33" width="5.10" height="5.95" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="253.56" y="287.33" width="5.10" height="5.95" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="258.66" y="287.33" width="5.10" height="5.95" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="222.94" y="293.28" width="5.10" height="5.95" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="228.04" y="293.28" width="5.10" height="5.95" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="233.15" y="293.28" width="5.10" height="5.95" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="238.25" y="293.28" width="5.10" height="5.95" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
+<g><title>Part 2, Build: Wind-tunnel benchmark cases: 20/60 done</title>
+<rect x="222.94" y="281.38" width="5.10" height="5.95" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="228.04" y="281.38" width="5.10" height="5.95" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="233.15" y="281.38" width="5.10" height="5.95" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="238.25" y="281.38" width="5.10" height="5.95" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="243.35" y="281.38" width="5.10" height="5.95" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="248.45" y="281.38" width="5.10" height="5.95" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="253.56" y="281.38" width="5.10" height="5.95" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="258.66" y="281.38" width="5.10" height="5.95" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="222.94" y="287.33" width="5.10" height="5.95" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="228.04" y="287.33" width="5.10" height="5.95" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="233.15" y="287.33" width="5.10" height="5.95" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="238.25" y="287.33" width="5.10" height="5.95" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="243.35" y="287.33" width="5.10" height="5.95" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="248.45" y="287.33" width="5.10" height="5.95" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="253.56" y="287.33" width="5.10" height="5.95" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="258.66" y="287.33" width="5.10" height="5.95" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="222.94" y="293.28" width="5.10" height="5.95" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="228.04" y="293.28" width="5.10" height="5.95" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="233.15" y="293.28" width="5.10" height="5.95" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="238.25" y="293.28" width="5.10" height="5.95" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="243.35" y="293.28" width="5.10" height="5.95" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="248.45" y="293.28" width="5.10" height="5.95" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="253.56" y="293.28" width="5.10" height="5.95" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
@@ -9985,8 +9985,8 @@
 <text x="495.00" y="389.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="end" stroke="#0d1117" stroke-width="3" paint-order="stroke">28.9%</text>
 <text x="4.00" y="409.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">2 The stopwatch</text>
 <rect x="154" y="398" width="267" height="14" fill="#6e7681"/>
-<rect x="154" y="398" width="125.11" height="14" fill="#2ea043"/>
-<text x="495.00" y="409.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="end" stroke="#0d1117" stroke-width="3" paint-order="stroke">46.9%</text>
+<rect x="154" y="398" width="130.44" height="14" fill="#2ea043"/>
+<text x="495.00" y="409.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="end" stroke="#0d1117" stroke-width="3" paint-order="stroke">48.9%</text>
 <text x="4.00" y="429.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">3 The compass</text>
 <rect x="154" y="418" width="267" height="14" fill="#6e7681"/>
 <rect x="154" y="418" width="72.39" height="14" fill="#2ea043"/>
@@ -10022,8 +10022,8 @@
 <text x="505.00" y="384.00" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">1 The cutter</text>
 <text x="513.00" y="400.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">The cutting tool is written; its checks are running on GitHub.</text>
 <text x="505.00" y="422.00" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">2 The stopwatch</text>
-<text x="513.00" y="438.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Built-in checks all pass. Next is checking the airflow simulation against</text>
-<text x="513.00" y="454.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">published wind-tunnel results.</text>
+<text x="513.00" y="438.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Building the standard wind-tunnel test shape from its original published</text>
+<text x="513.00" y="454.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">measurements, then running it.</text>
 <text x="505.00" y="476.00" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">3 The compass</text>
 <text x="513.00" y="492.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Building a simple wing test with a known answer, to check the map tool before</text>
 <text x="513.00" y="508.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">trusting it on the car.</text>
