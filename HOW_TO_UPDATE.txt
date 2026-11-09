@@ -15,6 +15,15 @@ How a part's builder updates this board
 
 3b. UNLOCKS (Parts 1, 2 and 4 only): when you send the team lead an UNLOCK message, ALSO set that milestone in your file's "unlocks" to "done": true, with "date" (YYYY-MM-DD) and a one-sentence "note". The live panel's "Ready to start?" box reads this to tell the team lead when Part 3 and Part 5 can start. Part 1 owns A; Part 2 owns B and C; Part 4 owns D. Only mark it done when its tests passed on GitHub.
 
+3c. YOUR STATE (the live panel shows it as "Agent N"): set "agent_state" to one of
+    working             you are working (reading, coding, preparing) and nothing of yours runs on GitHub
+    waiting_on_compute  your runs are going on GitHub and you are waiting for results
+    needs_you           you asked the team lead something; put the question in "needs_you" (one plain sentence)
+    blocked             you are waiting on another part; say which in "agent_note"
+  and "agent_note" to one plain sentence. Change it the moment your state changes (for example right after you
+  start a run, and again when its results are in), and clear "needs_you" once answered. If you don't update for
+  3 hours the panel shows you as QUIET.
+
 4. Also update "now" (one plain sentence), "updated" (the date), "status" (waiting, active or done), and add one line to "log" for anything worth remembering.
 
 5. Plain words only. No code, file names, links, settings, measurements of the car, or anything that would let someone rebuild the work. The redraw refuses text that looks like code, a path or a link.
