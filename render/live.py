@@ -11,6 +11,7 @@ config/panel.json and progress/part*.json. Standard library only.
 """
 import datetime as dt
 import json
+import re
 import os
 import statistics
 import subprocess
@@ -50,6 +51,14 @@ class GitHub:
             return None
 
 
+_FILEISH = re.compile(r"\s*\(?[\w./-]*\.(py|json|ya?ml|stl|npy|npz|csv|md|sh|txt)\)?", re.I)
+
+
+def plain_title(s):
+    """Run titles are shown publicly: drop anything that looks like a file name."""
+    return re.sub(r"\s{2,}", " ", _FILEISH.sub("", s)).strip(" -:") or "run"
+
+
 def when(s):
     return dt.datetime.fromisoformat(s.replace("Z", "+00:00")) if s else None
 
@@ -79,7 +88,7 @@ def collect_runs(cfg, gh):
         for r in found:
             wf_file = Path(r.get("path", "")).stem
             title = r.get("display_title") or r.get("name") or wf_file
-            plain = title if (wf_file[:1] == "p" and wf_file[1:2].isdigit()) or title.lower().startswith("part ") \
+            plain = plain_title(title) if (wf_file[:1] == "p" and wf_file[1:2].isdigit()) or title.lower().startswith("part ") \
                 else cfg["work_labels"].get(wf_file, "run")
             jobs = (gh.get(f"/repos/{name}/{repo}/actions/runs/{r['id']}/jobs?per_page=100") or {}).get("jobs", [])
             n_done = sum(1 for j in jobs if j["status"] == "completed")
