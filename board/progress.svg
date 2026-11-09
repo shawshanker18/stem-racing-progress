@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 664" width="1000" height="664">
-<rect x="0.00" y="0.00" width="1000.00" height="664.00" fill="#0d1117" stroke="#0d1117" stroke-width="0"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 680" width="1000" height="680">
+<rect x="0.00" y="0.00" width="1000.00" height="680.00" fill="#0d1117" stroke="#0d1117" stroke-width="0"/>
 <text x="4.00" y="21.00" font-family="sans-serif" font-size="16" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Work done: 65.3% (2,736/4,193)</text>
 <g><title>Part 1, Groundwork (built before): Older body: random cars tested (1 square = 10 cars): 400/400 done</title>
 <rect x="1.00" y="31.00" width="5.78" height="5.92" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
@@ -4427,7 +4427,7 @@
 <rect x="490.17" y="322.62" width="3.83" height="6.38" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="473.87" y="321.62" width="21.13" height="8.38" fill="none" stroke="#0d1117" stroke-width="2"/>
 </g>
-<text x="509.00" y="21.00" font-family="sans-serif" font-size="16" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Tests passed: 7.6% (415/5,441)</text>
+<text x="509.00" y="21.00" font-family="sans-serif" font-size="16" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Tests passed: 7.6% (416/5,441)</text>
 <g><title>Part 1, Tests: Carved bodies (1 square = 1 body): 0/2000 done</title>
 <rect x="506.00" y="31.00" width="5.14" height="5.14" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="511.14" y="31.00" width="5.14" height="5.14" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
@@ -9871,17 +9871,17 @@
 <rect x="948.31" y="324.26" width="4.94" height="4.74" fill="#da3633" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="937.44" y="313.77" width="16.82" height="16.23" fill="none" stroke="#0d1117" stroke-width="2"/>
 </g>
-<g><title>Part 3, Tests: Map placement check: 0/10 done</title>
-<rect x="955.25" y="290.43" width="3.82" height="4.57" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="959.07" y="290.43" width="3.82" height="4.57" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="962.89" y="290.43" width="3.82" height="4.57" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="955.25" y="295.00" width="3.82" height="4.57" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="959.07" y="295.00" width="3.82" height="4.57" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="962.89" y="295.00" width="3.82" height="4.57" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="955.25" y="299.57" width="5.73" height="4.57" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="960.98" y="299.57" width="5.73" height="4.57" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="955.25" y="304.14" width="5.73" height="4.57" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="960.98" y="304.14" width="5.73" height="4.57" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
+<g><title>Part 3, Tests: Map placement check: 0/10 done, 10 failed</title>
+<rect x="955.25" y="290.43" width="3.82" height="4.57" fill="#da3633" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="959.07" y="290.43" width="3.82" height="4.57" fill="#da3633" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="962.89" y="290.43" width="3.82" height="4.57" fill="#da3633" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="955.25" y="295.00" width="3.82" height="4.57" fill="#da3633" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="959.07" y="295.00" width="3.82" height="4.57" fill="#da3633" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="962.89" y="295.00" width="3.82" height="4.57" fill="#da3633" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="955.25" y="299.57" width="5.73" height="4.57" fill="#da3633" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="960.98" y="299.57" width="5.73" height="4.57" fill="#da3633" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="955.25" y="304.14" width="5.73" height="4.57" fill="#da3633" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="960.98" y="304.14" width="5.73" height="4.57" fill="#da3633" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="954.25" y="289.43" width="13.45" height="20.28" fill="none" stroke="#0d1117" stroke-width="2"/>
 </g>
 <g><title>Part 4, Tests: Weighed parts: 0/10 done</title>
@@ -9965,8 +9965,8 @@
 <rect x="991.20" y="318.59" width="3.40" height="4.21" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="986.81" y="317.59" width="8.80" height="6.21" fill="none" stroke="#0d1117" stroke-width="2"/>
 </g>
-<g><title>Part 3, Tests: Direction sanity check: 0/2 done</title>
-<rect x="987.81" y="324.79" width="3.40" height="4.21" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
+<g><title>Part 3, Tests: Direction sanity check: 1/2 done</title>
+<rect x="987.81" y="324.79" width="3.40" height="4.21" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="991.20" y="324.79" width="3.40" height="4.21" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="986.81" y="323.79" width="8.80" height="6.21" fill="none" stroke="#0d1117" stroke-width="2"/>
 </g>
@@ -9990,9 +9990,9 @@
 <text x="495.00" y="409.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="end" stroke="#0d1117" stroke-width="3" paint-order="stroke">52.4%</text>
 <text x="4.00" y="429.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">3 The compass</text>
 <rect x="154" y="418" width="267" height="14" fill="#6e7681"/>
-<rect x="154" y="418" width="72.39" height="14" fill="#2ea043"/>
-<rect x="226.39" y="418" width="5.93" height="14" fill="#da3633"/>
-<text x="495.00" y="429.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="end" stroke="#0d1117" stroke-width="3" paint-order="stroke">27.1%</text>
+<rect x="154" y="418" width="72.78" height="14" fill="#2ea043"/>
+<rect x="226.78" y="418" width="9.89" height="14" fill="#da3633"/>
+<text x="495.00" y="429.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="end" stroke="#0d1117" stroke-width="3" paint-order="stroke">27.3%</text>
 <text x="4.00" y="449.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">4 Parts and the referee</text>
 <rect x="154" y="438" width="267" height="14" fill="#6e7681"/>
 <rect x="154" y="438" width="75.88" height="14" fill="#2ea043"/>
@@ -10013,8 +10013,9 @@
 <text x="495.00" y="541.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="end" stroke="#0d1117" stroke-width="3" paint-order="stroke">116/233</text>
 <text x="4.00" y="561.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">3 The compass</text>
 <rect x="154" y="550" width="267" height="14" fill="#6e7681"/>
-<rect x="154.00" y="550" width="15.99" height="14" fill="#da3633"/>
-<text x="495.00" y="561.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="end" stroke="#0d1117" stroke-width="3" paint-order="stroke">0/167</text>
+<rect x="154" y="550" width="1.60" height="14" fill="#2ea043"/>
+<rect x="155.60" y="550" width="31.98" height="14" fill="#da3633"/>
+<text x="495.00" y="561.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="end" stroke="#0d1117" stroke-width="3" paint-order="stroke">1/167</text>
 <text x="4.00" y="581.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">4 Parts and the referee</text>
 <rect x="154" y="570" width="267" height="14" fill="#6e7681"/>
 <text x="495.00" y="581.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="end" stroke="#0d1117" stroke-width="3" paint-order="stroke">0/2,214</text>
@@ -10029,12 +10030,13 @@
 <text x="513.00" y="454.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Found and removed an early stop that cut every car&#x27;s airflow run short; noise</text>
 <text x="513.00" y="470.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">and ranking runs restarted. Measured thrust now in the race model.</text>
 <text x="505.00" y="492.00" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">3 The compass</text>
-<text x="513.00" y="508.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Fixed which way the map points and the early stop in the map tool; testing why</text>
-<text x="513.00" y="524.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">its strength still matches only loosely.</text>
-<text x="505.00" y="546.00" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">4 Parts and the referee</text>
-<text x="513.00" y="562.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Big batch of carved cars running; the checker measures every size rule itself</text>
-<text x="513.00" y="578.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">now.</text>
-<text x="505.00" y="600.00" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">5 The loop</text>
-<text x="513.00" y="616.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Waiting for the go to start this phase.</text>
-<text x="4.00" y="654.00" font-family="sans-serif" font-size="11" font-weight="normal" fill="#8b949e" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Each square is one piece of work or one test case. Green: done. Red: failed, being redone. Grey: still to do. Counted from each part&#x27;s progress file.</text>
+<text x="513.00" y="508.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Map direction now right on the wing and on eighteen real cars; working on how</text>
+<text x="513.00" y="524.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">strongly it matches, on settling the car flow, and on covering the whole car</text>
+<text x="513.00" y="540.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">surface.</text>
+<text x="505.00" y="562.00" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">4 Parts and the referee</text>
+<text x="513.00" y="578.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Big batch of carved cars running; the checker measures every size rule itself</text>
+<text x="513.00" y="594.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">now.</text>
+<text x="505.00" y="616.00" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">5 The loop</text>
+<text x="513.00" y="632.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Waiting for the go to start this phase.</text>
+<text x="4.00" y="670.00" font-family="sans-serif" font-size="11" font-weight="normal" fill="#8b949e" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Each square is one piece of work or one test case. Green: done. Red: failed, being redone. Grey: still to do. Counted from each part&#x27;s progress file.</text>
 </svg>
