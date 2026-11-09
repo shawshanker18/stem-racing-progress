@@ -403,7 +403,7 @@
 <rect x="81.89" y="173.08" width="5.78" height="5.92" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="87.67" y="173.08" width="5.78" height="5.92" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="0.00" y="30.00" width="94.44" height="150.00" fill="none" stroke="#0d1117" stroke-width="2"/>
-<text x="5.00" y="46.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">1 Old cars</text>
+<text x="4.00" y="45.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">1 Old cars</text>
 </g>
 <g><title>Part 4, Groundwork (built before): Older bodies assembled and judged (1 square = 10 cars): 400/400 done</title>
 <rect x="1.00" y="181.00" width="5.78" height="5.92" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
@@ -807,7 +807,7 @@
 <rect x="81.89" y="323.08" width="5.78" height="5.92" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="87.67" y="323.08" width="5.78" height="5.92" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="0.00" y="180.00" width="94.44" height="150.00" fill="none" stroke="#0d1117" stroke-width="2"/>
-<text x="5.00" y="196.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">4 Old cars</text>
+<text x="4.00" y="195.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">4 Old cars</text>
 </g>
 <g><title>Part 1, Groundwork (built before): Rule zones: 150/150 done</title>
 <rect x="95.44" y="31.00" width="5.61" height="5.81" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
@@ -961,7 +961,7 @@
 <rect x="144.84" y="106.52" width="6.17" height="5.81" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="151.02" y="106.52" width="6.17" height="5.81" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="94.44" y="30.00" width="63.75" height="83.33" fill="none" stroke="#0d1117" stroke-width="2"/>
-<text x="99.44" y="46.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">1 Rule </text>
+<text x="98.44" y="45.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Rule zon</text>
 </g>
 <g><title>Part 2, Groundwork (built before): Airflow simulation set-up: 150/150 done</title>
 <rect x="95.44" y="114.33" width="5.61" height="5.81" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
@@ -1115,7 +1115,7 @@
 <rect x="144.84" y="189.86" width="6.17" height="5.81" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="151.02" y="189.86" width="6.17" height="5.81" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="94.44" y="113.33" width="63.75" height="83.33" fill="none" stroke="#0d1117" stroke-width="2"/>
-<text x="99.44" y="129.33" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">2 CFD s</text>
+<text x="98.44" y="128.33" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">CFD set-</text>
 </g>
 <g><title>Part 3, Groundwork (built before): Map simulation set-up: 120/120 done</title>
 <rect x="95.44" y="197.67" width="5.61" height="5.88" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
@@ -1239,7 +1239,7 @@
 <rect x="144.84" y="256.45" width="6.17" height="5.88" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="151.02" y="256.45" width="6.17" height="5.88" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="94.44" y="196.67" width="63.75" height="66.67" fill="none" stroke="#0d1117" stroke-width="2"/>
-<text x="99.44" y="212.67" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">3 Map s</text>
+<text x="98.44" y="211.67" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Map set-</text>
 </g>
 <g><title>Part 4, Groundwork (built before): Referee checks: 120/120 done</title>
 <rect x="95.44" y="264.33" width="5.61" height="5.88" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
@@ -1363,7 +1363,7 @@
 <rect x="144.84" y="323.12" width="6.17" height="5.88" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="151.02" y="323.12" width="6.17" height="5.88" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="94.44" y="263.33" width="63.75" height="66.67" fill="none" stroke="#0d1117" stroke-width="2"/>
-<text x="99.44" y="279.33" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">4 Refer</text>
+<text x="98.44" y="278.33" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Referee</text>
 </g>
 <g><title>Part 4, Build: Every rule listed and matched to a check: 0/120 done</title>
 <rect x="159.19" y="31.00" width="5.61" height="5.88" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
@@ -1487,7 +1487,7 @@
 <rect x="208.59" y="89.79" width="6.17" height="5.88" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="214.77" y="89.79" width="6.17" height="5.88" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="158.19" y="30.00" width="63.75" height="66.67" fill="none" stroke="#0d1117" stroke-width="2"/>
-<text x="163.19" y="46.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">4 Rule </text>
+<text x="162.19" y="45.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Rule lis</text>
 </g>
 <g><title>Part 4, Build: Just-inside and just-outside tests: 0/120 done</title>
 <rect x="159.19" y="97.67" width="5.61" height="5.88" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
@@ -1611,7 +1611,7 @@
 <rect x="208.59" y="156.45" width="6.17" height="5.88" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="214.77" y="156.45" width="6.17" height="5.88" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="158.19" y="96.67" width="63.75" height="66.67" fill="none" stroke="#0d1117" stroke-width="2"/>
-<text x="163.19" y="112.67" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">4 Edge </text>
+<text x="162.19" y="111.67" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Edge tes</text>
 </g>
 <g><title>Part 1, Groundwork (built before): Shape on a fine grid: 100/100 done</title>
 <rect x="159.19" y="164.33" width="5.15" height="5.95" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
@@ -1715,7 +1715,7 @@
 <rect x="209.71" y="211.94" width="5.61" height="5.95" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="215.33" y="211.94" width="5.61" height="5.95" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="158.19" y="163.33" width="63.75" height="55.56" fill="none" stroke="#0d1117" stroke-width="2"/>
-<text x="163.19" y="179.33" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">1 Grid </text>
+<text x="162.19" y="178.33" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Grid sha</text>
 </g>
 <g><title>Part 2, Groundwork (built before): Race model: 100/100 done</title>
 <rect x="159.19" y="219.89" width="5.15" height="5.95" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
@@ -1819,7 +1819,7 @@
 <rect x="209.71" y="267.49" width="5.61" height="5.95" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="215.33" y="267.49" width="5.61" height="5.95" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="158.19" y="218.89" width="63.75" height="55.56" fill="none" stroke="#0d1117" stroke-width="2"/>
-<text x="163.19" y="234.89" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">2 Race </text>
+<text x="162.19" y="233.89" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Race mod</text>
 </g>
 <g><title>Part 5, Groundwork (built before): Older search loop: 100/100 done</title>
 <rect x="159.19" y="275.44" width="5.15" height="5.95" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
@@ -1923,7 +1923,7 @@
 <rect x="209.71" y="323.05" width="5.61" height="5.95" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="215.33" y="323.05" width="5.61" height="5.95" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="158.19" y="274.44" width="63.75" height="55.56" fill="none" stroke="#0d1117" stroke-width="2"/>
-<text x="163.19" y="290.44" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">5 Old l</text>
+<text x="162.19" y="289.44" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Old loop</text>
 </g>
 <g><title>Part 1, Groundwork (built before): Milling check: 80/80 done</title>
 <rect x="222.94" y="31.00" width="5.85" height="5.54" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
@@ -2007,7 +2007,7 @@
 <rect x="262.40" y="75.34" width="6.58" height="5.54" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="268.98" y="75.34" width="6.58" height="5.54" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="221.94" y="30.00" width="54.61" height="51.88" fill="none" stroke="#0d1117" stroke-width="2"/>
-<text x="226.94" y="46.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">1 Mill</text>
+<text x="225.94" y="45.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Milling</text>
 </g>
 <g><title>Part 1, Groundwork (built before): Clean surface export: 80/80 done</title>
 <rect x="277.55" y="31.00" width="5.85" height="5.54" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
@@ -2091,7 +2091,7 @@
 <rect x="317.01" y="75.34" width="6.58" height="5.54" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="323.59" y="75.34" width="6.58" height="5.54" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="276.55" y="30.00" width="54.61" height="51.88" fill="none" stroke="#0d1117" stroke-width="2"/>
-<text x="281.55" y="46.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">1 Surf</text>
+<text x="280.55" y="45.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Surface</text>
 </g>
 <g><title>Part 2, Build: Noise reduction: 0/80 done</title>
 <rect x="332.16" y="31.00" width="5.85" height="5.54" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
@@ -2175,7 +2175,7 @@
 <rect x="371.62" y="75.34" width="6.58" height="5.54" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="378.20" y="75.34" width="6.58" height="5.54" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="331.16" y="30.00" width="54.61" height="51.88" fill="none" stroke="#0d1117" stroke-width="2"/>
-<text x="336.16" y="46.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">2 Nois</text>
+<text x="335.16" y="45.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Noise c</text>
 </g>
 <g><title>Part 4, Groundwork (built before): Wings: 80/80 done</title>
 <rect x="386.78" y="31.00" width="5.85" height="5.54" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
@@ -2259,7 +2259,7 @@
 <rect x="426.24" y="75.34" width="6.58" height="5.54" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="432.81" y="75.34" width="6.58" height="5.54" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="385.78" y="30.00" width="54.61" height="51.88" fill="none" stroke="#0d1117" stroke-width="2"/>
-<text x="390.78" y="46.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">4 Wing</text>
+<text x="389.78" y="45.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">4 Wings</text>
 </g>
 <g><title>Part 5, Groundwork (built before): One car, end to end: 80/80 done</title>
 <rect x="441.39" y="31.00" width="5.85" height="5.54" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
@@ -2343,7 +2343,7 @@
 <rect x="480.85" y="75.34" width="6.58" height="5.54" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="487.42" y="75.34" width="6.58" height="5.54" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="440.39" y="30.00" width="54.61" height="51.88" fill="none" stroke="#0d1117" stroke-width="2"/>
-<text x="445.39" y="46.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">5 One </text>
+<text x="444.39" y="45.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">One car</text>
 </g>
 <g><title>Part 1, Groundwork (built before): Weight sizing: 60/60 done</title>
 <rect x="222.94" y="82.88" width="5.10" height="5.95" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
@@ -2407,7 +2407,6 @@
 <rect x="252.10" y="124.55" width="5.83" height="5.95" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="257.93" y="124.55" width="5.83" height="5.95" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="221.94" y="81.88" width="42.82" height="49.62" fill="none" stroke="#0d1117" stroke-width="2"/>
-<text x="226.94" y="97.88" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">1 We</text>
 </g>
 <g><title>Part 1, Build: Cut tool: 0/60 done</title>
 <rect x="222.94" y="132.50" width="5.10" height="5.95" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
@@ -2471,7 +2470,6 @@
 <rect x="252.10" y="174.18" width="5.83" height="5.95" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="257.93" y="174.18" width="5.83" height="5.95" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="221.94" y="131.50" width="42.82" height="49.62" fill="none" stroke="#0d1117" stroke-width="2"/>
-<text x="226.94" y="147.50" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">1 Cu</text>
 </g>
 <g><title>Part 2, Groundwork (built before): Same car on six machines: 60/60 done</title>
 <rect x="222.94" y="182.13" width="5.10" height="5.95" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
@@ -2535,7 +2533,6 @@
 <rect x="252.10" y="223.80" width="5.83" height="5.95" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="257.93" y="223.80" width="5.83" height="5.95" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="221.94" y="181.13" width="42.82" height="49.62" fill="none" stroke="#0d1117" stroke-width="2"/>
-<text x="226.94" y="197.13" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">2 Si</text>
 </g>
 <g><title>Part 2, Groundwork (built before): Noise measured: 60/60 done</title>
 <rect x="222.94" y="231.75" width="5.10" height="5.95" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
@@ -2599,7 +2596,6 @@
 <rect x="252.10" y="273.42" width="5.83" height="5.95" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="257.93" y="273.42" width="5.83" height="5.95" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="221.94" y="230.75" width="42.82" height="49.62" fill="none" stroke="#0d1117" stroke-width="2"/>
-<text x="226.94" y="246.75" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">2 No</text>
 </g>
 <g><title>Part 2, Build: Wind-tunnel benchmark cases: 0/60 done</title>
 <rect x="222.94" y="281.38" width="5.10" height="5.95" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
@@ -2663,7 +2659,6 @@
 <rect x="252.10" y="323.05" width="5.83" height="5.95" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="257.93" y="323.05" width="5.83" height="5.95" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="221.94" y="280.38" width="42.82" height="49.62" fill="none" stroke="#0d1117" stroke-width="2"/>
-<text x="226.94" y="296.38" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">2 Be</text>
 </g>
 <g><title>Part 2, Build: Real race inputs: 0/60 done</title>
 <rect x="265.76" y="82.88" width="5.51" height="5.52" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
@@ -2727,7 +2722,6 @@
 <rect x="297.23" y="121.51" width="6.29" height="5.52" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="303.52" y="121.51" width="6.29" height="5.52" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="264.76" y="81.88" width="46.05" height="46.15" fill="none" stroke="#0d1117" stroke-width="2"/>
-<text x="269.76" y="97.88" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">2 Rea</text>
 </g>
 <g><title>Part 3, Groundwork (built before): Map placed on the car surface: 60/60 done</title>
 <rect x="311.81" y="82.88" width="5.51" height="5.52" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
@@ -2791,7 +2785,6 @@
 <rect x="343.27" y="121.51" width="6.29" height="5.52" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="349.57" y="121.51" width="6.29" height="5.52" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="310.81" y="81.88" width="46.05" height="46.15" fill="none" stroke="#0d1117" stroke-width="2"/>
-<text x="315.81" y="97.88" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">3 Map</text>
 </g>
 <g><title>Part 3, Build: Fixes, tried in order: 0/60 done</title>
 <rect x="357.86" y="82.88" width="5.51" height="5.52" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
@@ -2855,7 +2848,7 @@
 <rect x="389.32" y="121.51" width="6.29" height="5.52" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="395.61" y="121.51" width="6.29" height="5.52" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="356.86" y="81.88" width="46.05" height="46.15" fill="none" stroke="#0d1117" stroke-width="2"/>
-<text x="361.86" y="97.88" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">3 Fix</text>
+<text x="360.86" y="96.88" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Fixes</text>
 </g>
 <g><title>Part 3, Build: Backup measured map: 0/60 done</title>
 <rect x="403.91" y="82.88" width="5.51" height="5.52" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
@@ -2919,7 +2912,6 @@
 <rect x="435.37" y="121.51" width="6.29" height="5.52" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="441.66" y="121.51" width="6.29" height="5.52" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="402.91" y="81.88" width="46.05" height="46.15" fill="none" stroke="#0d1117" stroke-width="2"/>
-<text x="407.91" y="97.88" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">3 Bac</text>
 </g>
 <g><title>Part 4, Groundwork (built before): Wheel supports: 60/60 done</title>
 <rect x="449.95" y="82.88" width="5.51" height="5.52" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
@@ -2983,7 +2975,6 @@
 <rect x="481.42" y="121.51" width="6.29" height="5.52" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="487.71" y="121.51" width="6.29" height="5.52" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="448.95" y="81.88" width="46.05" height="46.15" fill="none" stroke="#0d1117" stroke-width="2"/>
-<text x="453.95" y="97.88" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">4 Sup</text>
 </g>
 <g><title>Part 4, Groundwork (built before): Joints: 60/60 done</title>
 <rect x="265.76" y="129.03" width="5.48" height="5.63" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
@@ -3047,7 +3038,6 @@
 <rect x="291.32" y="174.08" width="6.39" height="5.63" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="297.71" y="174.08" width="6.39" height="5.63" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="264.76" y="128.03" width="40.33" height="52.69" fill="none" stroke="#0d1117" stroke-width="2"/>
-<text x="269.76" y="144.03" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">4 Jo</text>
 </g>
 <g><title>Part 5, Build: Test bench with fake timings: 0/60 done</title>
 <rect x="265.76" y="181.72" width="5.48" height="5.63" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
@@ -3111,7 +3101,6 @@
 <rect x="291.32" y="226.77" width="6.39" height="5.63" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="297.71" y="226.77" width="6.39" height="5.63" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="264.76" y="180.72" width="40.33" height="52.69" fill="none" stroke="#0d1117" stroke-width="2"/>
-<text x="269.76" y="196.72" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">5 Fa</text>
 </g>
 <g><title>Part 5, Build: Machine farm: 0/60 done</title>
 <rect x="265.76" y="234.40" width="5.48" height="5.63" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
@@ -3175,7 +3164,7 @@
 <rect x="291.32" y="279.46" width="6.39" height="5.63" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="297.71" y="279.46" width="6.39" height="5.63" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="264.76" y="233.40" width="40.33" height="52.69" fill="none" stroke="#0d1117" stroke-width="2"/>
-<text x="269.76" y="249.40" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">5 Fa</text>
+<text x="268.76" y="248.40" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Farm</text>
 </g>
 <g><title>Part 1, Sign-off: Clean full rerun: 0/50 done</title>
 <rect x="265.76" y="287.09" width="4.79" height="5.99" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
@@ -3229,7 +3218,6 @@
 <rect x="293.14" y="323.01" width="5.48" height="5.99" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="298.62" y="323.01" width="5.48" height="5.99" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="264.76" y="286.09" width="40.33" height="43.91" fill="none" stroke="#0d1117" stroke-width="2"/>
-<text x="269.76" y="302.09" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">1 Re</text>
 </g>
 <g><title>Part 2, Sign-off: Clean full rerun: 0/50 done</title>
 <rect x="306.09" y="129.03" width="5.05" height="5.88" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
@@ -3283,7 +3271,7 @@
 <rect x="340.20" y="158.44" width="5.68" height="5.88" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="345.89" y="158.44" width="5.68" height="5.88" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="305.09" y="128.03" width="47.48" height="37.30" fill="none" stroke="#0d1117" stroke-width="2"/>
-<text x="310.09" y="144.03" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">2 Rer</text>
+<text x="309.09" y="143.03" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Rerun</text>
 </g>
 <g><title>Part 3, Sign-off: Clean full rerun: 0/50 done</title>
 <rect x="353.57" y="129.03" width="5.05" height="5.88" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
@@ -3337,7 +3325,7 @@
 <rect x="387.68" y="158.44" width="5.68" height="5.88" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="393.36" y="158.44" width="5.68" height="5.88" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="352.57" y="128.03" width="47.48" height="37.30" fill="none" stroke="#0d1117" stroke-width="2"/>
-<text x="357.57" y="144.03" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">3 Rer</text>
+<text x="356.57" y="143.03" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Rerun</text>
 </g>
 <g><title>Part 4, Sign-off: Clean full rerun: 0/50 done</title>
 <rect x="401.05" y="129.03" width="5.05" height="5.88" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
@@ -3391,7 +3379,7 @@
 <rect x="435.15" y="158.44" width="5.68" height="5.88" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="440.84" y="158.44" width="5.68" height="5.88" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="400.05" y="128.03" width="47.48" height="37.30" fill="none" stroke="#0d1117" stroke-width="2"/>
-<text x="405.05" y="144.03" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">4 Rer</text>
+<text x="404.05" y="143.03" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Rerun</text>
 </g>
 <g><title>Part 5, Sign-off: Clean full rerun: 0/50 done</title>
 <rect x="448.52" y="129.03" width="5.05" height="5.88" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
@@ -3445,7 +3433,7 @@
 <rect x="482.63" y="158.44" width="5.68" height="5.88" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="488.32" y="158.44" width="5.68" height="5.88" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="447.52" y="128.03" width="47.48" height="37.30" fill="none" stroke="#0d1117" stroke-width="2"/>
-<text x="452.52" y="144.03" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">5 Rer</text>
+<text x="451.52" y="143.03" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Rerun</text>
 </g>
 <g><title>Part 1, Build: Weight sizing for carved shapes: 0/40 done</title>
 <rect x="306.09" y="166.33" width="5.40" height="5.60" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
@@ -3661,7 +3649,6 @@
 <rect x="365.09" y="195.03" width="6.15" height="5.74" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="371.23" y="195.03" width="6.15" height="5.74" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="339.50" y="165.33" width="38.87" height="36.44" fill="none" stroke="#0d1117" stroke-width="2"/>
-<text x="344.50" y="181.33" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">3 Co</text>
 </g>
 <g><title>Part 4, Groundwork (built before): Nose: 40/40 done</title>
 <rect x="379.38" y="166.33" width="5.27" height="5.74" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
@@ -3705,7 +3692,7 @@
 <rect x="403.96" y="195.03" width="6.15" height="5.74" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="410.11" y="195.03" width="6.15" height="5.74" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="378.38" y="165.33" width="38.87" height="36.44" fill="none" stroke="#0d1117" stroke-width="2"/>
-<text x="383.38" y="181.33" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">4 No</text>
+<text x="382.38" y="180.33" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Nose</text>
 </g>
 <g><title>Part 4, Groundwork (built before): Surface clean-up: 40/40 done</title>
 <rect x="418.25" y="166.33" width="5.27" height="5.74" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
@@ -3749,7 +3736,6 @@
 <rect x="442.83" y="195.03" width="6.15" height="5.74" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="448.98" y="195.03" width="6.15" height="5.74" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="417.25" y="165.33" width="38.87" height="36.44" fill="none" stroke="#0d1117" stroke-width="2"/>
-<text x="422.25" y="181.33" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">4 Cl</text>
 </g>
 <g><title>Part 4, Build: Parts on carved bodies: 0/40 done</title>
 <rect x="457.13" y="166.33" width="5.27" height="5.74" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
@@ -3793,7 +3779,6 @@
 <rect x="481.71" y="195.03" width="6.15" height="5.74" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="487.85" y="195.03" width="6.15" height="5.74" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="456.13" y="165.33" width="38.87" height="36.44" fill="none" stroke="#0d1117" stroke-width="2"/>
-<text x="461.13" y="181.33" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">4 Ca</text>
 </g>
 <g><title>Part 4, Build: Build files: 0/40 done</title>
 <rect x="340.50" y="202.77" width="5.65" height="5.35" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
@@ -3969,7 +3954,6 @@
 <rect x="403.45" y="221.26" width="5.41" height="6.16" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="408.86" y="221.26" width="5.41" height="6.16" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="375.41" y="201.77" width="39.86" height="26.65" fill="none" stroke="#0d1117" stroke-width="2"/>
-<text x="380.41" y="217.77" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">5 Me</text>
 </g>
 <g><title>Part 5, Build: Small smoke run: 0/30 done</title>
 <rect x="416.27" y="202.77" width="4.73" height="6.16" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
@@ -4003,7 +3987,6 @@
 <rect x="443.32" y="221.26" width="5.41" height="6.16" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="448.73" y="221.26" width="5.41" height="6.16" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="415.27" y="201.77" width="39.86" height="26.65" fill="none" stroke="#0d1117" stroke-width="2"/>
-<text x="420.27" y="217.77" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">5 Sm</text>
 </g>
 <g><title>Part 5, Build: Settings searched together: 0/30 done</title>
 <rect x="456.14" y="202.77" width="4.73" height="6.16" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
@@ -4037,7 +4020,6 @@
 <rect x="483.18" y="221.26" width="5.41" height="6.16" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="488.59" y="221.26" width="5.41" height="6.16" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="455.14" y="201.77" width="39.86" height="26.65" fill="none" stroke="#0d1117" stroke-width="2"/>
-<text x="460.14" y="217.77" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">5 Se</text>
 </g>
 <g><title>Part 1, Build: Same result on every machine: 0/20 done</title>
 <rect x="376.41" y="229.42" width="5.18" height="5.85" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
@@ -6448,7 +6430,7 @@
 <rect x="675.37" y="323.86" width="5.29" height="5.14" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="680.66" y="323.86" width="5.29" height="5.14" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="505.00" y="30.00" width="181.95" height="300.00" fill="none" stroke="#0d1117" stroke-width="2"/>
-<text x="510.00" y="46.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">1 Carved bodies</text>
+<text x="509.00" y="45.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">1 Carved bodies</text>
 </g>
 <g><title>Part 4, Tests: Carved cars assembled (1 square = 1 car): 0/2000 done</title>
 <rect x="687.95" y="31.00" width="5.14" height="5.14" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
@@ -8452,7 +8434,7 @@
 <rect x="857.32" y="323.86" width="5.29" height="5.14" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="862.61" y="323.86" width="5.29" height="5.14" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="686.95" y="30.00" width="181.95" height="300.00" fill="none" stroke="#0d1117" stroke-width="2"/>
-<text x="691.95" y="46.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">4 Carved cars</text>
+<text x="690.95" y="45.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">4 Carved cars</text>
 </g>
 <g><title>Part 1, Tests: Weight hits target: 0/200 done</title>
 <rect x="869.90" y="31.00" width="4.89" height="5.08" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
@@ -8656,7 +8638,7 @@
 <rect x="922.86" y="107.20" width="5.30" height="5.08" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="928.16" y="107.20" width="5.30" height="5.08" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="868.90" y="30.00" width="65.55" height="83.28" fill="none" stroke="#0d1117" stroke-width="2"/>
-<text x="873.90" y="46.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">1 Weigh</text>
+<text x="872.90" y="45.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Weight h</text>
 </g>
 <g><title>Part 5, Tests: Bench runs: 0/200 done</title>
 <rect x="935.45" y="31.00" width="4.89" height="5.08" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
@@ -8860,7 +8842,7 @@
 <rect x="988.41" y="107.20" width="5.30" height="5.08" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="993.70" y="107.20" width="5.30" height="5.08" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="934.45" y="30.00" width="65.55" height="83.28" fill="none" stroke="#0d1117" stroke-width="2"/>
-<text x="939.45" y="46.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">5 Bench</text>
+<text x="938.45" y="45.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Bench ru</text>
 </g>
 <g><title>Part 1, Tests: Unit tests: 0/100 done</title>
 <rect x="869.90" y="114.28" width="4.63" height="5.04" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
@@ -8964,7 +8946,6 @@
 <rect x="901.18" y="169.69" width="5.21" height="5.04" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="906.39" y="169.69" width="5.21" height="5.04" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="868.90" y="113.28" width="43.70" height="62.46" fill="none" stroke="#0d1117" stroke-width="2"/>
-<text x="873.90" y="129.28" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">1 Un</text>
 </g>
 <g><title>Part 2, Tests: Unit tests: 0/100 done</title>
 <rect x="913.60" y="114.28" width="4.63" height="5.04" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
@@ -9068,7 +9049,6 @@
 <rect x="944.88" y="169.69" width="5.21" height="5.04" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="950.09" y="169.69" width="5.21" height="5.04" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="912.60" y="113.28" width="43.70" height="62.46" fill="none" stroke="#0d1117" stroke-width="2"/>
-<text x="917.60" y="129.28" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">2 Un</text>
 </g>
 <g><title>Part 3, Tests: Unit tests: 0/100 done</title>
 <rect x="957.30" y="114.28" width="4.63" height="5.04" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
@@ -9172,7 +9152,6 @@
 <rect x="988.58" y="169.69" width="5.21" height="5.04" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="993.79" y="169.69" width="5.21" height="5.04" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="956.30" y="113.28" width="43.70" height="62.46" fill="none" stroke="#0d1117" stroke-width="2"/>
-<text x="961.30" y="129.28" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">3 Un</text>
 </g>
 <g><title>Part 4, Tests: Older-body regression (1 square = 10 cars): 0/100 done</title>
 <rect x="869.90" y="176.73" width="4.63" height="5.04" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
@@ -9276,7 +9255,6 @@
 <rect x="901.18" y="232.15" width="5.21" height="5.04" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="906.39" y="232.15" width="5.21" height="5.04" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="868.90" y="175.73" width="43.70" height="62.46" fill="none" stroke="#0d1117" stroke-width="2"/>
-<text x="873.90" y="191.73" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">4 Ol</text>
 </g>
 <g><title>Part 4, Tests: Unit tests: 0/100 done</title>
 <rect x="913.60" y="176.73" width="4.63" height="5.04" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
@@ -9380,7 +9358,6 @@
 <rect x="944.88" y="232.15" width="5.21" height="5.04" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="950.09" y="232.15" width="5.21" height="5.04" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="912.60" y="175.73" width="43.70" height="62.46" fill="none" stroke="#0d1117" stroke-width="2"/>
-<text x="917.60" y="191.73" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">4 Un</text>
 </g>
 <g><title>Part 5, Tests: Fake noise trials (1 square = 10): 0/100 done</title>
 <rect x="957.30" y="176.73" width="4.63" height="5.04" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
@@ -9484,7 +9461,6 @@
 <rect x="988.58" y="232.15" width="5.21" height="5.04" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="993.79" y="232.15" width="5.21" height="5.04" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="956.30" y="175.73" width="43.70" height="62.46" fill="none" stroke="#0d1117" stroke-width="2"/>
-<text x="961.30" y="191.73" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">5 No</text>
 </g>
 <g><title>Part 5, Tests: Unit tests: 0/100 done</title>
 <rect x="869.90" y="239.19" width="4.67" height="5.00" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
@@ -9588,7 +9564,6 @@
 <rect x="901.40" y="294.22" width="5.25" height="5.00" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="906.65" y="294.22" width="5.25" height="5.00" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="868.90" y="238.19" width="44.00" height="62.03" fill="none" stroke="#0d1117" stroke-width="2"/>
-<text x="873.90" y="254.19" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">5 Un</text>
 </g>
 <g><title>Part 2, Tests: Noise test cars: 0/48 done</title>
 <rect x="869.90" y="301.22" width="5.25" height="4.63" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
@@ -9640,7 +9615,6 @@
 <rect x="901.40" y="324.37" width="5.25" height="4.63" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="906.65" y="324.37" width="5.25" height="4.63" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="868.90" y="300.22" width="44.00" height="29.78" fill="none" stroke="#0d1117" stroke-width="2"/>
-<text x="873.90" y="316.22" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">2 No</text>
 </g>
 <g><title>Part 2, Tests: Ranking cars, quick and detailed: 0/40 done</title>
 <rect x="913.90" y="239.19" width="5.19" height="4.61" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
@@ -9684,7 +9658,6 @@
 <rect x="945.06" y="257.64" width="5.19" height="4.61" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="950.26" y="257.64" width="5.19" height="4.61" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="912.90" y="238.19" width="43.55" height="25.07" fill="none" stroke="#0d1117" stroke-width="2"/>
-<text x="917.90" y="254.19" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">2 Ra</text>
 </g>
 <g><title>Part 3, Tests: Car bumps (5 cars x 8): 0/40 done</title>
 <rect x="957.45" y="239.19" width="5.19" height="4.61" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
@@ -9728,7 +9701,6 @@
 <rect x="988.61" y="257.64" width="5.19" height="4.61" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="993.81" y="257.64" width="5.19" height="4.61" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="956.45" y="238.19" width="43.55" height="25.07" fill="none" stroke="#0d1117" stroke-width="2"/>
-<text x="961.45" y="254.19" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">3 Ca</text>
 </g>
 <g><title>Part 1, Tests: Grid-size bodies: 0/20 done</title>
 <rect x="913.90" y="264.26" width="4.51" height="5.06" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
