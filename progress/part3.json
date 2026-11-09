@@ -191,7 +191,7 @@
  ],
  "agent_state": "waiting_on_compute",
  "needs_you": "",
- "agent_note": "Waiting on the finer wing mesh, the wing size test (restarted after a tool fault) and ten cars with a longer flow run. The shipped turbulent wing setup did not settle at our speed, so it cannot judge.",
+ "agent_note": "Wing work on all free machines: a much finer mesh, the size test, and a trial of the backup measured map on the wing. One of my machine groups is lent to Part 4 while the car test waits.",
  "tasks": [
   {
    "title": "Known-answer test",
@@ -220,10 +220,10 @@
   {
    "title": "Backup measured map (only if needed)",
    "short": "Backup map",
-   "status": "todo",
-   "started": "",
+   "status": "doing",
+   "started": "2026-11-09",
    "finished": "",
-   "note": ""
+   "note": "Trial run on the simple wing so it is proven before it might be needed."
   },
   {
    "title": "Map to race time",
