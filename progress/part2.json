@@ -188,7 +188,7 @@
  "updated": "2026-11-09",
  "now": "Wind-tunnel test runs, the first timing-noise measurement and a first real compare-two-cars test are running.",
  "agent_state": "waiting_on_compute",
- "agent_note": "Waiting for the wind-tunnel, noise and compare-two-cars runs to finish.",
+ "agent_note": "About thirty-three machines busy: wind-tunnel setting experiments, the noise measurement and a compare-two-cars test.",
  "needs_you": "",
  "log": [
   {
