@@ -6,6 +6,8 @@ Our team is building, part by part, a computer system that designs the fastest l
 
 [![overall](board/badge-overall.svg)](https://shawshanker18.github.io/stem-racing-progress/progress.html) [![tests passed](board/badge-tests.svg)](https://shawshanker18.github.io/stem-racing-progress/progress.html) [![parts signed off](board/badge-parts.svg)](https://shawshanker18.github.io/stem-racing-progress/progress.html) [![updated](board/badge-updated.svg)](https://shawshanker18.github.io/stem-racing-progress/history.html)
 
+[![timelines](board/timeline.svg)](#the-five-parts)
+
 [![progress map](board/progress.svg)](https://shawshanker18.github.io/stem-racing-progress/progress.html)
 
 [Full progress, part by part](https://shawshanker18.github.io/stem-racing-progress/progress.html) · [Progress history](https://shawshanker18.github.io/stem-racing-progress/history.html)
@@ -25,6 +27,20 @@ Our team is building, part by part, a computer system that designs the fastest l
 
 **Now:** Found why the mesh test fails: a hair-thin leftover strip of material. Choosing the fix with the team lead.
 
+**Timeline:** 0 of 9 steps done
+
+| # | Step | Status | Started | Finished | Note |
+|---|---|---|---|---|---|
+| 1 | Fix the last failing test | 🔄 Working on it | 2026-11-09 |  | One of two failing tests fixed; cause of the other found. |
+| 2 | Build the cutting tool | ⬜ To do |  |  |  |
+| 3 | Weight sizing for carved shapes | ⬜ To do |  |  |  |
+| 4 | Big random carving test (2,000 bodies) | ⬜ To do |  |  |  |
+| 5 | Grid-size check | ⬜ To do |  |  |  |
+| 6 | Same result on every machine | ⬜ To do |  |  |  |
+| 7 | Write-up | ⬜ To do |  |  |  |
+| 8 | Full clean rerun of every test | ⬜ To do |  |  |  |
+| 9 | Team sign-off | ⬜ To do |  |  |  |
+
 ### 2. The stopwatch
 
 *Times a finished car over the 20 m race.* 46.9% · being built
@@ -35,6 +51,21 @@ Our team is building, part by part, a computer system that designs the fastest l
 - Every other part trusts it to say which car is faster.
 
 **Now:** Built-in checks all pass. Next is checking the airflow simulation against published wind-tunnel results.
+
+**Timeline:** 0 of 10 steps done
+
+| # | Step | Status | Started | Finished | Note |
+|---|---|---|---|---|---|
+| 1 | Check against published wind-tunnel results | 🔄 Working on it | 2026-11-09 |  | Built-in checks pass; starting the comparison. |
+| 2 | Cut the timing noise | ⬜ To do |  |  |  |
+| 3 | Quick vs detailed ranking check | ⬜ To do |  |  |  |
+| 4 | Warm start | ⬜ To do |  |  |  |
+| 5 | Runs longer than one machine slot | ⬜ To do |  |  |  |
+| 6 | Real race inputs from the team | ⬜ To do |  |  |  |
+| 7 | Model vs real track times | ⬜ To do |  |  |  |
+| 8 | Write-up | ⬜ To do |  |  |  |
+| 9 | Full clean rerun of every test | ⬜ To do |  |  |  |
+| 10 | Team sign-off | ⬜ To do |  |  |  |
 
 ### 3. The compass
 
@@ -47,16 +78,45 @@ Our team is building, part by part, a computer system that designs the fastest l
 
 **Now:** Waiting for the go to start this phase.
 
+**Timeline:** 0 of 9 steps done
+
+| # | Step | Status | Started | Finished | Note |
+|---|---|---|---|---|---|
+| 1 | Known-answer test | ⬜ To do |  |  |  |
+| 2 | Compass test on the car | ⬜ To do |  |  |  |
+| 3 | Fixes, tried in order | ⬜ To do |  |  |  |
+| 4 | Backup measured map (only if needed) | ⬜ To do |  |  |  |
+| 5 | Map to race time | ⬜ To do |  |  |  |
+| 6 | One-cut proof | ⬜ To do |  |  |  |
+| 7 | Write-up | ⬜ To do |  |  |  |
+| 8 | Full clean rerun of every test | ⬜ To do |  |  |  |
+| 9 | Team sign-off | ⬜ To do |  |  |  |
+
 ### 4. Parts and the referee
 
-*Turns a carved body into a whole car, makes the build files, and judges it.* 23.1% · waiting to start
+*Turns a carved body into a whole car, makes the build files, and judges it.* 26.6% · being built
 
 - Adds everything except the body: nose, front and rear wings, wheel supports, wheels, tether guides and the cartridge, and cuts the joints into the body.
 - Makes the files the team needs to print the parts and mill the body.
 - Holds the referee: an independent check of the finished car against every rule, measured from the outside like a scrutineer, showing how much room is left on each rule.
 - The referee shares nothing with the cutter, so one cannot hide the other's mistakes.
 
-**Now:** Waiting for the go to start this phase.
+**Now:** Rule list finished and saved. Planning the just-inside and just-outside tests next.
+
+**Timeline:** 0 of 10 steps done
+
+| # | Step | Status | Started | Finished | Note |
+|---|---|---|---|---|---|
+| 1 | List every rule and its check | ⬜ To do |  |  |  |
+| 2 | Just-inside and just-outside tests | ⬜ To do |  |  |  |
+| 3 | Make the referee independent | ⬜ To do |  |  |  |
+| 4 | Parts on carved bodies (2,000 cars) | ⬜ To do |  |  |  |
+| 5 | Real part weights | ⬜ To do |  |  |  |
+| 6 | Build files | ⬜ To do |  |  |  |
+| 7 | Part setting ranges | ⬜ To do |  |  |  |
+| 8 | Write-up | ⬜ To do |  |  |  |
+| 9 | Full clean rerun of every test | ⬜ To do |  |  |  |
+| 10 | Team sign-off | ⬜ To do |  |  |  |
 
 ### 5. The loop
 
@@ -68,6 +128,20 @@ Our team is building, part by part, a computer system that designs the fastest l
 - In this phase it is only built and tested. The real search for the best car comes later.
 
 **Now:** Waiting for the go to start this phase.
+
+**Timeline:** 0 of 9 steps done
+
+| # | Step | Status | Started | Finished | Note |
+|---|---|---|---|---|---|
+| 1 | Test bench with fake timings | ⬜ To do |  |  |  |
+| 2 | Machine farm | ⬜ To do |  |  |  |
+| 3 | Keep-rule check on real runs | ⬜ To do |  |  |  |
+| 4 | Small smoke run | ⬜ To do |  |  |  |
+| 5 | Final-run plan (ready, not started) | ⬜ To do |  |  |  |
+| 6 | Settings searched together | ⬜ To do |  |  |  |
+| 7 | Write-up | ⬜ To do |  |  |  |
+| 8 | Full clean rerun of every test | ⬜ To do |  |  |  |
+| 9 | Team sign-off | ⬜ To do |  |  |  |
 
 ---
 

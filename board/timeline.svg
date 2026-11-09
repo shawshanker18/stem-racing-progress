@@ -1,0 +1,188 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 364" width="1000" height="364">
+<rect x="0.00" y="0.00" width="1000.00" height="364.00" fill="#0d1117" stroke="#0d1117" stroke-width="0"/>
+<text x="8.00" y="22.00" font-family="sans-serif" font-size="16" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Timelines: each part&#x27;s steps in order</text>
+<text x="8.00" y="54.00" font-family="sans-serif" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">1 The cutter</text>
+<text x="8.00" y="72.00" font-family="sans-serif" font-size="11" font-weight="normal" fill="#8b949e" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">0/9 steps done</text>
+<g><title>1. Fix the last failing test: Working on it</title><rect x="210.00" y="38.00" width="83.33" height="44" rx="4" fill="#388bfd" stroke="#6e7681" stroke-width="0"/>
+<text x="251.67" y="53.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">1. Fix last</text>
+<text x="251.67" y="65.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">test</text>
+</g>
+<g><title>2. Build the cutting tool: To do</title><rect x="297.33" y="38.00" width="83.33" height="44" rx="4" fill="#30363d" stroke="#6e7681" stroke-width="0.8"/>
+<text x="339.00" y="53.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">2. Cutting</text>
+<text x="339.00" y="65.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">tool</text>
+</g>
+<g><title>3. Weight sizing for carved shapes: To do</title><rect x="384.67" y="38.00" width="83.33" height="44" rx="4" fill="#30363d" stroke="#6e7681" stroke-width="0.8"/>
+<text x="426.33" y="53.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">3. Carved</text>
+<text x="426.33" y="65.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">weight</text>
+</g>
+<g><title>4. Big random carving test (2,000 bodies): To do</title><rect x="472.00" y="38.00" width="83.33" height="44" rx="4" fill="#30363d" stroke="#6e7681" stroke-width="0.8"/>
+<text x="513.67" y="53.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">4. 2,000</text>
+<text x="513.67" y="65.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">bodies</text>
+</g>
+<g><title>5. Grid-size check: To do</title><rect x="559.33" y="38.00" width="83.33" height="44" rx="4" fill="#30363d" stroke="#6e7681" stroke-width="0.8"/>
+<text x="601.00" y="53.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">5. Grid check</text>
+</g>
+<g><title>6. Same result on every machine: To do</title><rect x="646.67" y="38.00" width="83.33" height="44" rx="4" fill="#30363d" stroke="#6e7681" stroke-width="0.8"/>
+<text x="688.33" y="53.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">6. Same</text>
+<text x="688.33" y="65.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">result</text>
+</g>
+<g><title>7. Write-up: To do</title><rect x="734.00" y="38.00" width="83.33" height="44" rx="4" fill="#30363d" stroke="#6e7681" stroke-width="0.8"/>
+<text x="775.67" y="53.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">7. Write-up</text>
+</g>
+<g><title>8. Full clean rerun of every test: To do</title><rect x="821.33" y="38.00" width="83.33" height="44" rx="4" fill="#30363d" stroke="#6e7681" stroke-width="0.8"/>
+<text x="863.00" y="53.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">8. Clean</text>
+<text x="863.00" y="65.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">rerun</text>
+</g>
+<g><title>9. Team sign-off: To do</title><rect x="908.67" y="38.00" width="83.33" height="44" rx="4" fill="#30363d" stroke="#6e7681" stroke-width="0.8"/>
+<text x="950.33" y="53.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">9. Sign-off</text>
+</g>
+<text x="8.00" y="112.00" font-family="sans-serif" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">2 The stopwatch</text>
+<text x="8.00" y="130.00" font-family="sans-serif" font-size="11" font-weight="normal" fill="#8b949e" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">0/10 steps done</text>
+<g><title>1. Check against published wind-tunnel results: Working on it</title><rect x="210.00" y="96.00" width="74.60" height="44" rx="4" fill="#388bfd" stroke="#6e7681" stroke-width="0"/>
+<text x="247.30" y="111.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">1. Wind</text>
+<text x="247.30" y="123.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">tunnel</text>
+</g>
+<g><title>2. Cut the timing noise: To do</title><rect x="288.60" y="96.00" width="74.60" height="44" rx="4" fill="#30363d" stroke="#6e7681" stroke-width="0.8"/>
+<text x="325.90" y="111.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">2. Cut noise</text>
+</g>
+<g><title>3. Quick vs detailed ranking check: To do</title><rect x="367.20" y="96.00" width="74.60" height="44" rx="4" fill="#30363d" stroke="#6e7681" stroke-width="0.8"/>
+<text x="404.50" y="111.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">3. Ranking</text>
+<text x="404.50" y="123.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">check</text>
+</g>
+<g><title>4. Warm start: To do</title><rect x="445.80" y="96.00" width="74.60" height="44" rx="4" fill="#30363d" stroke="#6e7681" stroke-width="0.8"/>
+<text x="483.10" y="111.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">4. Warm</text>
+<text x="483.10" y="123.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">start</text>
+</g>
+<g><title>5. Runs longer than one machine slot: To do</title><rect x="524.40" y="96.00" width="74.60" height="44" rx="4" fill="#30363d" stroke="#6e7681" stroke-width="0.8"/>
+<text x="561.70" y="111.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">5. Long runs</text>
+</g>
+<g><title>6. Real race inputs from the team: To do</title><rect x="603.00" y="96.00" width="74.60" height="44" rx="4" fill="#30363d" stroke="#6e7681" stroke-width="0.8"/>
+<text x="640.30" y="111.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">6. Real</text>
+<text x="640.30" y="123.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">inputs</text>
+</g>
+<g><title>7. Model vs real track times: To do</title><rect x="681.60" y="96.00" width="74.60" height="44" rx="4" fill="#30363d" stroke="#6e7681" stroke-width="0.8"/>
+<text x="718.90" y="111.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">7. Vs track</text>
+</g>
+<g><title>8. Write-up: To do</title><rect x="760.20" y="96.00" width="74.60" height="44" rx="4" fill="#30363d" stroke="#6e7681" stroke-width="0.8"/>
+<text x="797.50" y="111.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">8. Write-up</text>
+</g>
+<g><title>9. Full clean rerun of every test: To do</title><rect x="838.80" y="96.00" width="74.60" height="44" rx="4" fill="#30363d" stroke="#6e7681" stroke-width="0.8"/>
+<text x="876.10" y="111.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">9. Clean</text>
+<text x="876.10" y="123.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">rerun</text>
+</g>
+<g><title>10. Team sign-off: To do</title><rect x="917.40" y="96.00" width="74.60" height="44" rx="4" fill="#30363d" stroke="#6e7681" stroke-width="0.8"/>
+<text x="954.70" y="111.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">10. Sign-off</text>
+</g>
+<text x="8.00" y="170.00" font-family="sans-serif" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">3 The compass</text>
+<text x="8.00" y="188.00" font-family="sans-serif" font-size="11" font-weight="normal" fill="#8b949e" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">0/9 steps done · waiting to start</text>
+<g><title>1. Known-answer test: To do</title><rect x="210.00" y="154.00" width="83.33" height="44" rx="4" fill="#30363d" stroke="#6e7681" stroke-width="0.8"/>
+<text x="251.67" y="169.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">1. Known</text>
+<text x="251.67" y="181.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">answer</text>
+</g>
+<g><title>2. Compass test on the car: To do</title><rect x="297.33" y="154.00" width="83.33" height="44" rx="4" fill="#30363d" stroke="#6e7681" stroke-width="0.8"/>
+<text x="339.00" y="169.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">2. Compass</text>
+<text x="339.00" y="181.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">test</text>
+</g>
+<g><title>3. Fixes, tried in order: To do</title><rect x="384.67" y="154.00" width="83.33" height="44" rx="4" fill="#30363d" stroke="#6e7681" stroke-width="0.8"/>
+<text x="426.33" y="169.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">3. Fixes</text>
+</g>
+<g><title>4. Backup measured map (only if needed): To do</title><rect x="472.00" y="154.00" width="83.33" height="44" rx="4" fill="#30363d" stroke="#6e7681" stroke-width="0.8"/>
+<text x="513.67" y="169.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">4. Backup map</text>
+</g>
+<g><title>5. Map to race time: To do</title><rect x="559.33" y="154.00" width="83.33" height="44" rx="4" fill="#30363d" stroke="#6e7681" stroke-width="0.8"/>
+<text x="601.00" y="169.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">5. Map to</text>
+<text x="601.00" y="181.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">time</text>
+</g>
+<g><title>6. One-cut proof: To do</title><rect x="646.67" y="154.00" width="83.33" height="44" rx="4" fill="#30363d" stroke="#6e7681" stroke-width="0.8"/>
+<text x="688.33" y="169.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">6. One-cut</text>
+<text x="688.33" y="181.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">proof</text>
+</g>
+<g><title>7. Write-up: To do</title><rect x="734.00" y="154.00" width="83.33" height="44" rx="4" fill="#30363d" stroke="#6e7681" stroke-width="0.8"/>
+<text x="775.67" y="169.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">7. Write-up</text>
+</g>
+<g><title>8. Full clean rerun of every test: To do</title><rect x="821.33" y="154.00" width="83.33" height="44" rx="4" fill="#30363d" stroke="#6e7681" stroke-width="0.8"/>
+<text x="863.00" y="169.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">8. Clean</text>
+<text x="863.00" y="181.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">rerun</text>
+</g>
+<g><title>9. Team sign-off: To do</title><rect x="908.67" y="154.00" width="83.33" height="44" rx="4" fill="#30363d" stroke="#6e7681" stroke-width="0.8"/>
+<text x="950.33" y="169.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">9. Sign-off</text>
+</g>
+<text x="8.00" y="228.00" font-family="sans-serif" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">4 Parts and the referee</text>
+<text x="8.00" y="246.00" font-family="sans-serif" font-size="11" font-weight="normal" fill="#8b949e" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">0/10 steps done</text>
+<g><title>1. List every rule and its check: To do</title><rect x="210.00" y="212.00" width="74.60" height="44" rx="4" fill="#30363d" stroke="#6e7681" stroke-width="0.8"/>
+<text x="247.30" y="227.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">1. Rule list</text>
+</g>
+<g><title>2. Just-inside and just-outside tests: To do</title><rect x="288.60" y="212.00" width="74.60" height="44" rx="4" fill="#30363d" stroke="#6e7681" stroke-width="0.8"/>
+<text x="325.90" y="227.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">2. Edge</text>
+<text x="325.90" y="239.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">tests</text>
+</g>
+<g><title>3. Make the referee independent: To do</title><rect x="367.20" y="212.00" width="74.60" height="44" rx="4" fill="#30363d" stroke="#6e7681" stroke-width="0.8"/>
+<text x="404.50" y="227.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">3.</text>
+<text x="404.50" y="239.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">Independent</text>
+</g>
+<g><title>4. Parts on carved bodies (2,000 cars): To do</title><rect x="445.80" y="212.00" width="74.60" height="44" rx="4" fill="#30363d" stroke="#6e7681" stroke-width="0.8"/>
+<text x="483.10" y="227.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">4. 2,000</text>
+<text x="483.10" y="239.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">cars</text>
+</g>
+<g><title>5. Real part weights: To do</title><rect x="524.40" y="212.00" width="74.60" height="44" rx="4" fill="#30363d" stroke="#6e7681" stroke-width="0.8"/>
+<text x="561.70" y="227.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">5. Real</text>
+<text x="561.70" y="239.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">weights</text>
+</g>
+<g><title>6. Build files: To do</title><rect x="603.00" y="212.00" width="74.60" height="44" rx="4" fill="#30363d" stroke="#6e7681" stroke-width="0.8"/>
+<text x="640.30" y="227.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">6. Build</text>
+<text x="640.30" y="239.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">files</text>
+</g>
+<g><title>7. Part setting ranges: To do</title><rect x="681.60" y="212.00" width="74.60" height="44" rx="4" fill="#30363d" stroke="#6e7681" stroke-width="0.8"/>
+<text x="718.90" y="227.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">7. Ranges</text>
+</g>
+<g><title>8. Write-up: To do</title><rect x="760.20" y="212.00" width="74.60" height="44" rx="4" fill="#30363d" stroke="#6e7681" stroke-width="0.8"/>
+<text x="797.50" y="227.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">8. Write-up</text>
+</g>
+<g><title>9. Full clean rerun of every test: To do</title><rect x="838.80" y="212.00" width="74.60" height="44" rx="4" fill="#30363d" stroke="#6e7681" stroke-width="0.8"/>
+<text x="876.10" y="227.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">9. Clean</text>
+<text x="876.10" y="239.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">rerun</text>
+</g>
+<g><title>10. Team sign-off: To do</title><rect x="917.40" y="212.00" width="74.60" height="44" rx="4" fill="#30363d" stroke="#6e7681" stroke-width="0.8"/>
+<text x="954.70" y="227.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">10. Sign-off</text>
+</g>
+<text x="8.00" y="286.00" font-family="sans-serif" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">5 The loop</text>
+<text x="8.00" y="304.00" font-family="sans-serif" font-size="11" font-weight="normal" fill="#8b949e" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">0/9 steps done · waiting to start</text>
+<g><title>1. Test bench with fake timings: To do</title><rect x="210.00" y="270.00" width="83.33" height="44" rx="4" fill="#30363d" stroke="#6e7681" stroke-width="0.8"/>
+<text x="251.67" y="285.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">1. Fake bench</text>
+</g>
+<g><title>2. Machine farm: To do</title><rect x="297.33" y="270.00" width="83.33" height="44" rx="4" fill="#30363d" stroke="#6e7681" stroke-width="0.8"/>
+<text x="339.00" y="285.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">2. Farm</text>
+</g>
+<g><title>3. Keep-rule check on real runs: To do</title><rect x="384.67" y="270.00" width="83.33" height="44" rx="4" fill="#30363d" stroke="#6e7681" stroke-width="0.8"/>
+<text x="426.33" y="285.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">3. Keep rule</text>
+</g>
+<g><title>4. Small smoke run: To do</title><rect x="472.00" y="270.00" width="83.33" height="44" rx="4" fill="#30363d" stroke="#6e7681" stroke-width="0.8"/>
+<text x="513.67" y="285.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">4. Smoke run</text>
+</g>
+<g><title>5. Final-run plan (ready, not started): To do</title><rect x="559.33" y="270.00" width="83.33" height="44" rx="4" fill="#30363d" stroke="#6e7681" stroke-width="0.8"/>
+<text x="601.00" y="285.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">5. Final plan</text>
+</g>
+<g><title>6. Settings searched together: To do</title><rect x="646.67" y="270.00" width="83.33" height="44" rx="4" fill="#30363d" stroke="#6e7681" stroke-width="0.8"/>
+<text x="688.33" y="285.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">6. Settings</text>
+</g>
+<g><title>7. Write-up: To do</title><rect x="734.00" y="270.00" width="83.33" height="44" rx="4" fill="#30363d" stroke="#6e7681" stroke-width="0.8"/>
+<text x="775.67" y="285.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">7. Write-up</text>
+</g>
+<g><title>8. Full clean rerun of every test: To do</title><rect x="821.33" y="270.00" width="83.33" height="44" rx="4" fill="#30363d" stroke="#6e7681" stroke-width="0.8"/>
+<text x="863.00" y="285.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">8. Clean</text>
+<text x="863.00" y="297.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">rerun</text>
+</g>
+<g><title>9. Team sign-off: To do</title><rect x="908.67" y="270.00" width="83.33" height="44" rx="4" fill="#30363d" stroke="#6e7681" stroke-width="0.8"/>
+<text x="950.33" y="285.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">9. Sign-off</text>
+</g>
+<rect x="210" y="330" width="12" height="12" fill="#2ea043" stroke="#6e7681" stroke-width="0.8"/>
+<text x="228.00" y="340.00" font-family="sans-serif" font-size="11" font-weight="normal" fill="#8b949e" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Done</text>
+<rect x="266.0" y="330" width="12" height="12" fill="#388bfd" stroke="#6e7681" stroke-width="0.8"/>
+<text x="284.00" y="340.00" font-family="sans-serif" font-size="11" font-weight="normal" fill="#8b949e" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Working on it</text>
+<rect x="380.5" y="330" width="12" height="12" fill="#da3633" stroke="#6e7681" stroke-width="0.8"/>
+<text x="398.50" y="340.00" font-family="sans-serif" font-size="11" font-weight="normal" fill="#8b949e" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Failed, being redone</text>
+<rect x="540.5" y="330" width="12" height="12" fill="#d29922" stroke="#6e7681" stroke-width="0.8"/>
+<text x="558.50" y="340.00" font-family="sans-serif" font-size="11" font-weight="normal" fill="#8b949e" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Blocked</text>
+<rect x="616.0" y="330" width="12" height="12" fill="#30363d" stroke="#6e7681" stroke-width="0.8"/>
+<text x="634.00" y="340.00" font-family="sans-serif" font-size="11" font-weight="normal" fill="#8b949e" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">To do</text>
+</svg>
