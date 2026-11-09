@@ -76,7 +76,7 @@
     {
      "name": "Just-inside and just-outside tests",
      "cells": 120,
-     "done": 40,
+     "done": 60,
      "failed": 0,
      "short": "Edge tests"
     },
@@ -193,7 +193,7 @@
  ],
  "status": "active",
  "updated": "2026-11-09",
- "now": "Running the first batch of just-inside and just-outside test cars on GitHub.",
+ "now": "Teaching the checker to measure wings, wheels and the cartridge hole itself, each with pass and fail test cars.",
  "log": [
   {
    "date": "2026-11-09",
@@ -231,7 +231,7 @@
    "status": "doing",
    "started": "2026-11-09",
    "finished": "",
-   "note": "First batch of test cars written; running on GitHub."
+   "note": "First batch passed. The checker now measures the wings and wheels itself; those tests are running."
   },
   {
    "title": "Make the referee independent",
