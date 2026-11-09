@@ -146,11 +146,13 @@ def treemap(title, its, left):
             colour = DONE if k < it["done"] else FAIL if k < it["done"] + it["failed"] else TODO
             out.append(rect(*cell, colour))
         out.append(f'<rect x="{x:.2f}" y="{y:.2f}" width="{w:.2f}" height="{h:.2f}" fill="none" stroke="{BG}" stroke-width="2"/>')
-        name = short(it)
-        room = int((w - 10) / 7)
-        cut = name[:room] if room > 0 else ""
-        if (cut == name or len(cut) >= 4) and h > 22:
-            out.append(label(x + 5, y + 16, cut))
+        room = int((w - 8) / 6.6)
+        bare = it.get("short") or it["name"]
+        fit = next((s for s in (short(it), bare) if len(s) <= room), None)
+        if fit is None and room >= 6:
+            fit = bare[:room]
+        if fit and h > 22:
+            out.append(label(x + 4, y + 15, fit))
         out.append("</g>")
     return out
 
