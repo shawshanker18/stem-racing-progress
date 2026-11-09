@@ -48,7 +48,7 @@
     {
      "name": "Wind-tunnel benchmark cases",
      "cells": 60,
-     "done": 0,
+     "done": 20,
      "failed": 0,
      "short": "Benchmarks"
     },
@@ -186,7 +186,7 @@
  ],
  "status": "active",
  "updated": "2026-11-09",
- "now": "Built-in checks all pass. Next is checking the airflow simulation against published wind-tunnel results.",
+ "now": "Building the standard wind-tunnel test shape from its original published measurements, then running it.",
  "log": [
   {
    "date": "2026-11-09",
@@ -199,6 +199,10 @@
   {
    "date": "2026-11-09",
    "text": "Started. All built-in checks pass on a fresh copy."
+  },
+  {
+   "date": "2026-11-09",
+   "text": "Test shape added with a still-floor option to match the wind tunnel. The nose now uses the original published measurements."
   }
  ],
  "tasks": [
@@ -208,7 +212,7 @@
    "status": "doing",
    "started": "2026-11-09",
    "finished": "",
-   "note": "Built-in checks pass; starting the comparison."
+   "note": "Test shape built; checking it before the airflow runs."
   },
   {
    "title": "Cut the timing noise",
