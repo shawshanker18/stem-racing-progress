@@ -49,8 +49,7 @@ def data(fresh):
         age = time.time() - _cache["at"]
         if _cache["body"] and (age < min_gap or (not fresh and age < 300)):
             return _cache["body"]
-        if fresh or not _cache["body"]:
-            pull()
+        pull()   # every rebuild: board changes are free to fetch (no API calls), so never show a stale board
         body = json.dumps(live.build_data(token(), ROOT, source="live")).encode()
         _cache.update(at=time.time(), body=body)
         return body
