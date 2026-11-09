@@ -192,9 +192,13 @@
   }
  ],
  "status": "active",
- "updated": "2026-11-09",
- "now": "First thousand trial carved cars done: three crashes from the body builder, and most rejects are a thin ridge hiding the halo from the front, passed to the body builder.",
+ "updated": "2026-11-10",
+ "now": "Trial older-style cars all crashed on an earlier body-builder version (body pieces not closed). The body builder has since fixed this; a 20-car check on its newest code is running.",
  "log": [
+  {
+   "date": "2026-11-10",
+   "text": "875 trial older-style cars on the body builder's in-progress code all crashed (body pieces not closed). Not counted. Checking its newer fix with 20 cars."
+  },
   {
    "date": "2026-11-09",
    "text": "Board created. Waiting for the go to start this phase."
@@ -299,7 +303,7 @@
   }
  ],
  "agent_state": "waiting_on_compute",
- "agent_note": "Trial batches of carved and older-style cars are running on the body builder's changing code; the counted runs follow once it is frozen. GitHub is having an outage, so runs start slowly.",
+ "agent_note": "Checking whether the body builder's newest fixes clear the crash seen in every trial older-style car. Counted runs wait for its frozen version.",
  "needs_you": "Team items: print material and the printer's thinnest wall, part weights, a hand check of three cars, and whether one exported car can be made.",
  "unlocks": {
   "D": {
