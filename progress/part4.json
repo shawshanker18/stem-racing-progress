@@ -223,7 +223,7 @@
    "status": "done",
    "started": "2026-11-09",
    "finished": "2026-11-09",
-   "note": "Every rule matched to a check or a reason."
+   "note": "Every rule matched to a check or a reason, none left open."
   },
   {
    "title": "Just-inside and just-outside tests",
@@ -299,7 +299,7 @@
   }
  ],
  "agent_state": "waiting_on_compute",
- "agent_note": "Cars built with the body builder's newest changes fail several checks (body in pieces, too light). Running an experiment to pin down where, so it can be passed on.",
+ "agent_note": "Experiments showed two of the new failures were the checker's own measuring, now fixed; the rest look like the body builder's newest changes. Rechecking on real cars; carved batch still running.",
  "needs_you": "What material and printer the team uses for the printed parts, and the weights of the wheels, hubcaps and guides; the status report lists these and a few more.",
  "unlocks": {
   "D": {
