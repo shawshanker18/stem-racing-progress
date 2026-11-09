@@ -179,7 +179,7 @@
  ],
  "status": "active",
  "updated": "2026-11-09",
- "now": "Chamber fixed and confirmed; big carving test restarted; still working on the grid weight test.",
+ "now": "Fixing the last rule-zone edges (block slot, halo views) and checking the reference cars; big test waits for a frozen version.",
  "log": [
   {
    "date": "2026-11-09",
@@ -337,7 +337,7 @@
   }
  ],
  "agent_state": "waiting_on_compute",
- "agent_note": "Two causes fixed: the shape-tidying step was slowly shrinking the body, and the skin was moving the front face into the nose. Checks and studies queued; GitHub Actions has an outage so runs are slow to start.",
+ "agent_note": "Checks and reference cars running on the latest fixes.",
  "needs_you": "",
  "unlocks": {
   "A": {
