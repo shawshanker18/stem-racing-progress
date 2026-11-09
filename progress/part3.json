@@ -158,7 +158,7 @@
  ],
  "status": "active",
  "updated": "2026-11-09",
- "now": "On the wing the backup measured map passed and the fast map failed; hardening the check with different-size shapes.",
+ "now": "Backup measured map passes on the wing, also on shapes it was not built from; checking it on a finer mesh. Fast map size gap explained: a missing term in the simple formula.",
  "log": [
   {
    "date": "2026-11-09",
@@ -191,6 +191,10 @@
   ,{
    "date": "2026-11-09",
    "text": "Wing test: the fast map fails on every setting tried, the backup measured map passes. The car test waits for quieter car runs."
+  }
+  ,{
+   "date": "2026-11-09",
+   "text": "Backup measured map on the wing: matched shapes outside its own building blocks too, except very narrow bumps below its resolution. The fast map size gap is a missing term in its simple formula, not a units error."
   }
  ],
  "agent_state": "waiting_on_compute",
