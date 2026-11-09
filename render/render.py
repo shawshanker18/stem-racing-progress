@@ -1,25 +1,34 @@
 #!/usr/bin/env python3
-"""Draws the progress board (README.md + board/*.svg) from progress/part*.json.
+"""Draws the progress board from progress/part*.json.
 
-Standard library only. Runs in the render workflow; nobody runs it by hand.
+Writes README.md, board/*.svg (badges and the progress map), board/history.json and
+site/ (progress.html, history.html) for GitHub Pages. Standard library only. Runs in the
+render workflow; nobody runs it by hand.
 """
+import datetime
 import glob
 import json
-import math
 import re
 import sys
+import textwrap
 from html import escape
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-BG, PANEL, TEXT, MUTED = "#0d1117", "#161b22", "#e6edf3", "#8b949e"
-TODO, DONE, FAIL, GOLD, BLUE = "#6e7681", "#2ea043", "#da3633", "#d4a72c", "#388bfd"
-FONT = "font-family='Segoe UI,Helvetica,Arial,sans-serif'"
+BOARD, SITE = ROOT / "board", ROOT / "site"
+SITE_URL = "https://shawshanker18.github.io/stem-racing-progress"
+
+PANEL_W, GAP, MAP_H, HEADER = 495, 10, 300, 30
+WIDTH = 2 * PANEL_W + GAP
+BG, TEXT, MUTED = "#0d1117", "#ffffff", "#8b949e"
+DONE, TODO, FAIL = "#2ea043", "#6e7681", "#da3633"
+LABEL_W, COUNT_W, ROW = 150, 70, 20
 
 # The board is public: keep code, paths, links and file names out of it.
 FORBIDDEN = re.compile(r"`|\bdef |\bimport |https?://|\.(py|json|yml|yaml|stl|npy|npz|csv|md)\b|[A-Za-z]:\\|/[a-z_]+/", re.I)
 
 
+# ------------------------------------------------------------------ data
 def load_parts():
     parts = []
     for f in sorted(glob.glob(str(ROOT / "progress" / "part*.json"))):
@@ -29,10 +38,11 @@ def load_parts():
                 it["cells"] = max(1, int(it["cells"]))
                 it["done"] = max(0, min(int(it.get("done", 0)), it["cells"]))
                 it["failed"] = max(0, min(int(it.get("failed", 0)), it["cells"] - it["done"]))
+                it["part"], it["section"] = p["part"], s["name"]
         check_text(p, Path(f).name)
         parts.append(p)
     if not parts:
-        sys.exit("no progress/part*.json files")
+        sys.exit("no progress files")
     return parts
 
 
@@ -47,252 +57,314 @@ def check_text(obj, where):
         sys.exit(f"{where}: public board text looks like code, a path or a link: {obj!r}")
 
 
-def count(items):
-    c = sum(i["cells"] for i in items)
-    return c, sum(i["done"] for i in items), sum(i["failed"] for i in items)
-
-
-def part_items(p):
-    return [i for s in p["sections"] for i in s["items"]]
-
-
-def pct(d, c):
-    return 100.0 * d / c if c else 0.0
-
-
-# ---------------------------------------------------------------- treemap layout
-def squarify(entries, x, y, w, h):
-    """entries: [(key, value)] -> [(key, x, y, w, h)], squarified (Bruls et al.)."""
-    entries = sorted([e for e in entries if e[1] > 0], key=lambda e: -e[1])
-    total = sum(v for _, v in entries)
-    if total <= 0 or w <= 0 or h <= 0:
-        return []
-    scale = w * h / total
-    items = [(k, v * scale) for k, v in entries]
-    out, row = [], []
-
-    def worst(r, side):
-        s = sum(a for _, a in r)
-        return max(max(side * side * a / (s * s), (s * s) / (side * side * a)) for _, a in r)
-
-    def place(r, x, y, w, h):
-        s = sum(a for _, a in r)
-        if w >= h:
-            cw, cy = s / h, y
-            for k, a in r:
-                out.append((k, x, cy, cw, a / cw))
-                cy += a / cw
-            return x + cw, y, w - cw, h
-        rh, cx = s / w, x
-        for k, a in r:
-            out.append((k, cx, y, a / rh, rh))
-            cx += a / rh
-        return x, y + rh, w, h - rh
-
-    while items:
-        side = min(w, h)
-        if not row or worst(row + [items[0]], side) <= worst(row, side):
-            row.append(items.pop(0))
-        else:
-            x, y, w, h = place(row, x, y, w, h)
-            row = []
-    if row:
-        place(row, x, y, w, h)
+def items(parts, tests=None):
+    out = []
+    for p in parts:
+        for s in p["sections"]:
+            is_test = s["name"].lower().startswith("test")
+            if tests is None or tests == is_test:
+                out += s["items"]
     return out
 
 
-# ---------------------------------------------------------------- svg pieces
-class Svg:
-    def __init__(self, w, h):
-        self.w, self.h, self.defs, self.body, self.n = w, h, [], [], 0
-
-    def rect(self, x, y, w, h, fill, extra=""):
-        if w > 0 and h > 0:
-            self.body.append(f"<rect x='{x:.2f}' y='{y:.2f}' width='{w:.2f}' height='{h:.2f}' fill='{fill}' {extra}/>")
-
-    def text(self, x, y, s, size=12, fill=TEXT, weight="normal", anchor="start", outline=False):
-        o = f" stroke='{BG}' stroke-width='3' paint-order='stroke'" if outline else ""
-        self.body.append(f"<text x='{x:.1f}' y='{y:.1f}' {FONT} font-size='{size}' font-weight='{weight}' "
-                         f"fill='{fill}' text-anchor='{anchor}'{o}>{escape(s)}</text>")
-
-    def grid(self, x, y, s, cols, rows):
-        self.n += 1
-        pid = f"g{self.n}"
-        lw = 0.35 if s < 4 else 0.7
-        self.defs.append(f"<pattern id='{pid}' x='{x:.2f}' y='{y:.2f}' width='{s:.3f}' height='{s:.3f}' patternUnits='userSpaceOnUse'>"
-                         f"<path d='M {s:.3f} 0 L 0 0 0 {s:.3f}' fill='none' stroke='{BG}' stroke-width='{lw}'/></pattern>")
-        self.rect(x, y, cols * s, rows * s, f"url(#{pid})")
-
-    def save(self, path):
-        Path(path).parent.mkdir(parents=True, exist_ok=True)
-        Path(path).write_text(
-            f"<svg xmlns='http://www.w3.org/2000/svg' width='{self.w}' height='{self.h}' viewBox='0 0 {self.w} {self.h}'>"
-            f"<defs>{''.join(self.defs)}</defs><rect width='100%' height='100%' fill='{BG}' rx='6'/>"
-            + "".join(self.body) + "</svg>\n", encoding="utf-8")
+def tally(its):
+    c = sum(i["cells"] for i in its)
+    d = sum(i["done"] for i in its)
+    return {"total": c, "done": d, "failed": sum(i["failed"] for i in its),
+            "percent": round(100 * d / c, 1) if c else 0.0}
 
 
-def cells_box(svg, item, x, y, w, h, label=True):
-    """One work item: a block of small squares, green done, red failed, grey to do."""
-    pad = 1.0
-    x, y, w, h = x + pad, y + pad, w - 2 * pad, h - 2 * pad
-    if w < 2 or h < 2:
-        return
-    svg.rect(x, y, w, h, PANEL)
-    n = item["cells"]
-    s = math.sqrt(w * h / n)
-    while s > 1.2 and math.floor(w / s) * math.floor(h / s) < n:
-        s *= 0.97
-    cols = max(1, math.floor(w / s))
-    rows = math.ceil(n / cols)
-    if rows * s > h:            # too many to draw one by one: shrink the grid to fit
-        s = h / rows
-    def fill(a, b, colour):
-        if b <= a:
-            return
-        r0, c0 = divmod(a, cols)
-        r1, c1 = divmod(b, cols)
-        if r0 == r1:
-            svg.rect(x + c0 * s, y + r0 * s, (c1 - c0) * s, s, colour)
-            return
-        svg.rect(x + c0 * s, y + r0 * s, (cols - c0) * s, s, colour)
-        svg.rect(x, y + (r0 + 1) * s, cols * s, (r1 - r0 - 1) * s, colour)
-        svg.rect(x, y + r1 * s, c1 * s, s, colour)
-    fill(0, n, TODO)
-    fill(0, item["done"], DONE)
-    fill(item["done"], item["done"] + item["failed"], FAIL)
-    if s >= 2.2:
-        svg.grid(x, y, s, cols, rows)
-    if label and w > 34 and h > 14:
-        name = item["name"]
-        room = int((w - 6) / 6.3)
-        if len(name) > room:
-            name = name[: max(1, room - 1)] + "…"
-        svg.text(x + 3, y + 11, name, size=10.5, weight="bold", outline=True)
+# ------------------------------------------------------------------ layout
+def squarify(values, x, y, w, h):
+    """Squarified treemap: rectangles for values (largest first), filling (x, y, w, h)."""
+    total = sum(values)
+    areas = [v * w * h / total for v in values]
+    rects, row = [], []
+
+    def worst(r, side):
+        s = sum(r)
+        return max(max(side * side * a / (s * s), (s * s) / (side * side * a)) for a in r)
+
+    def lay(r, x, y, w, h):
+        thick = sum(r) / min(w, h)
+        off = 0.0
+        for a in r:
+            length = a / thick
+            rects.append((x, y + off, thick, length) if w >= h else (x + off, y, length, thick))
+            off += length
+        return (x + thick, y, w - thick, h) if w >= h else (x, y + thick, w, h - thick)
+
+    while areas:
+        side = min(w, h)
+        if not row or worst(row + [areas[0]], side) <= worst(row, side):
+            row.append(areas.pop(0))
+        else:
+            x, y, w, h = lay(row, x, y, w, h)
+            row = []
+    if row:
+        lay(row, x, y, w, h)
+    return rects
 
 
-def treemap(svg, groups, x, y, w, h, header=14):
-    """groups: [(title, items)]: one framed block per group, its items squarified inside."""
-    for (title, items), gx, gy, gw, gh in squarify([((t, it), count(it)[0]) for t, it in groups], x, y, w, h):
-        svg.rect(gx + 1, gy + 1, gw - 2, gh - 2, "none", f"stroke='{MUTED}' stroke-opacity='0.35'")
-        top = header if gh > 3 * header and gw > 60 else 0
-        if top:
-            c, d, _ = count(items)
-            tail = f" · {pct(d, c):.0f}%"
-            room = int((gw - 10) / 6.3) - len(tail)
-            name = title if len(title) <= room else title[: max(1, room - 1)] + "…"
-            svg.text(gx + 4, gy + 11, name + tail, size=10.5, fill=MUTED, weight="bold")
-        for it, ix, iy, iw, ih in squarify([(i, i["cells"]) for i in items], gx + 2, gy + 2 + top, gw - 4, gh - 4 - top):
-            cells_box(svg, it, ix, iy, iw, ih)
+def grid_cells(n, x, y, w, h):
+    """n cells that exactly fill the box: near-square rows, cells stretched to fit each row."""
+    if n <= 0 or w <= 0 or h <= 0:
+        return []
+    rows = max(1, min(n, round((n * h / w) ** 0.5)))
+    out = []
+    for r in range(rows):
+        k = n // rows + (1 if r < n % rows else 0)
+        cw, ch = w / k, h / rows
+        out += [(x + c * cw, y + r * ch, cw, ch) for c in range(k)]
+    return out
 
 
-def bar(svg, x, y, w, h, c, d, f):
-    svg.rect(x, y, w, h, TODO)
-    svg.rect(x, y, w * d / c if c else 0, h, DONE)
-    svg.rect(x + (w * d / c if c else 0), y, w * f / c if c else 0, h, FAIL)
+# ------------------------------------------------------------------ svg helpers
+def rect(x, y, w, h, fill, stroke=0.5):
+    return (f'<rect x="{x:.2f}" y="{y:.2f}" width="{w:.2f}" height="{h:.2f}" fill="{fill}" '
+            f'stroke="{BG}" stroke-width="{stroke}"/>')
 
 
-# ---------------------------------------------------------------- the board
-def header_svg(parts):
-    allc, alld, allf = count([i for p in parts for i in part_items(p)])
-    done_parts = sum(1 for p in parts if p.get("status") == "done")
-    updated = max(p.get("updated", "") for p in parts)
-    pills = [("overall", f"{pct(alld, allc):.1f}%", GOLD), ("squares done", f"{alld:,}/{allc:,}", DONE),
-             ("parts signed off", f"{done_parts}/{len(parts)}", BLUE), ("updated", updated, "#30363d")]
-    svg, x = Svg(900, 40), 8
-    for k, v, colour in pills:
-        kw, vw = 14 + 7.2 * len(k), 14 + 7.2 * len(v)
-        svg.rect(x, 8, kw, 24, "#30363d")
-        svg.rect(x + kw, 8, vw, 24, colour)
-        svg.text(x + kw / 2, 25, k, size=13, anchor="middle")
-        svg.text(x + kw + vw / 2, 25, v, size=13, anchor="middle", fill="#0d1117" if colour in (GOLD, DONE) else TEXT)
-        x += kw + vw + 10
-    svg.save(ROOT / "board" / "header.svg")
+def label(x, y, s, size=12, anchor="start", fill=TEXT, weight="normal"):
+    return (f'<text x="{x:.2f}" y="{y:.2f}" font-family="sans-serif" font-size="{size}" font-weight="{weight}" '
+            f'fill="{fill}" text-anchor="{anchor}" stroke="{BG}" stroke-width="3" paint-order="stroke">{escape(s)}</text>')
 
 
-def overview_svg(parts):
-    W, H = 900, 520
-    svg = Svg(W, H)
-    allc, alld, _ = count([i for p in parts for i in part_items(p)])
-    svg.text(8, 22, f"Whole project: {pct(alld, allc):.1f}% ({alld:,}/{allc:,} squares)", size=15, weight="bold")
-    treemap(svg, [(f"Part {p['part']} {p['name']}", part_items(p)) for p in parts], 6, 32, W - 12, 300)
-    y = 352
-    svg.text(8, y, "Progress by part", size=15, weight="bold")
+def short(it):
+    return f"{it['part']} {it['name']}"
+
+
+def treemap(title, its, left):
+    t = tally(its)
+    out = [label(left + 4, 21, f"{title}: {t['percent']}% ({t['done']:,}/{t['total']:,})", 16)]
+    its = sorted(its, key=lambda i: -i["cells"])
+    for it, (x, y, w, h) in zip(its, squarify([i["cells"] for i in its], left, HEADER, PANEL_W, MAP_H)):
+        failed = f', {it["failed"]} failed' if it["failed"] else ""
+        out.append(f'<g><title>Part {it["part"]}, {escape(it["section"])}: {escape(it["name"])}: '
+                   f'{it["done"]}/{it["cells"]} done{failed}</title>')
+        for k, cell in enumerate(grid_cells(it["cells"], x + 1, y + 1, w - 2, h - 2)):
+            colour = DONE if k < it["done"] else FAIL if k < it["done"] + it["failed"] else TODO
+            out.append(rect(*cell, colour))
+        out.append(f'<rect x="{x:.2f}" y="{y:.2f}" width="{w:.2f}" height="{h:.2f}" fill="none" stroke="{BG}" stroke-width="2"/>')
+        name = short(it)
+        room = int((w - 10) / 7)
+        cut = name[:room] if room > 0 else ""
+        if (cut == name or len(cut) >= 4) and h > 22:
+            out.append(label(x + 5, y + 16, cut))
+        out.append("</g>")
+    return out
+
+
+def bar_row(x, y, name, done, failed, total, caption):
+    track = PANEL_W - LABEL_W - COUNT_W - 8
+    left = x + LABEL_W
+    out = [label(x, y + 11, name, 12), f'<rect x="{left}" y="{y}" width="{track}" height="14" fill="{TODO}"/>']
+    if total:
+        if done:
+            out.append(f'<rect x="{left}" y="{y}" width="{max(track * done / total, 1):.2f}" height="14" fill="{DONE}"/>')
+        if failed:
+            out.append(f'<rect x="{left + track * done / total:.2f}" y="{y}" width="{max(track * failed / total, 1):.2f}" height="14" fill="{FAIL}"/>')
+    out.append(label(x + PANEL_W - 4, y + 11, caption, 12, anchor="end"))
+    return out
+
+
+def progress_svg(parts):
+    out = treemap("Work done", items(parts, tests=False), 0)
+    out += treemap("Tests passed", items(parts, tests=True), PANEL_W + GAP)
+    y0 = HEADER + MAP_H + 34
+    out.append(label(4, y0, "Progress by part", 16))
+    y = y0 + 14
     for p in parts:
-        y += 24
-        c, d, f = count(part_items(p))
-        svg.text(8, y + 10, f"Part {p['part']}: {p['name']}", size=12, weight="bold")
-        bar(svg, 230, y, 520, 13, c, d, f)
-        svg.text(W - 10, y + 11, f"{pct(d, c):.1f}%", size=12, anchor="end")
-    y += 30
-    x = 8
-    for k, colour in (("done", DONE), ("failed, being redone", FAIL), ("still to do", TODO)):
-        svg.rect(x, y, 12, 12, colour)
-        svg.text(x + 18, y + 10, k, size=11, fill=MUTED)
-        x += 40 + 6.5 * len(k)
-    svg.h = y + 24
-    svg.save(ROOT / "board" / "overview.svg")
+        t = tally(items([p]))
+        out += bar_row(4, y, f"{p['part']} {p['name']}", t["done"], t["failed"], t["total"], f"{t['percent']}%")
+        y += ROW
+    y += 18
+    out.append(label(4, y, "Tests passed by part", 16))
+    y += 14
+    for p in parts:
+        t = tally(items([p], tests=True))
+        out += bar_row(4, y, f"{p['part']} {p['name']}", t["done"], t["failed"], t["total"], f"{t['done']:,}/{t['total']:,}")
+        y += ROW
+    left_end = y
+    x, y = PANEL_W + GAP, y0
+    out.append(label(x, y, "Now", 16))
+    y += 20
+    for p in parts:
+        out.append(label(x, y, f"{p['part']} {p['name']}", 12, weight="bold"))
+        y += 16
+        for line in textwrap.wrap(p.get("now", ""), 78)[:3]:
+            out.append(label(x + 8, y, line, 12, fill="#d0d7de"))
+            y += 16
+        y += 6
+    height = max(left_end, y) + 26
+    out.append(label(4, height - 10, "Each square is one piece of work or one test case. Green: done. Red: failed, being redone. Grey: still to do. "
+                     "Counted from each part's progress file.", 11, fill=MUTED))
+    return "\n".join([f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {WIDTH} {height}" width="{WIDTH}" height="{height}">',
+                      rect(0, 0, WIDTH, height, BG, 0), *out, "</svg>"]) + "\n"
 
 
-def part_svg(p):
-    W = 900
-    sections = p["sections"]
-    H = 400 + 22 * len(sections) + 30
-    svg = Svg(W, H)
-    c, d, f = count(part_items(p))
-    svg.text(8, 22, f"Part {p['part']}: {p['name']}: {pct(d, c):.1f}% ({d:,}/{c:,})", size=15, weight="bold")
-    treemap(svg, [(s["name"], s["items"]) for s in sections], 6, 32, W - 12, 360)
-    y = 410
-    svg.text(8, y, "By stage", size=14, weight="bold")
-    for s in sections:
-        y += 22
-        sc, sd, sf = count(s["items"])
-        svg.text(8, y + 10, s["name"], size=12)
-        bar(svg, 300, y, 450, 12, sc, sd, sf)
-        svg.text(W - 10, y + 10, f"{sd:,}/{sc:,}", size=12, anchor="end")
-    svg.h = y + 24
-    svg.save(ROOT / "board" / f"part{p['part']}.svg")
+def badge(name, value, colour):
+    left, right = 10 + 7 * len(name), 10 + 7 * len(value)
+    return (f'<svg xmlns="http://www.w3.org/2000/svg" width="{left + right}" height="20" role="img" aria-label="{escape(name)}: {escape(value)}">'
+            f'<rect width="{left}" height="20" fill="#555"/><rect x="{left}" width="{right}" height="20" fill="{colour}"/>'
+            f'<g fill="#fff" font-family="Verdana,DejaVu Sans,sans-serif" font-size="11" text-anchor="middle">'
+            f'<text x="{left / 2}" y="14">{escape(name)}</text><text x="{left + right / 2}" y="14">{escape(value)}</text></g></svg>\n')
 
 
-def readme(parts):
+def scale_colour(pct):
+    return "#4c1" if pct >= 90 else "#97ca00" if pct >= 60 else "#dfb317" if pct >= 30 else "#fe7d37"
+
+
+# ------------------------------------------------------------------ outputs
+def write(path, text):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(text, encoding="utf-8")
+
+
+def update_history(parts):
+    path = BOARD / "history.json"
+    hist = json.loads(path.read_text(encoding="utf-8")) if path.exists() else []
+    today = datetime.date.today().isoformat()
+    entry = {"date": today, "overall": tally(items(parts))["percent"], "tests": tally(items(parts, tests=True))["percent"],
+             "parts": {str(p["part"]): tally(items([p]))["percent"] for p in parts}}
+    hist = [h for h in hist if h["date"] != today] + [entry]
+    write(path, json.dumps(hist, indent=1) + "\n")
+    return hist
+
+
+def readme(parts, overall, tests, signed):
     out = [
-        "# STEM Racing car: progress board",
+        "# STEM Racing car: progress",
         "",
         "Our team is building, part by part, a computer system that designs the fastest legal car for the "
-        "STEM Racing 20 m race. This board shows how far each part has come. It holds **no code and no design "
+        "STEM Racing 20 m race. This page shows how far each part has come. It holds **no code and no design "
         "data**, only progress.",
         "",
-        "Each small square is one piece of work or one test case. **Green** = done, **red** = failed and being "
-        "redone, **grey** = still to do. Each part's own builder updates its file after every step, and the "
-        "pictures redraw themselves.",
+        "## Status",
         "",
-        "![summary](board/header.svg)",
+        f"[![overall](board/badge-overall.svg)]({SITE_URL}/progress.html) "
+        f"[![tests passed](board/badge-tests.svg)]({SITE_URL}/progress.html) "
+        f"[![parts signed off](board/badge-parts.svg)]({SITE_URL}/progress.html) "
+        f"[![updated](board/badge-updated.svg)]({SITE_URL}/history.html)",
         "",
-        "![all parts](board/overview.svg)",
+        f"[![progress map](board/progress.svg)]({SITE_URL}/progress.html)",
+        "",
+        f"[Full progress, part by part]({SITE_URL}/progress.html) · [Progress history]({SITE_URL}/history.html)",
+        "",
+        "<sub>Each square is one piece of work or one test case, counted from each part's progress file. "
+        "\"Groundwork\" is work finished before this phase. Each part's builder updates its own file after every step.</sub>",
+        "",
+        "## The five parts",
         "",
     ]
     for p in parts:
-        c, d, _ = count(part_items(p))
-        status = {"done": "Signed off", "active": "Being built", "waiting": "Waiting to start"}.get(p.get("status"), "Being built")
-        out += [f"## Part {p['part']}: {p['name']}", "", f"*{p['tagline']}*", "",
-                f"**Status:** {status} · **{pct(d, c):.1f}%** · updated {p.get('updated', '')}", "",
-                "**What it does**", ""]
+        t = tally(items([p]))
+        status = {"done": "signed off", "active": "being built", "waiting": "waiting to start"}.get(p.get("status"), "being built")
+        out += [f"### {p['part']}. {p['name']}", "", f"*{p['tagline']}* {t['percent']}% · {status}", ""]
         out += [f"- {line}" for line in p["what"]]
-        out += ["", f"![part {p['part']}](board/part{p['part']}.svg)", "", f"**Now:** {p.get('now', '')}", ""]
-        log = p.get("log", [])[-6:]
+        out += ["", f"**Now:** {p.get('now', '')}", ""]
+    out += ["---", "", "*Drawn automatically from the progress files. Nothing here can be used to rebuild the work.*", ""]
+    return "\n".join(out)
+
+
+PAGE_HEAD = ('<!doctype html><html lang="en"><head><meta charset="utf-8">'
+             '<meta name="viewport" content="width=device-width, initial-scale=1"><title>{title}</title><style>'
+             'body{{font-family:-apple-system,Segoe UI,Helvetica,Arial,sans-serif;max-width:1040px;margin:auto;padding:16px;'
+             'background:#0d1117;color:#e6edf3}}a{{color:#58a6ff}}svg{{max-width:100%;height:auto}}'
+             'table{{border-collapse:collapse;width:100%;margin:8px 0 20px}}th,td{{border-bottom:1px solid #30363d;padding:4px 8px;text-align:left}}'
+             'td.n{{text-align:right;white-space:nowrap}}.bar{{background:#6e7681;height:12px;min-width:120px;display:flex}}'
+             '.bar i{{display:block;height:12px}}.muted{{color:#8b949e}}h2{{border-bottom:1px solid #30363d;padding-bottom:4px;margin-top:32px}}'
+             '</style></head><body>')
+
+
+def bar_html(it):
+    d, f, c = it["done"], it["failed"], it["cells"]
+    return (f'<div class="bar"><i style="width:{100 * d / c:.2f}%;background:{DONE}"></i>'
+            f'<i style="width:{100 * f / c:.2f}%;background:{FAIL}"></i></div>')
+
+
+def progress_page(parts, svg, badges):
+    out = [PAGE_HEAD.format(title="STEM Racing car: progress"),
+           "<h1>STEM Racing car: progress</h1>",
+           " ".join(f'<img src="{b}" alt="">' for b in badges),
+           f"<p>{svg}</p>",
+           '<p><a href="history.html">Progress history</a> · <a href="https://github.com/shawshanker18/stem-racing-progress">Repository</a></p>']
+    for p in parts:
+        t = tally(items([p]))
+        out += [f'<h2 id="part{p["part"]}">{p["part"]}. {escape(p["name"])} <span class="muted">{t["percent"]}%</span></h2>',
+                f'<p><i>{escape(p["tagline"])}</i></p><ul>' + "".join(f"<li>{escape(x)}</li>" for x in p["what"]) + "</ul>",
+                f'<p><b>Now:</b> {escape(p.get("now", ""))}</p>']
+        for s in p["sections"]:
+            st = tally(s["items"])
+            out.append(f'<table><tr><th>{escape(s["name"])}</th><th style="width:45%"></th><th class="n">{st["done"]:,}/{st["total"]:,}</th></tr>')
+            for it in s["items"]:
+                extra = f', {it["failed"]} failed' if it["failed"] else ""
+                out.append(f'<tr><td>{escape(it["name"])}</td><td>{bar_html(it)}</td><td class="n">{it["done"]:,}/{it["cells"]:,}{extra}</td></tr>')
+            out.append("</table>")
+        log = p.get("log", [])[-10:]
         if log:
-            out += ["**Recent steps**", ""] + [f"- {e['date']}: {e['text']}" for e in reversed(log)] + [""]
-    out += ["---", "", "*This board is drawn automatically from each part's progress file.*", ""]
-    (ROOT / "README.md").write_text("\n".join(out), encoding="utf-8")
+            out.append("<p><b>Recent steps</b></p><ul>" + "".join(f"<li>{escape(e['date'])}: {escape(e['text'])}</li>" for e in reversed(log)) + "</ul>")
+    out.append("</body></html>")
+    return "\n".join(out) + "\n"
+
+
+def history_page(parts, hist):
+    W, H, pad = 900, 260, 36
+    n = len(hist)
+    names = {str(p["part"]): f'{p["part"]} {p["name"]}' for p in parts}
+    colours = ["#58a6ff", "#3fb950", "#d29922", "#db61a2", "#a371f7"]
+
+    def xy(i, v):
+        return pad + (W - 2 * pad) * (i / (n - 1) if n > 1 else 0.5), H - pad - (H - 2 * pad) * v / 100
+
+    lines = [f'<line x1="{pad}" y1="{H - pad}" x2="{W - pad}" y2="{H - pad}" stroke="#30363d"/>']
+    for v in (0, 25, 50, 75, 100):
+        _, y = xy(0, v)
+        lines.append(f'<text x="4" y="{y + 4:.0f}" fill="#8b949e" font-size="11" font-family="sans-serif">{v}%</text>')
+    series = [("overall", "Whole project", "#ffffff")] + [(k, names[k], colours[i % 5]) for i, k in enumerate(names)]
+    for key, name, colour in series:
+        vals = [h["overall"] if key == "overall" else h["parts"].get(key, 0) for h in hist]
+        pts = " ".join(f"{x:.1f},{y:.1f}" for x, y in (xy(i, v) for i, v in enumerate(vals)))
+        lines.append(f'<polyline points="{pts}" fill="none" stroke="{colour}" stroke-width="{2.5 if key == "overall" else 1.5}"/>')
+        lines += [f'<circle cx="{x:.1f}" cy="{y:.1f}" r="2.5" fill="{colour}"/>' for x, y in (xy(i, v) for i, v in enumerate(vals))]
+    legend = " ".join(f'<span style="color:{c}">■</span> {escape(nm)}' for _, nm, c in series)
+    rows = "".join(f'<tr><td>{h["date"]}</td><td class="n">{h["overall"]}%</td><td class="n">{h["tests"]}%</td>'
+                   + "".join(f'<td class="n">{h["parts"].get(k, 0)}%</td>' for k in names) + "</tr>" for h in reversed(hist))
+    head = "".join(f"<th class='n'>{escape(names[k])}</th>" for k in names)
+    return "\n".join([PAGE_HEAD.format(title="STEM Racing car: progress history"),
+                      "<h1>Progress history</h1>", '<p><a href="progress.html">Back to progress</a></p>',
+                      f'<svg viewBox="0 0 {W} {H}" width="{W}" height="{H}">{"".join(lines)}</svg>', f"<p>{legend}</p>",
+                      f"<table><tr><th>Date</th><th class='n'>Whole project</th><th class='n'>Tests</th>{head}</tr>{rows}</table>",
+                      "</body></html>"]) + "\n"
 
 
 def main():
     parts = load_parts()
-    header_svg(parts)
-    overview_svg(parts)
-    for p in parts:
-        part_svg(p)
-    readme(parts)
-    print("board drawn:", ", ".join(f"part {p['part']}" for p in parts))
+    overall, tests = tally(items(parts)), tally(items(parts, tests=True))
+    signed = sum(1 for p in parts if p.get("status") == "done")
+    updated = max(p.get("updated", "") for p in parts)
+    svg = progress_svg(parts)
+    write(BOARD / "progress.svg", svg)
+    badges = {
+        "badge-overall.svg": badge("overall", f"{overall['percent']}%", scale_colour(overall["percent"])),
+        "badge-tests.svg": badge("tests passed", f"{tests['done']:,}/{tests['total']:,}", scale_colour(tests["percent"])),
+        "badge-parts.svg": badge("parts signed off", f"{signed}/{len(parts)}", "#007ec6"),
+        "badge-updated.svg": badge("updated", updated, "#007ec6"),
+    }
+    for name, text in badges.items():
+        write(BOARD / name, text)
+        write(SITE / name, text)
+    for old in ("header.svg", "overview.svg", *(f"part{p['part']}.svg" for p in parts)):
+        (BOARD / old).unlink(missing_ok=True)
+    hist = update_history(parts)
+    write(ROOT / "README.md", readme(parts, overall, tests, signed))
+    write(SITE / "progress.svg", svg)
+    write(SITE / "progress.html", progress_page(parts, svg, list(badges)))
+    write(SITE / "history.html", history_page(parts, hist))
+    write(SITE / "index.html", '<!doctype html><meta http-equiv="refresh" content="0; url=progress.html">'
+                               '<a href="progress.html">Progress</a>\n')
+    write(SITE / ".nojekyll", "")
+    print(f"board drawn: {overall['percent']}% overall, {tests['done']}/{tests['total']} tests")
 
 
 if __name__ == "__main__":
