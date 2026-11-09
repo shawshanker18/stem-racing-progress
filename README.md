@@ -113,7 +113,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - Holds the referee: an independent check of the finished car against every rule, measured from the outside like a scrutineer, showing how much room is left on each rule.
 - The referee shares nothing with the cutter, so one cannot hide the other's mistakes.
 
-**Now:** Trial car batches spread over four accounts; the first thousand carved cars nearly done. Printed walls now follow one minimum-thickness setting, being checked on real cars.
+**Now:** First thousand trial carved cars done: three crashes from the body builder, and most rejects are a thin ridge hiding the halo from the front, passed to the body builder.
 
 **Timeline:** 3 of 10 steps done
 
