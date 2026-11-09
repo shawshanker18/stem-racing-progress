@@ -119,7 +119,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 
 | # | Step | Status | Started | Finished | Note |
 |---|---|---|---|---|---|
-| 1 | List every rule and its check | ✅ Done | 2026-11-09 | 2026-11-09 | Every rule matched to a check or a reason. |
+| 1 | List every rule and its check | ✅ Done | 2026-11-09 | 2026-11-09 | Every rule matched to a check or a reason, none left open. |
 | 2 | Just-inside and just-outside tests | 🔄 Working on it | 2026-11-09 |  | First batch passed. The checker now measures the wings and wheels itself; those tests are running. |
 | 3 | Make the referee independent | 🔄 Working on it | 2026-11-09 |  | The checker has its own rule numbers now; tests running. |
 | 4 | Parts on carved bodies (2,000 cars) | 🔄 Working on it | 2026-11-09 |  | First batch of about a thousand carved cars running. |
