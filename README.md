@@ -124,7 +124,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 | 3 | Make the referee independent | ✅ Done | 2026-11-09 | 2026-11-09 | The checker uses only its own rule numbers; tests pass. |
 | 4 | Parts on carved bodies (2,000 cars) | 🔄 Working on it | 2026-11-09 |  | Trial runs on the body builder's changing code, to find crashes and new kinds of rejects; the counted run waits for its frozen version. |
 | 5 | Real part weights | ⬜ To do |  |  |  |
-| 6 | Build files | 🔄 Working on it | 2026-11-09 |  | A parts list now comes with every car: what to make, how, and from what. |
+| 6 | Build files | 🔄 Working on it | 2026-11-09 |  | Parts list done; thinnest walls measured; waiting for the team's printer limits and a makeable check. |
 | 7 | Part setting ranges | ⬜ To do |  |  |  |
 | 8 | Write-up | ⬜ To do |  |  |  |
 | 9 | Full clean rerun of every test | ⬜ To do |  |  |  |
