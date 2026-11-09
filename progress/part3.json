@@ -156,9 +156,9 @@
    ]
   }
  ],
- "status": "waiting",
+ "status": "active",
  "updated": "2026-11-09",
- "now": "Waiting for the go to start this phase.",
+ "now": "Building a simple wing test with a known answer, to check the map tool before trusting it on the car.",
  "log": [
   {
    "date": "2026-11-09",
@@ -167,16 +167,20 @@
   {
    "date": "2026-11-09",
    "text": "Repository cleaned: the old carving loop is removed. The compass will be built fresh and proven. All tests pass."
+  },
+  {
+   "date": "2026-11-09",
+   "text": "Started. Read the code: found a likely mix-up about which way the surface points, to be checked first on a simple wing."
   }
  ],
  "tasks": [
   {
    "title": "Known-answer test",
    "short": "Known answer",
-   "status": "todo",
-   "started": "",
+   "status": "doing",
+   "started": "2026-11-09",
    "finished": "",
-   "note": ""
+   "note": "Writing the simple wing test with ten small bumps."
   },
   {
    "title": "Compass test on the car",
