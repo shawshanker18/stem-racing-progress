@@ -106,22 +106,22 @@ Our team is building, part by part, a computer system that designs the fastest l
 
 ### 4. Parts and the referee
 
-*Turns a carved body into a whole car, makes the build files, and judges it.* 28.4% · being built
+*Turns a carved body into a whole car, makes the build files, and judges it.* 33.1% · being built
 
 - Adds everything except the body: nose, front and rear wings, wheel supports, wheels, tether guides and the cartridge, and cuts the joints into the body.
 - Makes the files the team needs to print the parts and mill the body.
 - Holds the referee: an independent check of the finished car against every rule, measured from the outside like a scrutineer, showing how much room is left on each rule.
 - The referee shares nothing with the cutter, so one cannot hide the other's mistakes.
 
-**Now:** Big batch of carved cars running; the checker measures every size rule itself now.
+**Now:** Edge tests and independence done. Trial car batches running; one tiny leftover on the body files being traced with the body builder.
 
-**Timeline:** 1 of 10 steps done
+**Timeline:** 3 of 10 steps done
 
 | # | Step | Status | Started | Finished | Note |
 |---|---|---|---|---|---|
 | 1 | List every rule and its check | ✅ Done | 2026-11-09 | 2026-11-09 | Every rule matched to a check or a reason, none left open. |
-| 2 | Just-inside and just-outside tests | 🔄 Working on it | 2026-11-09 |  | First batch passed. The checker now measures the wings and wheels itself; those tests are running. |
-| 3 | Make the referee independent | 🔄 Working on it | 2026-11-09 |  | The checker has its own rule numbers now; tests running. |
+| 2 | Just-inside and just-outside tests | ✅ Done | 2026-11-09 | 2026-11-09 | Every size rule has a pass car and a fail car; all tests pass on GitHub. |
+| 3 | Make the referee independent | ✅ Done | 2026-11-09 | 2026-11-09 | The checker uses only its own rule numbers; tests pass. |
 | 4 | Parts on carved bodies (2,000 cars) | 🔄 Working on it | 2026-11-09 |  | Trial runs on the body builder's changing code, to find crashes and new kinds of rejects; the counted run waits for its frozen version. |
 | 5 | Real part weights | ⬜ To do |  |  |  |
 | 6 | Build files | 🔄 Working on it | 2026-11-09 |  | A parts list now comes with every car: what to make, how, and from what. |
