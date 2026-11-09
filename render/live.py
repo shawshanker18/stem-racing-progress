@@ -15,6 +15,8 @@ import re
 import os
 import statistics
 import subprocess
+import threading
+from concurrent.futures import ThreadPoolExecutor
 import urllib.request
 from pathlib import Path
 
@@ -34,11 +36,13 @@ class GitHub:
 
     def __init__(self, token=None, max_calls=120):
         self.token, self.max_calls, self.calls, self.remaining = token, max_calls, 0, None
+        self._lock = threading.Lock()
 
     def get(self, path):
-        if self.calls >= self.max_calls or (self.remaining is not None and self.remaining < (50 if self.token else 2)):
-            return None
-        self.calls += 1
+        with self._lock:
+            if self.calls >= self.max_calls or (self.remaining is not None and self.remaining < (50 if self.token else 2)):
+                return None
+            self.calls += 1
         headers = {"Accept": "application/vnd.github+json", "User-Agent": "stem-racing-panel"}
         if self.token:
             headers["Authorization"] = f"Bearer {self.token}"
@@ -70,27 +74,34 @@ def _part_from(wf_file, title, default):
     return default
 
 
-def collect_runs(cfg, gh):
+def collect_runs(cfg, gh, workers=12):
+    """All GitHub reads run in parallel (about 2-5 s instead of 20-60 s one after another)."""
     now = dt.datetime.now(dt.timezone.utc)
+    repo, accs = cfg["repo"], cfg["accounts"]
+    with ThreadPoolExecutor(workers) as ex:
+        lists = {(a["name"], s): ex.submit(gh.get, f"/repos/{a['name']}/{repo}/actions/runs?status={s}&per_page=30")
+                 for a in accs for s in ("in_progress", "queued")}
+        found = {a["name"]: [r for s in ("in_progress", "queued") for r in (lists[(a["name"], s)].result() or {}).get("workflow_runs", [])]
+                 for a in accs}
+        done_f = {n: ex.submit(gh.get, f"/repos/{n}/{repo}/actions/runs?status=success&per_page=40") for n, rs in found.items() if rs}
+        jobs_f = {(n, r["id"]): ex.submit(gh.get, f"/repos/{n}/{repo}/actions/runs/{r['id']}/jobs?per_page=100")
+                  for n, rs in found.items() for r in rs}
+        done = {n: (f.result() or {}).get("workflow_runs", []) for n, f in done_f.items()}
+        jobs_all = {k: (f.result() or {}).get("jobs", []) for k, f in jobs_f.items()}
     runs, accounts = [], []
-    for acc in cfg["accounts"]:
-        name, repo = acc["name"], cfg["repo"]
-        found = []
-        for status in ("in_progress", "queued"):
-            found += (gh.get(f"/repos/{name}/{repo}/actions/runs?status={status}&per_page=30") or {}).get("workflow_runs", [])
+    for acc in accs:
+        name = acc["name"]
         typical = {}
-        if found:
-            for r in (gh.get(f"/repos/{name}/{repo}/actions/runs?status=success&per_page=40") or {}).get("workflow_runs", []):
-                a, b = when(r.get("run_started_at")), when(r.get("updated_at"))
-                if a and b:
-                    typical.setdefault(r["path"], []).append((b - a).total_seconds())
+        for r in done.get(name, []):
+            a, b = when(r.get("run_started_at")), when(r.get("updated_at"))
+            if a and b:
+                typical.setdefault(r["path"], []).append((b - a).total_seconds())
         running_jobs = queued_jobs = 0
-        for r in found:
+        for r in found[name]:
             wf_file = Path(r.get("path", "")).stem
             title = r.get("display_title") or r.get("name") or wf_file
-            plain = plain_title(title) if (wf_file[:1] == "p" and wf_file[1:2].isdigit()) or title.lower().startswith("part ") \
-                else cfg["work_labels"].get(wf_file, "run")
-            jobs = (gh.get(f"/repos/{name}/{repo}/actions/runs/{r['id']}/jobs?per_page=100") or {}).get("jobs", [])
+            plain = plain_title(title) if (wf_file[:1] == "p" and wf_file[1:2].isdigit()) or title.lower().startswith("part ")                 else cfg["work_labels"].get(wf_file, "run")
+            jobs = jobs_all.get((name, r["id"]), [])
             n_done = sum(1 for j in jobs if j["status"] == "completed")
             running = [j for j in jobs if j["status"] == "in_progress"]
             queued = [j for j in jobs if j["status"] in ("queued", "waiting", "pending")]

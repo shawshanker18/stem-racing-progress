@@ -136,16 +136,18 @@ function render(d){
 }
 
 async function load(fresh){
-  const btn = $("refresh"); btn.disabled = true; btn.textContent = "Loading…"; $("err").style.display = "none";
+  const btn = $("refresh"); btn.disabled = true; btn.textContent = "Refreshing…"; $("err").style.display = "none";
+  const ctl = new AbortController(); const timer = setTimeout(() => ctl.abort(), 60000);
   try {
     const url = API.endsWith(".json") ? `${API}?t=${Date.now()}` : `${API}${fresh ? "?fresh=1" : ""}`;
-    const r = await fetch(url, {cache: "no-store"});
+    const r = await fetch(url, {cache: "no-store", signal: ctl.signal});
     if (!r.ok) throw new Error("the data source answered " + r.status);
     render(await r.json());
   } catch (e) {
-    $("err").textContent = "Could not load the latest data: " + e.message + ". Showing what was loaded before, if anything.";
+    $("err").textContent = (e.name === "AbortError" ? "The server took over a minute, so I stopped waiting. Tap Refresh again."
+      : "Could not load the latest data: " + e.message + ".") + " Showing what was loaded before, if anything.";
     $("err").style.display = "block";
-  } finally { btn.disabled = false; btn.textContent = "Refresh"; }
+  } finally { clearTimeout(timer); btn.disabled = false; btn.textContent = "Refresh"; }
 }
 $("refresh").addEventListener("click", () => load(true));
 setInterval(() => { for (const e of document.querySelectorAll("[data-t]")) if (e.dataset.t) e.textContent = ago(e.dataset.t); }, 30000);
