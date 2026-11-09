@@ -88,13 +88,13 @@ Our team is building, part by part, a computer system that designs the fastest l
 - The cutter carves along this map, so the map must be proven against real measurements before anyone trusts it.
 - If the fast map cannot be made right, a slower map built from direct measurements is the backup.
 
-**Now:** Building a simple wing test with a known answer, to check the map tool before trusting it on the car.
+**Now:** Found two faults in the map tool on a simple wing test; rerunning with the first fixed.
 
 **Timeline:** 0 of 9 steps done
 
 | # | Step | Status | Started | Finished | Note |
 |---|---|---|---|---|---|
-| 1 | Known-answer test | 🔄 Working on it | 2026-11-09 |  | Running on GitHub: twenty bumps, five map settings side by side. |
+| 1 | Known-answer test | ❌ Failed, being redone | 2026-11-09 |  | First try failed: the map pointed the wrong way on every bump, and the flow run stopped too early. Rerunning with the early stop removed. |
 | 2 | Compass test on the car | ⬜ To do |  |  |  |
 | 3 | Fixes, tried in order | ⬜ To do |  |  |  |
 | 4 | Backup measured map (only if needed) | ⬜ To do |  |  |  |

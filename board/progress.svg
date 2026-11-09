@@ -9858,17 +9858,17 @@
 <rect x="948.31" y="308.30" width="4.94" height="4.47" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="937.44" y="289.43" width="16.82" height="24.34" fill="none" stroke="#0d1117" stroke-width="2"/>
 </g>
-<g><title>Part 3, Tests: Known-answer bumps: 0/10 done</title>
-<rect x="938.44" y="314.77" width="3.70" height="4.74" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="942.14" y="314.77" width="3.70" height="4.74" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="945.84" y="314.77" width="3.70" height="4.74" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="949.55" y="314.77" width="3.70" height="4.74" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="938.44" y="319.51" width="4.94" height="4.74" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="943.37" y="319.51" width="4.94" height="4.74" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="948.31" y="319.51" width="4.94" height="4.74" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="938.44" y="324.26" width="4.94" height="4.74" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="943.37" y="324.26" width="4.94" height="4.74" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="948.31" y="324.26" width="4.94" height="4.74" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
+<g><title>Part 3, Tests: Known-answer bumps: 0/10 done, 10 failed</title>
+<rect x="938.44" y="314.77" width="3.70" height="4.74" fill="#da3633" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="942.14" y="314.77" width="3.70" height="4.74" fill="#da3633" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="945.84" y="314.77" width="3.70" height="4.74" fill="#da3633" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="949.55" y="314.77" width="3.70" height="4.74" fill="#da3633" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="938.44" y="319.51" width="4.94" height="4.74" fill="#da3633" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="943.37" y="319.51" width="4.94" height="4.74" fill="#da3633" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="948.31" y="319.51" width="4.94" height="4.74" fill="#da3633" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="938.44" y="324.26" width="4.94" height="4.74" fill="#da3633" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="943.37" y="324.26" width="4.94" height="4.74" fill="#da3633" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="948.31" y="324.26" width="4.94" height="4.74" fill="#da3633" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="937.44" y="313.77" width="16.82" height="16.23" fill="none" stroke="#0d1117" stroke-width="2"/>
 </g>
 <g><title>Part 3, Tests: Map placement check: 0/10 done</title>
@@ -9991,7 +9991,7 @@
 <text x="4.00" y="429.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">3 The compass</text>
 <rect x="154" y="418" width="267" height="14" fill="#6e7681"/>
 <rect x="154" y="418" width="72.39" height="14" fill="#2ea043"/>
-<rect x="226.39" y="418" width="1.98" height="14" fill="#da3633"/>
+<rect x="226.39" y="418" width="5.93" height="14" fill="#da3633"/>
 <text x="495.00" y="429.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="end" stroke="#0d1117" stroke-width="3" paint-order="stroke">27.1%</text>
 <text x="4.00" y="449.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">4 Parts and the referee</text>
 <rect x="154" y="438" width="267" height="14" fill="#6e7681"/>
@@ -10013,6 +10013,7 @@
 <text x="495.00" y="541.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="end" stroke="#0d1117" stroke-width="3" paint-order="stroke">116/233</text>
 <text x="4.00" y="561.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">3 The compass</text>
 <rect x="154" y="550" width="267" height="14" fill="#6e7681"/>
+<rect x="154.00" y="550" width="15.99" height="14" fill="#da3633"/>
 <text x="495.00" y="561.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="end" stroke="#0d1117" stroke-width="3" paint-order="stroke">0/167</text>
 <text x="4.00" y="581.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">4 Parts and the referee</text>
 <rect x="154" y="570" width="267" height="14" fill="#6e7681"/>
@@ -10027,8 +10028,8 @@
 <text x="513.00" y="438.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Ranking check started on twenty borrowed machines; wind-tunnel experiments,</text>
 <text x="513.00" y="454.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">noise measurement and a compare-two-cars test also running.</text>
 <text x="505.00" y="476.00" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">3 The compass</text>
-<text x="513.00" y="492.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Building a simple wing test with a known answer, to check the map tool before</text>
-<text x="513.00" y="508.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">trusting it on the car.</text>
+<text x="513.00" y="492.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Found two faults in the map tool on a simple wing test; rerunning with the</text>
+<text x="513.00" y="508.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">first fixed.</text>
 <text x="505.00" y="530.00" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">4 Parts and the referee</text>
 <text x="513.00" y="546.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">The checker now measures wings, wheels, tether guides and the cartridge hole</text>
 <text x="513.00" y="562.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">itself. Fixing one hole measurement, then starting the big carved-car batch.</text>
