@@ -189,9 +189,9 @@
    "text": "Map to race time: built and checked against the race model, including where the weight sits now that the race time accounts for it. All unit tests pass."
   }
  ],
- "agent_state": "working",
+ "agent_state": "waiting_on_compute",
  "needs_you": "",
- "agent_note": "Waiting on four runs (finer wing mesh, shipped turbulent wing setup, wing size test, ten cars with a longer flow run); building the car bump test meanwhile.",
+ "agent_note": "Waiting on the finer wing mesh, the wing size test (restarted after a tool fault) and ten cars with a longer flow run. The shipped turbulent wing setup did not settle at our speed, so it cannot judge.",
  "tasks": [
   {
    "title": "Known-answer test",
