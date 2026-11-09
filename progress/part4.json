@@ -16,43 +16,50 @@
      "name": "Wings",
      "cells": 80,
      "done": 80,
-     "failed": 0
+     "failed": 0,
+     "short": "Wings"
     },
     {
      "name": "Nose",
      "cells": 40,
      "done": 40,
-     "failed": 0
+     "failed": 0,
+     "short": "Nose"
     },
     {
      "name": "Wheel supports",
      "cells": 60,
      "done": 60,
-     "failed": 0
+     "failed": 0,
+     "short": "Supports"
     },
     {
      "name": "Joints",
      "cells": 60,
      "done": 60,
-     "failed": 0
+     "failed": 0,
+     "short": "Joints"
     },
     {
      "name": "Surface clean-up",
      "cells": 40,
      "done": 40,
-     "failed": 0
+     "failed": 0,
+     "short": "Clean-up"
     },
     {
      "name": "Referee checks",
      "cells": 120,
      "done": 120,
-     "failed": 0
+     "failed": 0,
+     "short": "Referee"
     },
     {
      "name": "Older bodies assembled and judged (1 square = 10 cars)",
      "cells": 400,
      "done": 400,
-     "failed": 0
+     "failed": 0,
+     "short": "Old cars"
     }
    ]
   },
@@ -63,49 +70,57 @@
      "name": "Every rule listed and matched to a check",
      "cells": 120,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Rule list"
     },
     {
      "name": "Just-inside and just-outside tests",
      "cells": 120,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Edge tests"
     },
     {
      "name": "Referee independence check",
      "cells": 5,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Independence"
     },
     {
      "name": "Parts on carved bodies",
      "cells": 40,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Carved parts"
     },
     {
      "name": "Real part weights",
      "cells": 20,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Real weights"
     },
     {
      "name": "Build files",
      "cells": 40,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Build files"
     },
     {
      "name": "Part setting ranges",
      "cells": 20,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Ranges"
     },
     {
      "name": "Write-up",
      "cells": 20,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Write-up"
     }
    ]
   },
@@ -116,37 +131,43 @@
      "name": "Carved cars assembled (1 square = 1 car)",
      "cells": 2000,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Carved cars"
     },
     {
      "name": "Older-body regression (1 square = 10 cars)",
      "cells": 100,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Old regress"
     },
     {
      "name": "Hand-check cars",
      "cells": 3,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Hand check"
     },
     {
      "name": "Weighed parts",
      "cells": 10,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Weighed"
     },
     {
      "name": "Makeable check",
      "cells": 1,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Makeable"
     },
     {
      "name": "Unit tests",
      "cells": 100,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Unit tests"
     }
    ]
   },
@@ -157,13 +178,15 @@
      "name": "Clean full rerun",
      "cells": 50,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Rerun"
     },
     {
      "name": "Team sign-off",
      "cells": 10,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Sign-off"
     }
    ]
   }

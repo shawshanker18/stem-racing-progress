@@ -16,25 +16,29 @@
      "name": "Airflow simulation set-up",
      "cells": 150,
      "done": 150,
-     "failed": 0
+     "failed": 0,
+     "short": "CFD set-up"
     },
     {
      "name": "Race model",
      "cells": 100,
      "done": 100,
-     "failed": 0
+     "failed": 0,
+     "short": "Race model"
     },
     {
      "name": "Same car on six machines",
      "cells": 60,
      "done": 60,
-     "failed": 0
+     "failed": 0,
+     "short": "Six machines"
     },
     {
      "name": "Noise measured",
      "cells": 60,
      "done": 60,
-     "failed": 0
+     "failed": 0,
+     "short": "Noise found"
     }
    ]
   },
@@ -45,49 +49,57 @@
      "name": "Wind-tunnel benchmark cases",
      "cells": 60,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Benchmarks"
     },
     {
      "name": "Noise reduction",
      "cells": 80,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Noise cut"
     },
     {
      "name": "Quick vs detailed agreement",
      "cells": 40,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Quick vs fine"
     },
     {
      "name": "Warm start",
      "cells": 30,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Warm start"
     },
     {
      "name": "Runs longer than one machine slot",
      "cells": 30,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Long runs"
     },
     {
      "name": "Real race inputs",
      "cells": 60,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Real inputs"
     },
     {
      "name": "Model vs real track times",
      "cells": 20,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Vs track"
     },
     {
      "name": "Write-up",
      "cells": 20,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Write-up"
     }
    ]
   },
@@ -98,49 +110,57 @@
      "name": "Benchmark runs",
      "cells": 9,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Benchmark"
     },
     {
      "name": "Noise test cars",
      "cells": 48,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Noise cars"
     },
     {
      "name": "Repeat on six machines",
      "cells": 6,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Repeat x6"
     },
     {
      "name": "Ranking cars, quick and detailed",
      "cells": 40,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Ranking"
     },
     {
      "name": "Warm-start pairs",
      "cells": 20,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Warm pairs"
     },
     {
      "name": "Long-run check",
      "cells": 2,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Long run"
     },
     {
      "name": "Slope checks",
      "cells": 8,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Slopes"
     },
     {
      "name": "Unit tests",
      "cells": 100,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Unit tests"
     }
    ]
   },
@@ -151,13 +171,15 @@
      "name": "Clean full rerun",
      "cells": 50,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Rerun"
     },
     {
      "name": "Team sign-off",
      "cells": 10,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Sign-off"
     }
    ]
   }

@@ -131,7 +131,7 @@ def label(x, y, s, size=12, anchor="start", fill=TEXT, weight="normal"):
 
 
 def short(it):
-    return f"{it['part']} {it['name']}"
+    return f"{it['part']} {it.get('short') or it['name']}"
 
 
 def treemap(title, its, left):

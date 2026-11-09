@@ -16,25 +16,29 @@
      "name": "Older search loop",
      "cells": 100,
      "done": 100,
-     "failed": 0
+     "failed": 0,
+     "short": "Old loop"
     },
     {
      "name": "One car, end to end",
      "cells": 80,
      "done": 80,
-     "failed": 0
+     "failed": 0,
+     "short": "One car"
     },
     {
      "name": "Result merging",
      "cells": 30,
      "done": 30,
-     "failed": 0
+     "failed": 0,
+     "short": "Merging"
     },
     {
      "name": "Pictures",
      "cells": 20,
      "done": 20,
-     "failed": 0
+     "failed": 0,
+     "short": "Pictures"
     }
    ]
   },
@@ -45,43 +49,50 @@
      "name": "Test bench with fake timings",
      "cells": 60,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Fake bench"
     },
     {
      "name": "Machine farm",
      "cells": 60,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Farm"
     },
     {
      "name": "Keep-rule check on real runs",
      "cells": 20,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Keep rule"
     },
     {
      "name": "Small smoke run",
      "cells": 30,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Smoke run"
     },
     {
      "name": "Final-run plan",
      "cells": 20,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Final plan"
     },
     {
      "name": "Settings searched together",
      "cells": 30,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Settings"
     },
     {
      "name": "Write-up",
      "cells": 20,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Write-up"
     }
    ]
   },
@@ -92,49 +103,57 @@
      "name": "Bench runs",
      "cells": 200,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Bench runs"
     },
     {
      "name": "Fake noise trials (1 square = 10)",
      "cells": 100,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Noise trials"
     },
     {
      "name": "Wrong-direction test",
      "cells": 20,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Wrong way"
     },
     {
      "name": "Restart tests",
      "cells": 20,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Restarts"
     },
     {
      "name": "Real same-car pairs",
      "cells": 20,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Same-car"
     },
     {
      "name": "Smoke-run rounds",
      "cells": 6,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Smoke rounds"
     },
     {
      "name": "Final-run dry run",
      "cells": 1,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Dry run"
     },
     {
      "name": "Unit tests",
      "cells": 100,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Unit tests"
     }
    ]
   },
@@ -145,13 +164,15 @@
      "name": "Clean full rerun",
      "cells": 50,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Rerun"
     },
     {
      "name": "Team sign-off",
      "cells": 10,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Sign-off"
     }
    ]
   }

@@ -16,19 +16,22 @@
      "name": "Map simulation set-up",
      "cells": 120,
      "done": 120,
-     "failed": 0
+     "failed": 0,
+     "short": "Map set-up"
     },
     {
      "name": "Map placed on the car surface",
      "cells": 60,
      "done": 60,
-     "failed": 0
+     "failed": 0,
+     "short": "Map on car"
     },
     {
      "name": "First map checks",
      "cells": 8,
      "done": 3,
-     "failed": 5
+     "failed": 5,
+     "short": "First checks"
     }
    ]
   },
@@ -39,43 +42,50 @@
      "name": "Known-answer test case",
      "cells": 40,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Known case"
     },
     {
      "name": "Compass test on the car",
      "cells": 40,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Compass test"
     },
     {
      "name": "Fixes, tried in order",
      "cells": 60,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Fixes"
     },
     {
      "name": "Backup measured map",
      "cells": 60,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Backup map"
     },
     {
      "name": "Map to race time",
      "cells": 20,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Map to time"
     },
     {
      "name": "One-cut proof",
      "cells": 20,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "One-cut proof"
     },
     {
      "name": "Write-up",
      "cells": 20,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Write-up"
     }
    ]
   },
@@ -86,37 +96,43 @@
      "name": "Known-answer bumps",
      "cells": 10,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Known bumps"
     },
     {
      "name": "Car bumps (5 cars x 8)",
      "cells": 40,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Car bumps"
     },
     {
      "name": "Direction sanity check",
      "cells": 2,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Direction"
     },
     {
      "name": "One-cut proof cars",
      "cells": 5,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "One-cut cars"
     },
     {
      "name": "Map placement check",
      "cells": 10,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Placement"
     },
     {
      "name": "Unit tests",
      "cells": 100,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Unit tests"
     }
    ]
   },
@@ -127,13 +143,15 @@
      "name": "Clean full rerun",
      "cells": 50,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Rerun"
     },
     {
      "name": "Team sign-off",
      "cells": 10,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Sign-off"
     }
    ]
   }

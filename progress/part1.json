@@ -16,37 +16,43 @@
      "name": "Shape on a fine grid",
      "cells": 100,
      "done": 100,
-     "failed": 0
+     "failed": 0,
+     "short": "Grid shape"
     },
     {
      "name": "Rule zones",
      "cells": 150,
      "done": 150,
-     "failed": 0
+     "failed": 0,
+     "short": "Rule zones"
     },
     {
      "name": "Milling check",
      "cells": 80,
      "done": 80,
-     "failed": 0
+     "failed": 0,
+     "short": "Milling"
     },
     {
      "name": "Weight sizing",
      "cells": 60,
      "done": 60,
-     "failed": 0
+     "failed": 0,
+     "short": "Weight"
     },
     {
      "name": "Clean surface export",
      "cells": 80,
      "done": 80,
-     "failed": 0
+     "failed": 0,
+     "short": "Surface"
     },
     {
      "name": "Older body: random cars tested (1 square = 10 cars)",
      "cells": 400,
      "done": 400,
-     "failed": 0
+     "failed": 0,
+     "short": "Old cars"
     }
    ]
   },
@@ -57,37 +63,43 @@
      "name": "Cut tool",
      "cells": 60,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Cut tool"
     },
     {
      "name": "Weight sizing for carved shapes",
      "cells": 40,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Carve weight"
     },
     {
      "name": "Random carving tester",
      "cells": 40,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Carve tester"
     },
     {
      "name": "Grid-size check",
      "cells": 30,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Grid check"
     },
     {
      "name": "Same result on every machine",
      "cells": 20,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Same result"
     },
     {
      "name": "Write-up",
      "cells": 20,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Write-up"
     }
    ]
   },
@@ -98,43 +110,50 @@
      "name": "Carved bodies (1 square = 1 body)",
      "cells": 2000,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Carved bodies"
     },
     {
      "name": "Weight hits target",
      "cells": 200,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Weight hit"
     },
     {
      "name": "Grid-size bodies",
      "cells": 20,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Grid bodies"
     },
     {
      "name": "Repeat on two machines",
      "cells": 20,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Two machines"
     },
     {
      "name": "Milling known shapes",
      "cells": 5,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Milling test"
     },
     {
      "name": "Old-fix guards",
      "cells": 15,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Old fixes"
     },
     {
      "name": "Unit tests",
      "cells": 100,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Unit tests"
     }
    ]
   },
@@ -145,13 +164,15 @@
      "name": "Clean full rerun",
      "cells": 50,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Rerun"
     },
     {
      "name": "Team sign-off",
      "cells": 10,
      "done": 0,
-     "failed": 0
+     "failed": 0,
+     "short": "Sign-off"
     }
    ]
   }
