@@ -47,7 +47,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 | 2 | Build the cutting tool | ✅ Done | 2026-11-09 | 2026-11-09 | Built and all its checks pass; other parts can now use it. |
 | 3 | Weight sizing for carved shapes | ❌ Failed, being redone | 2026-11-09 |  | Two hundred bodies: one hundred ninety nine on target, one came out light and under the floor. Open failure, being fixed. |
 | 4 | Big random carving test (2,000 bodies) | 🔄 Working on it | 2026-11-09 |  | Big run started. Open failure: every car still has too wide a cartridge chamber. |
-| 5 | Grid-size check | ❌ Failed, being redone | 2026-11-09 |  | Failed its weight bar. Team lead decided: keep the bar and make every rule zone exact, then retest. |
+| 5 | Grid-size check | 🔄 Working on it | 2026-11-09 |  | Milling fix brought the spread down; exact rule zones written; retesting against the original bar. |
 | 6 | Same result on every machine | 🔄 Working on it | 2026-11-09 |  | First try: all ten bodies identical on both runs. Final proof to be rerun across two accounts on the final code. |
 | 7 | Write-up | ⬜ To do |  |  |  |
 | 8 | Full clean rerun of every test | ⬜ To do |  |  |  |
