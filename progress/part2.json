@@ -83,7 +83,7 @@
     {
      "name": "Real race inputs",
      "cells": 60,
-     "done": 0,
+     "done": 20,
      "failed": 0,
      "short": "Real inputs"
     },
@@ -186,9 +186,9 @@
  ],
  "status": "active",
  "updated": "2026-11-09",
- "now": "Ranking check started on twenty borrowed machines; wind-tunnel experiments, noise measurement and a compare-two-cars test also running.",
+ "now": "Found and removed an early stop that cut every car's airflow run short; noise and ranking runs restarted. Measured thrust now in the race model.",
  "agent_state": "waiting_on_compute",
- "agent_note": "Wind-tunnel test reads too high so far; trying settings side by side to find why.",
+ "agent_note": "Rerunning noise and ranking without the early stop, testing the reshaped-mesh noise fix, and checking the race model on the measured thrust.",
  "needs_you": "",
  "log": [
   {
@@ -230,6 +230,14 @@
   {
    "date": "2026-11-09",
    "text": "Timing noise measured on sixteen near-identical cars: about twice the old rough figure and well above the target. Milestone B reached. First fix, longer runs, is being tested."
+  },
+  {
+   "date": "2026-11-09",
+   "text": "Part 3 found an automatic early stop that ended every car's airflow run partway. Removed. The noise measurement and the ranking check taken with it are not final and are being re-run."
+  },
+  {
+   "date": "2026-11-09",
+   "text": "The team's measured thrust replaces the invented one in the race model, with the approved calibration factor. Checks running."
   }
  ],
  "tasks": [
@@ -276,10 +284,10 @@
   {
    "title": "Real race inputs from the team",
    "short": "Real inputs",
-   "status": "todo",
-   "started": "",
+   "status": "doing",
+   "started": "2026-11-09",
    "finished": "",
-   "note": ""
+   "note": "Partly done: the team's measured thrust is in. Rolling friction, wheel weights and tether drag are still to come."
   },
   {
    "title": "Model vs real track times",
@@ -319,7 +327,7 @@
    "label": "Timing noise measured (helps Part 3, not required)",
    "done": true,
    "date": "2026-11-09",
-   "note": "Measured on sixteen near-identical cars, with its error range. Still above the target; fixes are being tested."
+   "note": "Measured on sixteen near-identical cars, with its error range. NOT FINAL: it was taken while an early stop cut runs short; being re-measured."
   },
   "C": {
    "label": "Compare-two-cars finished and tested",
