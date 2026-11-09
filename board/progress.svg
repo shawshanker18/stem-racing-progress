@@ -4427,7 +4427,7 @@
 <rect x="490.17" y="322.62" width="3.83" height="6.38" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="473.87" y="321.62" width="21.13" height="8.38" fill="none" stroke="#0d1117" stroke-width="2"/>
 </g>
-<text x="509.00" y="21.00" font-family="sans-serif" font-size="16" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Tests passed: 3.7% (200/5,441)</text>
+<text x="509.00" y="21.00" font-family="sans-serif" font-size="16" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Tests passed: 4.0% (216/5,441)</text>
 <g><title>Part 1, Tests: Carved bodies (1 square = 1 body): 0/2000 done</title>
 <rect x="506.00" y="31.00" width="5.14" height="5.14" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="511.14" y="31.00" width="5.14" height="5.14" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
@@ -9565,23 +9565,23 @@
 <rect x="906.65" y="294.22" width="5.25" height="5.00" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="868.90" y="238.19" width="44.00" height="62.03" fill="none" stroke="#0d1117" stroke-width="2"/>
 </g>
-<g><title>Part 2, Tests: Noise test cars: 0/48 done</title>
-<rect x="869.90" y="301.22" width="5.25" height="4.63" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="875.15" y="301.22" width="5.25" height="4.63" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="880.40" y="301.22" width="5.25" height="4.63" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="885.65" y="301.22" width="5.25" height="4.63" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="890.90" y="301.22" width="5.25" height="4.63" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="896.15" y="301.22" width="5.25" height="4.63" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="901.40" y="301.22" width="5.25" height="4.63" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="906.65" y="301.22" width="5.25" height="4.63" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="869.90" y="305.85" width="5.25" height="4.63" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="875.15" y="305.85" width="5.25" height="4.63" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="880.40" y="305.85" width="5.25" height="4.63" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="885.65" y="305.85" width="5.25" height="4.63" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="890.90" y="305.85" width="5.25" height="4.63" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="896.15" y="305.85" width="5.25" height="4.63" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="901.40" y="305.85" width="5.25" height="4.63" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="906.65" y="305.85" width="5.25" height="4.63" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
+<g><title>Part 2, Tests: Noise test cars: 16/48 done</title>
+<rect x="869.90" y="301.22" width="5.25" height="4.63" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="875.15" y="301.22" width="5.25" height="4.63" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="880.40" y="301.22" width="5.25" height="4.63" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="885.65" y="301.22" width="5.25" height="4.63" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="890.90" y="301.22" width="5.25" height="4.63" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="896.15" y="301.22" width="5.25" height="4.63" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="901.40" y="301.22" width="5.25" height="4.63" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="906.65" y="301.22" width="5.25" height="4.63" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="869.90" y="305.85" width="5.25" height="4.63" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="875.15" y="305.85" width="5.25" height="4.63" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="880.40" y="305.85" width="5.25" height="4.63" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="885.65" y="305.85" width="5.25" height="4.63" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="890.90" y="305.85" width="5.25" height="4.63" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="896.15" y="305.85" width="5.25" height="4.63" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="901.40" y="305.85" width="5.25" height="4.63" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="906.65" y="305.85" width="5.25" height="4.63" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="869.90" y="310.48" width="5.25" height="4.63" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="875.15" y="310.48" width="5.25" height="4.63" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="880.40" y="310.48" width="5.25" height="4.63" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
@@ -9986,8 +9986,8 @@
 <text x="495.00" y="389.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="end" stroke="#0d1117" stroke-width="3" paint-order="stroke">29.4%</text>
 <text x="4.00" y="409.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">2 The stopwatch</text>
 <rect x="154" y="398" width="267" height="14" fill="#6e7681"/>
-<rect x="154" y="398" width="130.44" height="14" fill="#2ea043"/>
-<text x="495.00" y="409.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="end" stroke="#0d1117" stroke-width="3" paint-order="stroke">48.9%</text>
+<rect x="154" y="398" width="134.70" height="14" fill="#2ea043"/>
+<text x="495.00" y="409.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="end" stroke="#0d1117" stroke-width="3" paint-order="stroke">50.4%</text>
 <text x="4.00" y="429.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">3 The compass</text>
 <rect x="154" y="418" width="267" height="14" fill="#6e7681"/>
 <rect x="154" y="418" width="72.39" height="14" fill="#2ea043"/>
@@ -10009,8 +10009,8 @@
 <text x="495.00" y="521.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="end" stroke="#0d1117" stroke-width="3" paint-order="stroke">100/2,360</text>
 <text x="4.00" y="541.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">2 The stopwatch</text>
 <rect x="154" y="530" width="267" height="14" fill="#6e7681"/>
-<rect x="154" y="530" width="114.59" height="14" fill="#2ea043"/>
-<text x="495.00" y="541.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="end" stroke="#0d1117" stroke-width="3" paint-order="stroke">100/233</text>
+<rect x="154" y="530" width="132.93" height="14" fill="#2ea043"/>
+<text x="495.00" y="541.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="end" stroke="#0d1117" stroke-width="3" paint-order="stroke">116/233</text>
 <text x="4.00" y="561.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">3 The compass</text>
 <rect x="154" y="550" width="267" height="14" fill="#6e7681"/>
 <text x="495.00" y="561.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="end" stroke="#0d1117" stroke-width="3" paint-order="stroke">0/167</text>
@@ -10030,8 +10030,8 @@
 <text x="513.00" y="492.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Building a simple wing test with a known answer, to check the map tool before</text>
 <text x="513.00" y="508.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">trusting it on the car.</text>
 <text x="505.00" y="530.00" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">4 Parts and the referee</text>
-<text x="513.00" y="546.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Teaching the checker to measure wings, wheels and the cartridge hole itself,</text>
-<text x="513.00" y="562.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">each with pass and fail test cars.</text>
+<text x="513.00" y="546.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">The checker now measures wings, wheels, tether guides and the cartridge hole</text>
+<text x="513.00" y="562.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">itself. Fixing one hole measurement, then starting the big carved-car batch.</text>
 <text x="505.00" y="584.00" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">5 The loop</text>
 <text x="513.00" y="600.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Waiting for the go to start this phase.</text>
 <text x="4.00" y="638.00" font-family="sans-serif" font-size="11" font-weight="normal" fill="#8b949e" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Each square is one piece of work or one test case. Green: done. Red: failed, being redone. Grey: still to do. Counted from each part&#x27;s progress file.</text>

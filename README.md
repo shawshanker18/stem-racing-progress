@@ -22,7 +22,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 | Milestone | From | Done |
 |---|---|---|
 | A: Cutting tool finished and tested | Part 1 | ✅ 2026-11-09 |
-| B: Timing noise measured (helps Part 3, not required) | Part 2 | ⬜ not yet |
+| B: Timing noise measured (helps Part 3, not required) | Part 2 | ✅ 2026-11-09 |
 | C: Compare-two-cars finished and tested | Part 2 | ⬜ not yet |
 | D: Full-car building finished and tested | Part 4 | ⬜ not yet |
 
@@ -55,7 +55,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 
 ### 2. The stopwatch
 
-*Times a finished car over the 20 m race.* 48.9% · being built
+*Times a finished car over the 20 m race.* 50.4% · being built
 
 - An airflow simulation measures how hard the air pushes back on the car and its wheels.
 - A race model turns that push, the weight and the launch into a race time, and says which inputs matter most.
@@ -69,7 +69,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 | # | Step | Status | Started | Finished | Note |
 |---|---|---|---|---|---|
 | 1 | Check against published wind-tunnel results | 🔄 Working on it | 2026-11-09 |  | Drag reads too high so far; testing settings to find out why. |
-| 2 | Cut the timing noise | 🔄 Working on it | 2026-11-09 |  | Measuring today's noise first, before trying fixes. |
+| 2 | Cut the timing noise | 🔄 Working on it | 2026-11-09 |  | Noise measured; testing the first fix, longer runs. |
 | 3 | Quick vs detailed ranking check | 🔄 Working on it | 2026-11-09 |  | Twenty cars on the detailed mesh are running; the quick-mesh twins follow. |
 | 4 | Warm start | ⬜ To do |  |  |  |
 | 5 | Runs longer than one machine slot | ⬜ To do |  |  |  |
@@ -113,7 +113,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - Holds the referee: an independent check of the finished car against every rule, measured from the outside like a scrutineer, showing how much room is left on each rule.
 - The referee shares nothing with the cutter, so one cannot hide the other's mistakes.
 
-**Now:** Teaching the checker to measure wings, wheels and the cartridge hole itself, each with pass and fail test cars.
+**Now:** The checker now measures wings, wheels, tether guides and the cartridge hole itself. Fixing one hole measurement, then starting the big carved-car batch.
 
 **Timeline:** 1 of 10 steps done
 
