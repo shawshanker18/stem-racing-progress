@@ -173,8 +173,8 @@
    "text": "Started. Read the code: found a likely mix-up about which way the surface points, to be checked first on a simple wing."
   }
  ],
- "agent_state": "working",
- "agent_note": "Writing the simple wing test with ten small bumps and several map settings side by side.",
+ "agent_state": "waiting_on_compute",
+ "agent_note": "The simple wing test is running on twenty machines: twenty small bumps measured directly and five map settings compared.",
  "tasks": [
   {
    "title": "Known-answer test",
@@ -182,7 +182,7 @@
    "status": "doing",
    "started": "2026-11-09",
    "finished": "",
-   "note": "Writing the simple wing test with ten small bumps."
+   "note": "Running on GitHub: twenty bumps, five map settings side by side."
   },
   {
    "title": "Compass test on the car",
