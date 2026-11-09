@@ -122,7 +122,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 | 1 | List every rule and its check | ✅ Done | 2026-11-09 | 2026-11-09 | Every rule matched to a check or a reason, none left open. |
 | 2 | Just-inside and just-outside tests | 🔄 Working on it | 2026-11-09 |  | First batch passed. The checker now measures the wings and wheels itself; those tests are running. |
 | 3 | Make the referee independent | 🔄 Working on it | 2026-11-09 |  | The checker has its own rule numbers now; tests running. |
-| 4 | Parts on carved bodies (2,000 cars) | 🔄 Working on it | 2026-11-09 |  | Both halves of the two thousand carved cars running. |
+| 4 | Parts on carved bodies (2,000 cars) | 🔄 Working on it | 2026-11-09 |  | Trial runs on the body builder's changing code, to find crashes and new kinds of rejects; the counted run waits for its frozen version. |
 | 5 | Real part weights | ⬜ To do |  |  |  |
 | 6 | Build files | 🔄 Working on it | 2026-11-09 |  | A parts list now comes with every car: what to make, how, and from what. |
 | 7 | Part setting ranges | ⬜ To do |  |  |  |
