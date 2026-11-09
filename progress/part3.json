@@ -204,10 +204,10 @@
   {
    "title": "Compass test on the car",
    "short": "Compass test",
-   "status": "todo",
+   "status": "blocked",
    "started": "",
    "finished": "",
-   "note": ""
+   "note": "Blocked: waiting on Part 2 to find why near-identical cars settle on different drag levels; measured car slopes cannot be trusted until then."
   },
   {
    "title": "Fixes, tried in order",
