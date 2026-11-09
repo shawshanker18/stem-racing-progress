@@ -252,6 +252,10 @@
   {
    "date": "2026-11-09",
    "text": "Part 4 found problems on its reference cars with an earlier version; fixing them. Milling now always on one fixed fine grid, as the team lead decided. Big test paused until fixed and tagged."
+  },
+  {
+   "date": "2026-11-09",
+   "text": "Chamber agreed with Part 4: the plug gauge passes and the leftover crack is gone. Part 2 found the body jumps between two nearby skin thicknesses; finding the cause."
   }
  ],
  "tasks": [
@@ -329,7 +333,7 @@
   }
  ],
  "agent_state": "waiting_on_compute",
- "agent_note": "Waiting on: Part 4 reference cars, all checks, a full chamber scan, and a grid study that separates moving the shape between grids from how weight is counted.",
+ "agent_note": "Waiting on: reference cars, all checks, grid study, and a check of a sudden shape jump between two skin thicknesses that Part 2 found. Chamber agreed fine with Part 4.",
  "needs_you": "",
  "unlocks": {
   "A": {
