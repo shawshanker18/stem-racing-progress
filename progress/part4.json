@@ -299,8 +299,8 @@
   }
  ],
  "agent_state": "waiting_on_compute",
- "agent_note": "Experiments showed two of the new failures were the checker's own measuring, now fixed; the rest look like the body builder's newest changes. Rechecking on real cars; carved batch still running.",
- "needs_you": "What material and printer the team uses for the printed parts, and the weights of the wheels, hubcaps and guides; the status report lists these and a few more.",
+ "agent_note": "Carved-car batch about a fifth done; rechecking real cars and the full test suite after fixing how the halo is compared; an experiment traces a groove in the body file.",
+ "needs_you": "Team items being asked by the lead: print material, part weights, a hand check of three cars, and whether one exported car can be made.",
  "unlocks": {
   "D": {
    "label": "Full-car building finished and tested",
