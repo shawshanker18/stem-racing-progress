@@ -37,7 +37,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - Re-sizes the whole body after each cut so the car always weighs the target.
 - Hands over a clean, closed 3D shape. It never decides what is faster; it only cuts safely.
 
-**Now:** Fixing the last mesh-edge and weight-counting details Part 4 found; then a frozen version, then the big test.
+**Now:** Fixed three more causes: the zone cut now survives saving, the halo roof zone starts at the right place, and distance repair keeps every slope. Checks running.
 
 **Timeline:** 2 of 9 steps done
 
