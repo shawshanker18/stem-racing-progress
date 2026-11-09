@@ -88,7 +88,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - The cutter carves along this map, so the map must be proven against real measurements before anyone trusts it.
 - If the fast map cannot be made right, a slower map built from direct measurements is the backup.
 
-**Now:** Map direction now right on the wing and on eighteen real cars; working on how strongly it matches, on settling the car flow, and on covering the whole car surface.
+**Now:** Explaining why the map is the right direction but the wrong size on the wing, before the car test.
 
 **Timeline:** 0 of 9 steps done
 
