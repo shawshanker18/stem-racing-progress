@@ -177,7 +177,10 @@ def treemap(svg, groups, x, y, w, h, header=14):
         top = header if gh > 3 * header and gw > 60 else 0
         if top:
             c, d, _ = count(items)
-            svg.text(gx + 4, gy + 11, f"{title} · {pct(d, c):.0f}%", size=10.5, fill=MUTED, weight="bold")
+            tail = f" · {pct(d, c):.0f}%"
+            room = int((gw - 10) / 6.3) - len(tail)
+            name = title if len(title) <= room else title[: max(1, room - 1)] + "…"
+            svg.text(gx + 4, gy + 11, name + tail, size=10.5, fill=MUTED, weight="bold")
         for it, ix, iy, iw, ih in squarify([(i, i["cells"]) for i in items], gx + 2, gy + 2 + top, gw - 4, gh - 4 - top):
             cells_box(svg, it, ix, iy, iw, ih)
 
