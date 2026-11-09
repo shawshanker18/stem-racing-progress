@@ -37,7 +37,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - Re-sizes the whole body after each cut so the car always weighs the target.
 - Hands over a clean, closed 3D shape. It never decides what is faster; it only cuts safely.
 
-**Now:** Some carved bodies come out slightly over the target weight; finding the cause.
+**Now:** Weight fix works on twenty bodies; the two hundred body proof is running.
 
 **Timeline:** 2 of 9 steps done
 
@@ -45,8 +45,8 @@ Our team is building, part by part, a computer system that designs the fastest l
 |---|---|---|---|---|---|
 | 1 | Fix the last failing test | ✅ Done | 2026-11-09 | 2026-11-09 | Both failing tests fixed; every check passes. |
 | 2 | Build the cutting tool | ✅ Done | 2026-11-09 | 2026-11-09 | Built and all its checks pass; other parts can now use it. |
-| 3 | Weight sizing for carved shapes | 🔄 Working on it | 2026-11-09 |  | Cause found: the weight jumps in steps. Fix written; retesting. |
-| 4 | Big random carving test (2,000 bodies) | ⬜ To do |  |  |  |
+| 3 | Weight sizing for carved shapes | 🔄 Working on it | 2026-11-09 |  | Fix passed on twenty bodies; the two hundred body proof is running. |
+| 4 | Big random carving test (2,000 bodies) | 🔄 Working on it | 2026-11-09 |  | First small try: every car broke the cartridge chamber rules the same way; finding the cause. |
 | 5 | Grid-size check | ⬜ To do |  |  |  |
 | 6 | Same result on every machine | ⬜ To do |  |  |  |
 | 7 | Write-up | ⬜ To do |  |  |  |
