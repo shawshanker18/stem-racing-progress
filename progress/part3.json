@@ -158,7 +158,7 @@
  ],
  "status": "active",
  "updated": "2026-11-09",
- "now": "Wing test: map right direction but poor size match on every setting and on a finer mesh; testing the shipped full setup at its design speed and a backup measured map.",
+ "now": "On the wing the backup measured map passed and the fast map failed; hardening the check with different-size shapes.",
  "log": [
   {
    "date": "2026-11-09",
@@ -188,6 +188,10 @@
    "date": "2026-11-09",
    "text": "Map to race time: built and checked against the race model, including where the weight sits now that the race time accounts for it. All unit tests pass."
   }
+  ,{
+   "date": "2026-11-09",
+   "text": "Wing test: the fast map fails on every setting tried, the backup measured map passes. The car test waits for quieter car runs."
+  }
  ],
  "agent_state": "waiting_on_compute",
  "needs_you": "",
@@ -196,10 +200,10 @@
   {
    "title": "Known-answer test",
    "short": "Known answer",
-   "status": "doing",
+   "status": "failed",
    "started": "2026-11-09",
    "finished": "",
-   "note": "Direction fixed and proven on all twenty bumps with fully settled runs; the strength of the map still matches only loosely, now testing why."
+   "note": "Fast map fails on every setting tried, including the maker's own full setup; the backup measured map passes."
   },
   {
    "title": "Compass test on the car",
@@ -223,7 +227,7 @@
    "status": "doing",
    "started": "2026-11-09",
    "finished": "",
-   "note": "Trial run on the simple wing so it is proven before it might be needed."
+   "note": "Passed on the simple wing: matched every test shape it had not seen. Waiting for quieter car runs before trying it on cars."
   },
   {
    "title": "Map to race time",
