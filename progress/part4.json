@@ -193,7 +193,7 @@
  ],
  "status": "active",
  "updated": "2026-11-09",
- "now": "Teaching the checker to measure wings, wheels and the cartridge hole itself, each with pass and fail test cars.",
+ "now": "The checker now measures wings, wheels, tether guides and the cartridge hole itself. Fixing one hole measurement, then starting the big carved-car batch.",
  "log": [
   {
    "date": "2026-11-09",
@@ -299,7 +299,7 @@
   }
  ],
  "agent_state": "waiting_on_compute",
- "agent_note": "Waiting for the cartridge hole tests on GitHub; writing the tether guide checks meanwhile.",
+ "agent_note": "A real car showed the cartridge hole measured too wide at its mouth; a quick experiment on GitHub is finding why before the big car batch starts.",
  "needs_you": "",
  "unlocks": {
   "D": {
