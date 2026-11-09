@@ -62,7 +62,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - It must be right (checked against published wind-tunnel results), quiet (a tiny change gives a tiny time change) and give the same answer on every machine.
 - Every other part trusts it to say which car is faster.
 
-**Now:** Reshaped mesh plus warm start keeps nine of ten near-identical cars on one airflow pattern; checking how often the tenth kind of jump happens.
+**Now:** Reshaped mesh is the key noise fix; warm start alone does not help. Reshaped meshes need one bad cell fixed. Cloud machine ran a three-hour wind-tunnel case on its own.
 
 **Timeline:** 0 of 10 steps done
 
