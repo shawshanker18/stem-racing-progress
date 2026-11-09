@@ -62,14 +62,14 @@ Our team is building, part by part, a computer system that designs the fastest l
 - It must be right (checked against published wind-tunnel results), quiet (a tiny change gives a tiny time change) and give the same answer on every machine.
 - Every other part trusts it to say which car is faster.
 
-**Now:** Compare-two-cars is done (milestone C). The centre of mass now acts through real physics in the race time. Noise and ranking runs are going.
+**Now:** Reusing one mesh shape for all near-identical cars halves the timing noise. What is left is the airflow settling into one of two patterns; testing warm starts and time-accurate runs.
 
 **Timeline:** 0 of 10 steps done
 
 | # | Step | Status | Started | Finished | Note |
 |---|---|---|---|---|---|
 | 1 | Check against published wind-tunnel results | 🔄 Working on it | 2026-11-09 |  | Drag reads too high so far; testing settings to find out why. |
-| 2 | Cut the timing noise | 🔄 Working on it | 2026-11-09 |  | Noise measured; testing the first fix, longer runs. |
+| 2 | Cut the timing noise | 🔄 Working on it | 2026-11-09 |  | Re-measured without the early stop: far above target. Cars jump between three drag levels; testing whether the mesh or the airflow causes it. |
 | 3 | Quick vs detailed ranking check | 🔄 Working on it | 2026-11-09 |  | Twenty cars on the detailed mesh are running; the quick-mesh twins follow. |
 | 4 | Warm start | ⬜ To do |  |  |  |
 | 5 | Runs longer than one machine slot | ⬜ To do |  |  |  |
@@ -95,9 +95,9 @@ Our team is building, part by part, a computer system that designs the fastest l
 | # | Step | Status | Started | Finished | Note |
 |---|---|---|---|---|---|
 | 1 | Known-answer test | 🔄 Working on it | 2026-11-09 |  | Direction fixed and proven on all twenty bumps with fully settled runs; the strength of the map still matches only loosely, now testing why. |
-| 2 | Compass test on the car | ⬜ To do |  |  |  |
+| 2 | Compass test on the car | ⏸️ Blocked |  |  | Blocked: waiting on Part 2 to find why near-identical cars settle on different drag levels; measured car slopes cannot be trusted until then. |
 | 3 | Fixes, tried in order | ⬜ To do |  |  |  |
-| 4 | Backup measured map (only if needed) | ⬜ To do |  |  |  |
+| 4 | Backup measured map (only if needed) | 🔄 Working on it | 2026-11-09 |  | Trial run on the simple wing so it is proven before it might be needed. |
 | 5 | Map to race time | 🔄 Working on it | 2026-11-09 |  | Built and its check against the race model passes, including where the weight sits; waiting for Part 1 to confirm how it re-sizes the skin. |
 | 6 | One-cut proof | ⬜ To do |  |  |  |
 | 7 | Write-up | ⬜ To do |  |  |  |
