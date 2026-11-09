@@ -179,7 +179,7 @@
  ],
  "status": "active",
  "updated": "2026-11-09",
- "now": "Weight fix works on twenty bodies; the two hundred body proof is running.",
+ "now": "Big carving test running while three open failures are being fixed.",
  "log": [
   {
    "date": "2026-11-09",
@@ -236,6 +236,10 @@
   {
    "date": "2026-11-09",
    "text": "Weight proof: one hundred ninety nine of two hundred on target, one light, a failure. Chamber still too wide on every car, a failure. Two thousand car test started; exact rule zones begun."
+  },
+  {
+   "date": "2026-11-09",
+   "text": "Causes found: milling snapped the surface to the grid, the weight search gave up too early, and a crack along the centre line widened the chamber. Fixes written; one older check broke and is being traced."
   }
  ],
  "tasks": [
@@ -313,7 +317,7 @@
   }
  ],
  "agent_state": "waiting_on_compute",
- "agent_note": "Two thousand car carving test running; finding the chamber width cause; starting to make every rule zone exact.",
+ "agent_note": "Two thousand car test running; testing fixes for the chamber notch, the light body and the grid weight; one older check broke and is being traced.",
  "needs_you": "",
  "unlocks": {
   "A": {
