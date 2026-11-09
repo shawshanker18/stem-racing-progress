@@ -186,9 +186,9 @@
  ],
  "status": "active",
  "updated": "2026-11-09",
- "now": "Without the early stop, near-identical cars settle on one of three distinct drag levels, so timing noise is much higher than first thought. Finding out why.",
+ "now": "Reusing one mesh shape for all near-identical cars halves the timing noise. What is left is the airflow settling into one of two patterns; testing warm starts and time-accurate runs.",
  "agent_state": "waiting_on_compute",
- "agent_note": "Waiting on: reshaped-mesh and warm-start noise tests, a longer-run noise test, the detailed ranking cars, the wind-tunnel floor test and the cloud long-run test.",
+ "agent_note": "Waiting on: warm-start noise tests (three variants), time-accurate runs on six cars, a longer-run noise test, the detailed ranking cars, the wind-tunnel floor test and the cloud long-run test.",
  "needs_you": "",
  "log": [
   {
@@ -262,6 +262,10 @@
   {
    "date": "2026-11-09",
    "text": "Noise split by part of the car: the flow behind the car flips between two patterns, moving body and rear-wheel drag together. Separately, the built body jumps at one skin thickness; sent to Part 1. Warm starts built and queued as a test."
+  },
+  {
+   "date": "2026-11-09",
+   "text": "Reshaped-mesh test: noise halves when every near-identical car keeps the same mesh layout. Each car's own averaging error is small. The rest is the airflow settling into two patterns, plus the body jump Part 1 is fixing. Built time-accurate runs to watch the airflow switch."
   }
  ],
  "tasks": [
