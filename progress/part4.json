@@ -247,7 +247,7 @@
    "status": "doing",
    "started": "2026-11-09",
    "finished": "",
-   "note": "Both halves of the two thousand carved cars running."
+   "note": "Trial runs on the body builder's changing code, to find crashes and new kinds of rejects; the counted run waits for its frozen version."
   },
   {
    "title": "Real part weights",
@@ -299,7 +299,7 @@
   }
  ],
  "agent_state": "waiting_on_compute",
- "agent_note": "About two thousand carved cars and a thousand older-style cars are being built and judged across three accounts; checking where two small leftover failures on real test cars come from.",
+ "agent_note": "Trial batches of carved and older-style cars are running on the body builder's changing code; the counted runs follow once it is frozen. GitHub is having an outage, so runs start slowly.",
  "needs_you": "Team items being asked by the lead: print material, part weights, a hand check of three cars, and whether one exported car can be made.",
  "unlocks": {
   "D": {
