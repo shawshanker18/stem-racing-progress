@@ -151,7 +151,7 @@
     {
      "name": "Slope checks",
      "cells": 8,
-     "done": 0,
+     "done": 8,
      "failed": 0,
      "short": "Slopes"
     },
@@ -186,10 +186,10 @@
  ],
  "status": "active",
  "updated": "2026-11-09",
- "now": "Found and removed an early stop that cut every car's airflow run short; noise and ranking runs restarted. Measured thrust now in the race model.",
- "agent_state": "waiting_on_compute",
- "agent_note": "Rerunning noise and ranking without the early stop, testing the reshaped-mesh noise fix, and checking the race model on the measured thrust.",
- "needs_you": "",
+ "now": "Compare-two-cars is done (milestone C). The centre of mass now acts through real physics in the race time. Noise and ranking runs are going.",
+ "agent_state": "needs_you",
+ "agent_note": "Waiting for noise, reshaped-mesh noise and ranking runs; three questions for the team lead in the status report.",
+ "needs_you": "Three decisions in the status report: the wind-tunnel pass mark if the steep shape cannot get within five percent, whether to recalibrate the time factor, and test-car details for the centre-of-mass check.",
  "log": [
   {
    "date": "2026-11-09",
@@ -238,6 +238,14 @@
   {
    "date": "2026-11-09",
    "text": "The team's measured thrust replaces the invented one in the race model, with the approved calibration factor. Checks running."
+  },
+  {
+   "date": "2026-11-09",
+   "text": "Centre of mass now in the race time through wheel and guide loads; placeholder penalties removed. All race-model and built-in checks pass. Milestone C reached: compare-two-cars works and is tested."
+  },
+  {
+   "date": "2026-11-09",
+   "text": "The team's centre-of-mass test is not reproduced: our physics loses time only once a wheel lifts. Load-sensitive bearings do not explain it at sensible values. Asked for the test car's details."
   }
  ],
  "tasks": [
@@ -331,9 +339,9 @@
   },
   "C": {
    "label": "Compare-two-cars finished and tested",
-   "done": false,
-   "date": "",
-   "note": ""
+   "done": true,
+   "date": "2026-11-09",
+   "note": "Works end to end on two real cars, and all its built-in checks pass. Its error range uses today's noise figure, which is being re-measured."
   }
  }
 }
