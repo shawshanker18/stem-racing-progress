@@ -188,7 +188,7 @@
  "updated": "2026-11-09",
  "now": "Without the early stop, near-identical cars settle on one of three distinct drag levels, so timing noise is much higher than first thought. Finding out why.",
  "agent_state": "waiting_on_compute",
- "agent_note": "Waiting on: reshaped-mesh noise test, a longer-run noise test that keeps each car's history, the detailed ranking cars, the wind-tunnel floor test and the cloud long-run test.",
+ "agent_note": "Waiting on: reshaped-mesh and warm-start noise tests, a longer-run noise test, the detailed ranking cars, the wind-tunnel floor test and the cloud long-run test.",
  "needs_you": "",
  "log": [
   {
@@ -258,6 +258,10 @@
   {
    "date": "2026-11-09",
    "text": "Noise re-measured without the early stop: about four times worse. Each car's own averaging error is small; the cars settle on one of three distinct drag levels. Testing the reshaped mesh and longer runs to find the cause. Each car still takes under 35 minutes."
+  },
+  {
+   "date": "2026-11-09",
+   "text": "Noise split by part of the car: the flow behind the car flips between two patterns, moving body and rear-wheel drag together. Separately, the built body jumps at one skin thickness; sent to Part 1. Warm starts built and queued as a test."
   }
  ],
  "tasks": [
