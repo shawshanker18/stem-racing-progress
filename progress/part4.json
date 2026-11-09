@@ -69,7 +69,7 @@
     {
      "name": "Every rule listed and matched to a check",
      "cells": 120,
-     "done": 100,
+     "done": 120,
      "failed": 0,
      "short": "Rule list"
     },
@@ -193,7 +193,7 @@
  ],
  "status": "active",
  "updated": "2026-11-09",
- "now": "Every rule in the rulebook is listed and matched to a check or a reason. Waiting for review.",
+ "now": "Rule list finished and saved. Planning the just-inside and just-outside tests next.",
  "log": [
   {
    "date": "2026-11-09",
@@ -206,6 +206,10 @@
   {
    "date": "2026-11-09",
    "text": "Started. Listed every rule and matched each to a check or a reason. Found a few rules the checker only takes on trust; those get real checks next."
+  },
+  {
+   "date": "2026-11-09",
+   "text": "Rule list finished and saved."
   }
  ],
  "tasks": [
