@@ -16,12 +16,12 @@ Our team is building, part by part, a computer system that designs the fastest l
 
 ## Ready to start?
 
-- **Part 3 (The compass):** ⏳ Not yet. Waiting for A (Cutting tool finished and tested, Part 1).
-- **Part 5 (The loop):** ⏳ Not yet. Waiting for A (Cutting tool finished and tested, Part 1), C (Compare-two-cars finished and tested, Part 2), D (Full-car building finished and tested, Part 4).
+- **Part 3 (The compass):** ✅ **Ready to start.**
+- **Part 5 (The loop):** ⏳ Not yet. Waiting for C (Compare-two-cars finished and tested, Part 2), D (Full-car building finished and tested, Part 4).
 
 | Milestone | From | Done |
 |---|---|---|
-| A: Cutting tool finished and tested | Part 1 | ⬜ not yet |
+| A: Cutting tool finished and tested | Part 1 | ✅ 2026-11-09 |
 | B: Timing noise measured (helps Part 3, not required) | Part 2 | ⬜ not yet |
 | C: Compare-two-cars finished and tested | Part 2 | ⬜ not yet |
 | D: Full-car building finished and tested | Part 4 | ⬜ not yet |
@@ -37,7 +37,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - Re-sizes the whole body after each cut so the car always weighs the target.
 - Hands over a clean, closed 3D shape. It never decides what is faster; it only cuts safely.
 
-**Now:** Cutting tool done. Now testing that carved bodies hit the target weight.
+**Now:** Some carved bodies come out slightly over the target weight; finding the cause.
 
 **Timeline:** 2 of 9 steps done
 
@@ -45,7 +45,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 |---|---|---|---|---|---|
 | 1 | Fix the last failing test | ✅ Done | 2026-11-09 | 2026-11-09 | Both failing tests fixed; every check passes. |
 | 2 | Build the cutting tool | ✅ Done | 2026-11-09 | 2026-11-09 | Built and all its checks pass; other parts can now use it. |
-| 3 | Weight sizing for carved shapes | 🔄 Working on it | 2026-11-09 |  | First small test of carved bodies is running. |
+| 3 | Weight sizing for carved shapes | 🔄 Working on it | 2026-11-09 |  | Cause found: the weight jumps in steps. Fix written; retesting. |
 | 4 | Big random carving test (2,000 bodies) | ⬜ To do |  |  |  |
 | 5 | Grid-size check | ⬜ To do |  |  |  |
 | 6 | Same result on every machine | ⬜ To do |  |  |  |
@@ -62,7 +62,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - It must be right (checked against published wind-tunnel results), quiet (a tiny change gives a tiny time change) and give the same answer on every machine.
 - Every other part trusts it to say which car is faster.
 
-**Now:** Wind-tunnel test runs are going, and the first timing-noise measurement on sixteen near-identical cars has started.
+**Now:** Wind-tunnel test runs, the first timing-noise measurement and a first real compare-two-cars test are running.
 
 **Timeline:** 0 of 10 steps done
 
