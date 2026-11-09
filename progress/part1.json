@@ -178,8 +178,8 @@
   }
  ],
  "status": "active",
- "updated": "2026-11-09",
- "now": "Fixing the last mesh-edge and weight-counting details Part 4 found; then a frozen version, then the big test.",
+ "updated": "2026-11-10",
+ "now": "Fixed three more causes: the zone cut now survives saving, the halo roof zone starts at the right place, and distance repair keeps every slope. Checks running.",
  "log": [
   {
    "date": "2026-11-09",
@@ -337,7 +337,7 @@
   }
  ],
  "agent_state": "waiting_on_compute",
- "agent_note": "Checks running on the latest fixes.",
+ "agent_note": "Checks running on three new fixes.",
  "needs_you": "",
  "unlocks": {
   "A": {
