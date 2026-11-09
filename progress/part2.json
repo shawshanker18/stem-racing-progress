@@ -116,7 +116,7 @@
     {
      "name": "Noise test cars",
      "cells": 48,
-     "done": 0,
+     "done": 16,
      "failed": 0,
      "short": "Noise cars"
     },
@@ -226,6 +226,10 @@
   {
    "date": "2026-11-09",
    "text": "Ranking check started: twenty cars on the detailed mesh, using twenty extra machines lent for about twelve hours."
+  },
+  {
+   "date": "2026-11-09",
+   "text": "Timing noise measured on sixteen near-identical cars: about twice the old rough figure and well above the target. Milestone B reached. First fix, longer runs, is being tested."
   }
  ],
  "tasks": [
@@ -243,7 +247,7 @@
    "status": "doing",
    "started": "2026-11-09",
    "finished": "",
-   "note": "Measuring today's noise first, before trying fixes."
+   "note": "Noise measured; testing the first fix, longer runs."
   },
   {
    "title": "Quick vs detailed ranking check",
@@ -313,9 +317,9 @@
  "unlocks": {
   "B": {
    "label": "Timing noise measured (helps Part 3, not required)",
-   "done": false,
-   "date": "",
-   "note": ""
+   "done": true,
+   "date": "2026-11-09",
+   "note": "Measured on sixteen near-identical cars, with its error range. Still above the target; fixes are being tested."
   },
   "C": {
    "label": "Compare-two-cars finished and tested",
