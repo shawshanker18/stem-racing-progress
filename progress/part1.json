@@ -179,7 +179,7 @@
  ],
  "status": "active",
  "updated": "2026-11-09",
- "now": "The failing mesh test is fixed and every check passes. Next: build the cutting tool.",
+ "now": "Building the cutting tool and its checks.",
  "log": [
   {
    "date": "2026-11-09",
@@ -206,18 +206,18 @@
   {
    "title": "Fix the last failing test",
    "short": "Fix last test",
-   "status": "doing",
+   "status": "done",
    "started": "2026-11-09",
-   "finished": "",
-   "note": "One of two failing tests fixed; cause of the other found."
+   "finished": "2026-11-09",
+   "note": "Both failing tests fixed; every check passes."
   },
   {
    "title": "Build the cutting tool",
    "short": "Cutting tool",
-   "status": "todo",
-   "started": "",
+   "status": "doing",
+   "started": "2026-11-09",
    "finished": "",
-   "note": ""
+   "note": "Writing the tool and its checks."
   },
   {
    "title": "Weight sizing for carved shapes",
@@ -275,5 +275,13 @@
    "finished": "",
    "note": ""
   }
- ]
+ ],
+ "unlocks": {
+  "A": {
+   "label": "Cutting tool finished and tested",
+   "done": false,
+   "date": "",
+   "note": ""
+  }
+ }
 }
