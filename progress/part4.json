@@ -247,7 +247,7 @@
    "status": "doing",
    "started": "2026-11-09",
    "finished": "",
-   "note": "First batch of about a thousand carved cars running."
+   "note": "Both halves of the two thousand carved cars running."
   },
   {
    "title": "Real part weights",
@@ -299,7 +299,7 @@
   }
  ],
  "agent_state": "waiting_on_compute",
- "agent_note": "Carved-car batch running; real test cars and the full test suite running on a borrowed account; a check of how thin each printed part is runs alongside. The weight file the stopwatch needs is now made with every car.",
+ "agent_note": "About two thousand carved cars and a thousand older-style cars are being built and judged across three accounts; checking where two small leftover failures on real test cars come from.",
  "needs_you": "Team items being asked by the lead: print material, part weights, a hand check of three cars, and whether one exported car can be made.",
  "unlocks": {
   "D": {
