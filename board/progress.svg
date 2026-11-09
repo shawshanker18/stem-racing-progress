@@ -9702,26 +9702,26 @@
 <rect x="993.81" y="257.64" width="5.19" height="4.61" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="956.45" y="238.19" width="43.55" height="25.07" fill="none" stroke="#0d1117" stroke-width="2"/>
 </g>
-<g><title>Part 1, Tests: Grid-size bodies: 0/20 done</title>
-<rect x="913.90" y="264.26" width="4.51" height="5.06" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="918.41" y="264.26" width="4.51" height="5.06" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="922.91" y="264.26" width="4.51" height="5.06" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="927.42" y="264.26" width="4.51" height="5.06" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="931.93" y="264.26" width="4.51" height="5.06" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="913.90" y="269.32" width="4.51" height="5.06" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="918.41" y="269.32" width="4.51" height="5.06" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="922.91" y="269.32" width="4.51" height="5.06" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="927.42" y="269.32" width="4.51" height="5.06" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="931.93" y="269.32" width="4.51" height="5.06" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="913.90" y="274.38" width="4.51" height="5.06" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="918.41" y="274.38" width="4.51" height="5.06" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="922.91" y="274.38" width="4.51" height="5.06" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="927.42" y="274.38" width="4.51" height="5.06" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="931.93" y="274.38" width="4.51" height="5.06" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="913.90" y="279.44" width="4.51" height="5.06" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="918.41" y="279.44" width="4.51" height="5.06" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="922.91" y="279.44" width="4.51" height="5.06" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="927.42" y="279.44" width="4.51" height="5.06" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
+<g><title>Part 1, Tests: Grid-size bodies: 0/20 done, 19 failed</title>
+<rect x="913.90" y="264.26" width="4.51" height="5.06" fill="#da3633" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="918.41" y="264.26" width="4.51" height="5.06" fill="#da3633" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="922.91" y="264.26" width="4.51" height="5.06" fill="#da3633" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="927.42" y="264.26" width="4.51" height="5.06" fill="#da3633" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="931.93" y="264.26" width="4.51" height="5.06" fill="#da3633" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="913.90" y="269.32" width="4.51" height="5.06" fill="#da3633" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="918.41" y="269.32" width="4.51" height="5.06" fill="#da3633" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="922.91" y="269.32" width="4.51" height="5.06" fill="#da3633" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="927.42" y="269.32" width="4.51" height="5.06" fill="#da3633" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="931.93" y="269.32" width="4.51" height="5.06" fill="#da3633" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="913.90" y="274.38" width="4.51" height="5.06" fill="#da3633" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="918.41" y="274.38" width="4.51" height="5.06" fill="#da3633" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="922.91" y="274.38" width="4.51" height="5.06" fill="#da3633" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="927.42" y="274.38" width="4.51" height="5.06" fill="#da3633" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="931.93" y="274.38" width="4.51" height="5.06" fill="#da3633" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="913.90" y="279.44" width="4.51" height="5.06" fill="#da3633" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="918.41" y="279.44" width="4.51" height="5.06" fill="#da3633" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="922.91" y="279.44" width="4.51" height="5.06" fill="#da3633" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="927.42" y="279.44" width="4.51" height="5.06" fill="#da3633" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="931.93" y="279.44" width="4.51" height="5.06" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="912.90" y="263.26" width="24.54" height="22.25" fill="none" stroke="#0d1117" stroke-width="2"/>
 </g>
@@ -9982,6 +9982,7 @@
 <text x="4.00" y="389.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">1 The cutter</text>
 <rect x="154" y="378" width="267" height="14" fill="#6e7681"/>
 <rect x="154" y="378" width="78.57" height="14" fill="#2ea043"/>
+<rect x="232.57" y="378" width="1.45" height="14" fill="#da3633"/>
 <text x="495.00" y="389.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="end" stroke="#0d1117" stroke-width="3" paint-order="stroke">29.4%</text>
 <text x="4.00" y="409.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">2 The stopwatch</text>
 <rect x="154" y="398" width="267" height="14" fill="#6e7681"/>
@@ -10004,6 +10005,7 @@
 <text x="4.00" y="521.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">1 The cutter</text>
 <rect x="154" y="510" width="267" height="14" fill="#6e7681"/>
 <rect x="154" y="510" width="11.31" height="14" fill="#2ea043"/>
+<rect x="165.31" y="510" width="2.15" height="14" fill="#da3633"/>
 <text x="495.00" y="521.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="end" stroke="#0d1117" stroke-width="3" paint-order="stroke">100/2,360</text>
 <text x="4.00" y="541.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">2 The stopwatch</text>
 <rect x="154" y="530" width="267" height="14" fill="#6e7681"/>

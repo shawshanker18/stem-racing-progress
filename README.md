@@ -47,7 +47,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 | 2 | Build the cutting tool | ✅ Done | 2026-11-09 | 2026-11-09 | Built and all its checks pass; other parts can now use it. |
 | 3 | Weight sizing for carved shapes | 🔄 Working on it | 2026-11-09 |  | Fix passed on twenty bodies; the two hundred body proof is running. |
 | 4 | Big random carving test (2,000 bodies) | 🔄 Working on it | 2026-11-09 |  | Chamber cause found and fixed; checking it on twelve cars before the big run. |
-| 5 | Grid-size check | 🔄 Working on it | 2026-11-09 |  | Twenty bodies at three grid sizes are running. |
+| 5 | Grid-size check | ❌ Failed, being redone | 2026-11-09 |  | Weight differs by more than the bar between grid sizes; asked the team lead how to judge it. |
 | 6 | Same result on every machine | 🔄 Working on it | 2026-11-09 |  | First try: all ten bodies identical on both runs. Final proof to be rerun across two accounts on the final code. |
 | 7 | Write-up | ⬜ To do |  |  |  |
 | 8 | Full clean rerun of every test | ⬜ To do |  |  |  |
