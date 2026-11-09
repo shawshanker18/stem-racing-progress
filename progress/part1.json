@@ -179,7 +179,7 @@
  ],
  "status": "active",
  "updated": "2026-11-09",
- "now": "Cutting tool done. Now testing that carved bodies hit the target weight.",
+ "now": "Some carved bodies come out slightly over the target weight; finding the cause.",
  "log": [
   {
    "date": "2026-11-09",
@@ -208,6 +208,10 @@
   {
    "date": "2026-11-09",
    "text": "Cutting tool finished: all checks of all five parts pass. Parts three and five can use it now."
+  },
+  {
+   "date": "2026-11-09",
+   "text": "First weight test of twenty carved bodies: none under the floor, but six were slightly heavy. Looking into it."
   }
  ],
  "tasks": [
@@ -233,7 +237,7 @@
    "status": "doing",
    "started": "2026-11-09",
    "finished": "",
-   "note": "First small test of carved bodies is running."
+   "note": "First test: a few bodies came out slightly heavy; finding out why."
   },
   {
    "title": "Big random carving test (2,000 bodies)",
