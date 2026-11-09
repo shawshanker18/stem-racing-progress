@@ -69,7 +69,7 @@
     {
      "name": "Every rule listed and matched to a check",
      "cells": 120,
-     "done": 0,
+     "done": 100,
      "failed": 0,
      "short": "Rule list"
     },
@@ -191,9 +191,9 @@
    ]
   }
  ],
- "status": "waiting",
+ "status": "active",
  "updated": "2026-11-09",
- "now": "Waiting for the go to start this phase.",
+ "now": "Every rule in the rulebook is listed and matched to a check or a reason. Waiting for review.",
  "log": [
   {
    "date": "2026-11-09",
@@ -202,6 +202,10 @@
   {
    "date": "2026-11-09",
    "text": "Repository checked: all tests pass, one unused data file removed."
+  },
+  {
+   "date": "2026-11-09",
+   "text": "Started. Listed every rule and matched each to a check or a reason. Found a few rules the checker only takes on trust; those get real checks next."
   }
  ]
 }
