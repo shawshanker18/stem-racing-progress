@@ -173,6 +173,8 @@
    "text": "Started. Read the code: found a likely mix-up about which way the surface points, to be checked first on a simple wing."
   }
  ],
+ "agent_state": "working",
+ "agent_note": "Writing the simple wing test with ten small bumps and several map settings side by side.",
  "tasks": [
   {
    "title": "Known-answer test",
