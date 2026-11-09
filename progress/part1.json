@@ -124,7 +124,7 @@
      "name": "Grid-size bodies",
      "cells": 20,
      "done": 0,
-     "failed": 0,
+     "failed": 19,
      "short": "Grid bodies"
     },
     {
@@ -228,6 +228,10 @@
   {
    "date": "2026-11-09",
    "text": "Same-result test: ten bodies built twice, every file identical."
+  },
+  {
+   "date": "2026-11-09",
+   "text": "Grid-size test failed its weight bar on nineteen of twenty bodies. Cause: rule zones are drawn cell by cell. Asked the team lead how to proceed."
   }
  ],
  "tasks": [
@@ -266,10 +270,10 @@
   {
    "title": "Grid-size check",
    "short": "Grid check",
-   "status": "doing",
+   "status": "failed",
    "started": "2026-11-09",
    "finished": "",
-   "note": "Twenty bodies at three grid sizes are running."
+   "note": "Weight differs by more than the bar between grid sizes; asked the team lead how to judge it."
   },
   {
    "title": "Same result on every machine",
@@ -306,7 +310,7 @@
  ],
  "agent_state": "waiting_on_compute",
  "agent_note": "Running on all my machines: the two hundred body weight proof, a same-result-on-two-machines test, a grid-size test, and a check of the cartridge chamber fix.",
- "needs_you": "",
+ "needs_you": "The grid-size test fails its weight bar because rule zones are drawn cell by cell: should I make every rule zone exact, or judge the grid by the finished car instead?",
  "unlocks": {
   "A": {
    "label": "Cutting tool finished and tested",
