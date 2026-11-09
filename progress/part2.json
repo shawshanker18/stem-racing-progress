@@ -186,7 +186,10 @@
  ],
  "status": "active",
  "updated": "2026-11-09",
- "now": "Wind-tunnel test runs are going, and the first timing-noise measurement on sixteen near-identical cars has started.",
+ "now": "Wind-tunnel test runs, the first timing-noise measurement and a first real compare-two-cars test are running.",
+ "agent_state": "waiting_on_compute",
+ "agent_note": "Waiting for the wind-tunnel, noise and compare-two-cars runs to finish.",
+ "needs_you": "",
  "log": [
   {
    "date": "2026-11-09",
@@ -211,6 +214,10 @@
   {
    "date": "2026-11-09",
    "text": "First timing-noise measurement started on sixteen near-identical cars."
+  },
+  {
+   "date": "2026-11-09",
+   "text": "Compare-two-cars tool written; its built-in checks pass. A real test with two full cars is running."
   }
  ],
  "tasks": [
