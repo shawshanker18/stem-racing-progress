@@ -1,0 +1,33 @@
+name: render
+
+# Redraws the board (README and pictures) whenever a part's progress file changes.
+on:
+  push:
+    branches: [main]
+    paths: ["progress/**", "render/**", ".github/workflows/render.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: render
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: python render/render.py
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md board
+          git diff --cached --quiet && exit 0
+          git commit -m "Redraw the board [skip ci]"
+          for i in 1 2 3; do git pull --rebase -q && git push -q && exit 0; sleep 5; done
+          exit 1

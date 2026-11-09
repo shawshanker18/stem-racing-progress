@@ -1,0 +1,174 @@
+{
+ "part": 2,
+ "name": "The stopwatch",
+ "tagline": "Times a finished car over the 20 m race.",
+ "what": [
+  "An airflow simulation measures how hard the air pushes back on the car and its wheels.",
+  "A race model turns that push, the weight and the launch into a race time, and says which inputs matter most.",
+  "It must be right (checked against published wind-tunnel results), quiet (a tiny change gives a tiny time change) and give the same answer on every machine.",
+  "Every other part trusts it to say which car is faster."
+ ],
+ "sections": [
+  {
+   "name": "Groundwork (built before)",
+   "items": [
+    {
+     "name": "Airflow simulation set-up",
+     "cells": 150,
+     "done": 150,
+     "failed": 0
+    },
+    {
+     "name": "Race model",
+     "cells": 100,
+     "done": 100,
+     "failed": 0
+    },
+    {
+     "name": "Same car on six machines",
+     "cells": 60,
+     "done": 60,
+     "failed": 0
+    },
+    {
+     "name": "Noise measured",
+     "cells": 60,
+     "done": 60,
+     "failed": 0
+    }
+   ]
+  },
+  {
+   "name": "Build",
+   "items": [
+    {
+     "name": "Wind-tunnel benchmark cases",
+     "cells": 60,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "Noise reduction",
+     "cells": 80,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "Quick vs detailed agreement",
+     "cells": 40,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "Warm start",
+     "cells": 30,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "Runs longer than one machine slot",
+     "cells": 30,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "Real race inputs",
+     "cells": 60,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "Model vs real track times",
+     "cells": 20,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "Write-up",
+     "cells": 20,
+     "done": 0,
+     "failed": 0
+    }
+   ]
+  },
+  {
+   "name": "Tests",
+   "items": [
+    {
+     "name": "Benchmark runs",
+     "cells": 9,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "Noise test cars",
+     "cells": 48,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "Repeat on six machines",
+     "cells": 6,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "Ranking cars, quick and detailed",
+     "cells": 40,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "Warm-start pairs",
+     "cells": 20,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "Long-run check",
+     "cells": 2,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "Slope checks",
+     "cells": 8,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "Unit tests",
+     "cells": 100,
+     "done": 0,
+     "failed": 0
+    }
+   ]
+  },
+  {
+   "name": "Sign-off",
+   "items": [
+    {
+     "name": "Clean full rerun",
+     "cells": 50,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "Team sign-off",
+     "cells": 10,
+     "done": 0,
+     "failed": 0
+    }
+   ]
+  }
+ ],
+ "status": "waiting",
+ "updated": "2026-11-09",
+ "now": "Waiting for the go to start this phase.",
+ "log": [
+  {
+   "date": "2026-11-09",
+   "text": "Board created. Waiting for the go to start this phase."
+  }
+ ]
+}

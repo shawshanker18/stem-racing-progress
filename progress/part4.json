@@ -1,0 +1,180 @@
+{
+ "part": 4,
+ "name": "Parts and the referee",
+ "tagline": "Turns a carved body into a whole car, makes the build files, and judges it.",
+ "what": [
+  "Adds everything except the body: nose, front and rear wings, wheel supports, wheels, tether guides and the cartridge, and cuts the joints into the body.",
+  "Makes the files the team needs to print the parts and mill the body.",
+  "Holds the referee: an independent check of the finished car against every rule, measured from the outside like a scrutineer, showing how much room is left on each rule.",
+  "The referee shares nothing with the cutter, so one cannot hide the other's mistakes."
+ ],
+ "sections": [
+  {
+   "name": "Groundwork (built before)",
+   "items": [
+    {
+     "name": "Wings",
+     "cells": 80,
+     "done": 80,
+     "failed": 0
+    },
+    {
+     "name": "Nose",
+     "cells": 40,
+     "done": 40,
+     "failed": 0
+    },
+    {
+     "name": "Wheel supports",
+     "cells": 60,
+     "done": 60,
+     "failed": 0
+    },
+    {
+     "name": "Joints",
+     "cells": 60,
+     "done": 60,
+     "failed": 0
+    },
+    {
+     "name": "Surface clean-up",
+     "cells": 40,
+     "done": 40,
+     "failed": 0
+    },
+    {
+     "name": "Referee checks",
+     "cells": 120,
+     "done": 120,
+     "failed": 0
+    },
+    {
+     "name": "Older bodies assembled and judged (1 square = 10 cars)",
+     "cells": 400,
+     "done": 400,
+     "failed": 0
+    }
+   ]
+  },
+  {
+   "name": "Build",
+   "items": [
+    {
+     "name": "Every rule listed and matched to a check",
+     "cells": 120,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "Just-inside and just-outside tests",
+     "cells": 120,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "Referee independence check",
+     "cells": 5,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "Parts on carved bodies",
+     "cells": 40,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "Real part weights",
+     "cells": 20,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "Build files",
+     "cells": 40,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "Part setting ranges",
+     "cells": 20,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "Write-up",
+     "cells": 20,
+     "done": 0,
+     "failed": 0
+    }
+   ]
+  },
+  {
+   "name": "Tests",
+   "items": [
+    {
+     "name": "Carved cars assembled (1 square = 1 car)",
+     "cells": 2000,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "Older-body regression (1 square = 10 cars)",
+     "cells": 100,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "Hand-check cars",
+     "cells": 3,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "Weighed parts",
+     "cells": 10,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "Makeable check",
+     "cells": 1,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "Unit tests",
+     "cells": 100,
+     "done": 0,
+     "failed": 0
+    }
+   ]
+  },
+  {
+   "name": "Sign-off",
+   "items": [
+    {
+     "name": "Clean full rerun",
+     "cells": 50,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "Team sign-off",
+     "cells": 10,
+     "done": 0,
+     "failed": 0
+    }
+   ]
+  }
+ ],
+ "status": "waiting",
+ "updated": "2026-11-09",
+ "now": "Waiting for the go to start this phase.",
+ "log": [
+  {
+   "date": "2026-11-09",
+   "text": "Board created. Waiting for the go to start this phase."
+  }
+ ]
+}

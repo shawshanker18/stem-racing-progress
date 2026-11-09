@@ -1,0 +1,150 @@
+{
+ "part": 3,
+ "name": "The compass",
+ "tagline": "Draws a map over the car showing where a cut would make it faster.",
+ "what": [
+  "Looks at one car and draws a map over its whole surface: where pushing the surface in or out would make the race time faster or slower.",
+  "One special simulation gives the whole map for about the cost of one normal run.",
+  "The cutter carves along this map, so the map must be proven against real measurements before anyone trusts it.",
+  "If the fast map cannot be made right, a slower map built from direct measurements is the backup."
+ ],
+ "sections": [
+  {
+   "name": "Groundwork (built before)",
+   "items": [
+    {
+     "name": "Map simulation set-up",
+     "cells": 120,
+     "done": 120,
+     "failed": 0
+    },
+    {
+     "name": "Map placed on the car surface",
+     "cells": 60,
+     "done": 60,
+     "failed": 0
+    },
+    {
+     "name": "First map checks",
+     "cells": 8,
+     "done": 3,
+     "failed": 5
+    }
+   ]
+  },
+  {
+   "name": "Build",
+   "items": [
+    {
+     "name": "Known-answer test case",
+     "cells": 40,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "Compass test on the car",
+     "cells": 40,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "Fixes, tried in order",
+     "cells": 60,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "Backup measured map",
+     "cells": 60,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "Map to race time",
+     "cells": 20,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "One-cut proof",
+     "cells": 20,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "Write-up",
+     "cells": 20,
+     "done": 0,
+     "failed": 0
+    }
+   ]
+  },
+  {
+   "name": "Tests",
+   "items": [
+    {
+     "name": "Known-answer bumps",
+     "cells": 10,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "Car bumps (5 cars x 8)",
+     "cells": 40,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "Direction sanity check",
+     "cells": 2,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "One-cut proof cars",
+     "cells": 5,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "Map placement check",
+     "cells": 10,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "Unit tests",
+     "cells": 100,
+     "done": 0,
+     "failed": 0
+    }
+   ]
+  },
+  {
+   "name": "Sign-off",
+   "items": [
+    {
+     "name": "Clean full rerun",
+     "cells": 50,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "Team sign-off",
+     "cells": 10,
+     "done": 0,
+     "failed": 0
+    }
+   ]
+  }
+ ],
+ "status": "waiting",
+ "updated": "2026-11-09",
+ "now": "Waiting for the go to start this phase.",
+ "log": [
+  {
+   "date": "2026-11-09",
+   "text": "Board created. Waiting for the go to start this phase."
+  }
+ ]
+}

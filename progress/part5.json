@@ -1,0 +1,168 @@
+{
+ "part": 5,
+ "name": "The loop",
+ "tagline": "Runs the whole search and proves every step it keeps.",
+ "what": [
+  "Times the car, reads the map, tries a few cuts of different sizes, builds and judges each one, times them all, and keeps a cut only if the car is clearly faster.",
+  "Runs many cars at once across many cloud machines, and picks up where it left off if a machine stops.",
+  "Writes a certificate for the final car: every kept step and the proof it helped.",
+  "In this phase it is only built and tested. The real search for the best car comes later."
+ ],
+ "sections": [
+  {
+   "name": "Groundwork (built before)",
+   "items": [
+    {
+     "name": "Older search loop",
+     "cells": 100,
+     "done": 100,
+     "failed": 0
+    },
+    {
+     "name": "One car, end to end",
+     "cells": 80,
+     "done": 80,
+     "failed": 0
+    },
+    {
+     "name": "Result merging",
+     "cells": 30,
+     "done": 30,
+     "failed": 0
+    },
+    {
+     "name": "Pictures",
+     "cells": 20,
+     "done": 20,
+     "failed": 0
+    }
+   ]
+  },
+  {
+   "name": "Build",
+   "items": [
+    {
+     "name": "Test bench with fake timings",
+     "cells": 60,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "Machine farm",
+     "cells": 60,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "Keep-rule check on real runs",
+     "cells": 20,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "Small smoke run",
+     "cells": 30,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "Final-run plan",
+     "cells": 20,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "Settings searched together",
+     "cells": 30,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "Write-up",
+     "cells": 20,
+     "done": 0,
+     "failed": 0
+    }
+   ]
+  },
+  {
+   "name": "Tests",
+   "items": [
+    {
+     "name": "Bench runs",
+     "cells": 200,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "Fake noise trials (1 square = 10)",
+     "cells": 100,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "Wrong-direction test",
+     "cells": 20,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "Restart tests",
+     "cells": 20,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "Real same-car pairs",
+     "cells": 20,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "Smoke-run rounds",
+     "cells": 6,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "Final-run dry run",
+     "cells": 1,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "Unit tests",
+     "cells": 100,
+     "done": 0,
+     "failed": 0
+    }
+   ]
+  },
+  {
+   "name": "Sign-off",
+   "items": [
+    {
+     "name": "Clean full rerun",
+     "cells": 50,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "Team sign-off",
+     "cells": 10,
+     "done": 0,
+     "failed": 0
+    }
+   ]
+  }
+ ],
+ "status": "waiting",
+ "updated": "2026-11-09",
+ "now": "Waiting for the go to start this phase.",
+ "log": [
+  {
+   "date": "2026-11-09",
+   "text": "Board created. Waiting for the go to start this phase."
+  }
+ ]
+}

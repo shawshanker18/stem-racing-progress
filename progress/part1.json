@@ -1,0 +1,168 @@
+{
+ "part": 1,
+ "name": "The cutter",
+ "tagline": "Carves the car body out of the legal block, one safe cut at a time.",
+ "what": [
+  "Starts from the full block of material the rules allow, with every rule zone already marked.",
+  "Moves the surface in or out wherever it is told, in small steps, and checks every rule after each step: required solid areas, required open areas, left-right symmetry, one single piece, and a shape a real milling machine can cut.",
+  "Re-sizes the whole body after each cut so the car always weighs the target.",
+  "Hands over a clean, closed 3D shape. It never decides what is faster; it only cuts safely."
+ ],
+ "sections": [
+  {
+   "name": "Groundwork (built before)",
+   "items": [
+    {
+     "name": "Shape on a fine grid",
+     "cells": 100,
+     "done": 100,
+     "failed": 0
+    },
+    {
+     "name": "Rule zones",
+     "cells": 150,
+     "done": 150,
+     "failed": 0
+    },
+    {
+     "name": "Milling check",
+     "cells": 80,
+     "done": 80,
+     "failed": 0
+    },
+    {
+     "name": "Weight sizing",
+     "cells": 60,
+     "done": 60,
+     "failed": 0
+    },
+    {
+     "name": "Clean surface export",
+     "cells": 80,
+     "done": 80,
+     "failed": 0
+    },
+    {
+     "name": "Older body: random cars tested (1 square = 10 cars)",
+     "cells": 400,
+     "done": 400,
+     "failed": 0
+    }
+   ]
+  },
+  {
+   "name": "Build",
+   "items": [
+    {
+     "name": "Cut tool",
+     "cells": 60,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "Weight sizing for carved shapes",
+     "cells": 40,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "Random carving tester",
+     "cells": 40,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "Grid-size check",
+     "cells": 30,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "Same result on every machine",
+     "cells": 20,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "Write-up",
+     "cells": 20,
+     "done": 0,
+     "failed": 0
+    }
+   ]
+  },
+  {
+   "name": "Tests",
+   "items": [
+    {
+     "name": "Carved bodies (1 square = 1 body)",
+     "cells": 2000,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "Weight hits target",
+     "cells": 200,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "Grid-size bodies",
+     "cells": 20,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "Repeat on two machines",
+     "cells": 20,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "Milling known shapes",
+     "cells": 5,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "Old-fix guards",
+     "cells": 15,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "Unit tests",
+     "cells": 100,
+     "done": 0,
+     "failed": 0
+    }
+   ]
+  },
+  {
+   "name": "Sign-off",
+   "items": [
+    {
+     "name": "Clean full rerun",
+     "cells": 50,
+     "done": 0,
+     "failed": 0
+    },
+    {
+     "name": "Team sign-off",
+     "cells": 10,
+     "done": 0,
+     "failed": 0
+    }
+   ]
+  }
+ ],
+ "status": "waiting",
+ "updated": "2026-11-09",
+ "now": "Waiting for the go to start this phase.",
+ "log": [
+  {
+   "date": "2026-11-09",
+   "text": "Board created. Waiting for the go to start this phase."
+  }
+ ]
+}

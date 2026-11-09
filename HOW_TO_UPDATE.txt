@@ -1,0 +1,7 @@
+How a part's builder updates this board
+
+1. Edit only your own file in the progress folder (part1 to part5). Never touch another part's file.
+2. For each item: raise "done" as work and tests pass. Set "failed" for tests that failed and are being redone, and lower it again when they pass.
+3. Update "now" (one plain sentence), "updated" (the date), "status" (waiting, active or done), and add one line to "log".
+4. Plain words only. No code, file names, links, settings, measurements of the car, or anything that would let someone rebuild the work. The redraw refuses text that looks like code, a path or a link.
+5. Commit and push. The board redraws itself in about a minute.
