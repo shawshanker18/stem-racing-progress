@@ -329,7 +329,7 @@
   }
  ],
  "agent_state": "waiting_on_compute",
- "agent_note": "Fixing problems Part 4 found on its reference cars, now with milling on one fixed fine grid; finding where the remaining grid weight difference comes from. Big test paused until a frozen version is tagged.",
+ "agent_note": "Waiting on two runs: Part 4 reference cars on the fixed code, and a study of where the grid weight difference comes from.",
  "needs_you": "",
  "unlocks": {
   "A": {
