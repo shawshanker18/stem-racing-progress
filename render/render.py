@@ -341,6 +341,7 @@ def readme(parts, overall, tests, signed):
         "",
         f"[![progress map](board/progress.svg)]({SITE_URL}/progress.html)",
         "",
+        f"**[Live panel: what each part is doing and what is running now]({SITE_URL}/live.html)** · "
         f"[Full progress, part by part]({SITE_URL}/progress.html) · [Progress history]({SITE_URL}/history.html)",
         "",
         "<sub>Each square is one piece of work or one test case, counted from each part's progress file. "
@@ -459,7 +460,7 @@ def main():
     write(SITE / "progress.svg", svg)
     write(SITE / "progress.html", progress_page(parts, svg, list(badges), tl_text))
     write(SITE / "history.html", history_page(parts, hist))
-    write(SITE / "index.html", '<!doctype html><meta http-equiv="refresh" content="0; url=progress.html">'
+    write(SITE / "index.html", '<!doctype html><meta http-equiv="refresh" content="0; url=live.html">'
                                '<a href="progress.html">Progress</a>\n')
     write(SITE / ".nojekyll", "")
     print(f"board drawn: {overall['percent']}% overall, {tests['done']}/{tests['total']} tests")
