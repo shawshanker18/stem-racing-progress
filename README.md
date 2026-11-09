@@ -81,7 +81,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 
 ### 3. The compass
 
-*Draws a map over the car showing where a cut would make it faster.* 27.3% · being built
+*Draws a map over the car showing where a cut would make it faster.* 44.4% · being built
 
 - Looks at one car and draws a map over its whole surface: where pushing the surface in or out would make the race time faster or slower.
 - One special simulation gives the whole map for about the cost of one normal run.
@@ -98,7 +98,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 | 2 | Compass test on the car | ⬜ To do |  |  |  |
 | 3 | Fixes, tried in order | ⬜ To do |  |  |  |
 | 4 | Backup measured map (only if needed) | ⬜ To do |  |  |  |
-| 5 | Map to race time | ⏸️ Blocked | 2026-11-09 |  | Blocked: waiting on Part 2 to put the centre of mass into the race time; the rest of this step is built and tested. |
+| 5 | Map to race time | 🔄 Working on it | 2026-11-09 |  | Built and its check against the race model passes, including where the weight sits; waiting for Part 1 to confirm how it re-sizes the skin. |
 | 6 | One-cut proof | ⬜ To do |  |  |  |
 | 7 | Write-up | ⬜ To do |  |  |  |
 | 8 | Full clean rerun of every test | ⬜ To do |  |  |  |
