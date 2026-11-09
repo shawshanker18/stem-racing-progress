@@ -224,6 +224,10 @@
   {
    "date": "2026-11-09",
    "text": "Found why carved cars had too wide a cartridge chamber: the grid put its wall half a step out. The finished body now has the chamber at its exact size."
+  },
+  {
+   "date": "2026-11-09",
+   "text": "Same-result test: ten bodies built twice, every file identical."
   }
  ],
  "tasks": [
@@ -273,7 +277,7 @@
    "status": "doing",
    "started": "2026-11-09",
    "finished": "",
-   "note": "Ten bodies built twice on different machines; running."
+   "note": "First try: all ten bodies identical on both runs. Final proof to be rerun across two accounts on the final code."
   },
   {
    "title": "Write-up",
