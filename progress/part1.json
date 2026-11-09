@@ -212,6 +212,10 @@
   {
    "date": "2026-11-09",
    "text": "First weight test of twenty carved bodies: none under the floor, but six were slightly heavy. Looking into it."
+  },
+  {
+   "date": "2026-11-09",
+   "text": "Weight sizing fixed for bodies whose weight jumps in steps. Added five hand-checked milling shapes and a finishing step that writes the finished body."
   }
  ],
  "tasks": [
@@ -289,7 +293,7 @@
   }
  ],
  "agent_state": "waiting_on_compute",
- "agent_note": "Rerunning the weight test with the fix, and a first small carving test, on GitHub.",
+ "agent_note": "Waiting on GitHub: weight retest, first small carving test, and checks for the new milling tests and the finishing step.",
  "needs_you": "",
  "unlocks": {
   "A": {
