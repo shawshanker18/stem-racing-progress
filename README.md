@@ -62,15 +62,15 @@ Our team is building, part by part, a computer system that designs the fastest l
 - It must be right (checked against published wind-tunnel results), quiet (a tiny change gives a tiny time change) and give the same answer on every machine.
 - Every other part trusts it to say which car is faster.
 
-**Now:** Wind-tunnel test runs, the first timing-noise measurement and a first real compare-two-cars test are running.
+**Now:** Ranking check started on twenty borrowed machines; wind-tunnel experiments, noise measurement and a compare-two-cars test also running.
 
 **Timeline:** 0 of 10 steps done
 
 | # | Step | Status | Started | Finished | Note |
 |---|---|---|---|---|---|
-| 1 | Check against published wind-tunnel results | 🔄 Working on it | 2026-11-09 |  | Both test shapes are running on three levels of detail. |
+| 1 | Check against published wind-tunnel results | 🔄 Working on it | 2026-11-09 |  | Drag reads too high so far; testing settings to find out why. |
 | 2 | Cut the timing noise | 🔄 Working on it | 2026-11-09 |  | Measuring today's noise first, before trying fixes. |
-| 3 | Quick vs detailed ranking check | ⬜ To do |  |  |  |
+| 3 | Quick vs detailed ranking check | 🔄 Working on it | 2026-11-09 |  | Twenty cars on the detailed mesh are running; the quick-mesh twins follow. |
 | 4 | Warm start | ⬜ To do |  |  |  |
 | 5 | Runs longer than one machine slot | ⬜ To do |  |  |  |
 | 6 | Real race inputs from the team | ⬜ To do |  |  |  |
