@@ -158,7 +158,7 @@
  ],
  "status": "active",
  "updated": "2026-11-09",
- "now": "Explaining why the map is the right direction but the wrong size on the wing, before the car test.",
+ "now": "Wing test: map right direction but poor size match on every setting and on a finer mesh; testing the shipped full setup at its design speed and a backup measured map.",
  "log": [
   {
    "date": "2026-11-09",
