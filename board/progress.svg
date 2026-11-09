@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 648" width="1000" height="648">
 <rect x="0.00" y="0.00" width="1000.00" height="648.00" fill="#0d1117" stroke="#0d1117" stroke-width="0"/>
-<text x="4.00" y="21.00" font-family="sans-serif" font-size="16" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Work done: 64.8% (2,716/4,193)</text>
+<text x="4.00" y="21.00" font-family="sans-serif" font-size="16" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Work done: 65.3% (2,736/4,193)</text>
 <g><title>Part 1, Groundwork (built before): Older body: random cars tested (1 square = 10 cars): 400/400 done</title>
 <rect x="1.00" y="31.00" width="5.78" height="5.92" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="6.78" y="31.00" width="5.78" height="5.92" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
@@ -2660,27 +2660,27 @@
 <rect x="257.93" y="323.05" width="5.83" height="5.95" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="221.94" y="280.38" width="42.82" height="49.62" fill="none" stroke="#0d1117" stroke-width="2"/>
 </g>
-<g><title>Part 2, Build: Real race inputs: 0/60 done</title>
-<rect x="265.76" y="82.88" width="5.51" height="5.52" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="271.27" y="82.88" width="5.51" height="5.52" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="276.77" y="82.88" width="5.51" height="5.52" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="282.28" y="82.88" width="5.51" height="5.52" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="287.79" y="82.88" width="5.51" height="5.52" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="293.29" y="82.88" width="5.51" height="5.52" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="298.80" y="82.88" width="5.51" height="5.52" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="304.30" y="82.88" width="5.51" height="5.52" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="265.76" y="88.40" width="5.51" height="5.52" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="271.27" y="88.40" width="5.51" height="5.52" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="276.77" y="88.40" width="5.51" height="5.52" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="282.28" y="88.40" width="5.51" height="5.52" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="287.79" y="88.40" width="5.51" height="5.52" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="293.29" y="88.40" width="5.51" height="5.52" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="298.80" y="88.40" width="5.51" height="5.52" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="304.30" y="88.40" width="5.51" height="5.52" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="265.76" y="93.92" width="5.51" height="5.52" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="271.27" y="93.92" width="5.51" height="5.52" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="276.77" y="93.92" width="5.51" height="5.52" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="282.28" y="93.92" width="5.51" height="5.52" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
+<g><title>Part 2, Build: Real race inputs: 20/60 done</title>
+<rect x="265.76" y="82.88" width="5.51" height="5.52" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="271.27" y="82.88" width="5.51" height="5.52" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="276.77" y="82.88" width="5.51" height="5.52" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="282.28" y="82.88" width="5.51" height="5.52" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="287.79" y="82.88" width="5.51" height="5.52" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="293.29" y="82.88" width="5.51" height="5.52" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="298.80" y="82.88" width="5.51" height="5.52" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="304.30" y="82.88" width="5.51" height="5.52" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="265.76" y="88.40" width="5.51" height="5.52" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="271.27" y="88.40" width="5.51" height="5.52" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="276.77" y="88.40" width="5.51" height="5.52" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="282.28" y="88.40" width="5.51" height="5.52" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="287.79" y="88.40" width="5.51" height="5.52" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="293.29" y="88.40" width="5.51" height="5.52" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="298.80" y="88.40" width="5.51" height="5.52" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="304.30" y="88.40" width="5.51" height="5.52" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="265.76" y="93.92" width="5.51" height="5.52" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="271.27" y="93.92" width="5.51" height="5.52" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="276.77" y="93.92" width="5.51" height="5.52" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="282.28" y="93.92" width="5.51" height="5.52" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="287.79" y="93.92" width="5.51" height="5.52" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="293.29" y="93.92" width="5.51" height="5.52" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="298.80" y="93.92" width="5.51" height="5.52" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
@@ -9986,8 +9986,8 @@
 <text x="495.00" y="389.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="end" stroke="#0d1117" stroke-width="3" paint-order="stroke">35.1%</text>
 <text x="4.00" y="409.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">2 The stopwatch</text>
 <rect x="154" y="398" width="267" height="14" fill="#6e7681"/>
-<rect x="154" y="398" width="134.70" height="14" fill="#2ea043"/>
-<text x="495.00" y="409.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="end" stroke="#0d1117" stroke-width="3" paint-order="stroke">50.4%</text>
+<rect x="154" y="398" width="140.02" height="14" fill="#2ea043"/>
+<text x="495.00" y="409.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="end" stroke="#0d1117" stroke-width="3" paint-order="stroke">52.4%</text>
 <text x="4.00" y="429.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">3 The compass</text>
 <rect x="154" y="418" width="267" height="14" fill="#6e7681"/>
 <rect x="154" y="418" width="72.39" height="14" fill="#2ea043"/>
@@ -10025,8 +10025,8 @@
 <text x="505.00" y="384.00" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">1 The cutter</text>
 <text x="513.00" y="400.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Big carving test running while three open failures are being fixed.</text>
 <text x="505.00" y="422.00" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">2 The stopwatch</text>
-<text x="513.00" y="438.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Ranking check started on twenty borrowed machines; wind-tunnel experiments,</text>
-<text x="513.00" y="454.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">noise measurement and a compare-two-cars test also running.</text>
+<text x="513.00" y="438.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Found and removed an early stop that cut every car&#x27;s airflow run short; noise</text>
+<text x="513.00" y="454.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">and ranking runs restarted. Measured thrust now in the race model.</text>
 <text x="505.00" y="476.00" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">3 The compass</text>
 <text x="513.00" y="492.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Found two faults in the map tool on a simple wing test; rerunning with the</text>
 <text x="513.00" y="508.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">first fixed.</text>

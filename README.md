@@ -55,14 +55,14 @@ Our team is building, part by part, a computer system that designs the fastest l
 
 ### 2. The stopwatch
 
-*Times a finished car over the 20 m race.* 50.4% · being built
+*Times a finished car over the 20 m race.* 52.4% · being built
 
 - An airflow simulation measures how hard the air pushes back on the car and its wheels.
 - A race model turns that push, the weight and the launch into a race time, and says which inputs matter most.
 - It must be right (checked against published wind-tunnel results), quiet (a tiny change gives a tiny time change) and give the same answer on every machine.
 - Every other part trusts it to say which car is faster.
 
-**Now:** Ranking check started on twenty borrowed machines; wind-tunnel experiments, noise measurement and a compare-two-cars test also running.
+**Now:** Found and removed an early stop that cut every car's airflow run short; noise and ranking runs restarted. Measured thrust now in the race model.
 
 **Timeline:** 0 of 10 steps done
 
@@ -73,7 +73,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 | 3 | Quick vs detailed ranking check | 🔄 Working on it | 2026-11-09 |  | Twenty cars on the detailed mesh are running; the quick-mesh twins follow. |
 | 4 | Warm start | ⬜ To do |  |  |  |
 | 5 | Runs longer than one machine slot | ⬜ To do |  |  |  |
-| 6 | Real race inputs from the team | ⬜ To do |  |  |  |
+| 6 | Real race inputs from the team | 🔄 Working on it | 2026-11-09 |  | Partly done: the team's measured thrust is in. Rolling friction, wheel weights and tether drag are still to come. |
 | 7 | Model vs real track times | ⬜ To do |  |  |  |
 | 8 | Write-up | ⬜ To do |  |  |  |
 | 9 | Full clean rerun of every test | ⬜ To do |  |  |  |
