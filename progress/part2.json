@@ -188,8 +188,8 @@
  "updated": "2026-11-09",
  "now": "Compare-two-cars is done (milestone C). The centre of mass now acts through real physics in the race time. Noise and ranking runs are going.",
  "agent_state": "needs_you",
- "agent_note": "Waiting for noise, reshaped-mesh noise and ranking runs; three questions for the team lead in the status report.",
- "needs_you": "Three decisions in the status report: the wind-tunnel pass mark if the steep shape cannot get within five percent, whether to recalibrate the time factor, and test-car details for the centre-of-mass check.",
+ "agent_note": "Waiting for noise, reshaped-mesh noise and ranking runs; the gentler wind-tunnel slope and the cube are now the pass cases.",
+ "needs_you": "The time-factor answer came through blank: keep it, recalibrate it against a real timed run, or drop it?",
  "log": [
   {
    "date": "2026-11-09",
