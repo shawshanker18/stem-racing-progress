@@ -329,7 +329,7 @@
   }
  ],
  "agent_state": "waiting_on_compute",
- "agent_note": "Waiting on two runs: Part 4 reference cars on the fixed code, and a study of where the grid weight difference comes from.",
+ "agent_note": "Waiting on: Part 4 reference cars, all checks, a full chamber scan, and a grid study that separates moving the shape between grids from how weight is counted.",
  "needs_you": "",
  "unlocks": {
   "A": {
