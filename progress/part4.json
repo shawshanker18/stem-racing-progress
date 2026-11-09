@@ -76,14 +76,14 @@
     {
      "name": "Just-inside and just-outside tests",
      "cells": 120,
-     "done": 60,
+     "done": 120,
      "failed": 0,
      "short": "Edge tests"
     },
     {
      "name": "Referee independence check",
      "cells": 5,
-     "done": 3,
+     "done": 5,
      "failed": 0,
      "short": "Independence"
     },
@@ -165,7 +165,7 @@
     {
      "name": "Unit tests",
      "cells": 100,
-     "done": 0,
+     "done": 100,
      "failed": 0,
      "short": "Unit tests"
     }
@@ -193,7 +193,7 @@
  ],
  "status": "active",
  "updated": "2026-11-09",
- "now": "Big batch of carved cars running; the checker measures every size rule itself now.",
+ "now": "Edge tests and independence done. Trial car batches running; one tiny leftover on the body files being traced with the body builder.",
  "log": [
   {
    "date": "2026-11-09",
@@ -228,18 +228,18 @@
   {
    "title": "Just-inside and just-outside tests",
    "short": "Edge tests",
-   "status": "doing",
+   "status": "done",
    "started": "2026-11-09",
-   "finished": "",
-   "note": "First batch passed. The checker now measures the wings and wheels itself; those tests are running."
+   "finished": "2026-11-09",
+   "note": "Every size rule has a pass car and a fail car; all tests pass on GitHub."
   },
   {
    "title": "Make the referee independent",
    "short": "Independent",
-   "status": "doing",
+   "status": "done",
    "started": "2026-11-09",
-   "finished": "",
-   "note": "The checker has its own rule numbers now; tests running."
+   "finished": "2026-11-09",
+   "note": "The checker uses only its own rule numbers; tests pass."
   },
   {
    "title": "Parts on carved bodies (2,000 cars)",
