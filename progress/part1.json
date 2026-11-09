@@ -196,6 +196,10 @@
   {
    "date": "2026-11-09",
    "text": "A closer look showed the cause: a hair-thin strip of material left behind, too thin to turn into a clean surface."
+  },
+  {
+   "date": "2026-11-09",
+   "text": "Fixed: hair-thin strips are now cleaned away after every cut. All checks of all five parts pass."
   }
  ],
  "tasks": [
