@@ -163,6 +163,10 @@
   {
    "date": "2026-11-09",
    "text": "Board created. Waiting for the go to start this phase."
+  },
+  {
+   "date": "2026-11-09",
+   "text": "Repository cleaned: the old carving loop is removed. The compass will be built fresh and proven. All tests pass."
   }
  ]
 }
