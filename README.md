@@ -37,7 +37,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - Re-sizes the whole body after each cut so the car always weighs the target.
 - Hands over a clean, closed 3D shape. It never decides what is faster; it only cuts safely.
 
-**Now:** Fixing the last rule-zone edges (block slot, halo views) and checking the reference cars; big test waits for a frozen version.
+**Now:** Fixing the last mesh-edge and weight-counting details Part 4 found; then a frozen version, then the big test.
 
 **Timeline:** 2 of 9 steps done
 
