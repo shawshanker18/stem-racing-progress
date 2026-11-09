@@ -263,7 +263,7 @@
    "status": "doing",
    "started": "2026-11-09",
    "finished": "",
-   "note": "A parts list now comes with every car: what to make, how, and from what."
+   "note": "Parts list done; thinnest walls measured; waiting for the team's printer limits and a makeable check."
   },
   {
    "title": "Part setting ranges",
@@ -300,7 +300,7 @@
  ],
  "agent_state": "waiting_on_compute",
  "agent_note": "Trial batches of carved and older-style cars are running on the body builder's changing code; the counted runs follow once it is frozen. GitHub is having an outage, so runs start slowly.",
- "needs_you": "Team items being asked by the lead: print material, part weights, a hand check of three cars, and whether one exported car can be made.",
+ "needs_you": "Team items: print material and the printer's thinnest wall, part weights, a hand check of three cars, and whether one exported car can be made.",
  "unlocks": {
   "D": {
    "label": "Full-car building finished and tested",
