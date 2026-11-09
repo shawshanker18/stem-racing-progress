@@ -46,9 +46,9 @@ Our team is building, part by part, a computer system that designs the fastest l
 | 1 | Fix the last failing test | ✅ Done | 2026-11-09 | 2026-11-09 | Both failing tests fixed; every check passes. |
 | 2 | Build the cutting tool | ✅ Done | 2026-11-09 | 2026-11-09 | Built and all its checks pass; other parts can now use it. |
 | 3 | Weight sizing for carved shapes | 🔄 Working on it | 2026-11-09 |  | Fix passed on twenty bodies; the two hundred body proof is running. |
-| 4 | Big random carving test (2,000 bodies) | 🔄 Working on it | 2026-11-09 |  | First small try: every car broke the cartridge chamber rules the same way; finding the cause. |
-| 5 | Grid-size check | ⬜ To do |  |  |  |
-| 6 | Same result on every machine | ⬜ To do |  |  |  |
+| 4 | Big random carving test (2,000 bodies) | 🔄 Working on it | 2026-11-09 |  | Chamber cause found and fixed; checking it on twelve cars before the big run. |
+| 5 | Grid-size check | 🔄 Working on it | 2026-11-09 |  | Twenty bodies at three grid sizes are running. |
+| 6 | Same result on every machine | 🔄 Working on it | 2026-11-09 |  | Ten bodies built twice on different machines; running. |
 | 7 | Write-up | ⬜ To do |  |  |  |
 | 8 | Full clean rerun of every test | ⬜ To do |  |  |  |
 | 9 | Team sign-off | ⬜ To do |  |  |  |
@@ -94,7 +94,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 
 | # | Step | Status | Started | Finished | Note |
 |---|---|---|---|---|---|
-| 1 | Known-answer test | 🔄 Working on it | 2026-11-09 |  | Writing the simple wing test with ten small bumps. |
+| 1 | Known-answer test | 🔄 Working on it | 2026-11-09 |  | Running on GitHub: twenty bumps, five map settings side by side. |
 | 2 | Compass test on the car | ⬜ To do |  |  |  |
 | 3 | Fixes, tried in order | ⬜ To do |  |  |  |
 | 4 | Backup measured map (only if needed) | ⬜ To do |  |  |  |
