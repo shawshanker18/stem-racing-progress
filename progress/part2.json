@@ -186,9 +186,9 @@
  ],
  "status": "active",
  "updated": "2026-11-09",
- "now": "Compare-two-cars is done (milestone C). The centre of mass now acts through real physics in the race time. Noise and ranking runs are going.",
+ "now": "Without the early stop, near-identical cars settle on one of three distinct drag levels, so timing noise is much higher than first thought. Finding out why.",
  "agent_state": "waiting_on_compute",
- "agent_note": "Ranking, noise and reshaped-mesh runs going; testing whether the wind-tunnel floor explains the gentle-slope gap; long-run test on a cloud machine.",
+ "agent_note": "Waiting on: reshaped-mesh noise test, a longer-run noise test that keeps each car's history, the detailed ranking cars, the wind-tunnel floor test and the cloud long-run test.",
  "needs_you": "",
  "log": [
   {
@@ -254,6 +254,10 @@
   {
    "date": "2026-11-09",
    "text": "Wind-tunnel gap: our still floor grows a slow-air layer about twice as thick as in the real tunnel. Now testing a floor that starts where the real ground plate did."
+  },
+  {
+   "date": "2026-11-09",
+   "text": "Noise re-measured without the early stop: about four times worse. Each car's own averaging error is small; the cars settle on one of three distinct drag levels. Testing the reshaped mesh and longer runs to find the cause. Each car still takes under 35 minutes."
   }
  ],
  "tasks": [
@@ -271,7 +275,7 @@
    "status": "doing",
    "started": "2026-11-09",
    "finished": "",
-   "note": "Noise measured; testing the first fix, longer runs."
+   "note": "Re-measured without the early stop: far above target. Cars jump between three drag levels; testing whether the mesh or the airflow causes it."
   },
   {
    "title": "Quick vs detailed ranking check",
