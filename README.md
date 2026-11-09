@@ -30,7 +30,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 
 ### 1. The cutter
 
-*Carves the car body out of the legal block, one safe cut at a time.* 29.4% · being built
+*Carves the car body out of the legal block, one safe cut at a time.* 35.1% · being built
 
 - Starts from the full block of material the rules allow, with every rule zone already marked.
 - Moves the surface in or out wherever it is told, in small steps, and checks every rule after each step: required solid areas, required open areas, left-right symmetry, one single piece, and a shape a real milling machine can cut.
@@ -45,9 +45,9 @@ Our team is building, part by part, a computer system that designs the fastest l
 |---|---|---|---|---|---|
 | 1 | Fix the last failing test | ✅ Done | 2026-11-09 | 2026-11-09 | Both failing tests fixed; every check passes. |
 | 2 | Build the cutting tool | ✅ Done | 2026-11-09 | 2026-11-09 | Built and all its checks pass; other parts can now use it. |
-| 3 | Weight sizing for carved shapes | 🔄 Working on it | 2026-11-09 |  | Fix passed on twenty bodies; the two hundred body proof is running. |
-| 4 | Big random carving test (2,000 bodies) | 🔄 Working on it | 2026-11-09 |  | Chamber cause found and fixed; checking it on twelve cars before the big run. |
-| 5 | Grid-size check | ❌ Failed, being redone | 2026-11-09 |  | Weight differs by more than the bar between grid sizes; asked the team lead how to judge it. |
+| 3 | Weight sizing for carved shapes | ❌ Failed, being redone | 2026-11-09 |  | Two hundred bodies: one hundred ninety nine on target, one came out light and under the floor. Open failure, being fixed. |
+| 4 | Big random carving test (2,000 bodies) | 🔄 Working on it | 2026-11-09 |  | Big run started. Open failure: every car still has too wide a cartridge chamber. |
+| 5 | Grid-size check | ❌ Failed, being redone | 2026-11-09 |  | Failed its weight bar. Team lead decided: keep the bar and make every rule zone exact, then retest. |
 | 6 | Same result on every machine | 🔄 Working on it | 2026-11-09 |  | First try: all ten bodies identical on both runs. Final proof to be rerun across two accounts on the final code. |
 | 7 | Write-up | ⬜ To do |  |  |  |
 | 8 | Full clean rerun of every test | ⬜ To do |  |  |  |
