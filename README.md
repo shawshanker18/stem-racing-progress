@@ -18,14 +18,14 @@ Our team is building, part by part, a computer system that designs the fastest l
 
 ### 1. The cutter
 
-*Carves the car body out of the legal block, one safe cut at a time.* 24.9% · being built
+*Carves the car body out of the legal block, one safe cut at a time.* 27.7% · being built
 
 - Starts from the full block of material the rules allow, with every rule zone already marked.
 - Moves the surface in or out wherever it is told, in small steps, and checks every rule after each step: required solid areas, required open areas, left-right symmetry, one single piece, and a shape a real milling machine can cut.
 - Re-sizes the whole body after each cut so the car always weighs the target.
 - Hands over a clean, closed 3D shape. It never decides what is faster; it only cuts safely.
 
-**Now:** Found why the mesh test fails: a hair-thin leftover strip of material. Choosing the fix with the team lead.
+**Now:** The failing mesh test is fixed and every check passes. Next: build the cutting tool.
 
 **Timeline:** 0 of 9 steps done
 
