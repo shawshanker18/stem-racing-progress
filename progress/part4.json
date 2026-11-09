@@ -299,7 +299,7 @@
   }
  ],
  "agent_state": "waiting_on_compute",
- "agent_note": "A real car showed the cartridge hole measured too wide at its mouth; a quick experiment on GitHub is finding why before the big car batch starts.",
+ "agent_note": "Found the cause: a hair-thin seam in the body file fooled the hole measurement. Fix is running on three whole test cars; the big carved-car batch starts once they pass.",
  "needs_you": "",
  "unlocks": {
   "D": {
