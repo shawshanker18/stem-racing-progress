@@ -299,7 +299,7 @@
   }
  ],
  "agent_state": "waiting_on_compute",
- "agent_note": "Carved-car batch running on GitHub; final tests for the checker running alongside. Added a parts list to the build files meanwhile.",
+ "agent_note": "Cars built with the body builder's newest changes fail several checks (body in pieces, too light). Running an experiment to pin down where, so it can be passed on.",
  "needs_you": "",
  "unlocks": {
   "D": {
