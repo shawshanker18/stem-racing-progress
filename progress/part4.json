@@ -298,6 +298,9 @@
    "note": ""
   }
  ],
+ "agent_state": "waiting_on_compute",
+ "agent_note": "Waiting for the cartridge hole tests on GitHub; writing the tether guide checks meanwhile.",
+ "needs_you": "",
  "unlocks": {
   "D": {
    "label": "Full-car building finished and tested",
