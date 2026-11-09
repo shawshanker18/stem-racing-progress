@@ -113,7 +113,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - Holds the referee: an independent check of the finished car against every rule, measured from the outside like a scrutineer, showing how much room is left on each rule.
 - The referee shares nothing with the cutter, so one cannot hide the other's mistakes.
 
-**Now:** The checker now measures wings, wheels, tether guides and the cartridge hole itself. Fixing one hole measurement, then starting the big carved-car batch.
+**Now:** Big batch of carved cars running; the checker measures every size rule itself now.
 
 **Timeline:** 1 of 10 steps done
 
@@ -122,7 +122,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 | 1 | List every rule and its check | ✅ Done | 2026-11-09 | 2026-11-09 | Every rule matched to a check or a reason. |
 | 2 | Just-inside and just-outside tests | 🔄 Working on it | 2026-11-09 |  | First batch passed. The checker now measures the wings and wheels itself; those tests are running. |
 | 3 | Make the referee independent | ⬜ To do |  |  |  |
-| 4 | Parts on carved bodies (2,000 cars) | ⬜ To do |  |  |  |
+| 4 | Parts on carved bodies (2,000 cars) | 🔄 Working on it | 2026-11-09 |  | First batch of about a thousand carved cars running. |
 | 5 | Real part weights | ⬜ To do |  |  |  |
 | 6 | Build files | ⬜ To do |  |  |  |
 | 7 | Part setting ranges | ⬜ To do |  |  |  |
