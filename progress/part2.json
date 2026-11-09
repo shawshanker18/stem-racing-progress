@@ -158,7 +158,7 @@
     {
      "name": "Unit tests",
      "cells": 100,
-     "done": 0,
+     "done": 100,
      "failed": 0,
      "short": "Unit tests"
     }
@@ -184,9 +184,9 @@
    ]
   }
  ],
- "status": "waiting",
+ "status": "active",
  "updated": "2026-11-09",
- "now": "Waiting for the go to start this phase.",
+ "now": "Built-in checks all pass. Next is checking the airflow simulation against published wind-tunnel results.",
  "log": [
   {
    "date": "2026-11-09",
@@ -195,6 +195,10 @@
   {
    "date": "2026-11-09",
    "text": "Repository cleaned: unused and outdated files removed. All tests pass."
+  },
+  {
+   "date": "2026-11-09",
+   "text": "Started. All built-in checks pass on a fresh copy."
   }
  ]
 }
