@@ -260,10 +260,10 @@
   {
    "title": "Build files",
    "short": "Build files",
-   "status": "todo",
-   "started": "",
+   "status": "doing",
+   "started": "2026-11-09",
    "finished": "",
-   "note": ""
+   "note": "A parts list now comes with every car: what to make, how, and from what."
   },
   {
    "title": "Part setting ranges",
@@ -299,7 +299,7 @@
   }
  ],
  "agent_state": "waiting_on_compute",
- "agent_note": "About a thousand carved cars are being built and judged; the checker now uses only its own copy of the rule numbers, and its tests are running.",
+ "agent_note": "Carved-car batch running on GitHub; final tests for the checker running alongside. Added a parts list to the build files meanwhile.",
  "needs_you": "",
  "unlocks": {
   "D": {
