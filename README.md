@@ -88,7 +88,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - The cutter carves along this map, so the map must be proven against real measurements before anyone trusts it.
 - If the fast map cannot be made right, a slower map built from direct measurements is the backup.
 
-**Now:** On the wing the backup measured map passed and the fast map failed; hardening the check with different-size shapes.
+**Now:** Backup measured map passes on the wing, also on shapes it was not built from; checking it on a finer mesh. Fast map size gap explained: a missing term in the simple formula.
 
 **Timeline:** 0 of 9 steps done
 
