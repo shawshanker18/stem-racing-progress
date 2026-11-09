@@ -116,8 +116,8 @@
     {
      "name": "Weight hits target",
      "cells": 200,
-     "done": 0,
-     "failed": 0,
+     "done": 199,
+     "failed": 1,
      "short": "Weight hit"
     },
     {
@@ -232,6 +232,10 @@
   {
    "date": "2026-11-09",
    "text": "Grid-size test failed its weight bar on nineteen of twenty bodies. Cause: rule zones are drawn cell by cell. Asked the team lead how to proceed."
+  },
+  {
+   "date": "2026-11-09",
+   "text": "Weight proof: one hundred ninety nine of two hundred on target, one light, a failure. Chamber still too wide on every car, a failure. Two thousand car test started; exact rule zones begun."
   }
  ],
  "tasks": [
@@ -254,10 +258,10 @@
   {
    "title": "Weight sizing for carved shapes",
    "short": "Carved weight",
-   "status": "doing",
+   "status": "failed",
    "started": "2026-11-09",
    "finished": "",
-   "note": "Fix passed on twenty bodies; the two hundred body proof is running."
+   "note": "Two hundred bodies: one hundred ninety nine on target, one came out light and under the floor. Open failure, being fixed."
   },
   {
    "title": "Big random carving test (2,000 bodies)",
@@ -265,7 +269,7 @@
    "status": "doing",
    "started": "2026-11-09",
    "finished": "",
-   "note": "Chamber cause found and fixed; checking it on twelve cars before the big run."
+   "note": "Big run started. Open failure: every car still has too wide a cartridge chamber."
   },
   {
    "title": "Grid-size check",
@@ -273,7 +277,7 @@
    "status": "failed",
    "started": "2026-11-09",
    "finished": "",
-   "note": "Weight differs by more than the bar between grid sizes; asked the team lead how to judge it."
+   "note": "Failed its weight bar. Team lead decided: keep the bar and make every rule zone exact, then retest."
   },
   {
    "title": "Same result on every machine",
@@ -309,8 +313,8 @@
   }
  ],
  "agent_state": "waiting_on_compute",
- "agent_note": "Running on all my machines: the two hundred body weight proof, a same-result-on-two-machines test, a grid-size test, and a check of the cartridge chamber fix.",
- "needs_you": "The grid-size test fails its weight bar because rule zones are drawn cell by cell: should I make every rule zone exact, or judge the grid by the finished car instead?",
+ "agent_note": "Two thousand car carving test running; finding the chamber width cause; starting to make every rule zone exact.",
+ "needs_you": "",
  "unlocks": {
   "A": {
    "label": "Cutting tool finished and tested",
