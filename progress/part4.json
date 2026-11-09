@@ -300,7 +300,7 @@
  ],
  "agent_state": "waiting_on_compute",
  "agent_note": "Cars built with the body builder's newest changes fail several checks (body in pieces, too light). Running an experiment to pin down where, so it can be passed on.",
- "needs_you": "",
+ "needs_you": "What material and printer the team uses for the printed parts, and the weights of the wheels, hubcaps and guides; the status report lists these and a few more.",
  "unlocks": {
   "D": {
    "label": "Full-car building finished and tested",
