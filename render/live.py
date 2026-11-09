@@ -103,6 +103,24 @@ def collect():
     return {"generated": now.isoformat(), "runs": runs, "busy": busy, "api_calls": calls}
 
 
+GATES = {3: (["A"], ["B"]), 5: (["A", "C", "D"], [])}   # part -> (required unlocks, helpful ones)
+OWNER = {"A": 1, "B": 2, "C": 2, "D": 4}
+
+
+def unlocks_status():
+    u = {}
+    for f in sorted((ROOT / "progress").glob("part*.json")):
+        p = json.loads(f.read_text(encoding="utf-8"))
+        for k, v in (p.get("unlocks") or {}).items():
+            u[k] = {"label": v.get("label", k), "done": bool(v.get("done")), "date": v.get("date", ""), "part": p["part"]}
+    gates = []
+    for part, (need, nice) in GATES.items():
+        missing = [k for k in need if not u.get(k, {}).get("done")]
+        gates.append({"part": part, "ready": not missing, "missing": missing,
+                      "helpful_missing": [k for k in nice if not u.get(k, {}).get("done")]})
+    return u, gates
+
+
 def parts_status():
     out = []
     for f in sorted((ROOT / "progress").glob("part*.json")):
@@ -140,6 +158,10 @@ text-transform:uppercase;padding:6px 8px;border-bottom:1px solid var(--line)}td{
 .bar{height:4px;background:#262626;border-radius:2px;overflow:hidden;min-width:90px}.bar b{display:block;height:100%;background:#e6e6e6}
 .empty{color:var(--dim);padding:14px 0}.acc{display:grid;grid-template-columns:200px 1fr 70px;gap:12px;align-items:center;padding:6px 0}
 footer{margin-top:40px;color:var(--dim);font-size:12px}a{color:var(--text)}
+.gate{display:grid;grid-template-columns:150px 120px 1fr;gap:14px;align-items:center;padding:8px 0;border-bottom:1px solid #1a1a1a}
+.gate:last-child{border-bottom:0}.pill{display:inline-block;font-size:11px;letter-spacing:.12em;font-weight:700;padding:3px 8px;border-radius:3px;text-align:center}
+.pill.go{background:#f2f2f2;color:#0b0b0b}.pill.wait{border:1px solid #3a3a3a;color:#8a8a8a}
+.ul{display:grid;grid-template-columns:28px 1fr 110px;gap:10px;padding:5px 0;color:var(--mute)}.ul.ok{color:var(--text)}
 @media(max-width:720px){.row{grid-template-columns:1fr}.acc{grid-template-columns:1fr 60px}.acc .bar{grid-column:1/-1}}
 """
 
@@ -151,7 +173,7 @@ setTimeout(()=>location.reload(),60000);
 """
 
 
-def page(live, parts):
+def page(live, parts, unlocks=None, gates=None):
     P = []
     for p in parts:
         steps = "".join(f'<i class="{escape(t["status"])}" title="{escape(t["title"])}"></i>' for t in p["tasks"])
@@ -185,12 +207,34 @@ def page(live, parts):
         who = "shared" if shared else f"Part {part}"
         A.append(f'''<div class="acc"><div>{escape(acct)}<div class="pstate">{who}</div></div>
 <div class="bar"><b style="width:{min(100, 100 * n / cap):.1f}%"></b></div><div class="num" style="text-align:right">{n}/{cap}</div></div>''')
+    G = []
+    for g in gates or []:
+        name = PART_NAMES[g["part"]]
+        if g["ready"]:
+            why = "Everything it needs is finished and tested. You can start it."
+            if g["helpful_missing"]:
+                why += " (Still coming, helpful but not required: " + ", ".join(
+                    f'{k} from Part {OWNER[k]}' for k in g["helpful_missing"]) + ".)"
+        else:
+            why = "Waiting for: " + ", ".join(f'{k} ({unlocks.get(k, {}).get("label", k)}, from Part {OWNER[k]})' for k in g["missing"])
+        G.append(f'<div class="gate"><div class="pname">Part {g["part"]} · {escape(name)}</div>'
+                 f'<div><span class="pill {"go" if g["ready"] else "wait"}">{"READY TO START" if g["ready"] else "NOT YET"}</span></div>'
+                 f'<div class="sub" style="margin:0">{escape(why)}</div></div>')
+    U = []
+    for k in sorted((unlocks or {})):
+        v = unlocks[k]
+        U.append(f'<div class="ul {"ok" if v["done"] else ""}"><div class="num">{"[x]" if v["done"] else "[ ]"}</div>'
+                 f'<div>{escape(k)} · {escape(v["label"])} <span style="color:var(--dim)">(Part {v["part"]})</span></div>'
+                 f'<div class="num" style="text-align:right">{escape(v["date"]) if v["done"] else "not yet"}</div></div>')
+    gates_html = (f'<h2>Ready to start?</h2><div class="card">{"".join(G)}</div>'
+                  f'<div class="card" style="margin-top:10px">{"".join(U)}</div>') if G else ""
     total_busy = sum(live["busy"].values())
     runs_html = ("<table><tr><th>Part</th><th>What</th><th>State</th><th>Started</th><th>Progress</th></tr>"
                  + "".join(R) + "</table>") if R else '<div class="empty">Nothing is running right now.</div>'
     return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>STEM Racing · live</title><style>{CSS}</style></head><body><main>
 <header><h1>STEM Racing · live</h1><div class="meta">refreshed <span data-t="{live["generated"]}"></span> · page reloads every minute · data every ~5 min</div></header>
+{gates_html}
 <h2>Parts</h2><div class="grid">{"".join(P)}</div>
 <h2>Running on GitHub <span class="num" style="color:var(--dim)">· {total_busy} machines busy</span></h2>{runs_html}
 <h2>Machines in use per account</h2><div class="card">{"".join(A)}</div>
@@ -203,9 +247,10 @@ def page(live, parts):
 def main():
     live = collect()
     parts = parts_status()
+    unlocks, gates = unlocks_status()
     SITE.mkdir(parents=True, exist_ok=True)
-    (SITE / "live.json").write_text(json.dumps({"live": live, "parts": parts}, indent=1), encoding="utf-8")
-    (SITE / "live.html").write_text(page(live, parts), encoding="utf-8")
+    (SITE / "live.json").write_text(json.dumps({"live": live, "parts": parts, "unlocks": unlocks, "gates": gates}, indent=1), encoding="utf-8")
+    (SITE / "live.html").write_text(page(live, parts, unlocks, gates), encoding="utf-8")
     print(f"live page: {len(live['runs'])} runs, {sum(live['busy'].values())} machines busy, {live['api_calls']} API calls")
 
 

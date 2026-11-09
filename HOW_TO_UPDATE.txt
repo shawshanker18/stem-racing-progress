@@ -13,6 +13,8 @@ How a part's builder updates this board
 
 3. SQUARES ("sections" / "items"): raise "done" as work and tests pass. Set "failed" for tests that failed and are being redone, and lower it again when they pass. Keep each item's "short" label (12 characters at most).
 
+3b. UNLOCKS (Parts 1, 2 and 4 only): when you send the team lead an UNLOCK message, ALSO set that milestone in your file's "unlocks" to "done": true, with "date" (YYYY-MM-DD) and a one-sentence "note". The live panel's "Ready to start?" box reads this to tell the team lead when Part 3 and Part 5 can start. Part 1 owns A; Part 2 owns B and C; Part 4 owns D. Only mark it done when its tests passed on GitHub.
+
 4. Also update "now" (one plain sentence), "updated" (the date), "status" (waiting, active or done), and add one line to "log" for anything worth remembering.
 
 5. Plain words only. No code, file names, links, settings, measurements of the car, or anything that would let someone rebuild the work. The redraw refuses text that looks like code, a path or a link.

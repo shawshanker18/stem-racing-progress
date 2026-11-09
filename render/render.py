@@ -322,6 +322,22 @@ def update_history(parts):
     return hist
 
 
+def gates_md(parts):
+    u = {k: dict(v, part=p["part"]) for p in parts for k, v in (p.get("unlocks") or {}).items()}
+    if not u:
+        return []
+    need = {3: ["A"], 5: ["A", "C", "D"]}
+    names = {3: "The compass", 5: "The loop"}
+    out = ["## Ready to start?", ""]
+    for part, keys in need.items():
+        miss = [k for k in keys if not u.get(k, {}).get("done")]
+        out.append(f"- **Part {part} ({names[part]}):** " + ("✅ **Ready to start.**" if not miss else
+                   "⏳ Not yet. Waiting for " + ", ".join(f"{k} ({u.get(k, {}).get('label', k)}, Part {u.get(k, {}).get('part', '?')})" for k in miss) + "."))
+    out += ["", "| Milestone | From | Done |", "|---|---|---|"]
+    out += [f"| {k}: {v['label']} | Part {v['part']} | {('✅ ' + v.get('date', '')) if v.get('done') else '⬜ not yet'} |" for k, v in sorted(u.items())]
+    return out + [""]
+
+
 def readme(parts, overall, tests, signed):
     out = [
         "# STEM Racing car: progress",
@@ -347,6 +363,7 @@ def readme(parts, overall, tests, signed):
         "<sub>Each square is one piece of work or one test case, counted from each part's progress file. "
         "\"Groundwork\" is work finished before this phase. Each part's builder updates its own file after every step.</sub>",
         "",
+        *gates_md(parts),
         "## The five parts",
         "",
     ]

@@ -282,5 +282,19 @@
    "finished": "",
    "note": ""
   }
- ]
+ ],
+ "unlocks": {
+  "B": {
+   "label": "Timing noise measured (helps Part 3, not required)",
+   "done": false,
+   "date": "",
+   "note": ""
+  },
+  "C": {
+   "label": "Compare-two-cars finished and tested",
+   "done": false,
+   "date": "",
+   "note": ""
+  }
+ }
 }

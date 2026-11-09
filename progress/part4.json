@@ -297,5 +297,13 @@
    "finished": "",
    "note": ""
   }
- ]
+ ],
+ "unlocks": {
+  "D": {
+   "label": "Full-car building finished and tested",
+   "done": false,
+   "date": "",
+   "note": ""
+  }
+ }
 }
