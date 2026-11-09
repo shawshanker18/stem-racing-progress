@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 696" width="1000" height="696">
-<rect x="0.00" y="0.00" width="1000.00" height="696.00" fill="#0d1117" stroke="#0d1117" stroke-width="0"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 680" width="1000" height="680">
+<rect x="0.00" y="0.00" width="1000.00" height="680.00" fill="#0d1117" stroke="#0d1117" stroke-width="0"/>
 <text x="4.00" y="21.00" font-family="sans-serif" font-size="16" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Work done: 67.1% (2,814/4,193)</text>
 <g><title>Part 1, Groundwork (built before): Older body: random cars tested (1 square = 10 cars): 400/400 done</title>
 <rect x="1.00" y="31.00" width="5.78" height="5.92" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
@@ -10032,13 +10032,12 @@
 <text x="513.00" y="470.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">What is left is the airflow settling into one of two patterns; testing warm</text>
 <text x="513.00" y="486.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">starts and time-accurate runs.</text>
 <text x="505.00" y="508.00" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">3 The compass</text>
-<text x="513.00" y="524.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Wing test: map right direction but poor size match on every setting and on a</text>
-<text x="513.00" y="540.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">finer mesh; testing the shipped full setup at its design speed and a backup</text>
-<text x="513.00" y="556.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">measured map.</text>
-<text x="505.00" y="578.00" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">4 Parts and the referee</text>
-<text x="513.00" y="594.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Edge tests and independence done. Trial car batches running; one tiny leftover</text>
-<text x="513.00" y="610.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">on the body files being traced with the body builder.</text>
-<text x="505.00" y="632.00" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">5 The loop</text>
-<text x="513.00" y="648.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Waiting for the go to start this phase.</text>
-<text x="4.00" y="686.00" font-family="sans-serif" font-size="11" font-weight="normal" fill="#8b949e" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Each square is one piece of work or one test case. Green: done. Red: failed, being redone. Grey: still to do. Counted from each part&#x27;s progress file.</text>
+<text x="513.00" y="524.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">On the wing the backup measured map passed and the fast map failed; hardening</text>
+<text x="513.00" y="540.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">the check with different-size shapes.</text>
+<text x="505.00" y="562.00" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">4 Parts and the referee</text>
+<text x="513.00" y="578.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Edge tests and independence done. Trial car batches running; one tiny leftover</text>
+<text x="513.00" y="594.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">on the body files being traced with the body builder.</text>
+<text x="505.00" y="616.00" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">5 The loop</text>
+<text x="513.00" y="632.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Waiting for the go to start this phase.</text>
+<text x="4.00" y="670.00" font-family="sans-serif" font-size="11" font-weight="normal" fill="#8b949e" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Each square is one piece of work or one test case. Green: done. Red: failed, being redone. Grey: still to do. Counted from each part&#x27;s progress file.</text>
 </svg>

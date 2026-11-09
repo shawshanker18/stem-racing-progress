@@ -88,16 +88,16 @@ Our team is building, part by part, a computer system that designs the fastest l
 - The cutter carves along this map, so the map must be proven against real measurements before anyone trusts it.
 - If the fast map cannot be made right, a slower map built from direct measurements is the backup.
 
-**Now:** Wing test: map right direction but poor size match on every setting and on a finer mesh; testing the shipped full setup at its design speed and a backup measured map.
+**Now:** On the wing the backup measured map passed and the fast map failed; hardening the check with different-size shapes.
 
 **Timeline:** 0 of 9 steps done
 
 | # | Step | Status | Started | Finished | Note |
 |---|---|---|---|---|---|
-| 1 | Known-answer test | 🔄 Working on it | 2026-11-09 |  | Direction fixed and proven on all twenty bumps with fully settled runs; the strength of the map still matches only loosely, now testing why. |
+| 1 | Known-answer test | ❌ Failed, being redone | 2026-11-09 |  | Fast map fails on every setting tried, including the maker's own full setup; the backup measured map passes. |
 | 2 | Compass test on the car | ⏸️ Blocked |  |  | Blocked: waiting on Part 2 to find why near-identical cars settle on different drag levels; measured car slopes cannot be trusted until then. |
 | 3 | Fixes, tried in order | ⬜ To do |  |  |  |
-| 4 | Backup measured map (only if needed) | 🔄 Working on it | 2026-11-09 |  | Trial run on the simple wing so it is proven before it might be needed. |
+| 4 | Backup measured map (only if needed) | 🔄 Working on it | 2026-11-09 |  | Passed on the simple wing: matched every test shape it had not seen. Waiting for quieter car runs before trying it on cars. |
 | 5 | Map to race time | 🔄 Working on it | 2026-11-09 |  | Built and its check against the race model passes, including where the weight sits; waiting for Part 1 to confirm how it re-sizes the skin. |
 | 6 | One-cut proof | ⬜ To do |  |  |  |
 | 7 | Write-up | ⬜ To do |  |  |  |
