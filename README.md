@@ -17,13 +17,13 @@ Our team is building, part by part, a computer system that designs the fastest l
 ## Ready to start?
 
 - **Part 3 (The compass):** ✅ **Ready to start.**
-- **Part 5 (The loop):** ⏳ Not yet. Waiting for C (Compare-two-cars finished and tested, Part 2), D (Full-car building finished and tested, Part 4).
+- **Part 5 (The loop):** ⏳ Not yet. Waiting for D (Full-car building finished and tested, Part 4).
 
 | Milestone | From | Done |
 |---|---|---|
 | A: Cutting tool finished and tested | Part 1 | ✅ 2026-11-09 |
 | B: Timing noise measured (helps Part 3, not required) | Part 2 | ✅ 2026-11-09 |
-| C: Compare-two-cars finished and tested | Part 2 | ⬜ not yet |
+| C: Compare-two-cars finished and tested | Part 2 | ✅ 2026-11-09 |
 | D: Full-car building finished and tested | Part 4 | ⬜ not yet |
 
 ## The five parts
@@ -55,14 +55,14 @@ Our team is building, part by part, a computer system that designs the fastest l
 
 ### 2. The stopwatch
 
-*Times a finished car over the 20 m race.* 52.4% · being built
+*Times a finished car over the 20 m race.* 53.2% · being built
 
 - An airflow simulation measures how hard the air pushes back on the car and its wheels.
 - A race model turns that push, the weight and the launch into a race time, and says which inputs matter most.
 - It must be right (checked against published wind-tunnel results), quiet (a tiny change gives a tiny time change) and give the same answer on every machine.
 - Every other part trusts it to say which car is faster.
 
-**Now:** Found and removed an early stop that cut every car's airflow run short; noise and ranking runs restarted. Measured thrust now in the race model.
+**Now:** Compare-two-cars is done (milestone C). The centre of mass now acts through real physics in the race time. Noise and ranking runs are going.
 
 **Timeline:** 0 of 10 steps done
 

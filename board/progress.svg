@@ -4427,7 +4427,7 @@
 <rect x="490.17" y="322.62" width="3.83" height="6.38" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="473.87" y="321.62" width="21.13" height="8.38" fill="none" stroke="#0d1117" stroke-width="2"/>
 </g>
-<text x="509.00" y="21.00" font-family="sans-serif" font-size="16" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Tests passed: 7.6% (416/5,441)</text>
+<text x="509.00" y="21.00" font-family="sans-serif" font-size="16" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Tests passed: 7.8% (424/5,441)</text>
 <g><title>Part 1, Tests: Carved bodies (1 square = 1 body): 0/2000 done</title>
 <rect x="506.00" y="31.00" width="5.14" height="5.14" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="511.14" y="31.00" width="5.14" height="5.14" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
@@ -9909,15 +9909,15 @@
 <rect x="978.77" y="298.68" width="5.03" height="4.12" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="967.71" y="289.43" width="17.10" height="14.37" fill="none" stroke="#0d1117" stroke-width="2"/>
 </g>
-<g><title>Part 2, Tests: Slope checks: 0/8 done</title>
-<rect x="985.80" y="290.43" width="4.40" height="4.12" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="990.20" y="290.43" width="4.40" height="4.12" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="994.60" y="290.43" width="4.40" height="4.12" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="985.80" y="294.55" width="4.40" height="4.12" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="990.20" y="294.55" width="4.40" height="4.12" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="994.60" y="294.55" width="4.40" height="4.12" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="985.80" y="298.68" width="6.60" height="4.12" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
-<rect x="992.40" y="298.68" width="6.60" height="4.12" fill="#6e7681" stroke="#0d1117" stroke-width="0.5"/>
+<g><title>Part 2, Tests: Slope checks: 8/8 done</title>
+<rect x="985.80" y="290.43" width="4.40" height="4.12" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="990.20" y="290.43" width="4.40" height="4.12" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="994.60" y="290.43" width="4.40" height="4.12" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="985.80" y="294.55" width="4.40" height="4.12" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="990.20" y="294.55" width="4.40" height="4.12" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="994.60" y="294.55" width="4.40" height="4.12" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="985.80" y="298.68" width="6.60" height="4.12" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
+<rect x="992.40" y="298.68" width="6.60" height="4.12" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
 <rect x="984.80" y="289.43" width="15.20" height="14.37" fill="none" stroke="#0d1117" stroke-width="2"/>
 </g>
 <g><title>Part 2, Tests: Repeat on six machines: 0/6 done</title>
@@ -9986,8 +9986,8 @@
 <text x="495.00" y="389.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="end" stroke="#0d1117" stroke-width="3" paint-order="stroke">35.1%</text>
 <text x="4.00" y="409.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">2 The stopwatch</text>
 <rect x="154" y="398" width="267" height="14" fill="#6e7681"/>
-<rect x="154" y="398" width="140.02" height="14" fill="#2ea043"/>
-<text x="495.00" y="409.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="end" stroke="#0d1117" stroke-width="3" paint-order="stroke">52.4%</text>
+<rect x="154" y="398" width="142.15" height="14" fill="#2ea043"/>
+<text x="495.00" y="409.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="end" stroke="#0d1117" stroke-width="3" paint-order="stroke">53.2%</text>
 <text x="4.00" y="429.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">3 The compass</text>
 <rect x="154" y="418" width="267" height="14" fill="#6e7681"/>
 <rect x="154" y="418" width="72.78" height="14" fill="#2ea043"/>
@@ -10009,8 +10009,8 @@
 <text x="495.00" y="521.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="end" stroke="#0d1117" stroke-width="3" paint-order="stroke">299/2,360</text>
 <text x="4.00" y="541.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">2 The stopwatch</text>
 <rect x="154" y="530" width="267" height="14" fill="#6e7681"/>
-<rect x="154" y="530" width="132.93" height="14" fill="#2ea043"/>
-<text x="495.00" y="541.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="end" stroke="#0d1117" stroke-width="3" paint-order="stroke">116/233</text>
+<rect x="154" y="530" width="142.09" height="14" fill="#2ea043"/>
+<text x="495.00" y="541.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="end" stroke="#0d1117" stroke-width="3" paint-order="stroke">124/233</text>
 <text x="4.00" y="561.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">3 The compass</text>
 <rect x="154" y="550" width="267" height="14" fill="#6e7681"/>
 <rect x="154" y="550" width="1.60" height="14" fill="#2ea043"/>
@@ -10027,8 +10027,8 @@
 <text x="513.00" y="400.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Chamber fixed and confirmed; big carving test restarted; still working on the</text>
 <text x="513.00" y="416.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">grid weight test.</text>
 <text x="505.00" y="438.00" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">2 The stopwatch</text>
-<text x="513.00" y="454.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Found and removed an early stop that cut every car&#x27;s airflow run short; noise</text>
-<text x="513.00" y="470.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">and ranking runs restarted. Measured thrust now in the race model.</text>
+<text x="513.00" y="454.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Compare-two-cars is done (milestone C). The centre of mass now acts through</text>
+<text x="513.00" y="470.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">real physics in the race time. Noise and ranking runs are going.</text>
 <text x="505.00" y="492.00" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">3 The compass</text>
 <text x="513.00" y="508.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Map direction now right on the wing and on eighteen real cars; working on how</text>
 <text x="513.00" y="524.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">strongly it matches, on settling the car flow, and on covering the whole car</text>
