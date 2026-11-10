@@ -62,7 +62,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - It must be right (checked against published wind-tunnel results), quiet (a tiny change gives a tiny time change) and give the same answer on every machine.
 - Every other part trusts it to say which car is faster.
 
-**Now:** Paused (GitHub block): no new runs on any account until the user decides; running jobs finish and are saved.
+**Now:** Paused (GitHub block). Reshaped meshes still had one bad cell; likely cause found (rounding when the mesh is read) and fixed in code, to be tested when runs resume.
 
 **Timeline:** 0 of 10 steps done
 
