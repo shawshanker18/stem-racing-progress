@@ -193,8 +193,12 @@
  ],
  "status": "active",
  "updated": "2026-11-10",
- "now": "All 3 reference cars pass every check (162 of 162) on the body builder's fix fef4130; told it, so nothing from Part 4 holds its frozen version. Trial cars running on two Codespaces.",
+ "now": "Trial cars on the body builder's fix: older-style 13 of 20 legal, no crashes. Carved: every car so far misses 6-20 mm3 of the cargo shape at the ballast slot's top edge. Tracing that on a rebuilt car now.",
  "log": [
+  {
+   "date": "2026-11-10",
+   "text": "Trial cars on fef4130 (not counted): older-style 13 of 20 legal, 0 crashes; carved all fail the cargo check at the ballast slot edge. Tracing it."
+  },
   {
    "date": "2026-11-10",
    "text": "Body builder fixed the slot-corner strip (fef4130); all 3 reference cars pass every check on it. Told the body builder."
@@ -327,7 +331,7 @@
   }
  ],
  "agent_state": "working",
- "agent_note": "Reference cars pass on the body builder's fix. Trial cars restarted on that fix (20 carved, 20 older-style) on two Codespaces; the earlier trial cars were on the broken version and are not counted. Codespace use: about 12 core-hours on each of blackwingstem-wq and blackwinglinkedin-crypto so far.",
+ "agent_note": "Trial cars (not counted) on fef4130: older-style 13/20 legal, 0 crashes (cargo 3, front wing span 2, body slivers 2). Carved 13/13 so far fail one rule: cargo shape short by 6-20 mm3 round the top of the ballast slot. Rebuilding one car with its files kept to find whose part causes it. Codespace use: about 18.5 core-hours on each of blackwingstem-wq and blackwinglinkedin-crypto (4 cores x 4.6 h).",
  "needs_you": "Team items: print material and the printer's thinnest wall, part weights, a hand check of three cars, and whether one exported car can be made.",
  "unlocks": {
   "D": {
