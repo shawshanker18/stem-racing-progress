@@ -216,14 +216,14 @@
    "date": "2026-11-10",
    "text": "Map steadiness on two cars: the fast map came out almost the same at three different moments of the swinging flow, with the direction agreeing on about nineteen of every twenty points and on every one of the strongest points. The map now reaches all but about two in a hundred points of the real car surface; the rest are on the flat closing face at the middle. One open point stays: the fast map still says growing the whole car evenly lowers drag, which is physically wrong, so it remains a side study and the measured map stays first."
   }
-  }
   ,{
    "date": "2026-11-10",
    "text": "Car pilot ready: a small trial on one car ran end to end on the main account (about 1 machine-hour). One finding for Part 2: pulling the nose tip in by a millimetre made the reshaped mesh fail its check, so that car was meshed fresh; the pilot now leaves such pairs out instead of mixing mesh types."
+  }
  ],
  "agent_state": "working",
  "needs_you": "",
- "agent_note": "Map steadiness check finished on the main account (6 machines for about 7 machine-hours). The fast car map is the same wherever the swinging flow is stopped. Getting the car pilot ready; it still waits for Part 1 and Part 2.",
+ "agent_note": "Car pilot is ready and tested. Today on the main account: map steadiness check about 7 machine-hours, pilot trial about 1 machine-hour. No Codespaces used yet.",
  "tasks": [
   {
    "title": "Known-answer test",
