@@ -205,9 +205,9 @@
    "text": "One-cut rehearsal on the wing: small steps along the backup map lowered drag clearly; steps four times larger made it worse, so cuts must stay small."
   }
  ],
- "agent_state": "working",
+ "agent_state": "blocked",
  "needs_you": "",
- "agent_note": "Writing the method notes. Car work waits on quieter car runs (Part 2) and the frozen cutter (Part 1).",
+ "agent_note": "Wing work done and notes written. Car work needs Part 1 frozen cutter and Part 2 quieter car runs; tools for both are ready.",
  "tasks": [
   {
    "title": "Known-answer test",
