@@ -123,7 +123,7 @@
     {
      "name": "Repeat on six machines",
      "cells": 6,
-     "done": 0,
+     "done": 6,
      "failed": 0,
      "short": "Repeat x6"
     },
@@ -185,8 +185,8 @@
   }
  ],
  "status": "active",
- "updated": "2026-11-09",
- "now": "Reshaped mesh plus warm start cuts timing noise about elevenfold, and all near-identical cars now sit on one airflow pattern. Still above target; testing longer runs to shrink the averaging error that is now the main part.",
+ "updated": "2026-11-10",
+ "now": "Same car on six machines: times spread about ten times wider than the target, so the repeat test fails for now. Cause looks like each run's averaging error; longer runs are testing that fix.",
  "agent_state": "waiting_on_compute",
  "agent_note": "Cloud-machine use this month: about 91 core-hours on one teammate account, about 27 on the other; all cloud machines now deleted.",
  "needs_you": "",
