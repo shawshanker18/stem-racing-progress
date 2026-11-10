@@ -193,7 +193,7 @@
  ],
  "status": "active",
  "updated": "2026-11-10",
- "now": "The two new rejects came from an older body-builder version and are gone on its current code (9 of 10 rebuilt cars legal; the last is the body builder's cargo box). GitHub then blocked runs on all four accounts Part 4 uses; nothing is running.",
+ "now": "Rechecking the 3 reference cars on the body builder's latest code; a pass lets it freeze its version for the counted runs.",
  "log": [
   {
    "date": "2026-11-10",
@@ -310,8 +310,8 @@
    "note": ""
   }
  ],
- "agent_state": "blocked",
- "agent_note": "Paused with the whole team: no runs on any account until the user decides about GitHub blocking the accounts. Doing write-up work that needs no compute.",
+ "agent_state": "waiting_on_compute",
+ "agent_note": "Restarted on the main account (up to 8 jobs): the 3 reference cars are running on the body builder's latest code; the result goes to the body builder, since it decides the frozen version. Small trial batches follow on Codespaces.",
  "needs_you": "Team items: print material and the printer's thinnest wall, part weights, a hand check of three cars, and whether one exported car can be made.",
  "unlocks": {
   "D": {
