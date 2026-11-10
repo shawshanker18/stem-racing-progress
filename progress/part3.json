@@ -157,8 +157,8 @@
   }
  ],
  "status": "active",
- "updated": "2026-11-09",
- "now": "paused (GitHub block). Wing work is done; car work waits on Part 1, Part 2 and this pause.",
+ "updated": "2026-11-10",
+ "now": "Checking whether the car map is steady across the flow's swings (main account only).",
  "log": [
   {
    "date": "2026-11-09",
@@ -204,10 +204,18 @@
    "date": "2026-11-10",
    "text": "One-cut rehearsal on the wing: small steps along the backup map lowered drag clearly; steps four times larger made it worse, so cuts must stay small."
   }
+  ,{
+   "date": "2026-11-10",
+   "text": "Hardened wing result: the backup measured map was tested on twenty shapes it was never built from (narrow, wide and mixed bumps). It followed the true changes closely and had the direction right on eighteen of twenty, on both the normal and the four times finer mesh. The two misses are very narrow bumps, finer than the map can see."
+  }
+  ,{
+   "date": "2026-11-10",
+   "text": "Restarted on the main account only, a few machines at a time. Now checking whether the fast map on a car stays the same when the unsteady flow is stopped at different moments."
+  }
  ],
- "agent_state": "blocked",
+ "agent_state": "working",
  "needs_you": "",
- "agent_note": "paused (GitHub block): no new runs on any account until the team lead decides. Nothing of mine is running.",
+ "agent_note": "Restarted on the main account only (other accounts still blocked). Running the map steadiness check on two cars; the car pilot still waits for Part 1 and Part 2.",
  "tasks": [
   {
    "title": "Known-answer test",
