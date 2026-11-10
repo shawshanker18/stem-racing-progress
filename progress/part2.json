@@ -186,7 +186,7 @@
  ],
  "status": "active",
  "updated": "2026-11-09",
- "now": "Restarted on the main account only, at most ten jobs: testing the mesh-reshape fix on cut cars and timing a short time-accurate run.",
+ "now": "Time-accurate runs now work; four cars (two from each drag level) running for about eleven flow-passes to see whether the wake switches. Mesh-reshape fix being tested on cut cars.",
  "agent_state": "waiting_on_compute",
  "agent_note": "Cloud-machine use so far: about 52 of roughly 120 free core-hours this month on one teammate account (two machines still running); none on the other.",
  "needs_you": "",
