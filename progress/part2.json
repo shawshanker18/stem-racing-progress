@@ -186,7 +186,7 @@
  ],
  "status": "active",
  "updated": "2026-11-09",
- "now": "Smoothed reshaping now gives valid meshes on cut cars. Found the cut test was comparing against an unmilled reference; fixed, re-testing next together with the reshape-plus-warm-start noise run.",
+ "now": "Time-accurate runs (about eleven flow-passes): no car switched airflow pattern; the drag levels persist. Re-testing cut cars against a fair reference and the reshaped-plus-warm-start noise run.",
  "agent_state": "waiting_on_compute",
  "agent_note": "Cloud-machine use: about 70 of roughly 120 free core-hours this month on one teammate account and a few on the other. Two detailed-mesh ranking cars restarted there (my own 5-hour stage limit stopped the first try just short).",
  "needs_you": "",
