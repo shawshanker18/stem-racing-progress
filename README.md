@@ -37,7 +37,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - Re-sizes the whole body after each cut so the car always weighs the target.
 - Hands over a clean, closed 3D shape. It never decides what is faster; it only cuts safely.
 
-**Now:** No tag yet. Fixed and pushed (26f095c): the cargo-slot rim Part 4 found on carved cars. Still open: (1) the weight count is 0.024 g above the milled body at 1 mm (0.0065 g at 0.5 mm) because it counts bevels the zone cut removes; the car itself is weighed from the milled files, so its mass is right; question sent to the user on how to fix. (2) thin triangles: mostly made by Part 4's remesh, sent to Part 4 with numbers. (3) the zone cut still falls back on one test body at 0.5 mm: being traced.
+**Now:** No tag yet. The weight fix (ed9e488) made things worse: zone test, pocket-floor test and 2 cars fail (body inside zones, pocket floor a cell low, T4.2 cargo). Tracing it step by step on GitHub; it will be fixed or reverted before any tag. Thin triangles on the 0.3 mm car now pass with Part 4's remesh fix.
 
 **Timeline:** 2 of 9 steps done
 
