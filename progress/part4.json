@@ -311,7 +311,7 @@
   }
  ],
  "agent_state": "blocked",
- "agent_note": "Blocked: GitHub stopped every run on all four accounts (repository invocation blocked) at 00:15 UTC. Not retrying, per the lead. Need working compute to continue the trial and counted runs.",
+ "agent_note": "Paused with the whole team: no runs on any account until the user decides about GitHub blocking the accounts. Doing write-up work that needs no compute.",
  "needs_you": "Team items: print material and the printer's thinnest wall, part weights, a hand check of three cars, and whether one exported car can be made.",
  "unlocks": {
   "D": {
