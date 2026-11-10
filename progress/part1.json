@@ -179,7 +179,7 @@
  ],
  "status": "active",
  "updated": "2026-11-10",
- "now": "Fixed three more causes: the zone cut now survives saving, the halo roof zone starts at the right place, and distance repair keeps every slope. Checks running.",
+ "now": "Found and fixed the causes behind the last failing checks (zone seams, a distance-repair lean, a weight-sum lean on curved surfaces). Down to the final check run; then the reference cars.",
  "log": [
   {
    "date": "2026-11-09",
@@ -337,7 +337,7 @@
   }
  ],
  "agent_state": "waiting_on_compute",
- "agent_note": "Checks running on three new fixes.",
+ "agent_note": "Final check run going; reference cars next.",
  "needs_you": "",
  "unlocks": {
   "A": {
