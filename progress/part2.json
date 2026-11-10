@@ -186,8 +186,8 @@
  ],
  "status": "active",
  "updated": "2026-11-09",
- "now": "Paused (GitHub block). Reshaped meshes still had one bad cell; likely cause found (rounding when the mesh is read) and fixed in code, to be tested when runs resume.",
- "agent_state": "blocked",
+ "now": "Restarted on the main account only, at most ten jobs: testing the mesh-reshape fix on cut cars and timing a short time-accurate run.",
+ "agent_state": "waiting_on_compute",
  "agent_note": "Waiting on: warm-start noise tests (three variants), time-accurate runs on six cars, a longer-run noise test, the detailed ranking cars, the wind-tunnel floor test and the cloud long-run test.",
  "needs_you": "",
  "log": [
