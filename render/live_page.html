@@ -30,6 +30,7 @@ button:disabled{background:#2a2a2a;color:var(--mute);cursor:wait}
 .gate:last-child{border-bottom:0}
 .ms{display:grid;grid-template-columns:34px 1fr auto;gap:10px;padding:4px 0;color:var(--mute);font-size:13px}.ms.ok{color:var(--text)}
 .accs{display:grid;gap:10px;grid-template-columns:repeat(auto-fill,minmax(250px,1fr))}
+.acc.blocked{border-color:#e5484d;background:rgba(229,72,77,.12)}.acc.blocked .who{color:#e5484d;font-weight:600}
 .acc .head{display:flex;justify-content:space-between;gap:8px;align-items:baseline}.acc .who{color:var(--mute);font-size:12px}
 .sq{display:grid;grid-template-columns:repeat(auto-fill,12px);gap:3px;margin-top:10px}
 .sq i{width:12px;height:12px;border-radius:2px;background:#232323;border:1px solid #2e2e2e}
@@ -125,7 +126,7 @@ function render(d){
   const cells = a => { const out = []; for (const k of ["1","2","3","4","5","0"]) for (let i=0;i<((a.by_part||{})[k]||0);i++) out.push(`<i class="${SHADE[k]}"></i>`);
     while (out.length < a.running) out.push('<i class="p0"></i>'); while (out.length < a.cap) out.push("<i></i>"); return out.slice(0, Math.max(a.cap, out.length)).join(""); };
   $("accounts").innerHTML = d.accounts.map(a => `
-    <div class="card acc"><div class="head"><div>${esc(a.name)}<div class="who">${a.part ? "Part " + a.part : esc(a.note || "shared")}</div></div>
+    <div class="card acc${a.blocked ? " blocked" : ""}"><div class="head"><div>${esc(a.name)}<div class="who">${a.blocked ? "BLOCKED · " + esc(a.note) : a.part ? "Part " + a.part : esc(a.note || "shared")}</div></div>
     <div class="mono">${a.running}/${a.cap}${a.queued ? `<div class="who">${a.queued} queued</div>` : ""}</div></div>
     <div class="sq" title="${a.running} of ${a.cap} machines running: ${Object.entries(a.by_part||{}).map(([k,v])=>pname(k)+" "+v).join(", ") || "none"}">${cells(a)}</div></div>`).join("");
 

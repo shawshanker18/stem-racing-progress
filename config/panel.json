@@ -21,43 +21,50 @@
       "name": "mxnviir",
       "cap": 40,
       "part": null,
-      "note": "BLOCKED by GitHub since 2026-11-10 ~03:48 UAE; do not use"
+      "note": "Codespaces only: Parts 2 + 3",
+      "blocked": true
     },
     {
       "name": "blackwingftc-lang",
       "cap": 20,
       "part": 2,
-      "note": "BLOCKED by GitHub since 2026-11-10 ~03:48 UAE; do not use"
+      "note": "Codespaces only: Part 2",
+      "blocked": true
     },
     {
       "name": "Jdiejei",
       "cap": 20,
-      "part": 2,
-      "note": "BLOCKED by GitHub since 2026-11-10 ~03:48 UAE; do not use"
+      "part": 1,
+      "note": "Codespaces only: Part 1",
+      "blocked": true
     },
     {
       "name": "instagramshashank8-bot",
       "cap": 20,
-      "part": 4,
-      "note": "BLOCKED by GitHub since 2026-11-10 ~03:48 UAE; do not use"
+      "part": 3,
+      "note": "Codespaces only: Part 3",
+      "blocked": true
     },
     {
       "name": "blackwingstem-wq",
       "cap": 20,
       "part": 4,
-      "note": "BLOCKED by GitHub since 2026-11-10 ~03:48 UAE; do not use"
+      "note": "Codespaces only: Part 4",
+      "blocked": true
     },
     {
       "name": "blackwinglinkedin-crypto",
       "cap": 14,
       "part": 4,
-      "note": "BLOCKED by GitHub since 2026-11-10 ~03:48 UAE; do not use"
+      "note": "Codespaces only: Part 4",
+      "blocked": true
     },
     {
       "name": "anasssssssss1",
       "cap": 5,
       "part": 4,
-      "note": "BLOCKED by GitHub since 2026-11-10 ~03:48 UAE; do not use"
+      "note": "unusable: login lacks the codespace permission",
+      "blocked": true
     }
   ],
   "gates": [

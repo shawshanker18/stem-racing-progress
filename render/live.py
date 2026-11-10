@@ -122,7 +122,7 @@ def collect_runs(cfg, gh, workers=12):
                          "jobs_queued": len(queued),
                          "percent": round(100 * frac / len(jobs), 1) if jobs else 0.0,
                          "typical_min": round(typ / 60, 1) if typ else None})
-        accounts.append({"name": name, "cap": acc["cap"], "part": acc.get("part"), "note": acc.get("note", ""),
+        accounts.append({"name": name, "cap": acc["cap"], "part": acc.get("part"), "note": acc.get("note", ""), "blocked": bool(acc.get("blocked")),
                          "running": running_jobs, "queued": queued_jobs,
                          "by_part": {k: v for k, v in by_part.items() if v}})
     return runs, accounts
