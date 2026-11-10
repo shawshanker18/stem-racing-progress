@@ -37,7 +37,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - Re-sizes the whole body after each cut so the car always weighs the target.
 - Hands over a clean, closed 3D shape. It never decides what is faster; it only cuts safely.
 
-**Now:** Restarted on the main account. Small zone fix pushed; full checks running on it. Part 4 is rechecking its 3 reference cars; the frozen version gets tagged once they pass.
+**Now:** Part 4 found the block-slot strip back on the newest version: a small fix made the zone cut fail and fall back to no cut. Cause fixed (fef4130); checks running; Part 4 rechecks its 3 reference cars before any tag.
 
 **Timeline:** 2 of 9 steps done
 
