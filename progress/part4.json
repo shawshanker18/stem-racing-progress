@@ -193,8 +193,12 @@
  ],
  "status": "active",
  "updated": "2026-11-10",
- "now": "Cargo gap traced to the body builder's ballast-slot rim; it fixed it (26f095c). 20 carved trial cars rerunning on that fix. Part 4's triangle clean-up now never adds thin triangles to a clean file; unit tests pass (run 42794294512).",
+ "now": "Body builder's first cargo fix (26f095c) did not clear it (16 of 20 carved cars still short); its next one (5fef8eb) makes the rebuilt car legal. Rechecking 20 carved and 3 older-style cars on 5fef8eb now.",
  "log": [
+  {
+   "date": "2026-11-10",
+   "text": "Carved trial cars on 26f095c still short on cargo (16 of 20); rebuilt car legal on 5fef8eb. Rechecking."
+  },
   {
    "date": "2026-11-10",
    "text": "Cargo gap traced to the body builder's slot rim (fixed in 26f095c). Part 4 remesh keeps the cleaner file (13e4445); unit tests pass."
@@ -335,7 +339,7 @@
   }
  ],
  "agent_state": "working",
- "agent_note": "Carved trial cars on fef4130 (not counted): 15 of 15 failed only the cargo check, 6-20 mm3 at the ballast slot rim, 0 crashes. Cause was in the body builder's body (rim rounded up to 0.85 mm past the slot), fixed in 26f095c; rerunning 20 carved cars on it. Remesh fix pushed (13e4445), tests 20 + 105 passed. Codespace use: blackwinglinkedin-crypto 19 core-hours, Codespace deleted; blackwingstem-wq about 21 core-hours so far, still running.",
+ "agent_note": "Carved trial cars on 26f095c: 3 of 20 legal, 16 short on the cargo check, 0 crashes. On 5fef8eb the rebuilt car 43100/0 is legal (0.34 mm3 left, under round-off). Full recheck running, about 2.5 h. Codespace use: blackwinglinkedin-crypto 19 core-hours (deleted); blackwingstem-wq about 32 core-hours so far (4 cores x 8 h), still running.",
  "needs_you": "Team items: print material and the printer's thinnest wall, part weights, a hand check of three cars, and whether one exported car can be made.",
  "unlocks": {
   "D": {
