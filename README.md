@@ -113,7 +113,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - Holds the referee: an independent check of the finished car against every rule, measured from the outside like a scrutineer, showing how much room is left on each rule.
 - The referee shares nothing with the cutter, so one cannot hide the other's mistakes.
 
-**Now:** The body builder's newer code fixes the crash (19 of 20 trial cars built). New rejects found: something sits 75 mm ahead of the front reference (limit 40), and printed files have too many thin triangles, possibly from my blunt wing edge. Tracing both; 1,000+ trial cars and the reference cars running.
+**Now:** The two new rejects came from an older body-builder version and are gone on its current code (9 of 10 rebuilt cars legal; the last is the body builder's cargo box). GitHub then blocked runs on all four accounts Part 4 uses; nothing is running.
 
 **Timeline:** 3 of 10 steps done
 
