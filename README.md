@@ -37,7 +37,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - Re-sizes the whole body after each cut so the car always weighs the target.
 - Hands over a clean, closed 3D shape. It never decides what is faster; it only cuts safely.
 
-**Now:** No tag yet. The weight fix (ed9e488) made things worse: zone test, pocket-floor test and 2 cars fail (body inside zones, pocket floor a cell low, T4.2 cargo). Tracing it step by step on GitHub; it will be fixed or reverted before any tag. Thin triangles on the 0.3 mm car now pass with Part 4's remesh fix.
+**Now:** No tag yet. 5fef8eb (ed9e488 reverted, the cut's own removal given back): weight test passes at 1.0 and 0.5 mm, all 8 test cars pass (incl. 0.3 and 0.5 mm). 3 tests still red: pocket floor 0.025 mm low next to the ballast slot (bar 0.001), and the 0.5 mm box cut falling back. Fixing both; Part 4 is rechecking its 23 carved/cargo cars on 5fef8eb.
 
 **Timeline:** 2 of 9 steps done
 
