@@ -88,7 +88,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - The cutter carves along this map, so the map must be proven against real measurements before anyone trusts it.
 - If the fast map cannot be made right, a slower map built from direct measurements is the backup.
 
-**Now:** Backup measured map holds on a finer mesh and with more building blocks; now rehearsing the one-cut proof on the wing.
+**Now:** Wing rehearsal done: the backup map lowers drag for small cuts and the safe cut size is measured. Writing the method notes while car work waits.
 
 **Timeline:** 0 of 9 steps done
 
