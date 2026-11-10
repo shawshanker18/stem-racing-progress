@@ -158,7 +158,7 @@
  ],
  "status": "active",
  "updated": "2026-11-10",
- "now": "Map steadiness check done (it passed). Getting the car pilot ready so it can start as soon as Part 1 freezes its cutter.",
+ "now": "Car pilot code written; a small trial run (not a result) is checking it works end to end on the main account.",
  "log": [
   {
    "date": "2026-11-09",
@@ -219,7 +219,7 @@
  ],
  "agent_state": "working",
  "needs_you": "",
- "agent_note": "Map steadiness check finished on the main account (6 machines, about 9 core-hours). The fast car map is the same wherever the swinging flow is stopped. Getting the car pilot ready; it still waits for Part 1 and Part 2.",
+ "agent_note": "Map steadiness check finished on the main account (6 machines for about 7 machine-hours). The fast car map is the same wherever the swinging flow is stopped. Getting the car pilot ready; it still waits for Part 1 and Part 2.",
  "tasks": [
   {
    "title": "Known-answer test",
