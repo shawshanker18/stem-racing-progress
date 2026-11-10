@@ -88,7 +88,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - The cutter carves along this map, so the map must be proven against real measurements before anyone trusts it.
 - If the fast map cannot be made right, a slower map built from direct measurements is the backup.
 
-**Now:** paused (GitHub block). Wing work is done; car work waits on Part 1, Part 2 and this pause.
+**Now:** Checking whether the car map is steady across the flow's swings (main account only).
 
 **Timeline:** 0 of 9 steps done
 
