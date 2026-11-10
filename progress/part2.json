@@ -186,7 +186,7 @@
  ],
  "status": "active",
  "updated": "2026-11-09",
- "now": "Ranking check passed on all twenty cars. Reshape-plus-warm-start noise run and the fair cut-car test are running.",
+ "now": "Cut-car test against a fair reference: reshaped and fresh meshes now agree closely. Fresh mesh plus warm start alone stays noisy; re-running the reshaped-plus-warm-start noise test with a corrected mesh-quality rule.",
  "agent_state": "waiting_on_compute",
  "agent_note": "Cloud-machine use this month: about 91 core-hours on one teammate account, about 27 on the other; all cloud machines now deleted.",
  "needs_you": "",
