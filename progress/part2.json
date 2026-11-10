@@ -186,7 +186,7 @@
  ],
  "status": "active",
  "updated": "2026-11-09",
- "now": "Reshaping a car onto itself gives a clean mesh and the same drag; the bad cell comes from jumpy point moves at sharp edges. Smoothed the moves; re-testing on cut cars. Time-accurate runs and two long ranking cars still going.",
+ "now": "Smoothed reshaping now gives valid meshes on cut cars. Found the cut test was comparing against an unmilled reference; fixed, re-testing next together with the reshape-plus-warm-start noise run.",
  "agent_state": "waiting_on_compute",
  "agent_note": "Cloud-machine use: about 70 of roughly 120 free core-hours this month on one teammate account and a few on the other. Two detailed-mesh ranking cars restarted there (my own 5-hour stage limit stopped the first try just short).",
  "needs_you": "",
