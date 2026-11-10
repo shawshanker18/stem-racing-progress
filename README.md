@@ -37,7 +37,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - Re-sizes the whole body after each cut so the car always weighs the target.
 - Hands over a clean, closed 3D shape. It never decides what is faster; it only cuts safely.
 
-**Now:** paused (GitHub block). Last check run: two parts passed, one had one small miss (fixed in code, not yet re-checked), one was cancelled by GitHub. Reference cars and the frozen version wait for the restart.
+**Now:** Restarted on the main account. Small zone fix pushed; full checks running on it. Part 4 is rechecking its 3 reference cars; the frozen version gets tagged once they pass.
 
 **Timeline:** 2 of 9 steps done
 
@@ -62,7 +62,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - It must be right (checked against published wind-tunnel results), quiet (a tiny change gives a tiny time change) and give the same answer on every machine.
 - Every other part trusts it to say which car is faster.
 
-**Now:** Paused (GitHub block). Reshaped meshes still had one bad cell; likely cause found (rounding when the mesh is read) and fixed in code, to be tested when runs resume.
+**Now:** Restarted on the main account only, at most ten jobs: testing the mesh-reshape fix on cut cars and timing a short time-accurate run.
 
 **Timeline:** 0 of 10 steps done
 
