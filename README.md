@@ -62,7 +62,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - It must be right (checked against published wind-tunnel results), quiet (a tiny change gives a tiny time change) and give the same answer on every machine.
 - Every other part trusts it to say which car is faster.
 
-**Now:** GitHub switched off runs on three teammate accounts (not on purpose); working on the main account only. New mesh-reshape method built; checks and the cut-car test running.
+**Now:** Paused (GitHub block): no new runs on any account until the user decides; running jobs finish and are saved.
 
 **Timeline:** 0 of 10 steps done
 
@@ -88,7 +88,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - The cutter carves along this map, so the map must be proven against real measurements before anyone trusts it.
 - If the fast map cannot be made right, a slower map built from direct measurements is the backup.
 
-**Now:** Wing rehearsal done: the backup map lowers drag for small cuts and the safe cut size is measured. Writing the method notes while car work waits.
+**Now:** paused (GitHub block). Wing work is done; car work waits on Part 1, Part 2 and this pause.
 
 **Timeline:** 0 of 9 steps done
 
