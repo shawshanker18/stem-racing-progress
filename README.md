@@ -37,7 +37,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - Re-sizes the whole body after each cut so the car always weighs the target.
 - Hands over a clean, closed 3D shape. It never decides what is faster; it only cuts safely.
 
-**Now:** Part 4 found the block-slot strip back on the newest version: a small fix made the zone cut fail and fall back to no cut. Cause fixed (fef4130); checks running; Part 4 rechecks its 3 reference cars before any tag.
+**Now:** No tag yet. Part 4's 3 cars pass on fef4130, but 2 of Part 1's own checks fail: (1) the weight count is 0.15 cm3 (0.024 g) above the milled body at 1 mm: it counts body inside the rule-zone boxes that the zone cut removes; (2) the working zone cut leaves thin triangles: 4.4 % on the 0.3 mm car, limit 4 %. Both causes being measured on GitHub now; tag after both are fixed and rechecked.
 
 **Timeline:** 2 of 9 steps done
 
