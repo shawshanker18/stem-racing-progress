@@ -179,7 +179,7 @@
  ],
  "status": "active",
  "updated": "2026-11-10",
- "now": "paused (GitHub block). Last check run: two parts passed, one had one small miss (fixed in code, not yet re-checked), one was cancelled by GitHub. Reference cars and the frozen version wait for the restart.",
+ "now": "Restarted on the main account. Small zone fix pushed; full checks running on it. Part 4 is rechecking its 3 reference cars; the frozen version gets tagged once they pass.",
  "log": [
   {
    "date": "2026-11-09",
@@ -336,7 +336,7 @@
    "note": ""
   }
  ],
- "agent_state": "blocked",
+ "agent_state": "working",
  "agent_note": "paused (GitHub block): no new runs until the user decides.",
  "needs_you": "",
  "unlocks": {
