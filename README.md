@@ -37,7 +37,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - Re-sizes the whole body after each cut so the car always weighs the target.
 - Hands over a clean, closed 3D shape. It never decides what is faster; it only cuts safely.
 
-**Now:** Found and fixed the causes behind the last failing checks (zone seams, a distance-repair lean, a weight-sum lean on curved surfaces). Down to the final check run; then the reference cars.
+**Now:** paused (GitHub block). One check run already going is left to finish. All causes of the last failing checks found and fixed in code; reference cars and the frozen version wait for the restart.
 
 **Timeline:** 2 of 9 steps done
 
