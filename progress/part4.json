@@ -193,7 +193,7 @@
  ],
  "status": "active",
  "updated": "2026-11-10",
- "now": "Body builder's first cargo fix (26f095c) did not clear it (16 of 20 carved cars still short); its next one (5fef8eb) makes the rebuilt car legal. Rechecking 20 carved and 3 older-style cars on 5fef8eb now.",
+ "now": "Body builder's first cargo fix (26f095c) did not clear it (16 of 20 carved cars still short); its next one (5fef8eb) makes the rebuilt car legal. Rechecking 20 carved and 3 older-style cars on 5fef8eb now, as a trial only: the body builder has changed the pocket floor again (eae7198) and will say when to run the final recheck.",
  "log": [
   {
    "date": "2026-11-10",
