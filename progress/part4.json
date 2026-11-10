@@ -327,7 +327,7 @@
   }
  ],
  "agent_state": "working",
- "agent_note": "Reference cars pass on the body builder's latest fix. Trial cars running on two Codespaces; counted runs follow its frozen version and more compute.",
+ "agent_note": "Reference cars pass on the body builder's fix. Trial cars restarted on that fix (20 carved, 20 older-style) on two Codespaces; the earlier trial cars were on the broken version and are not counted. Codespace use: about 12 core-hours on each of blackwingstem-wq and blackwinglinkedin-crypto so far.",
  "needs_you": "Team items: print material and the printer's thinnest wall, part weights, a hand check of three cars, and whether one exported car can be made.",
  "unlocks": {
   "D": {
