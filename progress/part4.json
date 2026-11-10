@@ -193,8 +193,12 @@
  ],
  "status": "active",
  "updated": "2026-11-10",
- "now": "The body builder's newer code fixes the crash (19 of 20 trial cars built). New rejects found: something sits 75 mm ahead of the front reference (limit 40), and printed files have too many thin triangles, possibly from my blunt wing edge. Tracing both; 1,000+ trial cars and the reference cars running.",
+ "now": "The two new rejects came from an older body-builder version and are gone on its current code (9 of 10 rebuilt cars legal; the last is the body builder's cargo box). GitHub then blocked runs on all four accounts Part 4 uses; nothing is running.",
  "log": [
+  {
+   "date": "2026-11-10",
+   "text": "Rebuilt cars on the body builder's current code: the forward part and thin-triangle rejects are gone (they came from its older body). GitHub then blocked runs on all four Part 4 accounts; not retried."
+  },
   {
    "date": "2026-11-10",
    "text": "Body builder's newer code: 19 of 20 trial cars built. New rejects: a part 75 mm ahead of the front reference, and thin triangles in printed files. Checks now name the part and file. Started 900+ trial cars and the reference cars at 0.7, 1.0 and 1.2 mm walls."
@@ -306,8 +310,8 @@
    "note": ""
   }
  ],
- "agent_state": "working",
- "agent_note": "Tracing two new rejects (part too far forward, thin triangles in printed files) on 20 rebuilt cars; large trial batches and reference cars at three wall settings running.",
+ "agent_state": "blocked",
+ "agent_note": "Blocked: GitHub stopped every run on all four accounts (repository invocation blocked) at 00:15 UTC. Not retrying, per the lead. Need working compute to continue the trial and counted runs.",
  "needs_you": "Team items: print material and the printer's thinnest wall, part weights, a hand check of three cars, and whether one exported car can be made.",
  "unlocks": {
   "D": {
