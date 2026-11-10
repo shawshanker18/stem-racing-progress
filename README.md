@@ -55,22 +55,22 @@ Our team is building, part by part, a computer system that designs the fastest l
 
 ### 2. The stopwatch
 
-*Times a finished car over the 20 m race.* 53.2% · being built
+*Times a finished car over the 20 m race.* 61.2% · being built
 
 - An airflow simulation measures how hard the air pushes back on the car and its wheels.
 - A race model turns that push, the weight and the launch into a race time, and says which inputs matter most.
 - It must be right (checked against published wind-tunnel results), quiet (a tiny change gives a tiny time change) and give the same answer on every machine.
 - Every other part trusts it to say which car is faster.
 
-**Now:** Time-accurate runs (about eleven flow-passes): no car switched airflow pattern; the drag levels persist. Re-testing cut cars against a fair reference and the reshaped-plus-warm-start noise run.
+**Now:** Ranking check passed on all twenty cars. Reshape-plus-warm-start noise run and the fair cut-car test are running.
 
-**Timeline:** 0 of 10 steps done
+**Timeline:** 1 of 10 steps done
 
 | # | Step | Status | Started | Finished | Note |
 |---|---|---|---|---|---|
 | 1 | Check against published wind-tunnel results | 🔄 Working on it | 2026-11-09 |  | Drag reads too high so far; testing settings to find out why. |
 | 2 | Cut the timing noise | 🔄 Working on it | 2026-11-09 |  | Re-measured without the early stop: far above target. Cars jump between three drag levels; testing whether the mesh or the airflow causes it. |
-| 3 | Quick vs detailed ranking check | 🔄 Working on it | 2026-11-09 |  | Twenty cars on the detailed mesh are running; the quick-mesh twins follow. |
+| 3 | Quick vs detailed ranking check | ✅ Done | 2026-11-09 | 2026-11-10 | Passed: the quick mesh orders twenty cars the same way as the detailed mesh, well above the pass marks. |
 | 4 | Warm start | ⬜ To do |  |  |  |
 | 5 | Runs longer than one machine slot | ⬜ To do |  |  |  |
 | 6 | Real race inputs from the team | 🔄 Working on it | 2026-11-09 |  | Partly done: the team's measured thrust is in. Rolling friction, wheel weights and tether drag are still to come. |
