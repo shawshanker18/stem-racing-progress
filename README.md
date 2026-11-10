@@ -113,7 +113,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - Holds the referee: an independent check of the finished car against every rule, measured from the outside like a scrutineer, showing how much room is left on each rule.
 - The referee shares nothing with the cutter, so one cannot hide the other's mistakes.
 
-**Now:** Body builder's first cargo fix (26f095c) did not clear it (16 of 20 carved cars still short); its next one (5fef8eb) makes the rebuilt car legal. Rechecking 20 carved and 3 older-style cars on 5fef8eb now, as a trial only: the body builder has changed the pocket floor again (eae7198) and will say when to run the final recheck.
+**Now:** Trial recheck on 5fef8eb: 15 of 20 carved cars legal, 0 crashes. Waiting for the body builder to say its next version is ready for the final recheck.
 
 **Timeline:** 3 of 10 steps done
 
