@@ -158,7 +158,7 @@
  ],
  "status": "active",
  "updated": "2026-11-10",
- "now": "Checking whether the car map is steady across the flow's swings (main account only).",
+ "now": "Map steadiness check done (it passed). Getting the car pilot ready so it can start as soon as Part 1 freezes its cutter.",
  "log": [
   {
    "date": "2026-11-09",
@@ -212,10 +212,14 @@
    "date": "2026-11-10",
    "text": "Restarted on the main account only, a few machines at a time. Now checking whether the fast map on a car stays the same when the unsteady flow is stopped at different moments."
   }
+  ,{
+   "date": "2026-11-10",
+   "text": "Map steadiness on two cars: the fast map came out almost the same at three different moments of the swinging flow, with the direction agreeing on about nineteen of every twenty points and on every one of the strongest points. The map now reaches all but about two in a hundred points of the real car surface; the rest are on the flat closing face at the middle. One open point stays: the fast map still says growing the whole car evenly lowers drag, which is physically wrong, so it remains a side study and the measured map stays first."
+  }
  ],
  "agent_state": "working",
  "needs_you": "",
- "agent_note": "Restarted on the main account only (other accounts still blocked). Running the map steadiness check on two cars; the car pilot still waits for Part 1 and Part 2.",
+ "agent_note": "Map steadiness check finished on the main account (6 machines, about 9 core-hours). The fast car map is the same wherever the swinging flow is stopped. Getting the car pilot ready; it still waits for Part 1 and Part 2.",
  "tasks": [
   {
    "title": "Known-answer test",
