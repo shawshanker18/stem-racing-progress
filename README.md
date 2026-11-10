@@ -62,7 +62,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - It must be right (checked against published wind-tunnel results), quiet (a tiny change gives a tiny time change) and give the same answer on every machine.
 - Every other part trusts it to say which car is faster.
 
-**Now:** Cut-car test against a fair reference: reshaped and fresh meshes now agree closely. Fresh mesh plus warm start alone stays noisy; re-running the reshaped-plus-warm-start noise test with a corrected mesh-quality rule.
+**Now:** Reshaped mesh plus warm start cuts timing noise about elevenfold, and all near-identical cars now sit on one airflow pattern. Still above target; testing longer runs to shrink the averaging error that is now the main part.
 
 **Timeline:** 1 of 10 steps done
 
