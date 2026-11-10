@@ -193,8 +193,12 @@
  ],
  "status": "active",
  "updated": "2026-11-10",
- "now": "All 3 reference cars pass every check (162 of 162) on the body builder's latest code; told the body builder, so nothing from Part 4 holds its frozen version. Small trial batches running on two Codespaces.",
+ "now": "The reference cars passed on the body builder's 19e1a36 but fail again on its next change (f95173b): a thin strip at the block slot corners, 28-35 mm3. Told the body builder not to freeze on that change. Trial cars running on two Codespaces.",
  "log": [
+  {
+   "date": "2026-11-10",
+   "text": "Reference cars fail again on the body builder's f95173b (slot-corner strip, 28-35 mm3) after passing on 19e1a36. Told the body builder."
+  },
   {
    "date": "2026-11-10",
    "text": "Codespaces: running 4 seeds at once timed out cars, so it was restarted one seed at a time. The slot-corner strip is back on the body builder's newer code; checking the reference cars there."
@@ -319,7 +323,7 @@
   }
  ],
  "agent_state": "working",
- "agent_note": "The slot-corner strip came back on the body builder's newer code (every older-style trial car, 15-36 mm3). Rechecking the reference cars on its latest. Trial cars restarted one seed at a time on two Codespaces (running 4 at once on 4 cores hit the 15-minute car limit). Codespace hours so far: 2 machines x 4 cores x 0.75 h = 6 core-hours.",
+ "agent_note": "Waiting on the body builder to fix the slot-corner strip its latest change brought back; trial cars running one seed at a time on two Codespaces (about 6 core-hours used so far).",
  "needs_you": "Team items: print material and the printer's thinnest wall, part weights, a hand check of three cars, and whether one exported car can be made.",
  "unlocks": {
   "D": {
