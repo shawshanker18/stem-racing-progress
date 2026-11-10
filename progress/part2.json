@@ -186,10 +186,10 @@
  ],
  "status": "active",
  "updated": "2026-11-09",
- "now": "Ranking check passed on sixteen fully settled cars (the quick mesh orders cars like the detailed one); two cars still to finish. The lent main-account machines are handed back.",
- "agent_state": "waiting_on_compute",
+ "now": "Runs cancelled and new runs refused on my accounts; waiting to hear whether compute was stopped on purpose.",
+ "agent_state": "blocked",
  "agent_note": "Waiting on: warm-start noise tests (three variants), time-accurate runs on six cars, a longer-run noise test, the detailed ranking cars, the wind-tunnel floor test and the cloud long-run test.",
- "needs_you": "",
+ "needs_you": "My runs were cancelled and new runs are refused on my accounts. Was compute stopped on purpose?",
  "log": [
   {
    "date": "2026-11-09",
