@@ -62,7 +62,7 @@
     {
      "name": "Quick vs detailed agreement",
      "cells": 40,
-     "done": 0,
+     "done": 40,
      "failed": 0,
      "short": "Quick vs fine"
     },
@@ -130,7 +130,7 @@
     {
      "name": "Ranking cars, quick and detailed",
      "cells": 40,
-     "done": 0,
+     "done": 40,
      "failed": 0,
      "short": "Ranking"
     },
@@ -186,9 +186,9 @@
  ],
  "status": "active",
  "updated": "2026-11-09",
- "now": "Time-accurate runs (about eleven flow-passes): no car switched airflow pattern; the drag levels persist. Re-testing cut cars against a fair reference and the reshaped-plus-warm-start noise run.",
+ "now": "Ranking check passed on all twenty cars. Reshape-plus-warm-start noise run and the fair cut-car test are running.",
  "agent_state": "waiting_on_compute",
- "agent_note": "Cloud-machine use: about 70 of roughly 120 free core-hours this month on one teammate account and a few on the other. Two detailed-mesh ranking cars restarted there (my own 5-hour stage limit stopped the first try just short).",
+ "agent_note": "Cloud-machine use this month: about 91 core-hours on one teammate account, about 27 on the other; all cloud machines now deleted.",
  "needs_you": "",
  "log": [
   {
@@ -288,10 +288,10 @@
   {
    "title": "Quick vs detailed ranking check",
    "short": "Ranking check",
-   "status": "doing",
+   "status": "done",
    "started": "2026-11-09",
-   "finished": "",
-   "note": "Twenty cars on the detailed mesh are running; the quick-mesh twins follow."
+   "finished": "2026-11-10",
+   "note": "Passed: the quick mesh orders twenty cars the same way as the detailed mesh, well above the pass marks."
   },
   {
    "title": "Warm start",
