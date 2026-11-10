@@ -62,7 +62,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - It must be right (checked against published wind-tunnel results), quiet (a tiny change gives a tiny time change) and give the same answer on every machine.
 - Every other part trusts it to say which car is faster.
 
-**Now:** Smoothed reshaping now gives valid meshes on cut cars. Found the cut test was comparing against an unmilled reference; fixed, re-testing next together with the reshape-plus-warm-start noise run.
+**Now:** Time-accurate runs (about eleven flow-passes): no car switched airflow pattern; the drag levels persist. Re-testing cut cars against a fair reference and the reshaped-plus-warm-start noise run.
 
 **Timeline:** 0 of 10 steps done
 
