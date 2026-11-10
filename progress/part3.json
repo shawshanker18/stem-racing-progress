@@ -158,7 +158,7 @@
  ],
  "status": "active",
  "updated": "2026-11-09",
- "now": "Backup measured map holds on a finer mesh and with more building blocks; now rehearsing the one-cut proof on the wing.",
+ "now": "Wing rehearsal done: the backup map lowers drag for small cuts and the safe cut size is measured. Writing the method notes while car work waits.",
  "log": [
   {
    "date": "2026-11-09",
@@ -205,9 +205,9 @@
    "text": "One-cut rehearsal on the wing: small steps along the backup map lowered drag clearly; steps four times larger made it worse, so cuts must stay small."
   }
  ],
- "agent_state": "waiting_on_compute",
+ "agent_state": "working",
  "needs_you": "",
- "agent_note": "Rehearsing the one-cut proof on the wing. Car work waits on quieter car runs and the frozen cutter.",
+ "agent_note": "Writing the method notes. Car work waits on quieter car runs (Part 2) and the frozen cutter (Part 1).",
  "tasks": [
   {
    "title": "Known-answer test",
