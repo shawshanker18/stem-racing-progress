@@ -158,7 +158,7 @@
  ],
  "status": "active",
  "updated": "2026-11-09",
- "now": "Wing rehearsal done: the backup map lowers drag for small cuts and the safe cut size is measured. Writing the method notes while car work waits.",
+ "now": "paused (GitHub block). Wing work is done; car work waits on Part 1, Part 2 and this pause.",
  "log": [
   {
    "date": "2026-11-09",
@@ -207,7 +207,7 @@
  ],
  "agent_state": "blocked",
  "needs_you": "",
- "agent_note": "Wing work done and notes written. Car work needs Part 1 frozen cutter and Part 2 quieter car runs; tools for both are ready.",
+ "agent_note": "paused (GitHub block): no new runs on any account until the team lead decides. Nothing of mine is running.",
  "tasks": [
   {
    "title": "Known-answer test",
