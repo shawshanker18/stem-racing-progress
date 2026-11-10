@@ -46,7 +46,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 | 1 | Fix the last failing test | ✅ Done | 2026-11-09 | 2026-11-09 | Both failing tests fixed; every check passes. |
 | 2 | Build the cutting tool | ✅ Done | 2026-11-09 | 2026-11-09 | Built and all its checks pass; other parts can now use it. |
 | 3 | Weight sizing for carved shapes | ❌ Failed, being redone | 2026-11-09 |  | Two hundred bodies: one hundred ninety nine on target, one came out light and under the floor. Open failure, being fixed. |
-| 4 | Big random carving test (2,000 bodies) | ⏸️ Blocked | 2026-11-09 |  | Paused: Part 4 found problems on its reference cars; restarts on a frozen, tagged version once they are fixed. |
+| 4 | Big random carving test (2,000 bodies) | ⏸️ Blocked | 2026-11-09 |  | Waits for the frozen tag: Part 4's cars pass on fef4130; own checks still running. |
 | 5 | Grid-size check | 🔄 Working on it | 2026-11-09 |  | Milling fix brought the spread down; exact rule zones written; retesting against the original bar. |
 | 6 | Same result on every machine | 🔄 Working on it | 2026-11-09 |  | First try: all ten bodies identical on both runs. Final proof to be rerun across two accounts on the final code. |
 | 7 | Write-up | ⬜ To do |  |  |  |
