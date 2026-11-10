@@ -193,7 +193,7 @@
  ],
  "status": "active",
  "updated": "2026-11-10",
- "now": "Body builder's first cargo fix (26f095c) did not clear it (16 of 20 carved cars still short); its next one (5fef8eb) makes the rebuilt car legal. Rechecking 20 carved and 3 older-style cars on 5fef8eb now, as a trial only: the body builder has changed the pocket floor again (eae7198) and will say when to run the final recheck.",
+ "now": "Trial recheck on 5fef8eb: 15 of 20 carved cars legal, 0 crashes. Waiting for the body builder to say its next version is ready for the final recheck.",
  "log": [
   {
    "date": "2026-11-10",
@@ -339,7 +339,7 @@
   }
  ],
  "agent_state": "working",
- "agent_note": "Carved trial cars on 26f095c: 3 of 20 legal, 16 short on the cargo check, 0 crashes. On 5fef8eb the rebuilt car 43100/0 is legal (0.34 mm3 left, under round-off). Full recheck running, about 2.5 h. Codespace use: blackwinglinkedin-crypto 19 core-hours (deleted); blackwingstem-wq about 32 core-hours so far (4 cores x 8 h), still running.",
+ "agent_note": "Trial recheck on 5fef8eb done: 15 of 20 carved cars legal, 0 crashes; the slot-rim gap is fixed. 2 cars still miss a little cargo on the carved side walls (a few thousandths of a mm), and 2 older-style cars now fail the weight check. Both sent to the body builder, who is changing the body again and will say when to run the final recheck. Codespace use: blackwinglinkedin-crypto 19 core-hours (deleted); blackwingstem-wq 46 core-hours (04:59-16:29 UTC, deleted). No Codespaces running.",
  "needs_you": "Team items: print material and the printer's thinnest wall, part weights, a hand check of three cars, and whether one exported car can be made.",
  "unlocks": {
   "D": {
