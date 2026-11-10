@@ -197,6 +197,10 @@
  "log": [
   {
    "date": "2026-11-10",
+   "text": "Codespaces: running 4 seeds at once timed out cars, so it was restarted one seed at a time. The slot-corner strip is back on the body builder's newer code; checking the reference cars there."
+  },
+  {
+   "date": "2026-11-10",
    "text": "All 3 reference cars pass every check (162 of 162) on the body builder's latest code. Started small trial batches on Codespaces (blackwingstem-wq and blackwinglinkedin-crypto, 4 cores each)."
   },
   {
@@ -315,7 +319,7 @@
   }
  ],
  "agent_state": "working",
- "agent_note": "Reference cars all pass. Running 96 carved and 100 older-style trial cars on two 4-core Codespaces (started about 03:00 UTC). Counted runs wait for the frozen version and more compute.",
+ "agent_note": "The slot-corner strip came back on the body builder's newer code (every older-style trial car, 15-36 mm3). Rechecking the reference cars on its latest. Trial cars restarted one seed at a time on two Codespaces (running 4 at once on 4 cores hit the 15-minute car limit). Codespace hours so far: 2 machines x 4 cores x 0.75 h = 6 core-hours.",
  "needs_you": "Team items: print material and the printer's thinnest wall, part weights, a hand check of three cars, and whether one exported car can be made.",
  "unlocks": {
   "D": {
