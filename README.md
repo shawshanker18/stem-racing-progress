@@ -113,7 +113,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - Holds the referee: an independent check of the finished car against every rule, measured from the outside like a scrutineer, showing how much room is left on each rule.
 - The referee shares nothing with the cutter, so one cannot hide the other's mistakes.
 
-**Now:** Rechecking the 3 reference cars on the body builder's latest code; a pass lets it freeze its version for the counted runs.
+**Now:** All 3 reference cars pass every check (162 of 162) on the body builder's latest code; told the body builder, so nothing from Part 4 holds its frozen version. Small trial batches running on two Codespaces.
 
 **Timeline:** 3 of 10 steps done
 
