@@ -179,7 +179,7 @@
  ],
  "status": "active",
  "updated": "2026-11-10",
- "now": "Found and fixed the causes behind the last failing checks (zone seams, a distance-repair lean, a weight-sum lean on curved surfaces). Down to the final check run; then the reference cars.",
+ "now": "paused (GitHub block). One check run already going is left to finish. All causes of the last failing checks found and fixed in code; reference cars and the frozen version wait for the restart.",
  "log": [
   {
    "date": "2026-11-09",
@@ -336,8 +336,8 @@
    "note": ""
   }
  ],
- "agent_state": "waiting_on_compute",
- "agent_note": "Final check run going; reference cars next.",
+ "agent_state": "blocked",
+ "agent_note": "paused (GitHub block): no new runs until the user decides.",
  "needs_you": "",
  "unlocks": {
   "A": {
