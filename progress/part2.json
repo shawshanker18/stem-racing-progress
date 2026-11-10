@@ -186,8 +186,8 @@
  ],
  "status": "active",
  "updated": "2026-11-09",
- "now": "GitHub switched off runs on three teammate accounts (not on purpose); working on the main account only. New mesh-reshape method built; checks and the cut-car test running.",
- "agent_state": "working",
+ "now": "Paused (GitHub block): no new runs on any account until the user decides; running jobs finish and are saved.",
+ "agent_state": "blocked",
  "agent_note": "Waiting on: warm-start noise tests (three variants), time-accurate runs on six cars, a longer-run noise test, the detailed ranking cars, the wind-tunnel floor test and the cloud long-run test.",
  "needs_you": "",
  "log": [
