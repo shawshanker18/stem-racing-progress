@@ -179,7 +179,7 @@
  ],
  "status": "active",
  "updated": "2026-11-10",
- "now": "Part 4 found the block-slot strip back on the newest version: a small fix made the zone cut fail and fall back to no cut. Cause fixed (fef4130); checks running; Part 4 rechecks its 3 reference cars before any tag.",
+ "now": "No tag yet. Part 4's 3 cars pass on fef4130, but 2 of Part 1's own checks fail: (1) the weight count is 0.15 cm3 (0.024 g) above the milled body at 1 mm: it counts body inside the rule-zone boxes that the zone cut removes; (2) the working zone cut leaves thin triangles: 4.4 % on the 0.3 mm car, limit 4 %. Both causes being measured on GitHub now; tag after both are fixed and rechecked.",
  "log": [
   {
    "date": "2026-11-09",
@@ -337,7 +337,7 @@
   }
  ],
  "agent_state": "working",
- "agent_note": "Running on the main account. Part 4's 3 reference cars pass on fef4130; tagging once Part 1's own checks pass on it.",
+ "agent_note": "Tag held: 2 own checks fail on fef4130 (weight count vs milled body; thin triangles from the zone cut). Fixing.",
  "needs_you": "",
  "unlocks": {
   "A": {
