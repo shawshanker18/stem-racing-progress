@@ -62,7 +62,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - It must be right (checked against published wind-tunnel results), quiet (a tiny change gives a tiny time change) and give the same answer on every machine.
 - Every other part trusts it to say which car is faster.
 
-**Now:** Reshaping a car onto itself gives a clean mesh and the same drag; the bad cell comes from jumpy point moves at sharp edges. Smoothed the moves; re-testing on cut cars. Time-accurate runs and two long ranking cars still going.
+**Now:** Smoothed reshaping now gives valid meshes on cut cars. Found the cut test was comparing against an unmilled reference; fixed, re-testing next together with the reshape-plus-warm-start noise run.
 
 **Timeline:** 0 of 10 steps done
 
@@ -113,7 +113,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - Holds the referee: an independent check of the finished car against every rule, measured from the outside like a scrutineer, showing how much room is left on each rule.
 - The referee shares nothing with the cutter, so one cannot hide the other's mistakes.
 
-**Now:** Trial cars on the body builder's fix: older-style 13 of 20 legal, no crashes. Carved: every car so far misses 6-20 mm3 of the cargo shape at the ballast slot's top edge. Tracing that on a rebuilt car now.
+**Now:** Cargo gap traced to the body builder's ballast-slot rim; it fixed it (26f095c). 20 carved trial cars rerunning on that fix. Part 4's triangle clean-up now never adds thin triangles to a clean file; unit tests pass (run 42794294512).
 
 **Timeline:** 3 of 10 steps done
 
