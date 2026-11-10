@@ -339,7 +339,7 @@
   }
  ],
  "agent_state": "working",
- "agent_note": "Trial recheck on 5fef8eb done: 15 of 20 carved cars legal, 0 crashes; the slot-rim gap is fixed. 2 cars still miss a little cargo on the carved side walls (a few thousandths of a mm), and 2 older-style cars now fail the weight check. Both sent to the body builder, who is changing the body again and will say when to run the final recheck. Codespace use: blackwinglinkedin-crypto 19 core-hours (deleted); blackwingstem-wq 46 core-hours (04:59-16:29 UTC, deleted). No Codespaces running.",
+ "agent_note": "Trial recheck on 5fef8eb done: 15 of 20 carved cars legal, 0 crashes; the slot-rim gap is fixed. 2 cars still miss a little cargo on the carved side walls (a few thousandths of a mm), and all 3 older-style cargo cars now pass. Sent to the body builder, who is changing the body again and will say when to run the final recheck. Codespace use: blackwinglinkedin-crypto 19 core-hours (deleted); blackwingstem-wq 46 core-hours (04:59-16:29 UTC, deleted). No Codespaces running.",
  "needs_you": "Team items: print material and the printer's thinnest wall, part weights, a hand check of three cars, and whether one exported car can be made.",
  "unlocks": {
   "D": {
