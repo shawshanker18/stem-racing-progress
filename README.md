@@ -88,7 +88,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - The cutter carves along this map, so the map must be proven against real measurements before anyone trusts it.
 - If the fast map cannot be made right, a slower map built from direct measurements is the backup.
 
-**Now:** Map steadiness check done (it passed). Getting the car pilot ready so it can start as soon as Part 1 freezes its cutter.
+**Now:** Car pilot code written; a small trial run (not a result) is checking it works end to end on the main account.
 
 **Timeline:** 0 of 9 steps done
 
