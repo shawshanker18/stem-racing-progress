@@ -62,7 +62,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - It must be right (checked against published wind-tunnel results), quiet (a tiny change gives a tiny time change) and give the same answer on every machine.
 - Every other part trusts it to say which car is faster.
 
-**Now:** Ranking check passed on sixteen fully settled cars (the quick mesh orders cars like the detailed one); two cars still to finish. The lent main-account machines are handed back.
+**Now:** Runs cancelled and new runs refused on my accounts; waiting to hear whether compute was stopped on purpose.
 
 **Timeline:** 0 of 10 steps done
 
