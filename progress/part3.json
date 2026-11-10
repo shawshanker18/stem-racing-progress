@@ -158,7 +158,7 @@
  ],
  "status": "active",
  "updated": "2026-11-09",
- "now": "Backup measured map on the wing matched twenty shapes outside its building blocks closely and got eighteen of twenty directions right; now testing how many building blocks a car needs and a finer mesh.",
+ "now": "Backup measured map holds on a finer mesh and with more building blocks; now rehearsing the one-cut proof on the wing.",
  "log": [
   {
    "date": "2026-11-09",
@@ -196,10 +196,14 @@
    "date": "2026-11-09",
    "text": "Backup measured map on the wing: matched shapes outside its own building blocks too, except very narrow bumps below its resolution. The fast map size gap is a missing term in its simple formula, not a units error."
   }
+  ,{
+   "date": "2026-11-10",
+   "text": "Backup measured map also passed on a four times finer wing mesh and with twice as many building blocks; only tiny narrow bumps are below its resolution."
+  }
  ],
  "agent_state": "waiting_on_compute",
  "needs_you": "",
- "agent_note": "Two backup-map trials running (more building blocks, finer mesh) after a quiet install fault was found and fixed. Car work waits on quieter car runs and the frozen cutter.",
+ "agent_note": "Rehearsing the one-cut proof on the wing. Car work waits on quieter car runs and the frozen cutter.",
  "tasks": [
   {
    "title": "Known-answer test",
