@@ -186,7 +186,7 @@
  ],
  "status": "active",
  "updated": "2026-11-10",
- "now": "Same car on six machines: times spread about ten times wider than the target, so the repeat test fails for now. Cause looks like each run's averaging error; longer runs are testing that fix.",
+ "now": "Longer runs halved each car's averaging error as expected. Noise is still above target because near-identical cars show one sudden drag drop at the same point in two separate tests; now checking whether the car shape or the mesh causes it.",
  "agent_state": "waiting_on_compute",
  "agent_note": "Cloud-machine use this month: about 91 core-hours on one teammate account, about 27 on the other; all cloud machines now deleted.",
  "needs_you": "",
