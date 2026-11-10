@@ -62,7 +62,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - It must be right (checked against published wind-tunnel results), quiet (a tiny change gives a tiny time change) and give the same answer on every machine.
 - Every other part trusts it to say which car is faster.
 
-**Now:** Restarted on the main account only, at most ten jobs: testing the mesh-reshape fix on cut cars and timing a short time-accurate run.
+**Now:** Time-accurate runs now work; four cars (two from each drag level) running for about eleven flow-passes to see whether the wake switches. Mesh-reshape fix being tested on cut cars.
 
 **Timeline:** 0 of 10 steps done
 
