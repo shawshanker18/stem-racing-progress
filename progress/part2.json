@@ -188,7 +188,7 @@
  "updated": "2026-11-09",
  "now": "Time-accurate runs now work; four cars (two from each drag level) running for about eleven flow-passes to see whether the wake switches. Mesh-reshape fix being tested on cut cars.",
  "agent_state": "waiting_on_compute",
- "agent_note": "Cloud-machine use so far: about 52 of roughly 120 free core-hours this month on one teammate account (two machines still running); none on the other.",
+ "agent_note": "Cloud-machine use: about 70 of roughly 120 free core-hours this month on one teammate account and a few on the other. Two detailed-mesh ranking cars restarted there (my own 5-hour stage limit stopped the first try just short).",
  "needs_you": "",
  "log": [
   {
