@@ -179,7 +179,7 @@
  ],
  "status": "active",
  "updated": "2026-11-10",
- "now": "Restarted on the main account. Small zone fix pushed; full checks running on it. Part 4 is rechecking its 3 reference cars; the frozen version gets tagged once they pass.",
+ "now": "Part 4 found the block-slot strip back on the newest version: a small fix made the zone cut fail and fall back to no cut. Cause fixed (fef4130); checks running; Part 4 rechecks its 3 reference cars before any tag.",
  "log": [
   {
    "date": "2026-11-09",
