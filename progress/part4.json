@@ -193,8 +193,12 @@
  ],
  "status": "active",
  "updated": "2026-11-10",
- "now": "Trial cars on the body builder's fix: older-style 13 of 20 legal, no crashes. Carved: every car so far misses 6-20 mm3 of the cargo shape at the ballast slot's top edge. Tracing that on a rebuilt car now.",
+ "now": "Cargo gap traced to the body builder's ballast-slot rim; it fixed it (26f095c). 20 carved trial cars rerunning on that fix. Part 4's triangle clean-up now never adds thin triangles to a clean file; unit tests pass (run 42794294512).",
  "log": [
+  {
+   "date": "2026-11-10",
+   "text": "Cargo gap traced to the body builder's slot rim (fixed in 26f095c). Part 4 remesh keeps the cleaner file (13e4445); unit tests pass."
+  },
   {
    "date": "2026-11-10",
    "text": "Trial cars on fef4130 (not counted): older-style 13 of 20 legal, 0 crashes; carved all fail the cargo check at the ballast slot edge. Tracing it."
@@ -331,7 +335,7 @@
   }
  ],
  "agent_state": "working",
- "agent_note": "Trial cars (not counted) on fef4130: older-style 13/20 legal, 0 crashes (cargo 3, front wing span 2, body slivers 2). Carved 13/13 so far fail one rule: cargo shape short by 6-20 mm3 round the top of the ballast slot. Rebuilding one car with its files kept to find whose part causes it. Codespace use: about 18.5 core-hours on each of blackwingstem-wq and blackwinglinkedin-crypto (4 cores x 4.6 h).",
+ "agent_note": "Carved trial cars on fef4130 (not counted): 15 of 15 failed only the cargo check, 6-20 mm3 at the ballast slot rim, 0 crashes. Cause was in the body builder's body (rim rounded up to 0.85 mm past the slot), fixed in 26f095c; rerunning 20 carved cars on it. Remesh fix pushed (13e4445), tests 20 + 105 passed. Codespace use: blackwinglinkedin-crypto 19 core-hours, Codespace deleted; blackwingstem-wq about 21 core-hours so far, still running.",
  "needs_you": "Team items: print material and the printer's thinnest wall, part weights, a hand check of three cars, and whether one exported car can be made.",
  "unlocks": {
   "D": {
