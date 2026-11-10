@@ -200,6 +200,10 @@
    "date": "2026-11-10",
    "text": "Backup measured map also passed on a four times finer wing mesh and with twice as many building blocks; only tiny narrow bumps are below its resolution."
   }
+  ,{
+   "date": "2026-11-10",
+   "text": "One-cut rehearsal on the wing: small steps along the backup map lowered drag clearly; steps four times larger made it worse, so cuts must stay small."
+  }
  ],
  "agent_state": "waiting_on_compute",
  "needs_you": "",
