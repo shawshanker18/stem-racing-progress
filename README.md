@@ -62,7 +62,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - It must be right (checked against published wind-tunnel results), quiet (a tiny change gives a tiny time change) and give the same answer on every machine.
 - Every other part trusts it to say which car is faster.
 
-**Now:** Runs cancelled and new runs refused on my accounts; waiting to hear whether compute was stopped on purpose.
+**Now:** GitHub switched off runs on three teammate accounts (not on purpose); working on the main account only. New mesh-reshape method built; checks and the cut-car test running.
 
 **Timeline:** 0 of 10 steps done
 
