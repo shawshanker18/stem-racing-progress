@@ -37,7 +37,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - Re-sizes the whole body after each cut so the car always weighs the target.
 - Hands over a clean, closed 3D shape. It never decides what is faster; it only cuts safely.
 
-**Now:** No tag yet. Part 4's 3 cars pass on fef4130, but 2 of Part 1's own checks fail: (1) the weight count is 0.15 cm3 (0.024 g) above the milled body at 1 mm: it counts body inside the rule-zone boxes that the zone cut removes; (2) the working zone cut leaves thin triangles: 4.4 % on the 0.3 mm car, limit 4 %. Both causes being measured on GitHub now; tag after both are fixed and rechecked.
+**Now:** No tag yet. Fixed and pushed (26f095c): the cargo-slot rim Part 4 found on carved cars. Still open: (1) the weight count is 0.024 g above the milled body at 1 mm (0.0065 g at 0.5 mm) because it counts bevels the zone cut removes; the car itself is weighed from the milled files, so its mass is right; question sent to the user on how to fix. (2) thin triangles: mostly made by Part 4's remesh, sent to Part 4 with numbers. (3) the zone cut still falls back on one test body at 0.5 mm: being traced.
 
 **Timeline:** 2 of 9 steps done
 
@@ -113,7 +113,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - Holds the referee: an independent check of the finished car against every rule, measured from the outside like a scrutineer, showing how much room is left on each rule.
 - The referee shares nothing with the cutter, so one cannot hide the other's mistakes.
 
-**Now:** All 3 reference cars pass every check (162 of 162) on the body builder's fix fef4130; told it, so nothing from Part 4 holds its frozen version. Trial cars running on two Codespaces.
+**Now:** Trial cars on the body builder's fix: older-style 13 of 20 legal, no crashes. Carved: every car so far misses 6-20 mm3 of the cargo shape at the ballast slot's top edge. Tracing that on a rebuilt car now.
 
 **Timeline:** 3 of 10 steps done
 
