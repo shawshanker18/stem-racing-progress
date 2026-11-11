@@ -179,7 +179,7 @@
   ],
   "status": "active",
   "updated": "2026-11-11",
-  "now": "No tag yet. Random carving test of 200 bodies is green and the same-result test is green. One open fault: with milling on, the body built on the 0.75 mm grid comes out about 0.6 g heavier than on the 1.0 and 0.5 mm grids (1.0 to 1.35 % spread against the 0.5 % mark). Traced to two places: one spot behind the front wheel that the mill handles differently, and the rule-zone trim along the rear half. A diagnostic run is on GitHub now; the fix follows, then the 20-body grid check again.",
+  "now": "Grid weight gap fixed. Two causes found and removed: the mill skipped its corner cut when the body stood just back from a keep-clear corner, and a piece hanging on by a hair was dropped on one grid only. Grid check on 20 bodies: 19 read so far, all between 0.10 and 0.48 % (mark 0.5 %); the last one is still running. Next: weight sizing of 200 bodies and the 200-body carving test on this cutter, then the tag.",
   "log": [
     {
       "date": "2026-11-09",
@@ -264,6 +264,10 @@
     {
       "date": "2026-11-11",
       "text": "200-body random carving green; same-result test green. Grid weight gap traced to two places (a spot behind the front wheel in the milling step, and the rule-zone trim along the rear). Diagnostic run started to confirm the cause before the cutter is changed."
+    },
+    {
+      "date": "2026-11-11",
+      "text": "Grid weight gap fixed in two steps. Grid check on 20 bodies went from up to 1.98 % to 0.48 % at most (19 of 20 read, mark 0.5 %). Unit tests green on the first step, running on the second."
     }
   ],
   "tasks": [
@@ -289,7 +293,7 @@
       "status": "doing",
       "started": "2026-11-09",
       "finished": "",
-      "note": "Rerun of 200 bodies on the current cutter is on GitHub (15 of 20 machines done)."
+      "note": "Rerun needed on the fixed cutter; the Part 1 chat starts it."
     },
     {
       "title": "Big random carving test (2,000 bodies)",
@@ -305,7 +309,7 @@
       "status": "doing",
       "started": "2026-11-09",
       "finished": "",
-      "note": "Passes without milling. With milling the 0.75 mm body is about 0.6 g heavy; cause traced to two places, diagnostic run going, fix next."
+      "note": "19 of 20 bodies between 0.10 and 0.48 % after the two fixes; last body still running."
     },
     {
       "title": "Same result on every machine",
@@ -341,7 +345,7 @@
     }
   ],
   "agent_state": "working",
-  "agent_note": "One chat now writes, reviews and runs Parts 1 to 4. Weight sizing run of 200 bodies still going (15 of 20 machines done).",
+  "agent_note": "The Part 1 chat has the work again from here, with the list: read the last grid body, review the two changes, sizing, carving, tag.",
   "needs_you": "",
   "unlocks": {
     "A": {
