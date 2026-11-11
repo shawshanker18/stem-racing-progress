@@ -179,7 +179,7 @@
   ],
   "status": "active",
   "updated": "2026-11-11",
-  "now": "No tag yet. Grid check passed: all 20 bodies within 0.5 % (worst 0.48 %), unit tests green (fedc582). Running: 200-body weight sizing, 200-body random carving, 2 more grid seeds.",
+  "now": "Slivers fixed by fa1b267 (exact cargo cut): the same 20 bodies went from 8 illegal to 0 (Jdiejei 43079974871). Carving 200 on the new code is running (Jdiejei 43093351425). Next: rerun sizing 200 on the new code and fix or explain the remap test. Not tagged yet; PROOF.md is waiting on carving, sizing and remap.",
   "log": [
     {
       "date": "2026-11-09",
