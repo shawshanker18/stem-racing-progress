@@ -1,356 +1,360 @@
-{
-  "part": 4,
-  "name": "Parts and the referee",
-  "tagline": "Turns a carved body into a whole car, makes the build files, and judges it.",
-  "what": [
-    "Adds everything except the body: nose, front and rear wings, wheel supports, wheels, tether guides and the cartridge, and cuts the joints into the body.",
-    "Makes the files the team needs to print the parts and mill the body.",
-    "Holds the referee: an independent check of the finished car against every rule, measured from the outside like a scrutineer, showing how much room is left on each rule.",
-    "The referee shares nothing with the cutter, so one cannot hide the other's mistakes."
-  ],
-  "sections": [
-    {
-      "name": "Groundwork (built before)",
-      "items": [
-        {
-          "name": "Wings",
-          "cells": 80,
-          "done": 80,
-          "failed": 0,
-          "short": "Wings"
-        },
-        {
-          "name": "Nose",
-          "cells": 40,
-          "done": 40,
-          "failed": 0,
-          "short": "Nose"
-        },
-        {
-          "name": "Wheel supports",
-          "cells": 60,
-          "done": 60,
-          "failed": 0,
-          "short": "Supports"
-        },
-        {
-          "name": "Joints",
-          "cells": 60,
-          "done": 60,
-          "failed": 0,
-          "short": "Joints"
-        },
-        {
-          "name": "Surface clean-up",
-          "cells": 40,
-          "done": 40,
-          "failed": 0,
-          "short": "Clean-up"
-        },
-        {
-          "name": "Referee checks",
-          "cells": 120,
-          "done": 120,
-          "failed": 0,
-          "short": "Referee"
-        },
-        {
-          "name": "Older bodies assembled and judged (1 square = 10 cars)",
-          "cells": 400,
-          "done": 400,
-          "failed": 0,
-          "short": "Old cars"
-        }
-      ]
-    },
-    {
-      "name": "Build",
-      "items": [
-        {
-          "name": "Every rule listed and matched to a check",
-          "cells": 120,
-          "done": 120,
-          "failed": 0,
-          "short": "Rule list"
-        },
-        {
-          "name": "Just-inside and just-outside tests",
-          "cells": 120,
-          "done": 120,
-          "failed": 0,
-          "short": "Edge tests"
-        },
-        {
-          "name": "Referee independence check",
-          "cells": 5,
-          "done": 5,
-          "failed": 0,
-          "short": "Independence"
-        },
-        {
-          "name": "Parts on carved bodies",
-          "cells": 40,
-          "done": 0,
-          "failed": 0,
-          "short": "Carved parts"
-        },
-        {
-          "name": "Real part weights",
-          "cells": 20,
-          "done": 0,
-          "failed": 0,
-          "short": "Real weights"
-        },
-        {
-          "name": "Build files",
-          "cells": 40,
-          "done": 0,
-          "failed": 0,
-          "short": "Build files"
-        },
-        {
-          "name": "Part setting ranges",
-          "cells": 20,
-          "done": 0,
-          "failed": 0,
-          "short": "Ranges"
-        },
-        {
-          "name": "Write-up",
-          "cells": 20,
-          "done": 0,
-          "failed": 0,
-          "short": "Write-up"
-        }
-      ]
-    },
-    {
-      "name": "Tests",
-      "items": [
-        {
-          "name": "Carved cars assembled (1 square = 1 car)",
-          "cells": 2000,
-          "done": 0,
-          "failed": 0,
-          "short": "Carved cars"
-        },
-        {
-          "name": "Older-body regression (1 square = 10 cars)",
-          "cells": 100,
-          "done": 0,
-          "failed": 0,
-          "short": "Old regress"
-        },
-        {
-          "name": "Hand-check cars",
-          "cells": 3,
-          "done": 0,
-          "failed": 0,
-          "short": "Hand check"
-        },
-        {
-          "name": "Weighed parts",
-          "cells": 10,
-          "done": 0,
-          "failed": 0,
-          "short": "Weighed"
-        },
-        {
-          "name": "Makeable check",
-          "cells": 1,
-          "done": 0,
-          "failed": 0,
-          "short": "Makeable"
-        },
-        {
-          "name": "Unit tests",
-          "cells": 100,
-          "done": 100,
-          "failed": 0,
-          "short": "Unit tests"
-        }
-      ]
-    },
-    {
-      "name": "Sign-off",
-      "items": [
-        {
-          "name": "Clean full rerun",
-          "cells": 50,
-          "done": 0,
-          "failed": 0,
-          "short": "Rerun"
-        },
-        {
-          "name": "Team sign-off",
-          "cells": 10,
-          "done": 0,
-          "failed": 0,
-          "short": "Sign-off"
-        }
-      ]
-    }
-  ],
-  "status": "active",
-  "updated": "2026-11-11",
-  "now": "Reference cars: 3 cars, 162 checks each, none failed. Canary of 200 randomly carved cars: 150 legal, 50 not, no crashes. Most of the 50 are carves that left no room for the team number or the logo, or are too thin, which the referee is right to reject. To fix: 10 cars miss 3 to 7 cubic mm of cargo on carved side walls, 2 have 6 to 7 cubic mm of halo in the foam, 1 is 0.08 mm over the rear overhang, and 12 have sliver triangles in the mesh. These wait for the body builder's grid fix, then get rechecked.",
-  "log": [
-    {
-      "date": "2026-11-11",
-      "text": "Canary of 200 carved cars read: 150 legal, 50 not, no crashes. Real faults to fix: small cargo misses (10 cars), halo fit (2), rear overhang by 0.08 mm (1), mesh slivers (12). The rest are carves with no room for number or logo."
-    },
-    {
-      "date": "2026-11-10",
-      "text": "Carved trial cars on 26f095c still short on cargo (16 of 20); rebuilt car legal on 5fef8eb. Rechecking."
-    },
-    {
-      "date": "2026-11-10",
-      "text": "Cargo gap traced to the body builder's slot rim (fixed in 26f095c). Part 4 remesh keeps the cleaner file (13e4445); unit tests pass."
-    },
-    {
-      "date": "2026-11-10",
-      "text": "Trial cars on fef4130 (not counted): older-style 13 of 20 legal, 0 crashes; carved all fail the cargo check at the ballast slot edge. Tracing it."
-    },
-    {
-      "date": "2026-11-10",
-      "text": "Body builder fixed the slot-corner strip (fef4130); all 3 reference cars pass every check on it. Told the body builder."
-    },
-    {
-      "date": "2026-11-10",
-      "text": "Reference cars fail again on the body builder's f95173b (slot-corner strip, 28-35 mm3) after passing on 19e1a36. Told the body builder."
-    },
-    {
-      "date": "2026-11-10",
-      "text": "Codespaces: running 4 seeds at once timed out cars, so it was restarted one seed at a time. The slot-corner strip is back on the body builder's newer code; checking the reference cars there."
-    },
-    {
-      "date": "2026-11-10",
-      "text": "All 3 reference cars pass every check (162 of 162) on the body builder's latest code. Started small trial batches on Codespaces (blackwingstem-wq and blackwinglinkedin-crypto, 4 cores each)."
-    },
-    {
-      "date": "2026-11-10",
-      "text": "Rebuilt cars on the body builder's current code: the forward part and thin-triangle rejects are gone (they came from its older body). GitHub then blocked runs on all four Part 4 accounts; not retried."
-    },
-    {
-      "date": "2026-11-10",
-      "text": "Body builder's newer code: 19 of 20 trial cars built. New rejects: a part 75 mm ahead of the front reference, and thin triangles in printed files. Checks now name the part and file. Started 900+ trial cars and the reference cars at 0.7, 1.0 and 1.2 mm walls."
-    },
-    {
-      "date": "2026-11-10",
-      "text": "875 trial older-style cars on the body builder's in-progress code all crashed (body pieces not closed). Not counted. Checking its newer fix with 20 cars."
-    },
-    {
-      "date": "2026-11-09",
-      "text": "Board created. Waiting for the go to start this phase."
-    },
-    {
-      "date": "2026-11-09",
-      "text": "Repository checked: all tests pass, one unused data file removed."
-    },
-    {
-      "date": "2026-11-09",
-      "text": "Started. Listed every rule and matched each to a check or a reason. Found a few rules the checker only takes on trust; those get real checks next."
-    },
-    {
-      "date": "2026-11-09",
-      "text": "Rule list finished and saved."
-    },
-    {
-      "date": "2026-11-09",
-      "text": "First batch of just-inside and just-outside test cars written and sent to GitHub."
-    }
-  ],
-  "tasks": [
-    {
-      "title": "List every rule and its check",
-      "short": "Rule list",
-      "status": "done",
-      "started": "2026-11-09",
-      "finished": "2026-11-09",
-      "note": "Every rule matched to a check or a reason, none left open."
-    },
-    {
-      "title": "Just-inside and just-outside tests",
-      "short": "Edge tests",
-      "status": "done",
-      "started": "2026-11-09",
-      "finished": "2026-11-09",
-      "note": "Every size rule has a pass car and a fail car; all tests pass on GitHub."
-    },
-    {
-      "title": "Make the referee independent",
-      "short": "Independent",
-      "status": "done",
-      "started": "2026-11-09",
-      "finished": "2026-11-09",
-      "note": "The checker uses only its own rule numbers; tests pass."
-    },
-    {
-      "title": "Parts on carved bodies (2,000 cars)",
-      "short": "2,000 cars",
-      "status": "doing",
-      "started": "2026-11-09",
-      "finished": "",
-      "note": "Trial runs on the body builder's changing code, to find crashes and new kinds of rejects; the counted run waits for its frozen version."
-    },
-    {
-      "title": "Real part weights",
-      "short": "Real weights",
-      "status": "todo",
-      "started": "",
-      "finished": "",
-      "note": ""
-    },
-    {
-      "title": "Build files",
-      "short": "Build files",
-      "status": "doing",
-      "started": "2026-11-09",
-      "finished": "",
-      "note": "Parts list done; thinnest walls measured; waiting for the team's printer limits and a makeable check."
-    },
-    {
-      "title": "Part setting ranges",
-      "short": "Ranges",
-      "status": "todo",
-      "started": "",
-      "finished": "",
-      "note": ""
-    },
-    {
-      "title": "Write-up",
-      "short": "Write-up",
-      "status": "todo",
-      "started": "",
-      "finished": "",
-      "note": ""
-    },
-    {
-      "title": "Full clean rerun of every test",
-      "short": "Clean rerun",
-      "status": "todo",
-      "started": "",
-      "finished": "",
-      "note": ""
-    },
-    {
-      "title": "Team sign-off",
-      "short": "Sign-off",
-      "status": "todo",
-      "started": "",
-      "finished": "",
-      "note": ""
-    }
-  ],
-  "agent_state": "working",
-  "agent_note": "Ballast for short layouts done and tested (21 + 109 tests pass): lead in the T1.22 container, counted in mass and centre of mass, referee checks the container is cut and holds it. Fixed: remesh slivers on heavy bodies, halo-in-foam (Part 1), cargo and rear overhang (Part 1 fa1b267). Running: carved trials on 5cb8638 across 4 accounts. Seeds used: 43100-07, 43300-57, 43400-06, 43410-54, lofted 43700-06.",
-  "needs_you": "Team items: print material and the printer's thinnest wall, part weights, a hand check of three cars, and whether one exported car can be made.",
-  "unlocks": {
-    "D": {
-      "label": "Full-car building finished and tested",
-      "done": false,
-      "date": "",
-      "note": ""
-    }
-  }
+﻿{
+    "part":  4,
+    "name":  "Parts and the referee",
+    "tagline":  "Turns a carved body into a whole car, makes the build files, and judges it.",
+    "what":  [
+                 "Adds everything except the body: nose, front and rear wings, wheel supports, wheels, tether guides and the cartridge, and cuts the joints into the body.",
+                 "Makes the files the team needs to print the parts and mill the body.",
+                 "Holds the referee: an independent check of the finished car against every rule, measured from the outside like a scrutineer, showing how much room is left on each rule.",
+                 "The referee shares nothing with the cutter, so one cannot hide the other\u0027s mistakes."
+             ],
+    "sections":  [
+                     {
+                         "name":  "Groundwork (built before)",
+                         "items":  [
+                                       {
+                                           "name":  "Wings",
+                                           "cells":  80,
+                                           "done":  80,
+                                           "failed":  0,
+                                           "short":  "Wings"
+                                       },
+                                       {
+                                           "name":  "Nose",
+                                           "cells":  40,
+                                           "done":  40,
+                                           "failed":  0,
+                                           "short":  "Nose"
+                                       },
+                                       {
+                                           "name":  "Wheel supports",
+                                           "cells":  60,
+                                           "done":  60,
+                                           "failed":  0,
+                                           "short":  "Supports"
+                                       },
+                                       {
+                                           "name":  "Joints",
+                                           "cells":  60,
+                                           "done":  60,
+                                           "failed":  0,
+                                           "short":  "Joints"
+                                       },
+                                       {
+                                           "name":  "Surface clean-up",
+                                           "cells":  40,
+                                           "done":  40,
+                                           "failed":  0,
+                                           "short":  "Clean-up"
+                                       },
+                                       {
+                                           "name":  "Referee checks",
+                                           "cells":  120,
+                                           "done":  120,
+                                           "failed":  0,
+                                           "short":  "Referee"
+                                       },
+                                       {
+                                           "name":  "Older bodies assembled and judged (1 square = 10 cars)",
+                                           "cells":  400,
+                                           "done":  400,
+                                           "failed":  0,
+                                           "short":  "Old cars"
+                                       }
+                                   ]
+                     },
+                     {
+                         "name":  "Build",
+                         "items":  [
+                                       {
+                                           "name":  "Every rule listed and matched to a check",
+                                           "cells":  120,
+                                           "done":  120,
+                                           "failed":  0,
+                                           "short":  "Rule list"
+                                       },
+                                       {
+                                           "name":  "Just-inside and just-outside tests",
+                                           "cells":  120,
+                                           "done":  120,
+                                           "failed":  0,
+                                           "short":  "Edge tests"
+                                       },
+                                       {
+                                           "name":  "Referee independence check",
+                                           "cells":  5,
+                                           "done":  5,
+                                           "failed":  0,
+                                           "short":  "Independence"
+                                       },
+                                       {
+                                           "name":  "Parts on carved bodies",
+                                           "cells":  40,
+                                           "done":  0,
+                                           "failed":  0,
+                                           "short":  "Carved parts"
+                                       },
+                                       {
+                                           "name":  "Real part weights",
+                                           "cells":  20,
+                                           "done":  0,
+                                           "failed":  0,
+                                           "short":  "Real weights"
+                                       },
+                                       {
+                                           "name":  "Build files",
+                                           "cells":  40,
+                                           "done":  0,
+                                           "failed":  0,
+                                           "short":  "Build files"
+                                       },
+                                       {
+                                           "name":  "Part setting ranges",
+                                           "cells":  20,
+                                           "done":  0,
+                                           "failed":  0,
+                                           "short":  "Ranges"
+                                       },
+                                       {
+                                           "name":  "Write-up",
+                                           "cells":  20,
+                                           "done":  0,
+                                           "failed":  0,
+                                           "short":  "Write-up"
+                                       }
+                                   ]
+                     },
+                     {
+                         "name":  "Tests",
+                         "items":  [
+                                       {
+                                           "name":  "Carved cars assembled (1 square = 1 car)",
+                                           "cells":  2000,
+                                           "done":  0,
+                                           "failed":  0,
+                                           "short":  "Carved cars"
+                                       },
+                                       {
+                                           "name":  "Older-body regression (1 square = 10 cars)",
+                                           "cells":  100,
+                                           "done":  0,
+                                           "failed":  0,
+                                           "short":  "Old regress"
+                                       },
+                                       {
+                                           "name":  "Hand-check cars",
+                                           "cells":  3,
+                                           "done":  0,
+                                           "failed":  0,
+                                           "short":  "Hand check"
+                                       },
+                                       {
+                                           "name":  "Weighed parts",
+                                           "cells":  10,
+                                           "done":  0,
+                                           "failed":  0,
+                                           "short":  "Weighed"
+                                       },
+                                       {
+                                           "name":  "Makeable check",
+                                           "cells":  1,
+                                           "done":  0,
+                                           "failed":  0,
+                                           "short":  "Makeable"
+                                       },
+                                       {
+                                           "name":  "Unit tests",
+                                           "cells":  100,
+                                           "done":  100,
+                                           "failed":  0,
+                                           "short":  "Unit tests"
+                                       }
+                                   ]
+                     },
+                     {
+                         "name":  "Sign-off",
+                         "items":  [
+                                       {
+                                           "name":  "Clean full rerun",
+                                           "cells":  50,
+                                           "done":  0,
+                                           "failed":  0,
+                                           "short":  "Rerun"
+                                       },
+                                       {
+                                           "name":  "Team sign-off",
+                                           "cells":  10,
+                                           "done":  0,
+                                           "failed":  0,
+                                           "short":  "Sign-off"
+                                       }
+                                   ]
+                     }
+                 ],
+    "status":  "active",
+    "updated":  "2026-11-12",
+    "now":  "Main-account recheck of the first 200 carved cars on the body builder fixed code (run 43094327440): 1 of 9 machines done, 8 running. Trial of 175 carved cars on 43400 seeds: 145 legal, 30 not, no crashes; all 30 are fair rejects (no room for number or logo, rear slot too tight for the cutter, halo pocket on the older code). Borrowed accounts refuse to start runs; left alone.",
+    "log":  [
+                {
+                    "date":  "2026-11-12",
+                    "text":  "175-car trial: 145 legal, 30 fair rejects, 0 crashes. Recheck of the first 200 cars running on the main account. New 375-car batch (seeds 43500-14) re-sent after a start failure."
+                },
+                {
+                    "date":  "2026-11-11",
+                    "text":  "Canary of 200 carved cars read: 150 legal, 50 not, no crashes. Real faults to fix: small cargo misses (10 cars), halo fit (2), rear overhang by 0.08 mm (1), mesh slivers (12). The rest are carves with no room for number or logo."
+                },
+                {
+                    "date":  "2026-11-10",
+                    "text":  "Carved trial cars on 26f095c still short on cargo (16 of 20); rebuilt car legal on 5fef8eb. Rechecking."
+                },
+                {
+                    "date":  "2026-11-10",
+                    "text":  "Cargo gap traced to the body builder\u0027s slot rim (fixed in 26f095c). Part 4 remesh keeps the cleaner file (13e4445); unit tests pass."
+                },
+                {
+                    "date":  "2026-11-10",
+                    "text":  "Trial cars on fef4130 (not counted): older-style 13 of 20 legal, 0 crashes; carved all fail the cargo check at the ballast slot edge. Tracing it."
+                },
+                {
+                    "date":  "2026-11-10",
+                    "text":  "Body builder fixed the slot-corner strip (fef4130); all 3 reference cars pass every check on it. Told the body builder."
+                },
+                {
+                    "date":  "2026-11-10",
+                    "text":  "Reference cars fail again on the body builder\u0027s f95173b (slot-corner strip, 28-35 mm3) after passing on 19e1a36. Told the body builder."
+                },
+                {
+                    "date":  "2026-11-10",
+                    "text":  "Codespaces: running 4 seeds at once timed out cars, so it was restarted one seed at a time. The slot-corner strip is back on the body builder\u0027s newer code; checking the reference cars there."
+                },
+                {
+                    "date":  "2026-11-10",
+                    "text":  "All 3 reference cars pass every check (162 of 162) on the body builder\u0027s latest code. Started small trial batches on Codespaces (blackwingstem-wq and blackwinglinkedin-crypto, 4 cores each)."
+                },
+                {
+                    "date":  "2026-11-10",
+                    "text":  "Rebuilt cars on the body builder\u0027s current code: the forward part and thin-triangle rejects are gone (they came from its older body). GitHub then blocked runs on all four Part 4 accounts; not retried."
+                },
+                {
+                    "date":  "2026-11-10",
+                    "text":  "Body builder\u0027s newer code: 19 of 20 trial cars built. New rejects: a part 75 mm ahead of the front reference, and thin triangles in printed files. Checks now name the part and file. Started 900+ trial cars and the reference cars at 0.7, 1.0 and 1.2 mm walls."
+                },
+                {
+                    "date":  "2026-11-10",
+                    "text":  "875 trial older-style cars on the body builder\u0027s in-progress code all crashed (body pieces not closed). Not counted. Checking its newer fix with 20 cars."
+                },
+                {
+                    "date":  "2026-11-09",
+                    "text":  "Board created. Waiting for the go to start this phase."
+                },
+                {
+                    "date":  "2026-11-09",
+                    "text":  "Repository checked: all tests pass, one unused data file removed."
+                },
+                {
+                    "date":  "2026-11-09",
+                    "text":  "Started. Listed every rule and matched each to a check or a reason. Found a few rules the checker only takes on trust; those get real checks next."
+                },
+                {
+                    "date":  "2026-11-09",
+                    "text":  "Rule list finished and saved."
+                },
+                {
+                    "date":  "2026-11-09",
+                    "text":  "First batch of just-inside and just-outside test cars written and sent to GitHub."
+                }
+            ],
+    "tasks":  [
+                  {
+                      "title":  "List every rule and its check",
+                      "short":  "Rule list",
+                      "status":  "done",
+                      "started":  "2026-11-09",
+                      "finished":  "2026-11-09",
+                      "note":  "Every rule matched to a check or a reason, none left open."
+                  },
+                  {
+                      "title":  "Just-inside and just-outside tests",
+                      "short":  "Edge tests",
+                      "status":  "done",
+                      "started":  "2026-11-09",
+                      "finished":  "2026-11-09",
+                      "note":  "Every size rule has a pass car and a fail car; all tests pass on GitHub."
+                  },
+                  {
+                      "title":  "Make the referee independent",
+                      "short":  "Independent",
+                      "status":  "done",
+                      "started":  "2026-11-09",
+                      "finished":  "2026-11-09",
+                      "note":  "The checker uses only its own rule numbers; tests pass."
+                  },
+                  {
+                      "title":  "Parts on carved bodies (2,000 cars)",
+                      "short":  "2,000 cars",
+                      "status":  "doing",
+                      "started":  "2026-11-09",
+                      "finished":  "",
+                      "note":  "Trial runs on the body builder\u0027s changing code, to find crashes and new kinds of rejects; the counted run waits for its frozen version."
+                  },
+                  {
+                      "title":  "Real part weights",
+                      "short":  "Real weights",
+                      "status":  "todo",
+                      "started":  "",
+                      "finished":  "",
+                      "note":  ""
+                  },
+                  {
+                      "title":  "Build files",
+                      "short":  "Build files",
+                      "status":  "doing",
+                      "started":  "2026-11-09",
+                      "finished":  "",
+                      "note":  "Parts list done; thinnest walls measured; waiting for the team\u0027s printer limits and a makeable check."
+                  },
+                  {
+                      "title":  "Part setting ranges",
+                      "short":  "Ranges",
+                      "status":  "todo",
+                      "started":  "",
+                      "finished":  "",
+                      "note":  ""
+                  },
+                  {
+                      "title":  "Write-up",
+                      "short":  "Write-up",
+                      "status":  "todo",
+                      "started":  "",
+                      "finished":  "",
+                      "note":  ""
+                  },
+                  {
+                      "title":  "Full clean rerun of every test",
+                      "short":  "Clean rerun",
+                      "status":  "todo",
+                      "started":  "",
+                      "finished":  "",
+                      "note":  ""
+                  },
+                  {
+                      "title":  "Team sign-off",
+                      "short":  "Sign-off",
+                      "status":  "todo",
+                      "started":  "",
+                      "finished":  "",
+                      "note":  ""
+                  }
+              ],
+    "agent_state":  "working",
+    "agent_note":  "Queue (main account): recheck 43094327440 (8 machines running), 375-car batch seeds 43500-14 (re-sent). Borrowed accounts down, left alone. Seeds used: 43100-07, 43300-57, 43400-06, 43410-54, 43500-14, lofted 43700-06.",
+    "needs_you":  "Team items: print material and the printer\u0027s thinnest wall, part weights, a hand check of three cars, and whether one exported car can be made.",
+    "unlocks":  {
+                    "D":  {
+                              "label":  "Full-car building finished and tested",
+                              "done":  false,
+                              "date":  "",
+                              "note":  ""
+                          }
+                }
 }
