@@ -158,7 +158,7 @@
  ],
  "status": "active",
  "updated": "2026-11-10",
- "now": "Back at full speed. Built the car test of the measured map on real carved shapes from Part 1's cutter; a short code trial is running before the full run (about 100 car runs).",
+ "now": "Compass test on carved cars running: car 1 has 20 machines measuring its map, car 2 is starting. Building the Part 5 carving loop; its fake-stopwatch test passes the noise rule and the wrong-compass rule, and is being tuned to reach the best car often enough.",
  "log": [
   {
    "date": "2026-11-09",
@@ -224,10 +224,14 @@
    "date": "2026-11-11",
    "text": "Back at full speed. Built the car test of the backup measured map: the map comes from small bumps on one carved car, and is then checked against random shapes cut by Part 1's cutter that it was never built from, with the same pass marks as the compass test. Proof write-up started."
   }
+  ,{
+   "date": "2026-11-12",
+   "text": "Compass test on two carved cars is running on the teammate accounts. Part 5 carving loop started: its keep rule passes the noise test, and a wrong compass never makes a car slower; reaching the best car often enough is still being worked on."
+  }
  ],
  "agent_state": "working",
  "needs_you": "",
- "agent_note": "Car test of the measured map: 60 small bumps build the map on one carved car, then 40 random cutter shapes it never saw check it, using Part 2's quietest timing set-up. Code trial running on the main account (2 machines). Proof write-up started.",
+ "agent_note": "Two carved cars measured on the teammate accounts (20 machines each). Three of car 1's jobs failed and will be re-run. Part 5 loop: keep rule passes (2 in 100 false keeps, mark 5); reaching the best car is 60 to 100 percent depending on the test shape, mark 98, being improved.",
  "tasks": [
   {
    "title": "Known-answer test",
