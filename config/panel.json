@@ -15,56 +15,56 @@
       "name": "shawshanker18",
       "cap": 40,
       "part": null,
-      "note": "only account with working Actions: Part 1 14, Part 2 12, Part 3 6, Part 4 8 (all 40)"
+      "note": "Part 1 14, Part 2 12, Part 3 6, Part 4 8 (all 40)"
     },
     {
       "name": "mxnviir",
       "cap": 40,
       "part": null,
-      "note": "Codespaces only: Parts 2 + 3",
-      "blocked": true
+      "note": "Parts 2 + 3, 20 jobs each",
+      "repo": "stem-car-compute"
     },
     {
       "name": "blackwingftc-lang",
       "cap": 20,
       "part": 2,
-      "note": "Codespaces only: Part 2",
-      "blocked": true
+      "note": "Part 2",
+      "repo": "stem-car-compute"
     },
     {
       "name": "Jdiejei",
       "cap": 20,
       "part": 1,
-      "note": "Codespaces only: Part 1",
-      "blocked": true
+      "note": "Part 1",
+      "repo": "stem-car-compute"
     },
     {
       "name": "instagramshashank8-bot",
       "cap": 20,
       "part": 3,
-      "note": "Codespaces only: Part 3",
-      "blocked": true
+      "note": "Part 3",
+      "repo": "stem-car-compute"
     },
     {
       "name": "blackwingstem-wq",
       "cap": 20,
       "part": 4,
-      "note": "Codespaces only: Part 4",
-      "blocked": true
+      "note": "Part 4",
+      "repo": "stem-car-compute"
     },
     {
       "name": "blackwinglinkedin-crypto",
       "cap": 14,
       "part": 4,
-      "note": "Codespaces only: Part 4",
-      "blocked": true
+      "note": "Part 4",
+      "repo": "stem-car-compute"
     },
     {
       "name": "anasssssssss1",
       "cap": 5,
-      "part": 4,
-      "note": "unusable: login lacks the codespace permission",
-      "blocked": true
+      "part": 1,
+      "note": "Part 1",
+      "repo": "stem-car-compute"
     }
   ],
   "gates": [
