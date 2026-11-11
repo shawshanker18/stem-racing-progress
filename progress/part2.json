@@ -186,8 +186,8 @@
   ],
   "status": "active",
   "updated": "2026-11-11",
-  "now": "Ranking check passed on 20 cars. Timing noise with the reshaped mesh and a warm start: 0.32 to 0.36 ms on 16 cars (95 % range 0.23 to 0.57) against the 0.3 ms mark, so not passed yet. A longer averaging window does not help: each car's own averaging error is already small (0.06 ms); what is left is car-to-car. Two other runs from a different reference car jumped between drag levels again (about 5 ms). A run on the current code with that same reference car is going now to find out whether the jump comes from the reference car or from the older code.",
-  "agent_state": "waiting_on_compute",
+  "now": "Ranking check passed on 20 cars. Timing noise on the current code: 0.36 ms on 16 cars against the 0.3 ms mark, not passed yet. Six of those 16 cars have a slightly different body (the body grid steps), worth about 0.6 ms, so part of that is real shape change, not noise. Allowing for it leaves about 0.25 ms. A cleaner test with cars that change smoothly is next. A run from a different reference car on the current code is still going.",
+  "agent_state": "working",
   "agent_note": "One chat now writes, reviews and runs Parts 1 to 4. One 17-machine noise run going.",
   "needs_you": "",
   "log": [
