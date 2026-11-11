@@ -62,7 +62,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - It must be right (checked against published wind-tunnel results), quiet (a tiny change gives a tiny time change) and give the same answer on every machine.
 - Every other part trusts it to say which car is faster.
 
-**Now:** Ranking check passed on 20 cars. Timing noise with the reshaped mesh and a warm start: 0.32 to 0.36 ms on 16 cars (95 % range 0.23 to 0.57) against the 0.3 ms mark, so not passed yet. A longer averaging window does not help: each car's own averaging error is already small (0.06 ms); what is left is car-to-car. Two other runs from a different reference car jumped between drag levels again (about 5 ms). A run on the current code with that same reference car is going now to find out whether the jump comes from the reference car or from the older code.
+**Now:** Ranking check passed on 20 cars. Timing noise on the current code: 0.36 ms on 16 cars against the 0.3 ms mark, not passed yet. Six of those 16 cars have a slightly different body (the body grid steps), worth about 0.6 ms, so part of that is real shape change, not noise. Allowing for it leaves about 0.25 ms. A cleaner test with cars that change smoothly is next. A run from a different reference car on the current code is still going.
 
 **Timeline:** 1 of 10 steps done
 
