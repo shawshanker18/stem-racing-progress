@@ -343,7 +343,7 @@
     }
   ],
   "agent_state": "working",
-  "agent_note": "One chat now writes, reviews and runs Parts 1 to 4.",
+  "agent_note": "Part 4 back at work (11 Nov). Running: (1) a trial of the same 200 carved cars on the body builder's latest version (fedc582), main account, 8 jobs; (2) a trace of 6 rejected cars (cargo, halo, rear overhang, rear slot, thin triangles) on a blackwinglinkedin-crypto Codespace, started 13:33 UTC. Sorting the 50 rejects: 24 are carves that left no room for the team number or logo (fair rejects); the rest are being traced to their cause.",
   "needs_you": "Team items: print material and the printer's thinnest wall, part weights, a hand check of three cars, and whether one exported car can be made.",
   "unlocks": {
     "D": {
