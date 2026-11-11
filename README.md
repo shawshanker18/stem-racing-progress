@@ -37,18 +37,18 @@ Our team is building, part by part, a computer system that designs the fastest l
 - Re-sizes the whole body after each cut so the car always weighs the target.
 - Hands over a clean, closed 3D shape. It never decides what is faster; it only cuts safely.
 
-**Now:** No tag yet. 5fef8eb (ed9e488 reverted, the cut's own removal given back): weight test passes at 1.0 and 0.5 mm, all 8 test cars pass (incl. 0.3 and 0.5 mm). 3 tests still red: pocket floor 0.025 mm low next to the ballast slot (bar 0.001), and the 0.5 mm box cut falling back. Fixing both; Part 4 is rechecking its 23 carved/cargo cars on 5fef8eb.
+**Now:** No tag yet. Random carving test of 200 bodies is green and the same-result test is green. One open fault: with milling on, the body built on the 0.75 mm grid comes out about 0.6 g heavier than on the 1.0 and 0.5 mm grids (1.0 to 1.35 % spread against the 0.5 % mark). Traced to two places: one spot behind the front wheel that the mill handles differently, and the rule-zone trim along the rear half. A diagnostic run is on GitHub now; the fix follows, then the 20-body grid check again.
 
-**Timeline:** 2 of 9 steps done
+**Timeline:** 3 of 9 steps done
 
 | # | Step | Status | Started | Finished | Note |
 |---|---|---|---|---|---|
 | 1 | Fix the last failing test | ✅ Done | 2026-11-09 | 2026-11-09 | Both failing tests fixed; every check passes. |
 | 2 | Build the cutting tool | ✅ Done | 2026-11-09 | 2026-11-09 | Built and all its checks pass; other parts can now use it. |
-| 3 | Weight sizing for carved shapes | ❌ Failed, being redone | 2026-11-09 |  | Two hundred bodies: one hundred ninety nine on target, one came out light and under the floor. Open failure, being fixed. |
+| 3 | Weight sizing for carved shapes | 🔄 Working on it | 2026-11-09 |  | Rerun of 200 bodies on the current cutter is on GitHub (15 of 20 machines done). |
 | 4 | Big random carving test (2,000 bodies) | ⏸️ Blocked | 2026-11-09 |  | Waits for the frozen tag: Part 4's cars pass on fef4130; own checks still running. |
-| 5 | Grid-size check | 🔄 Working on it | 2026-11-09 |  | Milling fix brought the spread down; exact rule zones written; retesting against the original bar. |
-| 6 | Same result on every machine | 🔄 Working on it | 2026-11-09 |  | First try: all ten bodies identical on both runs. Final proof to be rerun across two accounts on the final code. |
+| 5 | Grid-size check | 🔄 Working on it | 2026-11-09 |  | Passes without milling. With milling the 0.75 mm body is about 0.6 g heavy; cause traced to two places, diagnostic run going, fix next. |
+| 6 | Same result on every machine | ✅ Done | 2026-11-09 | 2026-11-10 | Same-result test green on the current cutter. |
 | 7 | Write-up | ⬜ To do |  |  |  |
 | 8 | Full clean rerun of every test | ⬜ To do |  |  |  |
 | 9 | Team sign-off | ⬜ To do |  |  |  |
@@ -62,7 +62,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - It must be right (checked against published wind-tunnel results), quiet (a tiny change gives a tiny time change) and give the same answer on every machine.
 - Every other part trusts it to say which car is faster.
 
-**Now:** Found the main noise cause: the airflow behind the body and rear wheels can settle two ways, and the mesh picks which. Testing whether starting every car from one shared airflow keeps them all on the same pattern.
+**Now:** Ranking check passed on 20 cars. Timing noise with the reshaped mesh and a warm start: 0.32 to 0.36 ms on 16 cars (95 % range 0.23 to 0.57) against the 0.3 ms mark, so not passed yet. A longer averaging window does not help: each car's own averaging error is already small (0.06 ms); what is left is car-to-car. Two other runs from a different reference car jumped between drag levels again (about 5 ms). A run on the current code with that same reference car is going now to find out whether the jump comes from the reference car or from the older code.
 
 **Timeline:** 1 of 10 steps done
 
@@ -113,7 +113,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - Holds the referee: an independent check of the finished car against every rule, measured from the outside like a scrutineer, showing how much room is left on each rule.
 - The referee shares nothing with the cutter, so one cannot hide the other's mistakes.
 
-**Now:** Trial recheck on 5fef8eb: 15 of 20 carved cars legal, 0 crashes. Waiting for the body builder to say its next version is ready for the final recheck.
+**Now:** Reference cars: 3 cars, 162 checks each, none failed. Canary of 200 randomly carved cars: 150 legal, 50 not, no crashes. Most of the 50 are carves that left no room for the team number or the logo, or are too thin, which the referee is right to reject. To fix: 10 cars miss 3 to 7 cubic mm of cargo on carved side walls, 2 have 6 to 7 cubic mm of halo in the foam, 1 is 0.08 mm over the rear overhang, and 12 have sliver triangles in the mesh. These wait for the body builder's grid fix, then get rechecked.
 
 **Timeline:** 3 of 10 steps done
 

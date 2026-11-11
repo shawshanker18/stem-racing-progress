@@ -2,7 +2,7 @@
 <rect x="0.00" y="0.00" width="1000.00" height="364.00" fill="#0d1117" stroke="#0d1117" stroke-width="0"/>
 <text x="8.00" y="22.00" font-family="sans-serif" font-size="16" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Timelines: each part&#x27;s steps in order</text>
 <text x="8.00" y="54.00" font-family="sans-serif" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">1 The cutter</text>
-<text x="8.00" y="72.00" font-family="sans-serif" font-size="11" font-weight="normal" fill="#8b949e" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">2/9 steps done</text>
+<text x="8.00" y="72.00" font-family="sans-serif" font-size="11" font-weight="normal" fill="#8b949e" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">3/9 steps done</text>
 <g><title>1. Fix the last failing test: Done</title><rect x="210.00" y="38.00" width="83.33" height="44" rx="4" fill="#2ea043" stroke="#6e7681" stroke-width="0"/>
 <text x="251.67" y="53.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">1. Fix last</text>
 <text x="251.67" y="65.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">test</text>
@@ -11,7 +11,7 @@
 <text x="339.00" y="53.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">2. Cutting</text>
 <text x="339.00" y="65.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">tool</text>
 </g>
-<g><title>3. Weight sizing for carved shapes: Failed, being redone</title><rect x="384.67" y="38.00" width="83.33" height="44" rx="4" fill="#da3633" stroke="#6e7681" stroke-width="0"/>
+<g><title>3. Weight sizing for carved shapes: Working on it</title><rect x="384.67" y="38.00" width="83.33" height="44" rx="4" fill="#388bfd" stroke="#6e7681" stroke-width="0"/>
 <text x="426.33" y="53.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">3. Carved</text>
 <text x="426.33" y="65.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">weight</text>
 </g>
@@ -22,7 +22,7 @@
 <g><title>5. Grid-size check: Working on it</title><rect x="559.33" y="38.00" width="83.33" height="44" rx="4" fill="#388bfd" stroke="#6e7681" stroke-width="0"/>
 <text x="601.00" y="53.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">5. Grid check</text>
 </g>
-<g><title>6. Same result on every machine: Working on it</title><rect x="646.67" y="38.00" width="83.33" height="44" rx="4" fill="#388bfd" stroke="#6e7681" stroke-width="0"/>
+<g><title>6. Same result on every machine: Done</title><rect x="646.67" y="38.00" width="83.33" height="44" rx="4" fill="#2ea043" stroke="#6e7681" stroke-width="0"/>
 <text x="688.33" y="53.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">6. Same</text>
 <text x="688.33" y="65.00" font-family="sans-serif" font-size="9.5" font-weight="normal" fill="#ffffff" text-anchor="middle" stroke="#0d1117" stroke-width="3" paint-order="stroke">result</text>
 </g>
