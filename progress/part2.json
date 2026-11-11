@@ -186,7 +186,7 @@
   ],
   "status": "active",
   "updated": "2026-11-11",
-  "now": "Same car on six machines with the reshaped mesh: spread down from 0.94 to 0.30 ms (target 0.1). Longer-run repeat and the smooth-change noise test are running.",
+  "now": "Repeat test: same car on six machines spreads 0.29 ms even with longer runs (target 0.1). Machines differ by more than averaging; checking the cause. Noise sets still running.",
   "agent_state": "working",
   "agent_note": "One chat now writes, reviews and runs Parts 1 to 4. One 17-machine noise run going.",
   "needs_you": "",
