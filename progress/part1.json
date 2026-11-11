@@ -1,350 +1,354 @@
 {
- "part": 1,
- "name": "The cutter",
- "tagline": "Carves the car body out of the legal block, one safe cut at a time.",
- "what": [
-  "Starts from the full block of material the rules allow, with every rule zone already marked.",
-  "Moves the surface in or out wherever it is told, in small steps, and checks every rule after each step: required solid areas, required open areas, left-right symmetry, one single piece, and a shape a real milling machine can cut.",
-  "Re-sizes the whole body after each cut so the car always weighs the target.",
-  "Hands over a clean, closed 3D shape. It never decides what is faster; it only cuts safely."
- ],
- "sections": [
-  {
-   "name": "Groundwork (built before)",
-   "items": [
+  "part": 1,
+  "name": "The cutter",
+  "tagline": "Carves the car body out of the legal block, one safe cut at a time.",
+  "what": [
+    "Starts from the full block of material the rules allow, with every rule zone already marked.",
+    "Moves the surface in or out wherever it is told, in small steps, and checks every rule after each step: required solid areas, required open areas, left-right symmetry, one single piece, and a shape a real milling machine can cut.",
+    "Re-sizes the whole body after each cut so the car always weighs the target.",
+    "Hands over a clean, closed 3D shape. It never decides what is faster; it only cuts safely."
+  ],
+  "sections": [
     {
-     "name": "Shape on a fine grid",
-     "cells": 100,
-     "done": 100,
-     "failed": 0,
-     "short": "Grid shape"
+      "name": "Groundwork (built before)",
+      "items": [
+        {
+          "name": "Shape on a fine grid",
+          "cells": 100,
+          "done": 100,
+          "failed": 0,
+          "short": "Grid shape"
+        },
+        {
+          "name": "Rule zones",
+          "cells": 150,
+          "done": 150,
+          "failed": 0,
+          "short": "Rule zones"
+        },
+        {
+          "name": "Milling check",
+          "cells": 80,
+          "done": 80,
+          "failed": 0,
+          "short": "Milling"
+        },
+        {
+          "name": "Weight sizing",
+          "cells": 60,
+          "done": 60,
+          "failed": 0,
+          "short": "Weight"
+        },
+        {
+          "name": "Clean surface export",
+          "cells": 80,
+          "done": 80,
+          "failed": 0,
+          "short": "Surface"
+        },
+        {
+          "name": "Older body: random cars tested (1 square = 10 cars)",
+          "cells": 400,
+          "done": 400,
+          "failed": 0,
+          "short": "Old cars"
+        }
+      ]
     },
     {
-     "name": "Rule zones",
-     "cells": 150,
-     "done": 150,
-     "failed": 0,
-     "short": "Rule zones"
+      "name": "Build",
+      "items": [
+        {
+          "name": "Cut tool",
+          "cells": 60,
+          "done": 60,
+          "failed": 0,
+          "short": "Cut tool"
+        },
+        {
+          "name": "Weight sizing for carved shapes",
+          "cells": 40,
+          "done": 0,
+          "failed": 0,
+          "short": "Carve weight"
+        },
+        {
+          "name": "Random carving tester",
+          "cells": 40,
+          "done": 0,
+          "failed": 0,
+          "short": "Carve tester"
+        },
+        {
+          "name": "Grid-size check",
+          "cells": 30,
+          "done": 0,
+          "failed": 0,
+          "short": "Grid check"
+        },
+        {
+          "name": "Same result on every machine",
+          "cells": 20,
+          "done": 0,
+          "failed": 0,
+          "short": "Same result"
+        },
+        {
+          "name": "Write-up",
+          "cells": 20,
+          "done": 0,
+          "failed": 0,
+          "short": "Write-up"
+        }
+      ]
     },
     {
-     "name": "Milling check",
-     "cells": 80,
-     "done": 80,
-     "failed": 0,
-     "short": "Milling"
+      "name": "Tests",
+      "items": [
+        {
+          "name": "Carved bodies (1 square = 1 body)",
+          "cells": 2000,
+          "done": 0,
+          "failed": 0,
+          "short": "Carved bodies"
+        },
+        {
+          "name": "Weight hits target",
+          "cells": 200,
+          "done": 199,
+          "failed": 1,
+          "short": "Weight hit"
+        },
+        {
+          "name": "Grid-size bodies",
+          "cells": 20,
+          "done": 0,
+          "failed": 19,
+          "short": "Grid bodies"
+        },
+        {
+          "name": "Repeat on two machines",
+          "cells": 20,
+          "done": 0,
+          "failed": 0,
+          "short": "Two machines"
+        },
+        {
+          "name": "Milling known shapes",
+          "cells": 5,
+          "done": 0,
+          "failed": 0,
+          "short": "Milling test"
+        },
+        {
+          "name": "Old-fix guards",
+          "cells": 15,
+          "done": 0,
+          "failed": 0,
+          "short": "Old fixes"
+        },
+        {
+          "name": "Unit tests",
+          "cells": 100,
+          "done": 100,
+          "failed": 0,
+          "short": "Unit tests"
+        }
+      ]
     },
     {
-     "name": "Weight sizing",
-     "cells": 60,
-     "done": 60,
-     "failed": 0,
-     "short": "Weight"
-    },
-    {
-     "name": "Clean surface export",
-     "cells": 80,
-     "done": 80,
-     "failed": 0,
-     "short": "Surface"
-    },
-    {
-     "name": "Older body: random cars tested (1 square = 10 cars)",
-     "cells": 400,
-     "done": 400,
-     "failed": 0,
-     "short": "Old cars"
+      "name": "Sign-off",
+      "items": [
+        {
+          "name": "Clean full rerun",
+          "cells": 50,
+          "done": 0,
+          "failed": 0,
+          "short": "Rerun"
+        },
+        {
+          "name": "Team sign-off",
+          "cells": 10,
+          "done": 0,
+          "failed": 0,
+          "short": "Sign-off"
+        }
+      ]
     }
-   ]
-  },
-  {
-   "name": "Build",
-   "items": [
+  ],
+  "status": "active",
+  "updated": "2026-11-11",
+  "now": "No tag yet. Random carving test of 200 bodies is green and the same-result test is green. One open fault: with milling on, the body built on the 0.75 mm grid comes out about 0.6 g heavier than on the 1.0 and 0.5 mm grids (1.0 to 1.35 % spread against the 0.5 % mark). Traced to two places: one spot behind the front wheel that the mill handles differently, and the rule-zone trim along the rear half. A diagnostic run is on GitHub now; the fix follows, then the 20-body grid check again.",
+  "log": [
     {
-     "name": "Cut tool",
-     "cells": 60,
-     "done": 60,
-     "failed": 0,
-     "short": "Cut tool"
+      "date": "2026-11-09",
+      "text": "Board created. Waiting for the go to start this phase."
     },
     {
-     "name": "Weight sizing for carved shapes",
-     "cells": 40,
-     "done": 0,
-     "failed": 0,
-     "short": "Carve weight"
+      "date": "2026-11-09",
+      "text": "Repository cleaned: unused and outdated files removed. The symmetry test is fixed; one mesh test still fails and is the first job."
     },
     {
-     "name": "Random carving tester",
-     "cells": 40,
-     "done": 0,
-     "failed": 0,
-     "short": "Carve tester"
+      "date": "2026-11-09",
+      "text": "Started. A test that switches shape rules off one at a time found the one behind the failing mesh test. Fix comes next."
     },
     {
-     "name": "Grid-size check",
-     "cells": 30,
-     "done": 0,
-     "failed": 0,
-     "short": "Grid check"
+      "date": "2026-11-09",
+      "text": "A closer look showed the cause: a hair-thin strip of material left behind, too thin to turn into a clean surface."
     },
     {
-     "name": "Same result on every machine",
-     "cells": 20,
-     "done": 0,
-     "failed": 0,
-     "short": "Same result"
+      "date": "2026-11-09",
+      "text": "Fixed: hair-thin strips are now cleaned away after every cut. All checks of all five parts pass."
     },
     {
-     "name": "Write-up",
-     "cells": 20,
-     "done": 0,
-     "failed": 0,
-     "short": "Write-up"
+      "date": "2026-11-09",
+      "text": "Cutting tool written, with checks for direction, refusals, rules and saving."
+    },
+    {
+      "date": "2026-11-09",
+      "text": "Cutting tool finished: all checks of all five parts pass. Parts three and five can use it now."
+    },
+    {
+      "date": "2026-11-09",
+      "text": "First weight test of twenty carved bodies: none under the floor, but six were slightly heavy. Looking into it."
+    },
+    {
+      "date": "2026-11-09",
+      "text": "Weight sizing fixed for bodies whose weight jumps in steps. Added five hand-checked milling shapes and a finishing step that writes the finished body."
+    },
+    {
+      "date": "2026-11-09",
+      "text": "Weight now lands on target for all twenty test bodies. First carving test: all six cars built, but all had too wide a cartridge chamber."
+    },
+    {
+      "date": "2026-11-09",
+      "text": "Found why carved cars had too wide a cartridge chamber: the grid put its wall half a step out. The finished body now has the chamber at its exact size."
+    },
+    {
+      "date": "2026-11-09",
+      "text": "Same-result test: ten bodies built twice, every file identical."
+    },
+    {
+      "date": "2026-11-09",
+      "text": "Grid-size test failed its weight bar on nineteen of twenty bodies. Cause: rule zones are drawn cell by cell. Asked the team lead how to proceed."
+    },
+    {
+      "date": "2026-11-09",
+      "text": "Weight proof: one hundred ninety nine of two hundred on target, one light, a failure. Chamber still too wide on every car, a failure. Two thousand car test started; exact rule zones begun."
+    },
+    {
+      "date": "2026-11-09",
+      "text": "Causes found: milling snapped the surface to the grid, the weight search gave up too early, and a crack along the centre line widened the chamber. Fixes written; one older check broke and is being traced."
+    },
+    {
+      "date": "2026-11-09",
+      "text": "Milling now keeps the drawn surface; grid weight spread fell from up to two percent to under one. Every main rule zone now has an exact edge; checking."
+    },
+    {
+      "date": "2026-11-09",
+      "text": "Chamber now the right size and confirmed. Big carving test restarted on the fixed code. All checks pass. Grid weight difference is down to about one percent; still failing its bar."
+    },
+    {
+      "date": "2026-11-09",
+      "text": "Part 4's 3 reference cars pass on fef4130. Milling now always on one fixed fine grid, as the team lead decided. Big test starts on the frozen tag."
+    },
+    {
+      "date": "2026-11-09",
+      "text": "Chamber agreed with Part 4: the plug gauge passes and the leftover crack is gone. Part 2 found the body jumps between two nearby skin thicknesses; finding the cause."
+    },
+    {
+      "date": "2026-11-09",
+      "text": "Found and fixed two causes: the tidy-up of the shape field shrank the body a little each time (the main grid weight gap), and the skin made the front of the body creep into the nose (the sudden shape jump Part 2 saw). Rechecking."
+    },
+    {
+      "date": "2026-11-11",
+      "text": "200-body random carving green; same-result test green. Grid weight gap traced to two places (a spot behind the front wheel in the milling step, and the rule-zone trim along the rear). Diagnostic run started to confirm the cause before the cutter is changed."
     }
-   ]
-  },
-  {
-   "name": "Tests",
-   "items": [
+  ],
+  "tasks": [
     {
-     "name": "Carved bodies (1 square = 1 body)",
-     "cells": 2000,
-     "done": 0,
-     "failed": 0,
-     "short": "Carved bodies"
+      "title": "Fix the last failing test",
+      "short": "Fix last test",
+      "status": "done",
+      "started": "2026-11-09",
+      "finished": "2026-11-09",
+      "note": "Both failing tests fixed; every check passes."
     },
     {
-     "name": "Weight hits target",
-     "cells": 200,
-     "done": 199,
-     "failed": 1,
-     "short": "Weight hit"
+      "title": "Build the cutting tool",
+      "short": "Cutting tool",
+      "status": "done",
+      "started": "2026-11-09",
+      "finished": "2026-11-09",
+      "note": "Built and all its checks pass; other parts can now use it."
     },
     {
-     "name": "Grid-size bodies",
-     "cells": 20,
-     "done": 0,
-     "failed": 19,
-     "short": "Grid bodies"
+      "title": "Weight sizing for carved shapes",
+      "short": "Carved weight",
+      "status": "doing",
+      "started": "2026-11-09",
+      "finished": "",
+      "note": "Rerun of 200 bodies on the current cutter is on GitHub (15 of 20 machines done)."
     },
     {
-     "name": "Repeat on two machines",
-     "cells": 20,
-     "done": 0,
-     "failed": 0,
-     "short": "Two machines"
+      "title": "Big random carving test (2,000 bodies)",
+      "short": "2,000 bodies",
+      "status": "blocked",
+      "started": "2026-11-09",
+      "finished": "",
+      "note": "Waits for the frozen tag: Part 4's cars pass on fef4130; own checks still running."
     },
     {
-     "name": "Milling known shapes",
-     "cells": 5,
-     "done": 0,
-     "failed": 0,
-     "short": "Milling test"
+      "title": "Grid-size check",
+      "short": "Grid check",
+      "status": "doing",
+      "started": "2026-11-09",
+      "finished": "",
+      "note": "Passes without milling. With milling the 0.75 mm body is about 0.6 g heavy; cause traced to two places, diagnostic run going, fix next."
     },
     {
-     "name": "Old-fix guards",
-     "cells": 15,
-     "done": 0,
-     "failed": 0,
-     "short": "Old fixes"
+      "title": "Same result on every machine",
+      "short": "Same result",
+      "status": "done",
+      "started": "2026-11-09",
+      "finished": "2026-11-10",
+      "note": "Same-result test green on the current cutter."
     },
     {
-     "name": "Unit tests",
-     "cells": 100,
-     "done": 100,
-     "failed": 0,
-     "short": "Unit tests"
+      "title": "Write-up",
+      "short": "Write-up",
+      "status": "todo",
+      "started": "",
+      "finished": "",
+      "note": ""
+    },
+    {
+      "title": "Full clean rerun of every test",
+      "short": "Clean rerun",
+      "status": "todo",
+      "started": "",
+      "finished": "",
+      "note": ""
+    },
+    {
+      "title": "Team sign-off",
+      "short": "Sign-off",
+      "status": "todo",
+      "started": "",
+      "finished": "",
+      "note": ""
     }
-   ]
-  },
-  {
-   "name": "Sign-off",
-   "items": [
-    {
-     "name": "Clean full rerun",
-     "cells": 50,
-     "done": 0,
-     "failed": 0,
-     "short": "Rerun"
-    },
-    {
-     "name": "Team sign-off",
-     "cells": 10,
-     "done": 0,
-     "failed": 0,
-     "short": "Sign-off"
+  ],
+  "agent_state": "working",
+  "agent_note": "One chat now writes, reviews and runs Parts 1 to 4. Weight sizing run of 200 bodies still going (15 of 20 machines done).",
+  "needs_you": "",
+  "unlocks": {
+    "A": {
+      "label": "Cutting tool finished and tested",
+      "done": true,
+      "date": "2026-11-09",
+      "note": "The failing mesh test is fixed and the cutting tool passed all its checks, along with every other part."
     }
-   ]
   }
- ],
- "status": "active",
- "updated": "2026-11-10",
- "now": "No tag yet. 5fef8eb (ed9e488 reverted, the cut's own removal given back): weight test passes at 1.0 and 0.5 mm, all 8 test cars pass (incl. 0.3 and 0.5 mm). 3 tests still red: pocket floor 0.025 mm low next to the ballast slot (bar 0.001), and the 0.5 mm box cut falling back. Fixing both; Part 4 is rechecking its 23 carved/cargo cars on 5fef8eb.",
- "log": [
-  {
-   "date": "2026-11-09",
-   "text": "Board created. Waiting for the go to start this phase."
-  },
-  {
-   "date": "2026-11-09",
-   "text": "Repository cleaned: unused and outdated files removed. The symmetry test is fixed; one mesh test still fails and is the first job."
-  },
-  {
-   "date": "2026-11-09",
-   "text": "Started. A test that switches shape rules off one at a time found the one behind the failing mesh test. Fix comes next."
-  },
-  {
-   "date": "2026-11-09",
-   "text": "A closer look showed the cause: a hair-thin strip of material left behind, too thin to turn into a clean surface."
-  },
-  {
-   "date": "2026-11-09",
-   "text": "Fixed: hair-thin strips are now cleaned away after every cut. All checks of all five parts pass."
-  },
-  {
-   "date": "2026-11-09",
-   "text": "Cutting tool written, with checks for direction, refusals, rules and saving."
-  },
-  {
-   "date": "2026-11-09",
-   "text": "Cutting tool finished: all checks of all five parts pass. Parts three and five can use it now."
-  },
-  {
-   "date": "2026-11-09",
-   "text": "First weight test of twenty carved bodies: none under the floor, but six were slightly heavy. Looking into it."
-  },
-  {
-   "date": "2026-11-09",
-   "text": "Weight sizing fixed for bodies whose weight jumps in steps. Added five hand-checked milling shapes and a finishing step that writes the finished body."
-  },
-  {
-   "date": "2026-11-09",
-   "text": "Weight now lands on target for all twenty test bodies. First carving test: all six cars built, but all had too wide a cartridge chamber."
-  },
-  {
-   "date": "2026-11-09",
-   "text": "Found why carved cars had too wide a cartridge chamber: the grid put its wall half a step out. The finished body now has the chamber at its exact size."
-  },
-  {
-   "date": "2026-11-09",
-   "text": "Same-result test: ten bodies built twice, every file identical."
-  },
-  {
-   "date": "2026-11-09",
-   "text": "Grid-size test failed its weight bar on nineteen of twenty bodies. Cause: rule zones are drawn cell by cell. Asked the team lead how to proceed."
-  },
-  {
-   "date": "2026-11-09",
-   "text": "Weight proof: one hundred ninety nine of two hundred on target, one light, a failure. Chamber still too wide on every car, a failure. Two thousand car test started; exact rule zones begun."
-  },
-  {
-   "date": "2026-11-09",
-   "text": "Causes found: milling snapped the surface to the grid, the weight search gave up too early, and a crack along the centre line widened the chamber. Fixes written; one older check broke and is being traced."
-  },
-  {
-   "date": "2026-11-09",
-   "text": "Milling now keeps the drawn surface; grid weight spread fell from up to two percent to under one. Every main rule zone now has an exact edge; checking."
-  },
-  {
-   "date": "2026-11-09",
-   "text": "Chamber now the right size and confirmed. Big carving test restarted on the fixed code. All checks pass. Grid weight difference is down to about one percent; still failing its bar."
-  },
-  {
-   "date": "2026-11-09",
-   "text": "Part 4's 3 reference cars pass on fef4130. Milling now always on one fixed fine grid, as the team lead decided. Big test starts on the frozen tag."
-  },
-  {
-   "date": "2026-11-09",
-   "text": "Chamber agreed with Part 4: the plug gauge passes and the leftover crack is gone. Part 2 found the body jumps between two nearby skin thicknesses; finding the cause."
-  },
-  {
-   "date": "2026-11-09",
-   "text": "Found and fixed two causes: the tidy-up of the shape field shrank the body a little each time (the main grid weight gap), and the skin made the front of the body creep into the nose (the sudden shape jump Part 2 saw). Rechecking."
-  }
- ],
- "tasks": [
-  {
-   "title": "Fix the last failing test",
-   "short": "Fix last test",
-   "status": "done",
-   "started": "2026-11-09",
-   "finished": "2026-11-09",
-   "note": "Both failing tests fixed; every check passes."
-  },
-  {
-   "title": "Build the cutting tool",
-   "short": "Cutting tool",
-   "status": "done",
-   "started": "2026-11-09",
-   "finished": "2026-11-09",
-   "note": "Built and all its checks pass; other parts can now use it."
-  },
-  {
-   "title": "Weight sizing for carved shapes",
-   "short": "Carved weight",
-   "status": "failed",
-   "started": "2026-11-09",
-   "finished": "",
-   "note": "Two hundred bodies: one hundred ninety nine on target, one came out light and under the floor. Open failure, being fixed."
-  },
-  {
-   "title": "Big random carving test (2,000 bodies)",
-   "short": "2,000 bodies",
-   "status": "blocked",
-   "started": "2026-11-09",
-   "finished": "",
-   "note": "Waits for the frozen tag: Part 4's cars pass on fef4130; own checks still running."
-  },
-  {
-   "title": "Grid-size check",
-   "short": "Grid check",
-   "status": "doing",
-   "started": "2026-11-09",
-   "finished": "",
-   "note": "Milling fix brought the spread down; exact rule zones written; retesting against the original bar."
-  },
-  {
-   "title": "Same result on every machine",
-   "short": "Same result",
-   "status": "doing",
-   "started": "2026-11-09",
-   "finished": "",
-   "note": "First try: all ten bodies identical on both runs. Final proof to be rerun across two accounts on the final code."
-  },
-  {
-   "title": "Write-up",
-   "short": "Write-up",
-   "status": "todo",
-   "started": "",
-   "finished": "",
-   "note": ""
-  },
-  {
-   "title": "Full clean rerun of every test",
-   "short": "Clean rerun",
-   "status": "todo",
-   "started": "",
-   "finished": "",
-   "note": ""
-  },
-  {
-   "title": "Team sign-off",
-   "short": "Sign-off",
-   "status": "todo",
-   "started": "",
-   "finished": "",
-   "note": ""
-  }
- ],
- "agent_state": "working",
- "agent_note": "Weight question answered (a). Fixing the last 3 red tests on 5fef8eb, then tag.",
- "needs_you": "",
- "unlocks": {
-  "A": {
-   "label": "Cutting tool finished and tested",
-   "done": true,
-   "date": "2026-11-09",
-   "note": "The failing mesh test is fixed and the cutting tool passed all its checks, along with every other part."
-  }
- }
 }

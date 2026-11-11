@@ -1,367 +1,371 @@
 {
- "part": 2,
- "name": "The stopwatch",
- "tagline": "Times a finished car over the 20 m race.",
- "what": [
-  "An airflow simulation measures how hard the air pushes back on the car and its wheels.",
-  "A race model turns that push, the weight and the launch into a race time, and says which inputs matter most.",
-  "It must be right (checked against published wind-tunnel results), quiet (a tiny change gives a tiny time change) and give the same answer on every machine.",
-  "Every other part trusts it to say which car is faster."
- ],
- "sections": [
-  {
-   "name": "Groundwork (built before)",
-   "items": [
+  "part": 2,
+  "name": "The stopwatch",
+  "tagline": "Times a finished car over the 20 m race.",
+  "what": [
+    "An airflow simulation measures how hard the air pushes back on the car and its wheels.",
+    "A race model turns that push, the weight and the launch into a race time, and says which inputs matter most.",
+    "It must be right (checked against published wind-tunnel results), quiet (a tiny change gives a tiny time change) and give the same answer on every machine.",
+    "Every other part trusts it to say which car is faster."
+  ],
+  "sections": [
     {
-     "name": "Airflow simulation set-up",
-     "cells": 150,
-     "done": 150,
-     "failed": 0,
-     "short": "CFD set-up"
+      "name": "Groundwork (built before)",
+      "items": [
+        {
+          "name": "Airflow simulation set-up",
+          "cells": 150,
+          "done": 150,
+          "failed": 0,
+          "short": "CFD set-up"
+        },
+        {
+          "name": "Race model",
+          "cells": 100,
+          "done": 100,
+          "failed": 0,
+          "short": "Race model"
+        },
+        {
+          "name": "Same car on six machines",
+          "cells": 60,
+          "done": 60,
+          "failed": 0,
+          "short": "Six machines"
+        },
+        {
+          "name": "Noise measured",
+          "cells": 60,
+          "done": 60,
+          "failed": 0,
+          "short": "Noise found"
+        }
+      ]
     },
     {
-     "name": "Race model",
-     "cells": 100,
-     "done": 100,
-     "failed": 0,
-     "short": "Race model"
+      "name": "Build",
+      "items": [
+        {
+          "name": "Wind-tunnel benchmark cases",
+          "cells": 60,
+          "done": 20,
+          "failed": 0,
+          "short": "Benchmarks"
+        },
+        {
+          "name": "Noise reduction",
+          "cells": 80,
+          "done": 0,
+          "failed": 0,
+          "short": "Noise cut"
+        },
+        {
+          "name": "Quick vs detailed agreement",
+          "cells": 40,
+          "done": 40,
+          "failed": 0,
+          "short": "Quick vs fine"
+        },
+        {
+          "name": "Warm start",
+          "cells": 30,
+          "done": 0,
+          "failed": 0,
+          "short": "Warm start"
+        },
+        {
+          "name": "Runs longer than one machine slot",
+          "cells": 30,
+          "done": 0,
+          "failed": 0,
+          "short": "Long runs"
+        },
+        {
+          "name": "Real race inputs",
+          "cells": 60,
+          "done": 20,
+          "failed": 0,
+          "short": "Real inputs"
+        },
+        {
+          "name": "Model vs real track times",
+          "cells": 20,
+          "done": 0,
+          "failed": 0,
+          "short": "Vs track"
+        },
+        {
+          "name": "Write-up",
+          "cells": 20,
+          "done": 0,
+          "failed": 0,
+          "short": "Write-up"
+        }
+      ]
     },
     {
-     "name": "Same car on six machines",
-     "cells": 60,
-     "done": 60,
-     "failed": 0,
-     "short": "Six machines"
+      "name": "Tests",
+      "items": [
+        {
+          "name": "Benchmark runs",
+          "cells": 9,
+          "done": 0,
+          "failed": 0,
+          "short": "Benchmark"
+        },
+        {
+          "name": "Noise test cars",
+          "cells": 48,
+          "done": 16,
+          "failed": 0,
+          "short": "Noise cars"
+        },
+        {
+          "name": "Repeat on six machines",
+          "cells": 6,
+          "done": 6,
+          "failed": 0,
+          "short": "Repeat x6"
+        },
+        {
+          "name": "Ranking cars, quick and detailed",
+          "cells": 40,
+          "done": 40,
+          "failed": 0,
+          "short": "Ranking"
+        },
+        {
+          "name": "Warm-start pairs",
+          "cells": 20,
+          "done": 0,
+          "failed": 0,
+          "short": "Warm pairs"
+        },
+        {
+          "name": "Long-run check",
+          "cells": 2,
+          "done": 0,
+          "failed": 0,
+          "short": "Long run"
+        },
+        {
+          "name": "Slope checks",
+          "cells": 8,
+          "done": 8,
+          "failed": 0,
+          "short": "Slopes"
+        },
+        {
+          "name": "Unit tests",
+          "cells": 100,
+          "done": 100,
+          "failed": 0,
+          "short": "Unit tests"
+        }
+      ]
     },
     {
-     "name": "Noise measured",
-     "cells": 60,
-     "done": 60,
-     "failed": 0,
-     "short": "Noise found"
+      "name": "Sign-off",
+      "items": [
+        {
+          "name": "Clean full rerun",
+          "cells": 50,
+          "done": 0,
+          "failed": 0,
+          "short": "Rerun"
+        },
+        {
+          "name": "Team sign-off",
+          "cells": 10,
+          "done": 0,
+          "failed": 0,
+          "short": "Sign-off"
+        }
+      ]
     }
-   ]
-  },
-  {
-   "name": "Build",
-   "items": [
+  ],
+  "status": "active",
+  "updated": "2026-11-11",
+  "now": "Ranking check passed on 20 cars. Timing noise with the reshaped mesh and a warm start: 0.32 to 0.36 ms on 16 cars (95 % range 0.23 to 0.57) against the 0.3 ms mark, so not passed yet. A longer averaging window does not help: each car's own averaging error is already small (0.06 ms); what is left is car-to-car. Two other runs from a different reference car jumped between drag levels again (about 5 ms). A run on the current code with that same reference car is going now to find out whether the jump comes from the reference car or from the older code.",
+  "agent_state": "waiting_on_compute",
+  "agent_note": "One chat now writes, reviews and runs Parts 1 to 4. One 17-machine noise run going.",
+  "needs_you": "",
+  "log": [
     {
-     "name": "Wind-tunnel benchmark cases",
-     "cells": 60,
-     "done": 20,
-     "failed": 0,
-     "short": "Benchmarks"
+      "date": "2026-11-09",
+      "text": "Board created. Waiting for the go to start this phase."
     },
     {
-     "name": "Noise reduction",
-     "cells": 80,
-     "done": 0,
-     "failed": 0,
-     "short": "Noise cut"
+      "date": "2026-11-09",
+      "text": "Repository cleaned: unused and outdated files removed. All tests pass."
     },
     {
-     "name": "Quick vs detailed agreement",
-     "cells": 40,
-     "done": 40,
-     "failed": 0,
-     "short": "Quick vs fine"
+      "date": "2026-11-09",
+      "text": "Started. All built-in checks pass on a fresh copy."
     },
     {
-     "name": "Warm start",
-     "cells": 30,
-     "done": 0,
-     "failed": 0,
-     "short": "Warm start"
+      "date": "2026-11-09",
+      "text": "Test shape added with a still-floor option to match the wind tunnel. The nose now uses the original published measurements."
     },
     {
-     "name": "Runs longer than one machine slot",
-     "cells": 30,
-     "done": 0,
-     "failed": 0,
-     "short": "Long runs"
+      "date": "2026-11-09",
+      "text": "Added a second test shape, a cube, at our own car's speed and size. All test shape runs started on three levels of detail."
     },
     {
-     "name": "Real race inputs",
-     "cells": 60,
-     "done": 20,
-     "failed": 0,
-     "short": "Real inputs"
+      "date": "2026-11-09",
+      "text": "First timing-noise measurement started on sixteen near-identical cars."
     },
     {
-     "name": "Model vs real track times",
-     "cells": 20,
-     "done": 0,
-     "failed": 0,
-     "short": "Vs track"
+      "date": "2026-11-09",
+      "text": "Compare-two-cars tool written; its built-in checks pass. A real test with two full cars is running."
     },
     {
-     "name": "Write-up",
-     "cells": 20,
-     "done": 0,
-     "failed": 0,
-     "short": "Write-up"
+      "date": "2026-11-09",
+      "text": "Wind-tunnel shape reads about a quarter too high on drag; a finer mesh does not fix it. A still floor in our setup adds some of it. More experiments running."
+    },
+    {
+      "date": "2026-11-09",
+      "text": "Ranking check started: twenty cars on the detailed mesh, using twenty extra machines lent for about twelve hours."
+    },
+    {
+      "date": "2026-11-09",
+      "text": "Timing noise measured on sixteen near-identical cars: about twice the old rough figure and well above the target. Milestone B reached. First fix, longer runs, is being tested."
+    },
+    {
+      "date": "2026-11-09",
+      "text": "Part 3 found an automatic early stop that ended every car's airflow run partway. Removed. The noise measurement and the ranking check taken with it are not final and are being re-run."
+    },
+    {
+      "date": "2026-11-09",
+      "text": "The team's measured thrust replaces the invented one in the race model, with the approved calibration factor. Checks running."
+    },
+    {
+      "date": "2026-11-09",
+      "text": "Centre of mass now in the race time through wheel and guide loads; placeholder penalties removed. All race-model and built-in checks pass. Milestone C reached: compare-two-cars works and is tested."
+    },
+    {
+      "date": "2026-11-09",
+      "text": "The team's centre-of-mass test is not reproduced: our physics loses time only once a wheel lifts. Load-sensitive bearings do not explain it at sensible values. Asked for the test car's details."
+    },
+    {
+      "date": "2026-11-09",
+      "text": "Decided: the time factor stays, so model times are relative only until one real timed run. The noise report now shows how much of the noise comes from each car's own averaging error."
+    },
+    {
+      "date": "2026-11-09",
+      "text": "Wind-tunnel gap: our still floor grows a slow-air layer about twice as thick as in the real tunnel. Now testing a floor that starts where the real ground plate did."
+    },
+    {
+      "date": "2026-11-09",
+      "text": "Noise re-measured without the early stop: about four times worse. Each car's own averaging error is small; the cars settle on one of three distinct drag levels. Testing the reshaped mesh and longer runs to find the cause. Each car still takes under 35 minutes."
+    },
+    {
+      "date": "2026-11-09",
+      "text": "Noise split by part of the car: the flow behind the car flips between two patterns, moving body and rear-wheel drag together. Separately, the built body jumps at one skin thickness; sent to Part 1. Warm starts built and queued as a test."
+    },
+    {
+      "date": "2026-11-09",
+      "text": "Reshaped-mesh test: noise halves when every near-identical car keeps the same mesh layout. Each car's own averaging error is small. The rest is the airflow settling into two patterns, plus the body jump Part 1 is fixing. Built time-accurate runs to watch the airflow switch."
+    },
+    {
+      "date": "2026-11-11",
+      "text": "Read all finished noise runs. Best 0.32 ms (1,000 steps) to 0.36 ms (3,000 steps); mark is 0.3. Averaging window made no difference, so the settings stay as they are. Drag-level jump seen again on two runs from another reference car; follow-up run started."
     }
-   ]
-  },
-  {
-   "name": "Tests",
-   "items": [
+  ],
+  "tasks": [
     {
-     "name": "Benchmark runs",
-     "cells": 9,
-     "done": 0,
-     "failed": 0,
-     "short": "Benchmark"
+      "title": "Check against published wind-tunnel results",
+      "short": "Wind tunnel",
+      "status": "doing",
+      "started": "2026-11-09",
+      "finished": "",
+      "note": "Drag reads too high so far; testing settings to find out why."
     },
     {
-     "name": "Noise test cars",
-     "cells": 48,
-     "done": 16,
-     "failed": 0,
-     "short": "Noise cars"
+      "title": "Cut the timing noise",
+      "short": "Cut noise",
+      "status": "doing",
+      "started": "2026-11-09",
+      "finished": "",
+      "note": "Re-measured without the early stop: far above target. Cars jump between three drag levels; testing whether the mesh or the airflow causes it."
     },
     {
-     "name": "Repeat on six machines",
-     "cells": 6,
-     "done": 6,
-     "failed": 0,
-     "short": "Repeat x6"
+      "title": "Quick vs detailed ranking check",
+      "short": "Ranking check",
+      "status": "done",
+      "started": "2026-11-09",
+      "finished": "2026-11-10",
+      "note": "Passed: the quick mesh orders twenty cars the same way as the detailed mesh, well above the pass marks."
     },
     {
-     "name": "Ranking cars, quick and detailed",
-     "cells": 40,
-     "done": 40,
-     "failed": 0,
-     "short": "Ranking"
+      "title": "Warm start",
+      "short": "Warm start",
+      "status": "todo",
+      "started": "",
+      "finished": "",
+      "note": ""
     },
     {
-     "name": "Warm-start pairs",
-     "cells": 20,
-     "done": 0,
-     "failed": 0,
-     "short": "Warm pairs"
+      "title": "Runs longer than one machine slot",
+      "short": "Long runs",
+      "status": "todo",
+      "started": "",
+      "finished": "",
+      "note": ""
     },
     {
-     "name": "Long-run check",
-     "cells": 2,
-     "done": 0,
-     "failed": 0,
-     "short": "Long run"
+      "title": "Real race inputs from the team",
+      "short": "Real inputs",
+      "status": "doing",
+      "started": "2026-11-09",
+      "finished": "",
+      "note": "Partly done: the team's measured thrust is in. Rolling friction, wheel weights and tether drag are still to come."
     },
     {
-     "name": "Slope checks",
-     "cells": 8,
-     "done": 8,
-     "failed": 0,
-     "short": "Slopes"
+      "title": "Model vs real track times",
+      "short": "Vs track",
+      "status": "todo",
+      "started": "",
+      "finished": "",
+      "note": ""
     },
     {
-     "name": "Unit tests",
-     "cells": 100,
-     "done": 100,
-     "failed": 0,
-     "short": "Unit tests"
+      "title": "Write-up",
+      "short": "Write-up",
+      "status": "todo",
+      "started": "",
+      "finished": "",
+      "note": ""
+    },
+    {
+      "title": "Full clean rerun of every test",
+      "short": "Clean rerun",
+      "status": "todo",
+      "started": "",
+      "finished": "",
+      "note": ""
+    },
+    {
+      "title": "Team sign-off",
+      "short": "Sign-off",
+      "status": "todo",
+      "started": "",
+      "finished": "",
+      "note": ""
     }
-   ]
-  },
-  {
-   "name": "Sign-off",
-   "items": [
-    {
-     "name": "Clean full rerun",
-     "cells": 50,
-     "done": 0,
-     "failed": 0,
-     "short": "Rerun"
+  ],
+  "unlocks": {
+    "B": {
+      "label": "Timing noise measured (helps Part 3, not required)",
+      "done": true,
+      "date": "2026-11-09",
+      "note": "Measured on sixteen near-identical cars, with its error range. NOT FINAL: it was taken while an early stop cut runs short; being re-measured."
     },
-    {
-     "name": "Team sign-off",
-     "cells": 10,
-     "done": 0,
-     "failed": 0,
-     "short": "Sign-off"
+    "C": {
+      "label": "Compare-two-cars finished and tested",
+      "done": true,
+      "date": "2026-11-09",
+      "note": "Works end to end on two real cars, and all its built-in checks pass. Its error range uses today's noise figure, which is being re-measured."
     }
-   ]
   }
- ],
- "status": "active",
- "updated": "2026-11-10",
- "now": "Found the main noise cause: the airflow behind the body and rear wheels can settle two ways, and the mesh picks which. Testing whether starting every car from one shared airflow keeps them all on the same pattern.",
- "agent_state": "waiting_on_compute",
- "agent_note": "Cloud-machine use this month: about 91 core-hours on one teammate account, about 27 on the other; all cloud machines now deleted.",
- "needs_you": "",
- "log": [
-  {
-   "date": "2026-11-09",
-   "text": "Board created. Waiting for the go to start this phase."
-  },
-  {
-   "date": "2026-11-09",
-   "text": "Repository cleaned: unused and outdated files removed. All tests pass."
-  },
-  {
-   "date": "2026-11-09",
-   "text": "Started. All built-in checks pass on a fresh copy."
-  },
-  {
-   "date": "2026-11-09",
-   "text": "Test shape added with a still-floor option to match the wind tunnel. The nose now uses the original published measurements."
-  },
-  {
-   "date": "2026-11-09",
-   "text": "Added a second test shape, a cube, at our own car's speed and size. All test shape runs started on three levels of detail."
-  },
-  {
-   "date": "2026-11-09",
-   "text": "First timing-noise measurement started on sixteen near-identical cars."
-  },
-  {
-   "date": "2026-11-09",
-   "text": "Compare-two-cars tool written; its built-in checks pass. A real test with two full cars is running."
-  },
-  {
-   "date": "2026-11-09",
-   "text": "Wind-tunnel shape reads about a quarter too high on drag; a finer mesh does not fix it. A still floor in our setup adds some of it. More experiments running."
-  },
-  {
-   "date": "2026-11-09",
-   "text": "Ranking check started: twenty cars on the detailed mesh, using twenty extra machines lent for about twelve hours."
-  },
-  {
-   "date": "2026-11-09",
-   "text": "Timing noise measured on sixteen near-identical cars: about twice the old rough figure and well above the target. Milestone B reached. First fix, longer runs, is being tested."
-  },
-  {
-   "date": "2026-11-09",
-   "text": "Part 3 found an automatic early stop that ended every car's airflow run partway. Removed. The noise measurement and the ranking check taken with it are not final and are being re-run."
-  },
-  {
-   "date": "2026-11-09",
-   "text": "The team's measured thrust replaces the invented one in the race model, with the approved calibration factor. Checks running."
-  },
-  {
-   "date": "2026-11-09",
-   "text": "Centre of mass now in the race time through wheel and guide loads; placeholder penalties removed. All race-model and built-in checks pass. Milestone C reached: compare-two-cars works and is tested."
-  },
-  {
-   "date": "2026-11-09",
-   "text": "The team's centre-of-mass test is not reproduced: our physics loses time only once a wheel lifts. Load-sensitive bearings do not explain it at sensible values. Asked for the test car's details."
-  },
-  {
-   "date": "2026-11-09",
-   "text": "Decided: the time factor stays, so model times are relative only until one real timed run. The noise report now shows how much of the noise comes from each car's own averaging error."
-  },
-  {
-   "date": "2026-11-09",
-   "text": "Wind-tunnel gap: our still floor grows a slow-air layer about twice as thick as in the real tunnel. Now testing a floor that starts where the real ground plate did."
-  },
-  {
-   "date": "2026-11-09",
-   "text": "Noise re-measured without the early stop: about four times worse. Each car's own averaging error is small; the cars settle on one of three distinct drag levels. Testing the reshaped mesh and longer runs to find the cause. Each car still takes under 35 minutes."
-  },
-  {
-   "date": "2026-11-09",
-   "text": "Noise split by part of the car: the flow behind the car flips between two patterns, moving body and rear-wheel drag together. Separately, the built body jumps at one skin thickness; sent to Part 1. Warm starts built and queued as a test."
-  },
-  {
-   "date": "2026-11-09",
-   "text": "Reshaped-mesh test: noise halves when every near-identical car keeps the same mesh layout. Each car's own averaging error is small. The rest is the airflow settling into two patterns, plus the body jump Part 1 is fixing. Built time-accurate runs to watch the airflow switch."
-  }
- ],
- "tasks": [
-  {
-   "title": "Check against published wind-tunnel results",
-   "short": "Wind tunnel",
-   "status": "doing",
-   "started": "2026-11-09",
-   "finished": "",
-   "note": "Drag reads too high so far; testing settings to find out why."
-  },
-  {
-   "title": "Cut the timing noise",
-   "short": "Cut noise",
-   "status": "doing",
-   "started": "2026-11-09",
-   "finished": "",
-   "note": "Re-measured without the early stop: far above target. Cars jump between three drag levels; testing whether the mesh or the airflow causes it."
-  },
-  {
-   "title": "Quick vs detailed ranking check",
-   "short": "Ranking check",
-   "status": "done",
-   "started": "2026-11-09",
-   "finished": "2026-11-10",
-   "note": "Passed: the quick mesh orders twenty cars the same way as the detailed mesh, well above the pass marks."
-  },
-  {
-   "title": "Warm start",
-   "short": "Warm start",
-   "status": "todo",
-   "started": "",
-   "finished": "",
-   "note": ""
-  },
-  {
-   "title": "Runs longer than one machine slot",
-   "short": "Long runs",
-   "status": "todo",
-   "started": "",
-   "finished": "",
-   "note": ""
-  },
-  {
-   "title": "Real race inputs from the team",
-   "short": "Real inputs",
-   "status": "doing",
-   "started": "2026-11-09",
-   "finished": "",
-   "note": "Partly done: the team's measured thrust is in. Rolling friction, wheel weights and tether drag are still to come."
-  },
-  {
-   "title": "Model vs real track times",
-   "short": "Vs track",
-   "status": "todo",
-   "started": "",
-   "finished": "",
-   "note": ""
-  },
-  {
-   "title": "Write-up",
-   "short": "Write-up",
-   "status": "todo",
-   "started": "",
-   "finished": "",
-   "note": ""
-  },
-  {
-   "title": "Full clean rerun of every test",
-   "short": "Clean rerun",
-   "status": "todo",
-   "started": "",
-   "finished": "",
-   "note": ""
-  },
-  {
-   "title": "Team sign-off",
-   "short": "Sign-off",
-   "status": "todo",
-   "started": "",
-   "finished": "",
-   "note": ""
-  }
- ],
- "unlocks": {
-  "B": {
-   "label": "Timing noise measured (helps Part 3, not required)",
-   "done": true,
-   "date": "2026-11-09",
-   "note": "Measured on sixteen near-identical cars, with its error range. NOT FINAL: it was taken while an early stop cut runs short; being re-measured."
-  },
-  "C": {
-   "label": "Compare-two-cars finished and tested",
-   "done": true,
-   "date": "2026-11-09",
-   "note": "Works end to end on two real cars, and all its built-in checks pass. Its error range uses today's noise figure, which is being re-measured."
-  }
- }
 }
