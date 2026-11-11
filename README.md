@@ -62,7 +62,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - It must be right (checked against published wind-tunnel results), quiet (a tiny change gives a tiny time change) and give the same answer on every machine.
 - Every other part trusts it to say which car is faster.
 
-**Now:** Longer runs halved each car's averaging error as expected. Noise is still above target because near-identical cars show one sudden drag drop at the same point in two separate tests; now checking whether the car shape or the mesh causes it.
+**Now:** Found the main noise cause: the airflow behind the body and rear wheels can settle two ways, and the mesh picks which. Testing whether starting every car from one shared airflow keeps them all on the same pattern.
 
 **Timeline:** 1 of 10 steps done
 
