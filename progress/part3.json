@@ -158,7 +158,7 @@
  ],
  "status": "active",
  "updated": "2026-11-10",
- "now": "Car pilot is ready and its trial run worked end to end. It waits for Part 1 to freeze its cutter and Part 2 to finish its noise work.",
+ "now": "Back at full speed. Built the car test of the measured map on real carved shapes from Part 1's cutter; a short code trial is running before the full run (about 100 car runs).",
  "log": [
   {
    "date": "2026-11-09",
@@ -220,10 +220,14 @@
    "date": "2026-11-10",
    "text": "Car pilot ready: a small trial on one car ran end to end on the main account (about 1 machine-hour). One finding for Part 2: pulling the nose tip in by a millimetre made the reshaped mesh fail its check, so that car was meshed fresh; the pilot now leaves such pairs out instead of mixing mesh types."
   }
+  ,{
+   "date": "2026-11-11",
+   "text": "Back at full speed. Built the car test of the backup measured map: the map comes from small bumps on one carved car, and is then checked against random shapes cut by Part 1's cutter that it was never built from, with the same pass marks as the compass test. Proof write-up started."
+  }
  ],
  "agent_state": "working",
  "needs_you": "",
- "agent_note": "Car pilot is ready and tested. Today on the main account: map steadiness check about 7 machine-hours, pilot trial about 1 machine-hour. No Codespaces used yet.",
+ "agent_note": "Car test of the measured map: 60 small bumps build the map on one carved car, then 40 random cutter shapes it never saw check it, using Part 2's quietest timing set-up. Code trial running on the main account (2 machines). Proof write-up started.",
  "tasks": [
   {
    "title": "Known-answer test",
