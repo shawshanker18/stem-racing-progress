@@ -37,7 +37,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - Re-sizes the whole body after each cut so the car always weighs the target.
 - Hands over a clean, closed 3D shape. It never decides what is faster; it only cuts safely.
 
-**Now:** No tag yet. Part 1 has its own chat again (11 Nov). Grid check of 20 bodies on the newest cutter (fedc582): 19 read, all 0.10 to 0.48 % against the 0.5 % mark; body 2 still running. Unit tests: 3 of 4 groups green, 1 running. Reviewed the two cutter changes (corner relief for every body; big loose pieces joined, not dropped): no fault found. Next: 200-body weight sizing, 200-body random carving, then the tag.
+**Now:** No tag yet. Grid check passed: all 20 bodies within 0.5 % (worst 0.48 %), unit tests green (fedc582). Running: 200-body weight sizing, 200-body random carving, 2 more grid seeds.
 
 **Timeline:** 3 of 9 steps done
 
