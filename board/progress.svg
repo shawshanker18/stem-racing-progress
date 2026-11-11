@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 712" width="1000" height="712">
-<rect x="0.00" y="0.00" width="1000.00" height="712.00" fill="#0d1117" stroke="#0d1117" stroke-width="0"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 728" width="1000" height="728">
+<rect x="0.00" y="0.00" width="1000.00" height="728.00" fill="#0d1117" stroke="#0d1117" stroke-width="0"/>
 <text x="4.00" y="21.00" font-family="sans-serif" font-size="16" font-weight="normal" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Work done: 68.1% (2,854/4,193)</text>
 <g><title>Part 1, Groundwork (built before): Older body: random cars tested (1 square = 10 cars): 400/400 done</title>
 <rect x="1.00" y="31.00" width="5.78" height="5.92" fill="#2ea043" stroke="#0d1117" stroke-width="0.5"/>
@@ -10033,13 +10033,14 @@
 <text x="513.00" y="486.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">warm start: 0.32 to 0.36 ms on 16 cars (95 % range 0.23 to 0.57) against the</text>
 <text x="513.00" y="502.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">0.3 ms mark, so not passed yet. A longer averaging window does not help: each</text>
 <text x="505.00" y="524.00" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">3 The compass</text>
-<text x="513.00" y="540.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Car pilot is ready and its trial run worked end to end. It waits for Part 1 to</text>
-<text x="513.00" y="556.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">freeze its cutter and Part 2 to finish its noise work.</text>
-<text x="505.00" y="578.00" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">4 Parts and the referee</text>
-<text x="513.00" y="594.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Reference cars: 3 cars, 162 checks each, none failed. Canary of 200 randomly</text>
-<text x="513.00" y="610.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">carved cars: 150 legal, 50 not, no crashes. Most of the 50 are carves that</text>
-<text x="513.00" y="626.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">left no room for the team number or the logo, or are too thin, which the</text>
-<text x="505.00" y="648.00" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">5 The loop</text>
-<text x="513.00" y="664.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Waiting for the go to start this phase.</text>
-<text x="4.00" y="702.00" font-family="sans-serif" font-size="11" font-weight="normal" fill="#8b949e" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Each square is one piece of work or one test case. Green: done. Red: failed, being redone. Grey: still to do. Counted from each part&#x27;s progress file.</text>
+<text x="513.00" y="540.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Back at full speed. Built the car test of the measured map on real carved</text>
+<text x="513.00" y="556.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">shapes from Part 1&#x27;s cutter; a short code trial is running before the full run</text>
+<text x="513.00" y="572.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">(about 100 car runs).</text>
+<text x="505.00" y="594.00" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">4 Parts and the referee</text>
+<text x="513.00" y="610.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Reference cars: 3 cars, 162 checks each, none failed. Canary of 200 randomly</text>
+<text x="513.00" y="626.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">carved cars: 150 legal, 50 not, no crashes. Most of the 50 are carves that</text>
+<text x="513.00" y="642.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">left no room for the team number or the logo, or are too thin, which the</text>
+<text x="505.00" y="664.00" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">5 The loop</text>
+<text x="513.00" y="680.00" font-family="sans-serif" font-size="12" font-weight="normal" fill="#d0d7de" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Waiting for the go to start this phase.</text>
+<text x="4.00" y="718.00" font-family="sans-serif" font-size="11" font-weight="normal" fill="#8b949e" text-anchor="start" stroke="#0d1117" stroke-width="3" paint-order="stroke">Each square is one piece of work or one test case. Green: done. Red: failed, being redone. Grey: still to do. Counted from each part&#x27;s progress file.</text>
 </svg>
