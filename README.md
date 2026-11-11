@@ -37,7 +37,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - Re-sizes the whole body after each cut so the car always weighs the target.
 - Hands over a clean, closed 3D shape. It never decides what is faster; it only cuts safely.
 
-**Now:** No tag yet. Random carving test of 200 bodies is green and the same-result test is green. One open fault: with milling on, the body built on the 0.75 mm grid comes out about 0.6 g heavier than on the 1.0 and 0.5 mm grids (1.0 to 1.35 % spread against the 0.5 % mark). Traced to two places: one spot behind the front wheel that the mill handles differently, and the rule-zone trim along the rear half. A diagnostic run is on GitHub now; the fix follows, then the 20-body grid check again.
+**Now:** Grid weight gap fixed. Two causes found and removed: the mill skipped its corner cut when the body stood just back from a keep-clear corner, and a piece hanging on by a hair was dropped on one grid only. Grid check on 20 bodies: 19 read so far, all between 0.10 and 0.48 % (mark 0.5 %); the last one is still running. Next: weight sizing of 200 bodies and the 200-body carving test on this cutter, then the tag.
 
 **Timeline:** 3 of 9 steps done
 
@@ -45,9 +45,9 @@ Our team is building, part by part, a computer system that designs the fastest l
 |---|---|---|---|---|---|
 | 1 | Fix the last failing test | ✅ Done | 2026-11-09 | 2026-11-09 | Both failing tests fixed; every check passes. |
 | 2 | Build the cutting tool | ✅ Done | 2026-11-09 | 2026-11-09 | Built and all its checks pass; other parts can now use it. |
-| 3 | Weight sizing for carved shapes | 🔄 Working on it | 2026-11-09 |  | Rerun of 200 bodies on the current cutter is on GitHub (15 of 20 machines done). |
+| 3 | Weight sizing for carved shapes | 🔄 Working on it | 2026-11-09 |  | Rerun needed on the fixed cutter; the Part 1 chat starts it. |
 | 4 | Big random carving test (2,000 bodies) | ⏸️ Blocked | 2026-11-09 |  | Waits for the frozen tag: Part 4's cars pass on fef4130; own checks still running. |
-| 5 | Grid-size check | 🔄 Working on it | 2026-11-09 |  | Passes without milling. With milling the 0.75 mm body is about 0.6 g heavy; cause traced to two places, diagnostic run going, fix next. |
+| 5 | Grid-size check | 🔄 Working on it | 2026-11-09 |  | 19 of 20 bodies between 0.10 and 0.48 % after the two fixes; last body still running. |
 | 6 | Same result on every machine | ✅ Done | 2026-11-09 | 2026-11-10 | Same-result test green on the current cutter. |
 | 7 | Write-up | ⬜ To do |  |  |  |
 | 8 | Full clean rerun of every test | ⬜ To do |  |  |  |
