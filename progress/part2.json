@@ -186,8 +186,8 @@
   ],
   "status": "active",
   "updated": "2026-11-11",
-  "now": "Repeat test passed on the frozen starting case: nine machines agree to 0.01 ms. Choosing which of the two airflow states to freeze with a time-accurate run, and checking ten cars from both.",
-  "agent_state": "working",
+  "now": "Noise (0.09 ms) and repeat (0.01 ms) both pass on the frozen starting case; the stopwatch now uses it. Running: which airflow state to freeze, ten cars from both states, and the mesh check (20 cars on the search and fine meshes).",
+  "agent_state": "waiting_on_compute",
   "agent_note": "One chat now writes, reviews and runs Parts 1 to 4. One 17-machine noise run going.",
   "needs_you": "",
   "log": [
