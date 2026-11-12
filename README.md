@@ -37,7 +37,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - Re-sizes the whole body after each cut so the car always weighs the target.
 - Hands over a clean, closed 3D shape. It never decides what is faster; it only cuts safely.
 
-**Now:** Carving not green: about 4.5% of bodies fail, every one deterministic. Two faults: the block slot or halo-front corners (35-40 mm3) and a front span of 24.2-24.98 mm. 350 bodies done (Jdiejei 43093351425, anasssssssss1 43140536546, mxnviir 43144332801). Tracing: cut-fallback test Jdiejei 43154160454 and no-bars test Jdiejei 43160520570. More carving on anasssssssss1 43160528093 and main 43160532372. Sizing 200 running on blackwingftc-lang 43142211899 and Jdiejei 43142217956. Not tagged.
+**Now:** cars=true 43246561538 failed test_exact_zones (0.05 mm in zone): cause = my T8.5.1 cap boxes (76cd1f2) cut at the zone edge, not the 0.05 mm margin. Removed in e70ad72; cars=true redispatched. 41518/4 halo-top still tracing. Carving 41593-41647 running.
 
 **Timeline:** 3 of 9 steps done
 
@@ -62,7 +62,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - It must be right (checked against published wind-tunnel results), quiet (a tiny change gives a tiny time change) and give the same answer on every machine.
 - Every other part trusts it to say which car is faster.
 
-**Now:** Repeat test reopened: a one-core run on another account gave one machine 1.3 ms off the rest, so results may depend on the processor model. Testing on ten machines with the processor logged.
+**Now:** Noise target reopened: starting cars from the other airflow state reorders them by about 0.5 ms, more than the 0.3 ms target. Question logged; testing timing from both states.
 
 **Timeline:** 1 of 10 steps done
 
@@ -88,7 +88,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - The cutter carves along this map, so the map must be proven against real measurements before anyone trusts it.
 - If the fast map cannot be made right, a slower map built from direct measurements is the backup.
 
-**Now:** Compass test: 5 carved cars timing on 2 cores in parallel (cars 1-2 re-running failed jobs on 4 cores; cars 3, 4, 5 new on 2 cores). Loop keeps up to 256 re-times per Q7.
+**Now:** Compass test: 7 carved cars timing. Car 1 (instagramshashank8-bot) and car 2 (mxnviir) are re-running failed jobs on 4 cores. Car 3 (instagramshashank8-bot) is past its start car with 12 of 40 jobs running; car 4 (main) and car 5 (mxnviir) are at their start cars; car 6 (blackwinglinkedin-crypto, 3.95 mm, 2 cores) checks car 1; car 7 (main, 3.90 mm, 2 cores) checks car 2. The loop keeps up to 256 re-times per Q7.
 
 **Timeline:** 0 of 9 steps done
 
@@ -113,7 +113,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - Holds the referee: an independent check of the finished car against every rule, measured from the outside like a scrutineer, showing how much room is left on each rule.
 - The referee shares nothing with the cutter, so one cannot hide the other's mistakes.
 
-**Now:** Recheck of the first 200 carved cars on the body builder's fixed code: 153 legal, 32 not, 14 stopped for running over time (to fix). The cargo, mesh-sliver and rear-overhang faults are gone. Car 43100/8 is now legal; 43107/15 ran over time. Rejects: no room for logo or number (25), rear slot too tight for the cutter (6), front wing span (2), halo pocket (2).
+**Now:** Front wing span fix confirmed (all 7 failing cars legal). The one other reject in those seeds, 41518/4 halo seen from top, is a body fault the body builder is tracing. New carved trials on main e608acd (with the fix): 12 machines on blackwingstem-wq, 10 on main, 550 cars.
 
 **Timeline:** 3 of 10 steps done
 
