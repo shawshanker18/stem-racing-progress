@@ -62,7 +62,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - It must be right (checked against published wind-tunnel results), quiet (a tiny change gives a tiny time change) and give the same answer on every machine.
 - Every other part trusts it to say which car is faster.
 
-**Now:** Repeat test passed: on two cores the same car gives the same time on six machines to 0.01 ms. The stopwatch now runs on two cores; the noise test is being redone on that setting.
+**Now:** Repeat test reopened: a one-core run on another account gave one machine 1.3 ms off the rest, so results may depend on the processor model. Testing on ten machines with the processor logged.
 
 **Timeline:** 1 of 10 steps done
 
