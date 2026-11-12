@@ -186,7 +186,7 @@
   ],
   "status": "active",
   "updated": "2026-11-11",
-  "now": "Decision: each car is timed from both airflow states, with the difference as its error bar. Running the 16-car noise test that way (two repeats), plus a time-accurate check on three cars.",
+  "now": "Noise target met with each car timed from both airflow states: 0.09 ms against 0.3 ms on 16 cars. A confirming repeat and a time-accurate check on three cars are running; the mesh check is nearly done.",
   "agent_state": "waiting_on_compute",
   "agent_note": "One chat now writes, reviews and runs Parts 1 to 4. One 17-machine noise run going.",
   "needs_you": "",
