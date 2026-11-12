@@ -193,8 +193,12 @@
                  ],
     "status":  "active",
     "updated":  "2026-11-12",
-    "now":  "Front wing span fix confirmed: all 7 cars the body builder found failing are now legal (49 of 50 cars in those seeds; 1 fails the halo-seen-from-top rule, being checked). Unit tests pass; whole-car tests on main running. The official run starts once the body builder\u0027s tag lands and passes whole-car tests.",
+    "now":  "Front wing span fix confirmed (all 7 failing cars legal). The one other reject in those seeds, 41518/4 halo seen from top, is a body fault the body builder is tracing. New carved trials on main e608acd (with the fix): 12 machines on blackwingstem-wq, 10 on main, 550 cars.",
     "log":  [
+                {
+                    "date":  "2026-11-12",
+                    "text":  "550 more carved cars on the front wing fix (seeds 43631-52). Borrowed account brought up to the current main code."
+                },
                 {
                     "date":  "2026-11-12",
                     "text":  "Front wing span: all 7 failing cars legal on the fix (6bcf377)."
@@ -363,7 +367,7 @@
                   }
               ],
     "agent_state":  "working",
-    "agent_note":  "Running: front-span reruns 43204942819, 43205020128; carved batches on main and blackwingstem-wq. blackwinglinkedin-crypto lent to Part 3. The official run starts on its own when the body builder\u0027s tag lands. Seeds used: 43100-07, 43300-57, 43400-06, 43410-54, 43500-630, 43600 probe, lofted 43700-06.",
+    "agent_note":  "Running: blackwingstem-wq 43235878977 (43631-42), main 43235887300 (43643-52), whole-car tests 43210198758. The official run waits for the body builder\u0027s tag. Seeds used: 43100-07, 43300-57, 43400-06, 43410-54, 43500-652, 43600 probe, lofted 43700-06.",
     "needs_you":  "Team items: print material and the printer\u0027s thinnest wall, part weights, a hand check of three cars, and whether one exported car can be made.",
     "unlocks":  {
                     "D":  {
