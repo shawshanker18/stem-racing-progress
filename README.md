@@ -113,7 +113,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - Holds the referee: an independent check of the finished car against every rule, measured from the outside like a scrutineer, showing how much room is left on each rule.
 - The referee shares nothing with the cutter, so one cannot hide the other's mistakes.
 
-**Now:** Main-account recheck of the first 200 carved cars on the body builder fixed code (run 43094327440): 1 of 9 machines done, 8 running. Trial of 175 carved cars on 43400 seeds: 145 legal, 30 not, no crashes; all 30 are fair rejects (no room for number or logo, rear slot too tight for the cutter, halo pocket on the older code). Borrowed accounts refuse to start runs; left alone.
+**Now:** Recheck of the first 200 carved cars on the body builder's fixed code: 153 legal, 32 not, 14 stopped for running over time (to fix). The cargo, mesh-sliver and rear-overhang faults are gone. Car 43100/8 is now legal; 43107/15 ran over time. Rejects: no room for logo or number (25), rear slot too tight for the cutter (6), front wing span (2), halo pocket (2).
 
 **Timeline:** 3 of 10 steps done
 
