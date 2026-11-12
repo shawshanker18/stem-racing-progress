@@ -186,7 +186,7 @@
   ],
   "status": "active",
   "updated": "2026-11-11",
-  "now": "Noise (0.09 ms) and repeat (0.01 ms) both pass on the frozen starting case; the stopwatch now uses it. Running: which airflow state to freeze, ten cars from both states, and the mesh check (20 cars on the search and fine meshes).",
+  "now": "Noise target reopened: starting cars from the other airflow state reorders them by about 0.5 ms, more than the 0.3 ms target. Question logged; testing timing from both states.",
   "agent_state": "waiting_on_compute",
   "agent_note": "One chat now writes, reviews and runs Parts 1 to 4. One 17-machine noise run going.",
   "needs_you": "",
