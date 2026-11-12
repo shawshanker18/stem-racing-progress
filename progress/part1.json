@@ -179,7 +179,7 @@
   ],
   "status": "active",
   "updated": "2026-11-11",
-  "now": "Slivers fixed by fa1b267 (exact cargo cut): the same 20 bodies went from 8 illegal to 0 (Jdiejei 43079974871). Carving 200 on the new code is running (Jdiejei 43093351425). Next: rerun sizing 200 on the new code and fix or explain the remap test. Not tagged yet; PROOF.md is waiting on carving, sizing and remap.",
+  "now": "Carving 200 on the new code (Jdiejei 43093351425): 193 legal, 6 illegal, 1 over time. The 6 are halo or block 7-15 mm3 on 41504/9, 41514/3 and 41518/4, and front span 24.2-24.9 mm on 41516/8, 41518/1 and 41518/6. Rerunning those seeds (Jdiejei 43140540669) and carving 41520-41524 (anasssssssss1 43140536546). Grid seeds 41381-41390 all within 0.5% (43118866738). Remap passes as is (43066533385). Sizing 200 queued on main (43118952256). Not tagged.",
   "log": [
     {
       "date": "2026-11-09",
