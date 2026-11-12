@@ -37,7 +37,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - Re-sizes the whole body after each cut so the car always weighs the target.
 - Hands over a clean, closed 3D shape. It never decides what is faster; it only cuts safely.
 
-**Now:** BLOCKER L1 watertight (Part 2 relay): first bad commit 4b3e5d2 (11-09; 0.5 mm milling grid, bore wall end, islands after stamps); f5161e5 passes. Testing each of its 3 changes (mxnviir 43289812136/824657/837645), then fix on main + cars=true on that commit. cars=true 43246561538 fail fixed in e70ad72 (cap boxes off margin). Front span fixed by Part 4 6bcf377. Open: 41518/4 halo-top. Carving one body per job on blackwingstem-wq/main.
+**Now:** L1 watertight FIXED in 9984b8a (cause: 194 exact phi=0 samples after 4b3e5d2 0.5 mm milling welded into 4-face edges; whole-car extraction now retries with 1e-4-cell nudge like the half body). cars=true 43308939435: in_progress  9984b8a. L1 on 9984b8a 43308948727: completed success. Carving on 6bcf377: 197 legal / 2 illegal / 1 over time. Open rejects: 41518/4 halo-top 6.9 mm3; 41594/8 Fault A (slot corners 33.8 mm3 + halo-front 14). Safe dispatch pace (no bursts).
 
 **Timeline:** 3 of 9 steps done
 
