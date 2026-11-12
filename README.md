@@ -88,14 +88,14 @@ Our team is building, part by part, a computer system that designs the fastest l
 - The cutter carves along this map, so the map must be proven against real measurements before anyone trusts it.
 - If the fast map cannot be made right, a slower map built from direct measurements is the backup.
 
-**Now:** Compass test on carved cars running: car 1 has 20 machines measuring its map, car 2 is starting. Building the Part 5 carving loop; its fake-stopwatch test passes the noise rule and the wrong-compass rule, and is being tuned to reach the best car often enough.
+**Now:** Compass test on two carved cars: car 2 has most of its measurements back, car 1 restarted on a teammate account after GitHub refused to start it for a while. Part 5 carving loop: four ways of reaching the best car faster were tried and none reached the mark, so they were undone; now recording every step of the chains that fall short to find where they stall.
 
 **Timeline:** 0 of 9 steps done
 
 | # | Step | Status | Started | Finished | Note |
 |---|---|---|---|---|---|
 | 1 | Known-answer test | ❌ Failed, being redone | 2026-11-09 |  | Fast map fails on every setting tried, including the maker's own full setup; the backup measured map passes. |
-| 2 | Compass test on the car | ⏸️ Blocked |  |  | Blocked: waiting on Part 2 to find why near-identical cars settle on different drag levels; measured car slopes cannot be trusted until then. |
+| 2 | Compass test on the car | 🔄 Working on it | 2026-11-11 |  | Running on two carved cars: the measured map is built from small bumps, then checked against 40 random cuts per car. Pass: direction right on 8 of 10 cuts that clearly change the time, and a close match overall. |
 | 3 | Fixes, tried in order | ⬜ To do |  |  |  |
 | 4 | Backup measured map (only if needed) | 🔄 Working on it | 2026-11-09 |  | Passed on the simple wing: matched every test shape it had not seen. Waiting for quieter car runs before trying it on cars. |
 | 5 | Map to race time | 🔄 Working on it | 2026-11-09 |  | Built and its check against the race model passes, including where the weight sits; waiting for Part 1 to confirm how it re-sizes the skin. |
