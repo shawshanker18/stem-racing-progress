@@ -37,7 +37,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - Re-sizes the whole body after each cut so the car always weighs the target.
 - Hands over a clean, closed 3D shape. It never decides what is faster; it only cuts safely.
 
-**Now:** cars=true 43246561538 failed test_exact_zones (0.05 mm in zone): cause = my T8.5.1 cap boxes (76cd1f2) cut at the zone edge, not the 0.05 mm margin. Removed in e70ad72; cars=true redispatched. 41518/4 halo-top still tracing. Carving 41593-41647 running.
+**Now:** BLOCKER L1 watertight (Part 2 relay): first bad commit 4b3e5d2 (11-09; 0.5 mm milling grid, bore wall end, islands after stamps); f5161e5 passes. Testing each of its 3 changes (mxnviir 43289812136/824657/837645), then fix on main + cars=true on that commit. cars=true 43246561538 fail fixed in e70ad72 (cap boxes off margin). Front span fixed by Part 4 6bcf377. Open: 41518/4 halo-top. Carving one body per job on blackwingstem-wq/main.
 
 **Timeline:** 3 of 9 steps done
 
