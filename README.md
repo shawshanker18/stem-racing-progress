@@ -88,7 +88,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - The cutter carves along this map, so the map must be proven against real measurements before anyone trusts it.
 - If the fast map cannot be made right, a slower map built from direct measurements is the backup.
 
-**Now:** Compass test on two carved cars: car 2 has most of its measurements back, car 1 restarted on a teammate account after GitHub refused to start it for a while. Part 5 carving loop: four ways of reaching the best car faster were tried and none reached the mark, so they were undone; now recording every step of the chains that fall short to find where they stall.
+**Now:** Compass test: 5 carved cars timing on 2 cores in parallel (cars 1-2 re-running failed jobs on 4 cores; cars 3, 4, 5 new on 2 cores). Loop keeps up to 256 re-times per Q7.
 
 **Timeline:** 0 of 9 steps done
 
