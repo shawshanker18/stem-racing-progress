@@ -179,7 +179,7 @@
   ],
   "status": "active",
   "updated": "2026-11-11",
-  "now": "Carving 200 on the new code (Jdiejei 43093351425): 193 legal, 6 illegal, 1 over time. The 6 are halo or block 7-15 mm3 on 41504/9, 41514/3 and 41518/4, and front span 24.2-24.9 mm on 41516/8, 41518/1 and 41518/6. Rerunning those seeds (Jdiejei 43140540669) and carving 41520-41524 (anasssssssss1 43140536546). Grid seeds 41381-41390 all within 0.5% (43118866738). Remap passes as is (43066533385). Sizing 200 queued on main (43118952256). Not tagged.",
+  "now": "Carving not green: about 4.5% of bodies fail, every one deterministic. Two faults: the block slot or halo-front corners (35-40 mm3) and a front span of 24.2-24.98 mm. 350 bodies done (Jdiejei 43093351425, anasssssssss1 43140536546, mxnviir 43144332801). Tracing: cut-fallback test Jdiejei 43154160454 and no-bars test Jdiejei 43160520570. More carving on anasssssssss1 43160528093 and main 43160532372. Sizing 200 running on blackwingftc-lang 43142211899 and Jdiejei 43142217956. Not tagged.",
   "log": [
     {
       "date": "2026-11-09",
