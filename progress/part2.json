@@ -186,7 +186,7 @@
   ],
   "status": "active",
   "updated": "2026-11-11",
-  "now": "Noise met on the smooth test (0.20 ms). Repeat test: on one processor core the same car gives the identical time on all six machines; the 0.29 ms spread came from splitting each car over four cores. Testing a fix that keeps four cores.",
+  "now": "Repeat test passed: on two cores the same car gives the same time on six machines to 0.01 ms. The stopwatch now runs on two cores; the noise test is being redone on that setting.",
   "agent_state": "working",
   "agent_note": "One chat now writes, reviews and runs Parts 1 to 4. One 17-machine noise run going.",
   "needs_you": "",
