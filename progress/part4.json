@@ -193,8 +193,12 @@
                  ],
     "status":  "active",
     "updated":  "2026-11-12",
-    "now":  "Recheck of the first 200 carved cars on the body builder\u0027s fixed code: 153 legal, 32 not, 14 stopped for running over time (to fix). The cargo, mesh-sliver and rear-overhang faults are gone. Car 43100/8 is now legal; 43107/15 ran over time. Rejects: no room for logo or number (25), rear slot too tight for the cutter (6), front wing span (2), halo pocket (2).",
+    "now":  "Front wing span fault (blocking the body builder\u0027s tag) fixed on main 6bcf377: the wing now finds where the nose or body crosses it and reaches 25 mm past that. The referee is unchanged. Unit tests pass (24 + 109). The 7 cars that failed are being rebuilt on the fix (runs 43204942819 and 43205020128); results pending. Over-time stops fixed: limit is now 1800 s. Both cars the body builder asked about are legal.",
     "log":  [
+                {
+                    "date":  "2026-11-12",
+                    "text":  "Front wing span fix on main 6bcf377, unit tests pass; the body builder\u0027s 7 failing cars are rerunning on it."
+                },
                 {
                     "date":  "2026-11-12",
                     "text":  "Over-time stops traced to slow GitHub machines (one averaged 675 s a car against 360-540 s). Car time limit is now a setting, 1800 s by default (aae3b78). All four accounts full: 1,700+ carved cars running. The official trial starts on its own when the body builder\u0027s frozen version lands."
@@ -355,7 +359,7 @@
                   }
               ],
     "agent_state":  "working",
-    "agent_note":  "Running: main 43118842338 (43500-14), 43160526875 (43592-96), rerun 43143973979 (43102); blackwingstem-wq 43160517109 (43558-77); blackwinglinkedin-crypto 43160522075 (43578-91); anasssssssss1 43140476434 (43553-57). Waiting on the body builder\u0027s tag to start the official run. Seeds used: 43100-07, 43300-57, 43400-06, 43410-54, 43500-96, 43600 probe, lofted 43700-06.",
+    "agent_note":  "Running: front-span reruns 43204942819, 43205020128; carved batches on main and blackwingstem-wq. blackwinglinkedin-crypto lent to Part 3. The official run starts on its own when the body builder\u0027s tag lands. Seeds used: 43100-07, 43300-57, 43400-06, 43410-54, 43500-630, 43600 probe, lofted 43700-06.",
     "needs_you":  "Team items: print material and the printer\u0027s thinnest wall, part weights, a hand check of three cars, and whether one exported car can be made.",
     "unlocks":  {
                     "D":  {
