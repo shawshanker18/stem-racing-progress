@@ -113,7 +113,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - Holds the referee: an independent check of the finished car against every rule, measured from the outside like a scrutineer, showing how much room is left on each rule.
 - The referee shares nothing with the cutter, so one cannot hide the other's mistakes.
 
-**Now:** Front wing span fix confirmed (all 7 failing cars legal). The one other reject in those seeds, 41518/4 halo seen from top, is a body fault the body builder is tracing. New carved trials on main e608acd (with the fix): 12 machines on blackwingstem-wq, 10 on main, 550 cars.
+**Now:** About 2,200 carved cars judged across the accounts on older code: most legal; rejects are no room for logo or number, rear slot too tight for the cutter, and others being sorted. Stops were the old 900 s car limit (now 1800 s) and one code crash (supports with no joint, fixed in 833990c). New one-car runs on the fixed code fill all accounts.
 
 **Timeline:** 3 of 10 steps done
 
