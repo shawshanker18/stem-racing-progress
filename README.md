@@ -62,7 +62,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - It must be right (checked against published wind-tunnel results), quiet (a tiny change gives a tiny time change) and give the same answer on every machine.
 - Every other part trusts it to say which car is faster.
 
-**Now:** Decision: each car is timed from both airflow states, with the difference as its error bar. Running the 16-car noise test that way (two repeats), plus a time-accurate check on three cars.
+**Now:** Noise target met with each car timed from both airflow states: 0.09 ms against 0.3 ms on 16 cars. A confirming repeat and a time-accurate check on three cars are running; the mesh check is nearly done.
 
 **Timeline:** 1 of 10 steps done
 
