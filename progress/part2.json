@@ -186,7 +186,7 @@
   ],
   "status": "active",
   "updated": "2026-11-11",
-  "now": "Noise target reopened: starting cars from the other airflow state reorders them by about 0.5 ms, more than the 0.3 ms target. Question logged; testing timing from both states.",
+  "now": "Decision: each car is timed from both airflow states, with the difference as its error bar. Running the 16-car noise test that way (two repeats), plus a time-accurate check on three cars.",
   "agent_state": "waiting_on_compute",
   "agent_note": "One chat now writes, reviews and runs Parts 1 to 4. One 17-machine noise run going.",
   "needs_you": "",
