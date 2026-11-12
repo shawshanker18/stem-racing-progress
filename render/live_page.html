@@ -165,6 +165,7 @@ async function load(fresh){
 }
 $("refresh").addEventListener("click", () => load(true));
 setInterval(() => { for (const e of document.querySelectorAll("[data-t]")) if (e.dataset.t) e.textContent = ago(e.dataset.t); }, 30000);
+setInterval(() => load(true), 3600000); // default: refresh every hour; Refresh button any time
 load(false);
 </script>
 </body>
