@@ -197,6 +197,10 @@
     "log":  [
                 {
                     "date":  "2026-11-12",
+                    "text":  "Over-time stops traced to slow GitHub machines (one averaged 675 s a car against 360-540 s). Car time limit is now a setting, 1800 s by default (aae3b78). All four accounts full: 1,700+ carved cars running. The official trial starts on its own when the body builder\u0027s frozen version lands."
+                },
+                {
+                    "date":  "2026-11-12",
                     "text":  "Recheck of 200 cars: 153 legal, 32 fair or traced rejects, 14 over time. Cargo, sliver and overhang faults fixed. Next: the over-time cars, then front span and halo."
                 },
                 {
@@ -351,7 +355,7 @@
                   }
               ],
     "agent_state":  "working",
-    "agent_note":  "Fixing: 14 cars over the time limit, 2 front span, 2 halo. Running: main 43118842338 (43500-14); borrowed 43119056310 (43515-33), 43119063133 (43534-47), 43119069573 (43548-52), 43140476434 (43553-57). Seeds used: 43100-07, 43300-57, 43400-06, 43410-54, 43500-57, 43600 probe, lofted 43700-06.",
+    "agent_note":  "Running: main 43118842338 (43500-14), 43160526875 (43592-96), rerun 43143973979 (43102); blackwingstem-wq 43160517109 (43558-77); blackwinglinkedin-crypto 43160522075 (43578-91); anasssssssss1 43140476434 (43553-57). Waiting on the body builder\u0027s tag to start the official run. Seeds used: 43100-07, 43300-57, 43400-06, 43410-54, 43500-96, 43600 probe, lofted 43700-06.",
     "needs_you":  "Team items: print material and the printer\u0027s thinnest wall, part weights, a hand check of three cars, and whether one exported car can be made.",
     "unlocks":  {
                     "D":  {
