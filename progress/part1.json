@@ -179,7 +179,7 @@
   ],
   "status": "active",
   "updated": "2026-11-11",
-  "now": "Two carving fixes pushed. b15981e: the exact cut fell back uncut on 5 of 40 bodies; it now tries 15 settings, and e8caef7 refuses a body still uncut. 76cd1f2: the nose cap is cut exactly, for the front span. Fix tests on mxnviir 43167625607 and 43167722207. Fresh carving on the fixed code: Jdiejei 43171162335, anasssssssss1 43171167295, main 43171172050. Sizing 200 running on blackwingftc-lang and Jdiejei. Tag, PROOF.md and the 2,000-body test start as soon as the fix tests pass.",
+  "now": "Front span cause found (Part 4 nose crossing, fixed in 6bcf377). Running on 6bcf377: halo-top 41518/4 + carving 41593-41599 (Jdiejei 43208030293, anass 43208036651). Then tag, PROOF.md, 2000-body test.",
   "log": [
     {
       "date": "2026-11-09",
