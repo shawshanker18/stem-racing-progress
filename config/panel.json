@@ -12,20 +12,6 @@
   ],
   "accounts": [
     {
-      "name": "blahmanbig-gif",
-      "cap": 5,
-      "part": 2,
-      "note": "Part 2 (new 2026-11-12, fork)",
-      "repo": "stem-racing-car"
-    },
-    {
-      "name": "ishikasaraswat69-sketch",
-      "cap": 20,
-      "part": 3,
-      "note": "Part 3 (new 2026-11-12, fork)",
-      "repo": "stem-racing-car"
-    },
-    {
       "name": "shawshanker18",
       "cap": 40,
       "part": null,
