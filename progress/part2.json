@@ -186,7 +186,7 @@
   ],
   "status": "active",
   "updated": "2026-11-11",
-  "now": "Repeat test: same car on six machines spreads 0.29 ms even with longer runs (target 0.1). Machines differ by more than averaging; checking the cause. Noise sets still running.",
+  "now": "Timing noise met on the smooth-change test: 0.20 ms against the 0.3 ms mark (16 cars). A confirming rerun is going. Repeat on six machines still 0.29 ms against 0.1; cause being checked.",
   "agent_state": "working",
   "agent_note": "One chat now writes, reviews and runs Parts 1 to 4. One 17-machine noise run going.",
   "needs_you": "",
