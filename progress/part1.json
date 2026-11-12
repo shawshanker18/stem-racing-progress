@@ -179,7 +179,7 @@
   ],
   "status": "active",
   "updated": "2026-11-11",
-  "now": "Front span fixed (Part 4 6bcf377, all 7 legal). Open: 41518/4 halo-top 6.9 mm3 (Part 1 body, tracing on Jdiejei 43208030293). Carving 41593-41642 on 6bcf377 across Jdiejei/anass/main. Then cars=true tests.yml on candidate, tag, PROOF.md, 2000-body test.",
+  "now": "cars=true 43246561538 failed test_exact_zones (0.05 mm in zone): cause = my T8.5.1 cap boxes (76cd1f2) cut at the zone edge, not the 0.05 mm margin. Removed in e70ad72; cars=true redispatched. 41518/4 halo-top still tracing. Carving 41593-41647 running.",
   "log": [
     {
       "date": "2026-11-09",
