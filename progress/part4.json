@@ -193,8 +193,12 @@
                  ],
     "status":  "active",
     "updated":  "2026-11-12",
-    "now":  "Front wing span fix confirmed (all 7 failing cars legal). The one other reject in those seeds, 41518/4 halo seen from top, is a body fault the body builder is tracing. New carved trials on main e608acd (with the fix): 12 machines on blackwingstem-wq, 10 on main, 550 cars.",
+    "now":  "About 2,200 carved cars judged across the accounts on older code: most legal; rejects are no room for logo or number, rear slot too tight for the cutter, and others being sorted. Stops were the old 900 s car limit (now 1800 s) and one code crash (supports with no joint, fixed in 833990c). New one-car runs on the fixed code fill all accounts.",
     "log":  [
+                {
+                    "date":  "2026-11-12",
+                    "text":  "Batches read: about 2,200 cars. Over-time stops were the old car limit; one joints crash fixed (833990c). One car per job from now on."
+                },
                 {
                     "date":  "2026-11-12",
                     "text":  "550 more carved cars on the front wing fix (seeds 43631-52). Borrowed account brought up to the current main code."
@@ -367,7 +371,7 @@
                   }
               ],
     "agent_state":  "working",
-    "agent_note":  "Running: blackwingstem-wq 43235878977 (43631-42), main 43235887300 (43643-52), whole-car tests 43210198758. The official run waits for the body builder\u0027s tag. Seeds used: 43100-07, 43300-57, 43400-06, 43410-54, 43500-652, 43600 probe, lofted 43700-06.",
+    "agent_note":  "Running: anasssssssss1 43291473632 (43779-808), blackwingstem-wq 43291480807 (43809-68), 43279480768, main 43279488312, 43235887300; whole-car tests 43291715861. Seeds used up to 43868 (lofted 43700-06 separate).",
     "needs_you":  "Team items: print material and the printer\u0027s thinnest wall, part weights, a hand check of three cars, and whether one exported car can be made.",
     "unlocks":  {
                     "D":  {
