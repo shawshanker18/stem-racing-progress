@@ -157,8 +157,8 @@
   }
  ],
  "status": "active",
- "updated": "2026-11-10",
- "now": "Compass test on carved cars running: car 1 has 20 machines measuring its map, car 2 is starting. Building the Part 5 carving loop; its fake-stopwatch test passes the noise rule and the wrong-compass rule, and is being tuned to reach the best car often enough.",
+ "updated": "2026-11-12",
+ "now": "Compass test on two carved cars: car 2 has most of its measurements back, car 1 restarted on a teammate account after GitHub refused to start it for a while. Part 5 carving loop: four ways of reaching the best car faster were tried and none reached the mark, so they were undone; now recording every step of the chains that fall short to find where they stall.",
  "log": [
   {
    "date": "2026-11-09",
@@ -228,10 +228,14 @@
    "date": "2026-11-12",
    "text": "Compass test on two carved cars is running on the teammate accounts. Part 5 carving loop started: its keep rule passes the noise test, and a wrong compass never makes a car slower; reaching the best car often enough is still being worked on."
   }
+  ,{
+   "date": "2026-11-12",
+   "text": "Carving loop: tried a smarter step that follows bends, a faster shrink, more rounds and a longer final check. None lifted the curved-valley shape to the mark, and two made a simple shape slightly worse, so all four were undone. Now logging each round of the failing runs to find the one real cause."
+  }
  ],
  "agent_state": "working",
  "needs_you": "",
- "agent_note": "Two carved cars measured on the teammate accounts (20 machines each). Three of car 1's jobs failed and will be re-run. Part 5 loop: keep rule passes (2 in 100 false keeps, mark 5); reaching the best car is 60 to 100 percent depending on the test shape, mark 98, being improved.",
+ "agent_note": "Part 5 loop: no wrong keeps beyond 1 in 100 (mark 5), a wrong compass never makes a car slower, simple and many-peak test shapes reach the best car every time; the curved-valley shape reaches it 73 to 97 percent of the time, mark 98. Tracing the misses before changing anything else.",
  "tasks": [
   {
    "title": "Known-answer test",
@@ -244,10 +248,10 @@
   {
    "title": "Compass test on the car",
    "short": "Compass test",
-   "status": "blocked",
-   "started": "",
+   "status": "doing",
+   "started": "2026-11-11",
    "finished": "",
-   "note": "Blocked: waiting on Part 2 to find why near-identical cars settle on different drag levels; measured car slopes cannot be trusted until then."
+   "note": "Running on two carved cars: the measured map is built from small bumps, then checked against 40 random cuts per car. Pass: direction right on 8 of 10 cuts that clearly change the time, and a close match overall."
   },
   {
    "title": "Fixes, tried in order",
