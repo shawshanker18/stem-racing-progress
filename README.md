@@ -37,7 +37,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - Re-sizes the whole body after each cut so the car always weighs the target.
 - Hands over a clean, closed 3D shape. It never decides what is faster; it only cuts safely.
 
-**Now:** No tag yet. Grid check passed: all 20 bodies within 0.5 % (worst 0.48 %), unit tests green (fedc582). Running: 200-body weight sizing, 200-body random carving, 2 more grid seeds.
+**Now:** Carving 200 on the new code (Jdiejei 43093351425): 193 legal, 6 illegal, 1 over time. The 6 are halo or block 7-15 mm3 on 41504/9, 41514/3 and 41518/4, and front span 24.2-24.9 mm on 41516/8, 41518/1 and 41518/6. Rerunning those seeds (Jdiejei 43140540669) and carving 41520-41524 (anasssssssss1 43140536546). Grid seeds 41381-41390 all within 0.5% (43118866738). Remap passes as is (43066533385). Sizing 200 queued on main (43118952256). Not tagged.
 
 **Timeline:** 3 of 9 steps done
 
@@ -62,7 +62,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - It must be right (checked against published wind-tunnel results), quiet (a tiny change gives a tiny time change) and give the same answer on every machine.
 - Every other part trusts it to say which car is faster.
 
-**Now:** Same car on six machines with the reshaped mesh: spread down from 0.94 to 0.30 ms (target 0.1). Longer-run repeat and the smooth-change noise test are running.
+**Now:** Timing noise met on the smooth-change test: 0.20 ms against the 0.3 ms mark (16 cars). A confirming rerun is going. Repeat on six machines still 0.29 ms against 0.1; cause being checked.
 
 **Timeline:** 1 of 10 steps done
 
@@ -88,7 +88,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - The cutter carves along this map, so the map must be proven against real measurements before anyone trusts it.
 - If the fast map cannot be made right, a slower map built from direct measurements is the backup.
 
-**Now:** Back at full speed. Built the car test of the measured map on real carved shapes from Part 1's cutter; a short code trial is running before the full run (about 100 car runs).
+**Now:** Compass test on carved cars running: car 1 has 20 machines measuring its map, car 2 is starting. Building the Part 5 carving loop; its fake-stopwatch test passes the noise rule and the wrong-compass rule, and is being tuned to reach the best car often enough.
 
 **Timeline:** 0 of 9 steps done
 
@@ -113,7 +113,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - Holds the referee: an independent check of the finished car against every rule, measured from the outside like a scrutineer, showing how much room is left on each rule.
 - The referee shares nothing with the cutter, so one cannot hide the other's mistakes.
 
-**Now:** Reference cars: 3 cars, 162 checks each, none failed. Canary of 200 randomly carved cars: 150 legal, 50 not, no crashes. Most of the 50 are carves that left no room for the team number or the logo, or are too thin, which the referee is right to reject. To fix: 10 cars miss 3 to 7 cubic mm of cargo on carved side walls, 2 have 6 to 7 cubic mm of halo in the foam, 1 is 0.08 mm over the rear overhang, and 12 have sliver triangles in the mesh. These wait for the body builder's grid fix, then get rechecked.
+**Now:** Main-account recheck of the first 200 carved cars on the body builder fixed code (run 43094327440): 1 of 9 machines done, 8 running. Trial of 175 carved cars on 43400 seeds: 145 legal, 30 not, no crashes; all 30 are fair rejects (no room for number or logo, rear slot too tight for the cutter, halo pocket on the older code). Borrowed accounts refuse to start runs; left alone.
 
 **Timeline:** 3 of 10 steps done
 
