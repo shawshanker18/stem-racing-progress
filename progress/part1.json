@@ -179,7 +179,7 @@
   ],
   "status": "active",
   "updated": "2026-11-11",
-  "now": "Front span cause found (Part 4 nose crossing, fixed in 6bcf377). Running on 6bcf377: halo-top 41518/4 + carving 41593-41599 (Jdiejei 43208030293, anass 43208036651). Then tag, PROOF.md, 2000-body test.",
+  "now": "Front span fixed (Part 4 6bcf377, all 7 legal). Open: 41518/4 halo-top 6.9 mm3 (Part 1 body, tracing on Jdiejei 43208030293). Carving 41593-41642 on 6bcf377 across Jdiejei/anass/main. Then cars=true tests.yml on candidate, tag, PROOF.md, 2000-body test.",
   "log": [
     {
       "date": "2026-11-09",
