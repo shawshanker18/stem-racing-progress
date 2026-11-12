@@ -113,7 +113,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - Holds the referee: an independent check of the finished car against every rule, measured from the outside like a scrutineer, showing how much room is left on each rule.
 - The referee shares nothing with the cutter, so one cannot hide the other's mistakes.
 
-**Now:** About 2,200 carved cars judged across the accounts on older code: most legal; rejects are no room for logo or number, rear slot too tight for the cutter, and others being sorted. Stops were the old 900 s car limit (now 1800 s) and one code crash (supports with no joint, fixed in 833990c). New one-car runs on the fixed code fill all accounts.
+**Now:** Latest 120 one-car runs on the fixed code: 94 legal, 26 rejected, 0 crashes, no front wing span failures. Rejects: no room for number (10) or logo (9), rear slot too tight for the cutter (10), halo pocket (2), halo seen from front (1). Referee unchanged and its unit tests pass; whole-car tests on main ed52c7d still running (43301517232).
 
 **Timeline:** 3 of 10 steps done
 
