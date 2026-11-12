@@ -179,7 +179,7 @@
   ],
   "status": "active",
   "updated": "2026-11-11",
-  "now": "Carving not green: about 4.5% of bodies fail, every one deterministic. Two faults: the block slot or halo-front corners (35-40 mm3) and a front span of 24.2-24.98 mm. 350 bodies done (Jdiejei 43093351425, anasssssssss1 43140536546, mxnviir 43144332801). Tracing: cut-fallback test Jdiejei 43154160454 and no-bars test Jdiejei 43160520570. More carving on anasssssssss1 43160528093 and main 43160532372. Sizing 200 running on blackwingftc-lang 43142211899 and Jdiejei 43142217956. Not tagged.",
+  "now": "Two carving fixes pushed. b15981e: the exact cut fell back uncut on 5 of 40 bodies; it now tries 15 settings, and e8caef7 refuses a body still uncut. 76cd1f2: the nose cap is cut exactly, for the front span. Fix tests on mxnviir 43167625607 and 43167722207. Fresh carving on the fixed code: Jdiejei 43171162335, anasssssssss1 43171167295, main 43171172050. Sizing 200 running on blackwingftc-lang and Jdiejei. Tag, PROOF.md and the 2,000-body test start as soon as the fix tests pass.",
   "log": [
     {
       "date": "2026-11-09",
