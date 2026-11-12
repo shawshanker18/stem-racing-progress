@@ -88,7 +88,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - The cutter carves along this map, so the map must be proven against real measurements before anyone trusts it.
 - If the fast map cannot be made right, a slower map built from direct measurements is the backup.
 
-**Now:** Compass test: 30 carved cars timing on 2 cores (Part 2 showed 4 cores spread 0.12 ms, so 2 cores stay). Cars 1-2 (4 cores, nearly done) are re-running failed jobs; cars 6-7 repeat them on 2 cores. Cars 3-5, 8-30 are building start cars or timing shapes on instagramshashank8-bot, main, mxnviir, ishikasaraswat69-sketch and blackwinglinkedin-crypto. No car judged yet. Loop keeps up to 256 re-times per Q7.
+**Now:** Compass test: 42 carved cars timing on 2 cores (Part 2 showed 4 cores spread 0.12 ms, so 2 cores stay). Cars 1-2 (4 cores, nearly done) are re-running failed jobs; cars 6-7 repeat them on 2 cores. Cars 3-5, 8-30 are building start cars or timing shapes on instagramshashank8-bot, main, mxnviir, ishikasaraswat69-sketch, blackwinglinkedin-crypto and blackwingstem-wq. No car judged yet. Loop keeps up to 256 re-times per Q7.
 
 **Timeline:** 0 of 9 steps done
 
