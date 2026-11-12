@@ -193,8 +193,12 @@
                  ],
     "status":  "active",
     "updated":  "2026-11-12",
-    "now":  "Front wing span fault (blocking the body builder\u0027s tag) fixed on main 6bcf377: the wing now finds where the nose or body crosses it and reaches 25 mm past that. The referee is unchanged. Unit tests pass (24 + 109). The 7 cars that failed are being rebuilt on the fix (runs 43204942819 and 43205020128); results pending. Over-time stops fixed: limit is now 1800 s. Both cars the body builder asked about are legal.",
+    "now":  "Front wing span fix confirmed: all 7 cars the body builder found failing are now legal (49 of 50 cars in those seeds; 1 fails the halo-seen-from-top rule, being checked). Unit tests pass; whole-car tests on main running. The official run starts once the body builder\u0027s tag lands and passes whole-car tests.",
     "log":  [
+                {
+                    "date":  "2026-11-12",
+                    "text":  "Front wing span: all 7 failing cars legal on the fix (6bcf377)."
+                },
                 {
                     "date":  "2026-11-12",
                     "text":  "Front wing span fix on main 6bcf377, unit tests pass; the body builder\u0027s 7 failing cars are rerunning on it."
