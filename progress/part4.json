@@ -193,8 +193,12 @@
                  ],
     "status":  "active",
     "updated":  "2026-11-12",
-    "now":  "Main-account recheck of the first 200 carved cars on the body builder fixed code (run 43094327440): 1 of 9 machines done, 8 running. Trial of 175 carved cars on 43400 seeds: 145 legal, 30 not, no crashes; all 30 are fair rejects (no room for number or logo, rear slot too tight for the cutter, halo pocket on the older code). Borrowed accounts refuse to start runs; left alone.",
+    "now":  "Recheck of the first 200 carved cars on the body builder\u0027s fixed code: 153 legal, 32 not, 14 stopped for running over time (to fix). The cargo, mesh-sliver and rear-overhang faults are gone. Car 43100/8 is now legal; 43107/15 ran over time. Rejects: no room for logo or number (25), rear slot too tight for the cutter (6), front wing span (2), halo pocket (2).",
     "log":  [
+                {
+                    "date":  "2026-11-12",
+                    "text":  "Recheck of 200 cars: 153 legal, 32 fair or traced rejects, 14 over time. Cargo, sliver and overhang faults fixed. Next: the over-time cars, then front span and halo."
+                },
                 {
                     "date":  "2026-11-12",
                     "text":  "175-car trial: 145 legal, 30 fair rejects, 0 crashes. Recheck of the first 200 cars running on the main account. New 375-car batch (seeds 43500-14) re-sent after a start failure."
@@ -347,7 +351,7 @@
                   }
               ],
     "agent_state":  "working",
-    "agent_note":  "Queue (main account): recheck 43094327440 (8 machines running), 375-car batch seeds 43500-14 (re-sent). Borrowed accounts down, left alone. Seeds used: 43100-07, 43300-57, 43400-06, 43410-54, 43500-14, lofted 43700-06.",
+    "agent_note":  "Fixing: 14 cars over the time limit, 2 front span, 2 halo. Running: main 43118842338 (43500-14); borrowed 43119056310 (43515-33), 43119063133 (43534-47), 43119069573 (43548-52), 43140476434 (43553-57). Seeds used: 43100-07, 43300-57, 43400-06, 43410-54, 43500-57, 43600 probe, lofted 43700-06.",
     "needs_you":  "Team items: print material and the printer\u0027s thinnest wall, part weights, a hand check of three cars, and whether one exported car can be made.",
     "unlocks":  {
                     "D":  {
