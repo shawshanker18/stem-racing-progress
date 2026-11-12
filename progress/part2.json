@@ -186,7 +186,7 @@
   ],
   "status": "active",
   "updated": "2026-11-11",
-  "now": "Repeat test reopened: a one-core run on another account gave one machine 1.3 ms off the rest, so results may depend on the processor model. Testing on ten machines with the processor logged.",
+  "now": "Repeat: ten machines with five processor types agree to 0.01 ms when they share one starting case. The starting case itself can settle two ways about 1.3 ms apart, so the fix is one frozen starting case for all timings (question logged).",
   "agent_state": "working",
   "agent_note": "One chat now writes, reviews and runs Parts 1 to 4. One 17-machine noise run going.",
   "needs_you": "",
