@@ -30,14 +30,14 @@ Our team is building, part by part, a computer system that designs the fastest l
 
 ### 1. The cutter
 
-*Carves the car body out of the legal block, one safe cut at a time.* 35.1% · being built
+*Carves the car body out of the legal block, one safe cut at a time.* 38.9% · being built
 
 - Starts from the full block of material the rules allow, with every rule zone already marked.
 - Moves the surface in or out wherever it is told, in small steps, and checks every rule after each step: required solid areas, required open areas, left-right symmetry, one single piece, and a shape a real milling machine can cut.
 - Re-sizes the whole body after each cut so the car always weighs the target.
 - Hands over a clean, closed 3D shape. It never decides what is faster; it only cuts safely.
 
-**Now:** Whole-car test 43329888205 on 54906c4: 15 jobs pass; fine and resolved timed out at 350 min, so NOT a pass (checkpoint chaining is with Part 2). Markings fix (branch p1-markings): 44028 legal, 44027 now only Part 4 slot corner (Q9); 44016 retest 43372602713 still 2 body pieces, tracing before merge. Slot-corner rejects are Part 4 support section (Q9), not Fault A; my own Fault A 41594/8 and halo-top 41518/4 still open.
+**Now:** Markings fix (number/logo room kept in carver, p1-markings a237d78): 60-car rejudge 43387299037 completed. Tag as soon as the whole-car test is green on one commit (waiting on Part 2 chaining); then Part 3 told at once. Open: Fault A 41594/8, halo-top 41518/4.
 
 **Timeline:** 3 of 9 steps done
 
@@ -55,25 +55,25 @@ Our team is building, part by part, a computer system that designs the fastest l
 
 ### 2. The stopwatch
 
-*Times a finished car over the 20 m race.* 61.8% · being built
+*Times a finished car over the 20 m race.* 78.2% · being built
 
 - An airflow simulation measures how hard the air pushes back on the car and its wheels.
 - A race model turns that push, the weight and the launch into a race time, and says which inputs matter most.
 - It must be right (checked against published wind-tunnel results), quiet (a tiny change gives a tiny time change) and give the same answer on every machine.
 - Every other part trusts it to say which car is faster.
 
-**Now:** Long-run chaining built and working: a solve stops before the 6 h limit, saves, and the next job continues. Chained vs unbroken differ by 0.002 ms, within machine-to-machine noise. A same-machine test (about 2.5 h) now checks the restart is exact; if it is, the whole-car test run moves to chained jobs and is started right after.
+**Now:** Timing noise and long runs done. The whole-car test run with chained long cars is going. Next: measure how far the drag reads above the wind tunnel, and fix or correct it.
 
-**Timeline:** 1 of 10 steps done
+**Timeline:** 3 of 10 steps done
 
 | # | Step | Status | Started | Finished | Note |
 |---|---|---|---|---|---|
-| 1 | Check against published wind-tunnel results | 🔄 Working on it | 2026-11-09 |  | Drag reads too high so far; testing settings to find out why. |
-| 2 | Cut the timing noise | 🔄 Working on it | 2026-11-09 |  | Re-measured without the early stop: far above target. Cars jump between three drag levels; testing whether the mesh or the airflow causes it. |
+| 1 | Check against published wind-tunnel results | 🔄 Working on it | 2026-11-09 |  | Bias measured: drag reads about 5 to 13 % high on the standard test body (central +9 %). Asked whether to carry a correction of 1/1.09 plus or minus 0.04 in the race model (question Q11). |
+| 2 | Cut the timing noise | ✅ Done | 2026-11-09 | 2026-11-13 | Done: 0.09 ms against 0.3 ms (each car timed from both airflow states, confirmed on fresh machines). Same car on nine machines agrees to 0.01 ms. |
 | 3 | Quick vs detailed ranking check | ✅ Done | 2026-11-09 | 2026-11-10 | Passed: the quick mesh orders twenty cars the same way as the detailed mesh, well above the pass marks. |
 | 4 | Warm start | ⬜ To do |  |  |  |
-| 5 | Runs longer than one machine slot | ⬜ To do |  |  |  |
-| 6 | Real race inputs from the team | 🔄 Working on it | 2026-11-09 |  | Partly done: the team's measured thrust is in. Rolling friction, wheel weights and tether drag are still to come. |
+| 5 | Runs longer than one machine slot | ✅ Done | 2026-11-13 | 2026-11-13 | Done: a long solve stops before the 6 h limit, saves, and the next job continues; chained and unbroken agree to 0.002 ms. The whole-car test run now uses it. |
+| 6 | Real race inputs from the team | 🔄 Working on it | 2026-11-09 |  | Measured thrust in and checked (peak, timing and total push match). New slopes: 0.2 ms per mN of drag, 7.5 ms per gram. Rolling friction, wheel spin, tether drag and real weights still to come from the team. |
 | 7 | Model vs real track times | ⬜ To do |  |  |  |
 | 8 | Write-up | ⬜ To do |  |  |  |
 | 9 | Full clean rerun of every test | ⬜ To do |  |  |  |
@@ -94,10 +94,10 @@ Our team is building, part by part, a computer system that designs the fastest l
 
 | # | Step | Status | Started | Finished | Note |
 |---|---|---|---|---|---|
-| 1 | Known-answer test | ❌ Failed, being redone | 2026-11-09 |  | Fast map fails on every setting tried, including the maker's own full setup; the backup measured map passes. |
-| 2 | Compass test on the car | 🔄 Working on it | 2026-11-11 |  | Running on two carved cars: the measured map is built from small bumps, then checked against 40 random cuts per car. Pass: direction right on 8 of 10 cuts that clearly change the time, and a close match overall. |
-| 3 | Fixes, tried in order | ⬜ To do |  |  |  |
-| 4 | Backup measured map (only if needed) | 🔄 Working on it | 2026-11-09 |  | Passed on the simple wing: matched every test shape it had not seen. Waiting for quieter car runs before trying it on cars. |
+| 1 | Known-answer test | ❌ Failed, being redone | 2026-11-09 | 2026-11-13 | Fast map fails on every setting tried, including the maker's own full setup; the measured map passes. Decided 2026-11-13: fast map dropped, the measured map is the compass. |
+| 2 | Compass test on the car | 🔄 Working on it | 2026-11-11 |  | Running on 45 carved cars (2 cores), a few moved at a time between accounts: the measured map is built from small bumps, then checked against 40 random cuts per car. No car judged yet. Pass: direction right on 8 of 10 cuts that clearly change the time, and a close match overall. |
+| 3 | Fixes, tried in order | ❌ Failed, being redone | 2026-11-09 | 2026-11-13 | Stopped: no setting of the fast map passed the known-answer test, so it is no longer tuned. |
+| 4 | Measured map (now the compass) | 🔄 Working on it | 2026-11-09 |  | Passed on the simple wing: matched every test shape it had not seen. Now the compass for every car: 54 timing jobs per car (start car, 60 bumps, 40 cuts), run on Part 3's accounts at the slow pace. |
 | 5 | Map to race time | 🔄 Working on it | 2026-11-09 |  | Built and its check against the race model passes, including where the weight sits; waiting for Part 1 to confirm how it re-sizes the skin. |
 | 6 | One-cut proof | ⬜ To do |  |  |  |
 | 7 | Write-up | ⬜ To do |  |  |  |
@@ -122,9 +122,9 @@ Our team is building, part by part, a computer system that designs the fastest l
 | 1 | List every rule and its check | ✅ Done | 2026-11-09 | 2026-11-09 | Every rule matched to a check or a reason, none left open. |
 | 2 | Just-inside and just-outside tests | ✅ Done | 2026-11-09 | 2026-11-09 | Every size rule has a pass car and a fail car; all tests pass on GitHub. |
 | 3 | Make the referee independent | ✅ Done | 2026-11-09 | 2026-11-09 | The checker uses only its own rule numbers; tests pass. |
-| 4 | Parts on carved bodies (2,000 cars) | 🔄 Working on it | 2026-11-09 |  | Trial runs on the body builder's changing code, to find crashes and new kinds of rejects; the counted run waits for its frozen version. |
+| 4 | Parts on carved bodies (2,000 cars) | 🔄 Working on it | 2026-11-09 |  | 2026-11-13: about 470 one-car cars on the fixed code, about 80% legal, 0 crashes. Every reject has a named cause: number and logo room go to the body builder (exact sizes sent today); rear slot fixed (aa08f57); halo pocket and one unsolid file being traced. The counted run waits for the body builder's frozen version. |
 | 5 | Real part weights | ⬜ To do |  |  |  |
-| 6 | Build files | 🔄 Working on it | 2026-11-09 |  | Parts list done; thinnest walls measured; waiting for the team's printer limits and a makeable check. |
+| 6 | Build files | 🔄 Working on it | 2026-11-09 |  | 2026-11-13: parts list done and thinnest walls measured; still waiting for the team's printer limits and a makeable check. |
 | 7 | Part setting ranges | ⬜ To do |  |  |  |
 | 8 | Write-up | ⬜ To do |  |  |  |
 | 9 | Full clean rerun of every test | ⬜ To do |  |  |  |
