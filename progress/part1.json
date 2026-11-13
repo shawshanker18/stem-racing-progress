@@ -179,7 +179,7 @@
   ],
   "status": "active",
   "updated": "2026-11-11",
-  "now": "Whole-car test (chained fine/resolved) running on main dd7427a: stem-racing-compute 43453873060; tag at once if green, then Part 3 told. Markings fix in (6d86afd). Open: Fault A 41594/8, halo-top 41518/4; 44130 claw clearance with Part 4.",
+  "now": "All Part 1 carving rejects cleared on main dd7427a: 41594/8 (slot corners) and 41518/4 (halo top) now legal, 14 of 14 cars in those seeds legal (43454007507). 44130 claw is Part 4 support. Whole-car test 43453873060 on dd7427a: 15 jobs pass, chained fine/resolved still running; tag at once when green.",
   "log": [
     {
       "date": "2026-11-09",
