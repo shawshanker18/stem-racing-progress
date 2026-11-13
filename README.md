@@ -37,7 +37,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - Re-sizes the whole body after each cut so the car always weighs the target.
 - Hands over a clean, closed 3D shape. It never decides what is faster; it only cuts safely.
 
-**Now:** Whole-car test (chained fine/resolved) running on main dd7427a: stem-racing-compute 43453873060; tag at once if green, then Part 3 told. Markings fix in (6d86afd). Open: Fault A 41594/8, halo-top 41518/4; 44130 claw clearance with Part 4.
+**Now:** All Part 1 carving rejects cleared on main dd7427a: 41594/8 (slot corners) and 41518/4 (halo top) now legal, 14 of 14 cars in those seeds legal (43454007507). 44130 claw is Part 4 support. Whole-car test 43453873060 on dd7427a: 15 jobs pass, chained fine/resolved still running; tag at once when green.
 
 **Timeline:** 3 of 9 steps done
 
@@ -113,7 +113,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - Holds the referee: an independent check of the finished car against every rule, measured from the outside like a scrutineer, showing how much room is left on each rule.
 - The referee shares nothing with the cutter, so one cannot hide the other's mistakes.
 
-**Now:** Waiting on GitHub runners: 180 cars (seeds 44359-44538) and the whole-car tests on 30d92d0 are queued. Last count on aa08f57: 98 of 120 legal; the rear-slot fix worked.
+**Now:** 180-car rejudge on 30d92d0: 143 legal. 33 rejects are logo/number (Part 1's fix 6d86afd came later), 3 halo pocket, 1 rear claw. Car 44130's rear claw is blocked by Part 4's own rear support, not the body; fixing that. Whole-car tests on 30d92d0 still running.
 
 **Timeline:** 3 of 10 steps done
 
