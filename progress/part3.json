@@ -158,7 +158,7 @@
  ],
  "status": "active",
  "updated": "2026-11-13",
- "now": "Compass test: 45 carved cars timing on the detailed mesh, 2 cores; none judged yet. Mesh comparison (car 13 detailed vs car 13Q quick, mxnviir) is running; the quick-mesh switch is on hold until the lead's fine-mesh pictures and that comparison.",
+ "now": "Compass METHOD test (not car results): 45 carved cars on the medium mesh, none judged yet. Fine-mesh check (Q11): 2 cars (3.95 and 3.90 mm) chained across jobs on Jdiejei, 12 modes each, to compare directions with their medium maps. No loop step is kept unless confirmed on fine.",
  "log": [
   {
    "date": "2026-11-09",
