@@ -187,8 +187,8 @@
   "status": "active",
   "updated": "2026-11-11",
   "now": "Noise and repeat targets met; Part 2 tests pass. Closing waits on the whole-car test run, which fails one Part 1 cutter test (finish writes a sized body), not Part 2 code.",
-  "agent_state": "waiting_on_compute",
-  "agent_note": "No filler runs: Part 2 has no essential work for extra machines right now, so Jdiejei and instagram can go to Part 3. Waiting on the user about teammate accounts after the suspension. Messages to other chats are paused until the user writes.",
+  "agent_state": "blocked",
+  "agent_note": "Blocked, not on compute: closing the noise and repeat step needs the whole-car test run green, and it fails one Part 1 cutter test. Mesh check and a time-accurate check are still running. No filler runs; the user has not yet answered about teammate accounts after the suspension.",
   "needs_you": "",
   "log": [
     {
