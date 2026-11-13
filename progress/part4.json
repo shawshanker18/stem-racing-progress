@@ -194,7 +194,7 @@
     "status":  "active",
     "updated":  "2026-11-13",
     "now":  "Latest 120 one-car runs on the fixed code: 94 legal, 26 rejected, 0 crashes, no front wing span failures. Rejects: no room for number (10) or logo (9), rear slot too tight for the cutter (10), halo pocket (2), halo seen from front (1). Referee unchanged and its unit tests pass; whole-car tests on ed52c7d (43301517232) failed only on the body builder's cutter test, now fixed in 54906c4; whole-car tests on 54906c4 (43329888205, includes all Part 4 fixes) running.",
-    "log":  [ {"date":"2026-11-13","text":"Rejudging 40 carved cars on main 54906c4 (seeds 43989-44028, one car per job): runs 43353037747 and 43353081230."}, {"date":"2026-11-13","text":"Whole-car tests on ed52c7d: only failure was the body builder's cutter test (fixed in 54906c4). Rechecking on 54906c4."},
+    "log":  [ {"date":"2026-11-13","text":"Rejudge on 54906c4, 40 cars: 36 legal, 4 rejects, 0 crashes. Rejects: rear slot too tight for the cutter (2, one also halo pocket), no room for logo (1), no room for number (1)."}, {"date":"2026-11-13","text":"Rejudging 40 carved cars on main 54906c4 (seeds 43989-44028, one car per job): runs 43353037747 and 43353081230."}, {"date":"2026-11-13","text":"Whole-car tests on ed52c7d: only failure was the body builder's cutter test (fixed in 54906c4). Rechecking on 54906c4."},
                 {
                     "date":  "2026-11-13",
                     "text":  "120 cars on fixed code: 94 legal, 26 fair or traced rejects, 0 crashes."
@@ -375,7 +375,7 @@
                   }
               ],
     "agent_state":  "working",
-    "agent_note":  "Paused on filler runs until the user answers Q8; replacing lost work only. Rejudge on 54906c4 running (43353037747, 43353081230); whole-car tests 43329888205 (54906c4) running. Borrowed account handed to Part 3. Seeds used up to 44028 (lofted 43700-06 separate).",
+    "agent_note":  "Paused on filler runs until the user answers Q8; replacing lost work only. Rejudge on 54906c4 done: 36 of 40 legal; whole-car tests 43329888205 (54906c4) running. Borrowed account handed to Part 3. Seeds used up to 44028 (lofted 43700-06 separate).",
     "needs_you":  "Team items: print material and the printer\u0027s thinnest wall, part weights, a hand check of three cars, and whether one exported car can be made.",
     "unlocks":  {
                     "D":  {
