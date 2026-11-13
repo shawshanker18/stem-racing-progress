@@ -192,8 +192,8 @@
                      }
                  ],
     "status":  "active",
-    "updated":  "2026-11-13T17:38:42Z",
-    "now":  "180-car rejudge on 30d92d0: 143 legal. 33 rejects are logo/number (Part 1's fix 6d86afd came later), 3 halo pocket, 1 rear claw. Car 44130's rear claw is blocked by Part 4's own rear support, not the body; fixing that. Whole-car tests on 30d92d0 still running.",
+    "updated":  "2026-11-13T21:39:12Z",
+    "now":  "Rear claw cause found: the rear support plate ran at pod-roof height (z 27.2-27.4) into the claw gap at the wheel's inner corner. Fix 59c0d95 steps the plate down there and adds a gate; tests and rechecks of 44130/44430 are running. Whole-car tests on 30d92d0: all jobs green except long_fine_2, still running. The fresh 180 on HEAD goes out once the fix checks green.",
     "log":  [
                 {
                     "date":  "2026-11-13",
