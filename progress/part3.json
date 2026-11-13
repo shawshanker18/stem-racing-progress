@@ -158,7 +158,7 @@
  ],
  "status": "active",
  "updated": "2026-11-12",
- "now": "Compass test: 45 carved cars timing on 2 cores. ishikasaraswat69-sketch was suspended, so cars 8-19 were lost and restarted on blackwingftc-lang. Cars 20-28 and 31-42 run on blackwingstem-wq, cars 43-45 are new on main, and the rest are on instagramshashank8-bot, mxnviir and blackwinglinkedin-crypto. Cars 1-2 (4 cores) are re-running failed jobs. No car judged yet. New runs go out at a slow pace (Q8).",
+ "now": "Compass test: 45 carved cars timing on 2 cores across main, mxnviir, instagramshashank8-bot, Jdiejei, anasssssssss1 and the blackwing accounts. Stuck blackwingstem-wq cars move a few at a time to idle accounts (force-cancel first, then a fresh one-car run). Cars 1-2 (4 cores) are re-running failed jobs. No car judged yet. Slow pace while Q8 is open.",
  "log": [
   {
    "date": "2026-11-09",
