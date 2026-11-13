@@ -62,7 +62,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - It must be right (checked against published wind-tunnel results), quiet (a tiny change gives a tiny time change) and give the same answer on every machine.
 - Every other part trusts it to say which car is faster.
 
-**Now:** Mesh check passed: 18 cars rank the same on the search and fine meshes (rank agreement 0.96, 96 % of pairs). Noise and repeat met; closing them waits on one failing Part 1 test in the whole-car run.
+**Now:** Race model checked against the measured thrust (peak, timing and total push all match). New sensitivities: 0.2 ms per mN of drag, 7.5 ms per gram. Friction, wheel spin, tether and real weights are still placeholders until the team measures them. Mesh check passed; noise and repeat close when the whole-car test run finishes green.
 
 **Timeline:** 1 of 10 steps done
 
