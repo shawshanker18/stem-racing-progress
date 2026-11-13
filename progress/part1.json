@@ -179,7 +179,7 @@
   ],
   "status": "active",
   "updated": "2026-11-11",
-  "now": "Number/logo room fix merged: main 6d86afd (60-car rejudge 43387299037: 0 marking rejects, 0 piece faults). Next: whole-car test on 6d86afd once Part 2 chaining lands, then tag at once and tell Part 3. Open: Fault A 41594/8, halo-top 41518/4.",
+  "now": "Whole-car test (chained fine/resolved) running on main dd7427a: stem-racing-compute 43453873060; tag at once if green, then Part 3 told. Markings fix in (6d86afd). Open: Fault A 41594/8, halo-top 41518/4; 44130 claw clearance with Part 4.",
   "log": [
     {
       "date": "2026-11-09",
