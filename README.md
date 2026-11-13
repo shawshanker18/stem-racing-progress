@@ -37,7 +37,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - Re-sizes the whole body after each cut so the car always weighs the target.
 - Hands over a clean, closed 3D shape. It never decides what is faster; it only cuts safely.
 
-**Now:** Markings fix (number/logo room kept in carver, p1-markings a237d78): 60-car rejudge 43387299037 completed. Tag as soon as the whole-car test is green on one commit (waiting on Part 2 chaining); then Part 3 told at once. Open: Fault A 41594/8, halo-top 41518/4.
+**Now:** Number/logo room fix merged: main 6d86afd (60-car rejudge 43387299037: 0 marking rejects, 0 piece faults). Next: whole-car test on 6d86afd once Part 2 chaining lands, then tag at once and tell Part 3. Open: Fault A 41594/8, halo-top 41518/4.
 
 **Timeline:** 3 of 9 steps done
 
@@ -88,7 +88,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - The cutter carves along this map, so the map must be proven against real measurements before anyone trusts it.
 - If the fast map cannot be made right, a slower map built from direct measurements is the backup.
 
-**Now:** Compass test: 45 carved cars timing on 2 cores across main, mxnviir, instagramshashank8-bot, Jdiejei, anasssssssss1 and the blackwing accounts. Stuck blackwingstem-wq cars move a few at a time to idle accounts (force-cancel first, then a fresh one-car run). Cars 1-2 (4 cores) are re-running failed jobs. No car judged yet. Slow pace while Q8 is open.
+**Now:** Compass METHOD test (not car results): 45 carved cars on the medium mesh, none judged yet. Fine-mesh check (Q11): 2 cars (3.95 and 3.90 mm) chained across jobs on Jdiejei, 12 modes each, to compare directions with their medium maps. No loop step is kept unless confirmed on fine.
 
 **Timeline:** 0 of 9 steps done
 
@@ -113,7 +113,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - Holds the referee: an independent check of the finished car against every rule, measured from the outside like a scrutineer, showing how much room is left on each rule.
 - The referee shares nothing with the cutter, so one cannot hide the other's mistakes.
 
-**Now:** Latest 120 one-car runs on the fixed code: 94 legal, 26 rejected, 0 crashes, no front wing span failures. Rejects: no room for number (10) or logo (9), rear slot too tight for the cutter (10), halo pocket (2), halo seen from front (1). Referee unchanged and its unit tests pass; whole-car tests on ed52c7d (43301517232) failed only on the body builder's cutter test, now fixed in 54906c4; whole-car tests on 54906c4 (43329888205, includes all Part 4 fixes) running.
+**Now:** Waiting on GitHub runners: 180 cars (seeds 44359-44538) and the whole-car tests on 30d92d0 are queued. Last count on aa08f57: 98 of 120 legal; the rear-slot fix worked.
 
 **Timeline:** 3 of 10 steps done
 
