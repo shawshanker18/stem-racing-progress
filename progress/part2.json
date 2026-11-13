@@ -186,7 +186,7 @@
   ],
   "status": "active",
   "updated": "2026-11-11",
-  "now": "Mesh check passed: 18 cars rank the same on the search and fine meshes (rank agreement 0.96, 96 % of pairs). Noise and repeat met; closing them waits on one failing Part 1 test in the whole-car run.",
+  "now": "Race model checked against the measured thrust (peak, timing and total push all match). New sensitivities: 0.2 ms per mN of drag, 7.5 ms per gram. Friction, wheel spin, tether and real weights are still placeholders until the team measures them. Mesh check passed; noise and repeat close when the whole-car test run finishes green.",
   "agent_state": "blocked",
   "agent_note": "Blocked, not on compute: closing the noise and repeat step needs the whole-car test run green, and it fails one Part 1 cutter test. Mesh check and a time-accurate check are still running. No filler runs; the user has not yet answered about teammate accounts after the suspension.",
   "needs_you": "",
