@@ -157,7 +157,7 @@
   }
  ],
  "status": "active",
- "updated": "2026-11-12",
+ "updated": "2026-11-13",
  "now": "Compass test: 45 carved cars timing on 2 cores across main, mxnviir, instagramshashank8-bot, Jdiejei, anasssssssss1 and the blackwing accounts. Stuck blackwingstem-wq cars move a few at a time to idle accounts (force-cancel first, then a fresh one-car run). Cars 1-2 (4 cores) are re-running failed jobs. No car judged yet. Slow pace while Q8 is open.",
  "log": [
   {
@@ -232,18 +232,22 @@
    "date": "2026-11-12",
    "text": "Carving loop: tried a smarter step that follows bends, a faster shrink, more rounds and a longer final check. None lifted the curved-valley shape to the mark, and two made a simple shape slightly worse, so all four were undone. Now logging each round of the failing runs to find the one real cause."
   }
+  ,{
+   "date": "2026-11-13",
+   "text": "Decision: the fast map is dropped because it failed the known-answer test on every setting. The measured map, built from direct timings, is now the compass. 45 carved cars are timing for the compass test; new runs go out slowly after two accounts were suspended."
+  }
  ],
  "agent_state": "working",
  "needs_you": "",
- "agent_note": "Part 5 loop: no wrong keeps beyond 1 in 100 (mark 5), a wrong compass never makes a car slower, simple and many-peak test shapes reach the best car every time; the curved-valley shape reaches it 73 to 97 percent of the time, mark 98. Tracing the misses before changing anything else.",
+ "agent_note": "Measured map is the compass (fast map dropped). Loop keeps up to 256 re-times per step. Compass test cars are timing; the result decides whether the compass needs averaging before any real loop run.",
  "tasks": [
   {
    "title": "Known-answer test",
    "short": "Known answer",
    "status": "failed",
    "started": "2026-11-09",
-   "finished": "",
-   "note": "Fast map fails on every setting tried, including the maker's own full setup; the backup measured map passes."
+   "finished": "2026-11-13",
+   "note": "Fast map fails on every setting tried, including the maker's own full setup; the measured map passes. Decided 2026-11-13: fast map dropped, the measured map is the compass."
   },
   {
    "title": "Compass test on the car",
@@ -251,23 +255,23 @@
    "status": "doing",
    "started": "2026-11-11",
    "finished": "",
-   "note": "Running on two carved cars: the measured map is built from small bumps, then checked against 40 random cuts per car. Pass: direction right on 8 of 10 cuts that clearly change the time, and a close match overall."
+   "note": "Running on 45 carved cars (2 cores), a few moved at a time between accounts: the measured map is built from small bumps, then checked against 40 random cuts per car. No car judged yet. Pass: direction right on 8 of 10 cuts that clearly change the time, and a close match overall."
   },
   {
    "title": "Fixes, tried in order",
    "short": "Fixes",
-   "status": "todo",
-   "started": "",
-   "finished": "",
-   "note": ""
+   "status": "failed",
+   "started": "2026-11-09",
+   "finished": "2026-11-13",
+   "note": "Stopped: no setting of the fast map passed the known-answer test, so it is no longer tuned."
   },
   {
-   "title": "Backup measured map (only if needed)",
-   "short": "Backup map",
+   "title": "Measured map (now the compass)",
+   "short": "Measured map",
    "status": "doing",
    "started": "2026-11-09",
    "finished": "",
-   "note": "Passed on the simple wing: matched every test shape it had not seen. Waiting for quieter car runs before trying it on cars."
+   "note": "Passed on the simple wing: matched every test shape it had not seen. Now the compass for every car: 54 timing jobs per car (start car, 60 bumps, 40 cuts), run on Part 3's accounts at the slow pace."
   },
   {
    "title": "Map to race time",
