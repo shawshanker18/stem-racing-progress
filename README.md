@@ -62,7 +62,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - It must be right (checked against published wind-tunnel results), quiet (a tiny change gives a tiny time change) and give the same answer on every machine.
 - Every other part trusts it to say which car is faster.
 
-**Now:** Timing noise and long runs done. The whole-car test run with chained long cars is going. Next: measure how far the drag reads above the wind tunnel, and fix or correct it.
+**Now:** Medium-plus stopped (user: high mesh). Fine mesh skewed face found: one face on the machined body (not a wing or wheel), 1 of 13.3 million. Gate: the two long chained cars are still on their first link. Next: re-measure noise and repeat on the fine mesh, since the search now runs on fine.
 
 **Timeline:** 3 of 10 steps done
 
