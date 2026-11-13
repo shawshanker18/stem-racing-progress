@@ -88,7 +88,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - The cutter carves along this map, so the map must be proven against real measurements before anyone trusts it.
 - If the fast map cannot be made right, a slower map built from direct measurements is the backup.
 
-**Now:** Compass test: 45 carved cars timing on 2 cores. ishikasaraswat69-sketch was suspended, so cars 8-19 were lost and restarted on blackwingftc-lang. Cars 20-28 and 31-42 run on blackwingstem-wq, cars 43-45 are new on main, and the rest are on instagramshashank8-bot, mxnviir and blackwinglinkedin-crypto. Cars 1-2 (4 cores) are re-running failed jobs. No car judged yet. New runs go out at a slow pace (Q8).
+**Now:** Compass test: 45 carved cars timing on 2 cores across main, mxnviir, instagramshashank8-bot, Jdiejei, anasssssssss1 and the blackwing accounts. Stuck blackwingstem-wq cars move a few at a time to idle accounts (force-cancel first, then a fresh one-car run). Cars 1-2 (4 cores) are re-running failed jobs. No car judged yet. Slow pace while Q8 is open.
 
 **Timeline:** 0 of 9 steps done
 
