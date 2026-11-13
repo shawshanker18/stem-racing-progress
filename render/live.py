@@ -78,16 +78,19 @@ def collect_runs(cfg, gh, workers=12):
     """All GitHub reads run in parallel (about 2-5 s instead of 20-60 s one after another)."""
     now = dt.datetime.now(dt.timezone.utc)
     repo, accs = cfg["repo"], cfg["accounts"]
-    rp = {a["name"]: a.get("repo", repo) for a in accs}      # an account may run in its own repo
+    rp = {a["name"]: a.get("repos") or [a.get("repo", repo)] for a in accs}   # an account may run in several repos
     with ThreadPoolExecutor(workers) as ex:
-        lists = {(a["name"], s): ex.submit(gh.get, f"/repos/{a['name']}/{rp[a['name']]}/actions/runs?status={s}&per_page=30")
-                 for a in accs for s in ("in_progress", "queued")}
-        found = {a["name"]: [r for s in ("in_progress", "queued") for r in (lists[(a["name"], s)].result() or {}).get("workflow_runs", [])]
-                 for a in accs}
-        done_f = {n: ex.submit(gh.get, f"/repos/{n}/{rp[n]}/actions/runs?status=success&per_page=40") for n, rs in found.items() if rs}
-        jobs_f = {(n, r["id"]): ex.submit(gh.get, f"/repos/{n}/{rp[n]}/actions/runs/{r['id']}/jobs?per_page=100")
+        lists = {(a["name"], rr, s): ex.submit(gh.get, f"/repos/{a['name']}/{rr}/actions/runs?status={s}&per_page=30")
+                 for a in accs for rr in rp[a["name"]] for s in ("in_progress", "queued")}
+        found = {a["name"]: [dict(r, _repo=rr) for rr in rp[a["name"]] for s in ("in_progress", "queued")
+                             for r in (lists[(a["name"], rr, s)].result() or {}).get("workflow_runs", [])] for a in accs}
+        done_f = {(n, rr): ex.submit(gh.get, f"/repos/{n}/{rr}/actions/runs?status=success&per_page=40")
+                  for n, rs in found.items() if rs for rr in rp[n]}
+        jobs_f = {(n, r["id"]): ex.submit(gh.get, f"/repos/{n}/{r['_repo']}/actions/runs/{r['id']}/jobs?per_page=100")
                   for n, rs in found.items() for r in rs}
-        done = {n: (f.result() or {}).get("workflow_runs", []) for n, f in done_f.items()}
+        done = {}
+        for (n, rr), f in done_f.items():
+            done.setdefault(n, []).extend((f.result() or {}).get("workflow_runs", []))
         jobs_all = {k: (f.result() or {}).get("jobs", []) for k, f in jobs_f.items()}
     runs, accounts = [], []
     for acc in accs:

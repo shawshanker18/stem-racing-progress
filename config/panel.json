@@ -15,14 +15,22 @@
       "name": "shawshanker18",
       "cap": 40,
       "part": null,
-      "note": "Part 1 14, Part 2 12, Part 3 6, Part 4 8 (all 40)"
+      "note": "Part 1 14, Part 2 12, Part 3 6, Part 4 8 (all 40)",
+      "repos": [
+        "stem-racing-car",
+        "stem-racing-compute"
+      ]
     },
     {
       "name": "mxnviir",
       "cap": 40,
       "part": null,
       "note": "Parts 2 + 3, 20 jobs each",
-      "repo": "stem-car-compute"
+      "repo": "stem-car-compute",
+      "repos": [
+        "stem-car-compute",
+        "stem-racing-compute"
+      ]
     },
     {
       "name": "blackwingftc-lang",
@@ -36,7 +44,11 @@
       "cap": 20,
       "part": 1,
       "note": "Part 1",
-      "repo": "stem-car-compute"
+      "repo": "stem-car-compute",
+      "repos": [
+        "stem-car-compute",
+        "stem-racing-compute"
+      ]
     },
     {
       "name": "instagramshashank8-bot",
@@ -64,7 +76,11 @@
       "cap": 5,
       "part": 1,
       "note": "Part 1",
-      "repo": "stem-car-compute"
+      "repo": "stem-car-compute",
+      "repos": [
+        "stem-car-compute",
+        "stem-racing-compute"
+      ]
     }
   ],
   "gates": [
