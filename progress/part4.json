@@ -399,7 +399,7 @@
                   }
               ],
     "agent_state":  "waiting_on_compute",
-    "agent_note":  "Paused on filler runs until the user answers Q8; replacing lost work only. Rejudge on 54906c4 done: 36 of 40 legal; whole-car tests 43329888205 (54906c4) running. Borrowed account handed to Part 3. Seeds used up to 44418 (lofted 43700-06 separate).",
+    "agent_note":  "Waiting on GitHub runners. Team items for the end (not blocking): print material and the printer's thinnest wall, part weights, a hand check of three cars, and whether one exported car can be made.",
     "needs_you":  null,
     "unlocks":  {
                     "D":  {
