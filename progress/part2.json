@@ -186,8 +186,8 @@
   ],
   "status": "active",
   "updated": "2026-11-11",
-  "now": "Medium-plus stopped (user: high mesh). Fine mesh skewed face found: one face on the machined body (not a wing or wheel), 1 of 13.3 million. Gate: the two long chained cars are still on their first link. Next: re-measure noise and repeat on the fine mesh, since the search now runs on fine.",
-  "agent_state": "working",
+  "now": "Chained long runs work in the whole-car test: the resolved car finished over two links; the fine car is on its second link. Disk fix for fine and resolved runs pushed; its before/after check is running. Drag correction (divide by 1.09) and the fixed wheel and friction values are in the race model.",
+  "agent_state": "waiting_on_compute",
   "agent_note": "Fixed constants for every car: rolling friction 0.010 (Part 3 range 0.005 to 0.020), wheels 1.15 g front and 1.29 g rear, wheel inertia 1.39e-7 kg m2, tether drag not modelled. No published measured values exist; sources in PROOF. Drag correction 1/1.09 applied (Q11). Messages to other chats paused until the user writes.",
   "needs_you": "",
   "log": [
