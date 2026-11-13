@@ -55,7 +55,7 @@
         {
           "name": "Noise reduction",
           "cells": 80,
-          "done": 0,
+          "done": 80,
           "failed": 0,
           "short": "Noise cut"
         },
@@ -76,14 +76,14 @@
         {
           "name": "Runs longer than one machine slot",
           "cells": 30,
-          "done": 0,
+          "done": 30,
           "failed": 0,
           "short": "Long runs"
         },
         {
           "name": "Real race inputs",
           "cells": 60,
-          "done": 20,
+          "done": 40,
           "failed": 0,
           "short": "Real inputs"
         },
@@ -116,7 +116,7 @@
         {
           "name": "Noise test cars",
           "cells": 48,
-          "done": 16,
+          "done": 48,
           "failed": 0,
           "short": "Noise cars"
         },
@@ -144,7 +144,7 @@
         {
           "name": "Long-run check",
           "cells": 2,
-          "done": 0,
+          "done": 2,
           "failed": 0,
           "short": "Long run"
         },
@@ -186,7 +186,7 @@
   ],
   "status": "active",
   "updated": "2026-11-11",
-  "now": "Long-run chaining built and working: a solve stops before the 6 h limit, saves, and the next job continues. Chained vs unbroken differ by 0.002 ms, within machine-to-machine noise. A same-machine test (about 2.5 h) now checks the restart is exact; if it is, the whole-car test run moves to chained jobs and is started right after.",
+  "now": "Timing noise and long runs done. The whole-car test run with chained long cars is going. Next: measure how far the drag reads above the wind tunnel, and fix or correct it.",
   "agent_state": "working",
   "agent_note": "Blocked, not on compute: closing the noise and repeat step needs the whole-car test run green, and it fails one Part 1 cutter test. Mesh check and a time-accurate check are still running. No filler runs; the user has not yet answered about teammate accounts after the suspension.",
   "needs_you": "",
@@ -279,15 +279,15 @@
       "status": "doing",
       "started": "2026-11-09",
       "finished": "",
-      "note": "Drag reads too high so far; testing settings to find out why."
+      "note": "Drag still reads high on the 25 degree body (about 10 %). Next: measure the bias and either fix its cause or carry it as a stated correction with an error bar."
     },
     {
       "title": "Cut the timing noise",
       "short": "Cut noise",
-      "status": "doing",
+      "status": "done",
       "started": "2026-11-09",
-      "finished": "",
-      "note": "Re-measured without the early stop: far above target. Cars jump between three drag levels; testing whether the mesh or the airflow causes it."
+      "finished": "2026-11-13",
+      "note": "Done: 0.09 ms against 0.3 ms (each car timed from both airflow states, confirmed on fresh machines). Same car on nine machines agrees to 0.01 ms."
     },
     {
       "title": "Quick vs detailed ranking check",
@@ -308,10 +308,10 @@
     {
       "title": "Runs longer than one machine slot",
       "short": "Long runs",
-      "status": "todo",
-      "started": "",
-      "finished": "",
-      "note": ""
+      "status": "done",
+      "started": "2026-11-13",
+      "finished": "2026-11-13",
+      "note": "Done: a long solve stops before the 6 h limit, saves, and the next job continues; chained and unbroken agree to 0.002 ms. The whole-car test run now uses it."
     },
     {
       "title": "Real race inputs from the team",
@@ -319,7 +319,7 @@
       "status": "doing",
       "started": "2026-11-09",
       "finished": "",
-      "note": "Partly done: the team's measured thrust is in. Rolling friction, wheel weights and tether drag are still to come."
+      "note": "Measured thrust in and checked (peak, timing and total push match). New slopes: 0.2 ms per mN of drag, 7.5 ms per gram. Rolling friction, wheel spin, tether drag and real weights still to come from the team."
     },
     {
       "title": "Model vs real track times",
