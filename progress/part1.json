@@ -179,7 +179,7 @@
   ],
   "status": "active",
   "updated": "2026-11-11",
-  "now": "Markings fix (number/logo room kept in carver, p1-markings a237d78): 60-car rejudge 43387299037 completed. Tag as soon as the whole-car test is green on one commit (waiting on Part 2 chaining); then Part 3 told at once. Open: Fault A 41594/8, halo-top 41518/4.",
+  "now": "Number/logo room fix merged: main 6d86afd (60-car rejudge 43387299037: 0 marking rejects, 0 piece faults). Next: whole-car test on 6d86afd once Part 2 chaining lands, then tag at once and tell Part 3. Open: Fault A 41594/8, halo-top 41518/4.",
   "log": [
     {
       "date": "2026-11-09",
