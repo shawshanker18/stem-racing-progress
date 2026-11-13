@@ -7,6 +7,10 @@
   "One special simulation gives the whole map for about the cost of one normal run.",
   "The cutter carves along this map, so the map must be proven against real measurements before anyone trusts it.",
   "If the fast map cannot be made right, a slower map built from direct measurements is the backup."
+  ,{
+   "date": "2026-11-13",
+   "text": "User decision: the compass and the carving loop use the fine mesh. Fine check on 2 cars started; one lost its machine after 2 hours (likely memory or disk) and was restarted with more room and a memory log."
+  }
  ],
  "sections": [
   {
@@ -155,10 +159,14 @@
     }
    ]
   }
+  ,{
+   "date": "2026-11-13",
+   "text": "User decision: the compass and the carving loop use the fine mesh. Fine check on 2 cars started; one lost its machine after 2 hours (likely memory or disk) and was restarted with more room and a memory log."
+  }
  ],
  "status": "active",
  "updated": "2026-11-13",
- "now": "Compass METHOD test (not car results): 45 carved cars on the medium mesh, none judged yet. Fine-mesh check (Q11): 2 cars (3.95 and 3.90 mm) chained across jobs on Jdiejei, 12 modes each, to compare directions with their medium maps. No loop step is kept unless confirmed on fine.",
+ "now": "Fine mesh only now (user decision: high mesh). Fine compass check on 2 cars, chained across 6-hour jobs: the 3.95 mm car is solving; the 3.90 mm car lost its machine (likely memory or disk) and is queued again with extra swap, freed disk and a memory/disk log. It moves to Part 2's slimmer-disk version once that passes its check. The 45 medium cars are a method test only; none judged yet.",
  "log": [
   {
    "date": "2026-11-09",
@@ -236,10 +244,14 @@
    "date": "2026-11-13",
    "text": "Decision: the fast map is dropped because it failed the known-answer test on every setting. The measured map, built from direct timings, is now the compass. 45 carved cars are timing for the compass test; new runs go out slowly after two accounts were suspended."
   }
+  ,{
+   "date": "2026-11-13",
+   "text": "User decision: the compass and the carving loop use the fine mesh. Fine check on 2 cars started; one lost its machine after 2 hours (likely memory or disk) and was restarted with more room and a memory log."
+  }
  ],
  "agent_state": "working",
  "needs_you": "",
- "agent_note": "Measured map is the compass (fast map dropped). Loop keeps up to 256 re-times per step. Compass test cars are timing; the result decides whether the compass needs averaging before any real loop run.",
+ "agent_note": "Compass and Part 5 loop run on the fine mesh; finalists confirmed on the resolved mesh. Part 5 runs one search chain (4 accounts). Search default in solver.py moves to fine before the loop.",
  "tasks": [
   {
    "title": "Known-answer test",
