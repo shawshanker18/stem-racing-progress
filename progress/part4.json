@@ -6,7 +6,7 @@
                  "Adds everything except the body: nose, front and rear wings, wheel supports, wheels, tether guides and the cartridge, and cuts the joints into the body.",
                  "Makes the files the team needs to print the parts and mill the body.",
                  "Holds the referee: an independent check of the finished car against every rule, measured from the outside like a scrutineer, showing how much room is left on each rule.",
-                 "The referee shares nothing with the cutter, so one cannot hide the other\u0027s mistakes."
+                 "The referee shares nothing with the cutter, so one cannot hide the other's mistakes."
              ],
     "sections":  [
                      {
@@ -192,9 +192,33 @@
                      }
                  ],
     "status":  "active",
-    "updated":  "2026-11-13",
-    "now":  "Latest 120 one-car runs on the fixed code: 94 legal, 26 rejected, 0 crashes, no front wing span failures. Rejects: no room for number (10) or logo (9), rear slot too tight for the cutter (10), halo pocket (2), halo seen from front (1). Referee unchanged and its unit tests pass; whole-car tests on ed52c7d (43301517232) failed only on the body builder's cutter test, now fixed in 54906c4; whole-car tests on 54906c4 (43329888205, includes all Part 4 fixes) running.",
-    "log":  [ {"date":"2026-11-13","text":"120 cars on aa08f57 (with the rear slot fix): 98 legal, 22 rejects, 0 crashes, no rear slot rejects. Rejects: logo room 14 and number room 12 (carving), halo pocket 1 (44294), printed file not solid 1 (44310), both to trace. All 5 earlier rear slot cars rechecked: 4 legal, 44027 left with halo pocket and logo."}, {"date":"2026-11-13","text":"150 more cars on 1a33a87 (before the rear slot fix): 113 legal, 37 rejects, 0 crashes. Rejects: no room for number 19 and logo 13 (carving), rear slot 10 (fixed in aa08f57; 44004 and 44079 now legal), halo seen from front with body outside the block 2, rear claw clearance 1 (to trace). Part 4 unit tests pass on aa08f57. 120 more cars queued on mxnviir (seeds 44239-358)."}, {"date":"2026-11-13","text":"60 more cars on main (mxnviir, seeds 44029-48 and 44079-118): 54 legal, 6 rejects, 0 crashes. Rejects: rear slot corner 3 (support design question Q9), no room for number 3 (carving). Next 120 cars queued there (seeds 44119-238)."}, {"date":"2026-11-13","text":"Rejudge on 54906c4, 40 cars: 36 legal, 4 rejects, 0 crashes. Rejects: rear slot too tight for the cutter (2, one also halo pocket), no room for logo (1), no room for number (1)."}, {"date":"2026-11-13","text":"Rejudging 40 carved cars on main 54906c4 (seeds 43989-44028, one car per job): runs 43353037747 and 43353081230."}, {"date":"2026-11-13","text":"Whole-car tests on ed52c7d: only failure was the body builder's cutter test (fixed in 54906c4). Rechecking on 54906c4."},
+    "updated":  "2026-11-13T12:34:09Z",
+    "now":  "Waiting on GitHub runners: 180 cars (seeds 44359-44538) and the whole-car tests on 30d92d0 are queued. Last count on aa08f57: 98 of 120 legal; the rear-slot fix worked.",
+    "log":  [
+                {
+                    "date":  "2026-11-13",
+                    "text":  "120 cars on aa08f57 (with the rear slot fix): 98 legal, 22 rejects, 0 crashes, no rear slot rejects. Rejects: logo room 14 and number room 12 (carving), halo pocket 1 (44294), printed file not solid 1 (44310), both to trace. All 5 earlier rear slot cars rechecked: 4 legal, 44027 left with halo pocket and logo."
+                },
+                {
+                    "date":  "2026-11-13",
+                    "text":  "150 more cars on 1a33a87 (before the rear slot fix): 113 legal, 37 rejects, 0 crashes. Rejects: no room for number 19 and logo 13 (carving), rear slot 10 (fixed in aa08f57; 44004 and 44079 now legal), halo seen from front with body outside the block 2, rear claw clearance 1 (to trace). Part 4 unit tests pass on aa08f57. 120 more cars queued on mxnviir (seeds 44239-358)."
+                },
+                {
+                    "date":  "2026-11-13",
+                    "text":  "60 more cars on main (mxnviir, seeds 44029-48 and 44079-118): 54 legal, 6 rejects, 0 crashes. Rejects: rear slot corner 3 (support design question Q9), no room for number 3 (carving). Next 120 cars queued there (seeds 44119-238)."
+                },
+                {
+                    "date":  "2026-11-13",
+                    "text":  "Rejudge on 54906c4, 40 cars: 36 legal, 4 rejects, 0 crashes. Rejects: rear slot too tight for the cutter (2, one also halo pocket), no room for logo (1), no room for number (1)."
+                },
+                {
+                    "date":  "2026-11-13",
+                    "text":  "Rejudging 40 carved cars on main 54906c4 (seeds 43989-44028, one car per job): runs 43353037747 and 43353081230."
+                },
+                {
+                    "date":  "2026-11-13",
+                    "text":  "Whole-car tests on ed52c7d: only failure was the body builder's cutter test (fixed in 54906c4). Rechecking on 54906c4."
+                },
                 {
                     "date":  "2026-11-13",
                     "text":  "120 cars on fixed code: 94 legal, 26 fair or traced rejects, 0 crashes."
@@ -213,11 +237,11 @@
                 },
                 {
                     "date":  "2026-11-12",
-                    "text":  "Front wing span fix on main 6bcf377, unit tests pass; the body builder\u0027s 7 failing cars are rerunning on it."
+                    "text":  "Front wing span fix on main 6bcf377, unit tests pass; the body builder's 7 failing cars are rerunning on it."
                 },
                 {
                     "date":  "2026-11-12",
-                    "text":  "Over-time stops traced to slow GitHub machines (one averaged 675 s a car against 360-540 s). Car time limit is now a setting, 1800 s by default (aae3b78). All four accounts full: 1,700+ carved cars running. The official trial starts on its own when the body builder\u0027s frozen version lands."
+                    "text":  "Over-time stops traced to slow GitHub machines (one averaged 675 s a car against 360-540 s). Car time limit is now a setting, 1800 s by default (aae3b78). All four accounts full: 1,700+ carved cars running. The official trial starts on its own when the body builder's frozen version lands."
                 },
                 {
                     "date":  "2026-11-12",
@@ -237,7 +261,7 @@
                 },
                 {
                     "date":  "2026-11-10",
-                    "text":  "Cargo gap traced to the body builder\u0027s slot rim (fixed in 26f095c). Part 4 remesh keeps the cleaner file (13e4445); unit tests pass."
+                    "text":  "Cargo gap traced to the body builder's slot rim (fixed in 26f095c). Part 4 remesh keeps the cleaner file (13e4445); unit tests pass."
                 },
                 {
                     "date":  "2026-11-10",
@@ -249,27 +273,27 @@
                 },
                 {
                     "date":  "2026-11-10",
-                    "text":  "Reference cars fail again on the body builder\u0027s f95173b (slot-corner strip, 28-35 mm3) after passing on 19e1a36. Told the body builder."
+                    "text":  "Reference cars fail again on the body builder's f95173b (slot-corner strip, 28-35 mm3) after passing on 19e1a36. Told the body builder."
                 },
                 {
                     "date":  "2026-11-10",
-                    "text":  "Codespaces: running 4 seeds at once timed out cars, so it was restarted one seed at a time. The slot-corner strip is back on the body builder\u0027s newer code; checking the reference cars there."
+                    "text":  "Codespaces: running 4 seeds at once timed out cars, so it was restarted one seed at a time. The slot-corner strip is back on the body builder's newer code; checking the reference cars there."
                 },
                 {
                     "date":  "2026-11-10",
-                    "text":  "All 3 reference cars pass every check (162 of 162) on the body builder\u0027s latest code. Started small trial batches on Codespaces (blackwingstem-wq and blackwinglinkedin-crypto, 4 cores each)."
+                    "text":  "All 3 reference cars pass every check (162 of 162) on the body builder's latest code. Started small trial batches on Codespaces (blackwingstem-wq and blackwinglinkedin-crypto, 4 cores each)."
                 },
                 {
                     "date":  "2026-11-10",
-                    "text":  "Rebuilt cars on the body builder\u0027s current code: the forward part and thin-triangle rejects are gone (they came from its older body). GitHub then blocked runs on all four Part 4 accounts; not retried."
+                    "text":  "Rebuilt cars on the body builder's current code: the forward part and thin-triangle rejects are gone (they came from its older body). GitHub then blocked runs on all four Part 4 accounts; not retried."
                 },
                 {
                     "date":  "2026-11-10",
-                    "text":  "Body builder\u0027s newer code: 19 of 20 trial cars built. New rejects: a part 75 mm ahead of the front reference, and thin triangles in printed files. Checks now name the part and file. Started 900+ trial cars and the reference cars at 0.7, 1.0 and 1.2 mm walls."
+                    "text":  "Body builder's newer code: 19 of 20 trial cars built. New rejects: a part 75 mm ahead of the front reference, and thin triangles in printed files. Checks now name the part and file. Started 900+ trial cars and the reference cars at 0.7, 1.0 and 1.2 mm walls."
                 },
                 {
                     "date":  "2026-11-10",
-                    "text":  "875 trial older-style cars on the body builder\u0027s in-progress code all crashed (body pieces not closed). Not counted. Checking its newer fix with 20 cars."
+                    "text":  "875 trial older-style cars on the body builder's in-progress code all crashed (body pieces not closed). Not counted. Checking its newer fix with 20 cars."
                 },
                 {
                     "date":  "2026-11-09",
@@ -323,7 +347,7 @@
                       "status":  "doing",
                       "started":  "2026-11-09",
                       "finished":  "",
-                      "note":  "2026-11-13: about 470 one-car cars on the fixed code, about 80% legal, 0 crashes. Every reject has a named cause: number and logo room go to the body builder (exact sizes sent today); rear slot fixed (aa08f57); halo pocket and one unsolid file being traced. The counted run waits for the body builder\u0027s frozen version."
+                      "note":  "2026-11-13: about 470 one-car cars on the fixed code, about 80% legal, 0 crashes. Every reject has a named cause: number and logo room go to the body builder (exact sizes sent today); rear slot fixed (aa08f57); halo pocket and one unsolid file being traced. The counted run waits for the body builder's frozen version."
                   },
                   {
                       "title":  "Real part weights",
@@ -339,7 +363,7 @@
                       "status":  "doing",
                       "started":  "2026-11-09",
                       "finished":  "",
-                      "note":  "2026-11-13: parts list done and thinnest walls measured; still waiting for the team\u0027s printer limits and a makeable check."
+                      "note":  "2026-11-13: parts list done and thinnest walls measured; still waiting for the team's printer limits and a makeable check."
                   },
                   {
                       "title":  "Part setting ranges",
@@ -374,9 +398,9 @@
                       "note":  ""
                   }
               ],
-    "agent_state":  "working",
+    "agent_state":  "waiting",
     "agent_note":  "Paused on filler runs until the user answers Q8; replacing lost work only. Rejudge on 54906c4 done: 36 of 40 legal; whole-car tests 43329888205 (54906c4) running. Borrowed account handed to Part 3. Seeds used up to 44418 (lofted 43700-06 separate).",
-    "needs_you":  "Team items: print material and the printer\u0027s thinnest wall, part weights, a hand check of three cars, and whether one exported car can be made.",
+    "needs_you":  "Team items: print material and the printer's thinnest wall, part weights, a hand check of three cars, and whether one exported car can be made.",
     "unlocks":  {
                     "D":  {
                               "label":  "Full-car building finished and tested",
