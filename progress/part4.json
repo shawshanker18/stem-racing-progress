@@ -323,7 +323,7 @@
                       "status":  "doing",
                       "started":  "2026-11-09",
                       "finished":  "",
-                      "note":  "Trial runs on the body builder\u0027s changing code, to find crashes and new kinds of rejects; the counted run waits for its frozen version."
+                      "note":  "2026-11-13: about 470 one-car cars on the fixed code, about 80% legal, 0 crashes. Every reject has a named cause: number and logo room go to the body builder (exact sizes sent today); rear slot fixed (aa08f57); halo pocket and one unsolid file being traced. The counted run waits for the body builder\u0027s frozen version."
                   },
                   {
                       "title":  "Real part weights",
@@ -339,7 +339,7 @@
                       "status":  "doing",
                       "started":  "2026-11-09",
                       "finished":  "",
-                      "note":  "Parts list done; thinnest walls measured; waiting for the team\u0027s printer limits and a makeable check."
+                      "note":  "2026-11-13: parts list done and thinnest walls measured; still waiting for the team\u0027s printer limits and a makeable check."
                   },
                   {
                       "title":  "Part setting ranges",
