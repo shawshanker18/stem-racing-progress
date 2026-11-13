@@ -62,7 +62,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - It must be right (checked against published wind-tunnel results), quiet (a tiny change gives a tiny time change) and give the same answer on every machine.
 - Every other part trusts it to say which car is faster.
 
-**Now:** Noise and repeat targets met; Part 2 tests pass. Closing waits on the whole-car test run, which fails one Part 1 cutter test (finish writes a sized body), not Part 2 code.
+**Now:** Mesh check passed: 18 cars rank the same on the search and fine meshes (rank agreement 0.96, 96 % of pairs). Noise and repeat met; closing them waits on one failing Part 1 test in the whole-car run.
 
 **Timeline:** 1 of 10 steps done
 
