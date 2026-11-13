@@ -69,21 +69,21 @@
         {
           "name": "Weight sizing for carved shapes",
           "cells": 40,
-          "done": 0,
+          "done": 40,
           "failed": 0,
           "short": "Carve weight"
         },
         {
           "name": "Random carving tester",
           "cells": 40,
-          "done": 0,
+          "done": 40,
           "failed": 0,
           "short": "Carve tester"
         },
         {
           "name": "Grid-size check",
           "cells": 30,
-          "done": 0,
+          "done": 30,
           "failed": 0,
           "short": "Grid check"
         },
@@ -116,15 +116,15 @@
         {
           "name": "Weight hits target",
           "cells": 200,
-          "done": 199,
-          "failed": 1,
+          "done": 200,
+          "failed": 0,
           "short": "Weight hit"
         },
         {
           "name": "Grid-size bodies",
           "cells": 20,
-          "done": 0,
-          "failed": 19,
+          "done": 20,
+          "failed": 0,
           "short": "Grid bodies"
         },
         {
@@ -179,7 +179,7 @@
   ],
   "status": "active",
   "updated": "2026-11-11",
-  "now": "Whole-car test 43329888205 on 54906c4: 15 jobs pass; fine and resolved timed out at 350 min, so NOT a pass (checkpoint chaining is with Part 2). Markings fix (branch p1-markings): 44028 legal, 44027 now only Part 4 slot corner (Q9); 44016 retest 43372602713 still 2 body pieces, tracing before merge. Slot-corner rejects are Part 4 support section (Q9), not Fault A; my own Fault A 41594/8 and halo-top 41518/4 still open.",
+  "now": "2026-11-13: grid study, sizing (200 green) and carving tester done. Open before tag: markings fix (number/logo room kept in the carver, p1-markings a237d78, rejudge 43387299037 on 60 seeds), my Fault A 41594/8 and halo-top 41518/4, whole-car test green on one commit (Part 2 chaining for fine/resolved). Then tag, PROOF.md, 2,000-body test and sizing rerun in the same hour.",
   "log": [
     {
       "date": "2026-11-09",
