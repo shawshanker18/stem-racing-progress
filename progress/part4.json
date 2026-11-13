@@ -192,7 +192,7 @@
                      }
                  ],
     "status":  "active",
-    "updated":  "2026-11-13T12:34:09Z",
+    "updated":  "2026-11-13T13:33:51Z",
     "now":  "Waiting on GitHub runners: 180 cars (seeds 44359-44538) and the whole-car tests on 30d92d0 are queued. Last count on aa08f57: 98 of 120 legal; the rear-slot fix worked.",
     "log":  [
                 {
@@ -398,9 +398,9 @@
                       "note":  ""
                   }
               ],
-    "agent_state":  "waiting",
+    "agent_state":  "waiting_on_compute",
     "agent_note":  "Paused on filler runs until the user answers Q8; replacing lost work only. Rejudge on 54906c4 done: 36 of 40 legal; whole-car tests 43329888205 (54906c4) running. Borrowed account handed to Part 3. Seeds used up to 44418 (lofted 43700-06 separate).",
-    "needs_you":  "Team items: print material and the printer's thinnest wall, part weights, a hand check of three cars, and whether one exported car can be made.",
+    "needs_you":  null,
     "unlocks":  {
                     "D":  {
                               "label":  "Full-car building finished and tested",
