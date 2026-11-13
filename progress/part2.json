@@ -279,7 +279,7 @@
       "status": "doing",
       "started": "2026-11-09",
       "finished": "",
-      "note": "Drag still reads high on the 25 degree body (about 10 %). Next: measure the bias and either fix its cause or carry it as a stated correction with an error bar."
+      "note": "Bias measured: drag reads about 5 to 13 % high on the standard test body (central +9 %). Asked whether to carry a correction of 1/1.09 plus or minus 0.04 in the race model (question Q11)."
     },
     {
       "title": "Cut the timing noise",
