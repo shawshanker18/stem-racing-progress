@@ -178,8 +178,8 @@
     }
   ],
   "status": "active",
-  "updated": "2026-11-11",
-  "now": "All Part 1 carving rejects cleared on main dd7427a: 41594/8 (slot corners) and 41518/4 (halo top) now legal, 14 of 14 cars in those seeds legal (43454007507). 44130 claw is Part 4 support. Whole-car test 43453873060 on dd7427a: 15 jobs pass, chained fine/resolved still running; tag at once when green.",
+  "updated": "2026-11-14",
+  "now": "Repro done: 41594/8 and 41518/4 fail twice on 6bcf377 (identical volumes) and are legal twice on dd7427a, so the result is deterministic, not flaky. Bisecting the clearing commit: e70ad72 (43512319448) vs its parent 2ca326e (43512326600). Whole-car test 43453873060 on dd7427a: 18 of 20 jobs pass, link 2 of fine/resolved still running. Not tagged yet: tag the moment it is green.",
   "log": [
     {
       "date": "2026-11-09",
