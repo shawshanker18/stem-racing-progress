@@ -37,7 +37,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - Re-sizes the whole body after each cut so the car always weighs the target.
 - Hands over a clean, closed 3D shape. It never decides what is faster; it only cuts safely.
 
-**Now:** 2026-11-13: L1 fixed (9984b8a, L1 run 43308948727 ok). test_cutter fixed at cause (54906c4, ballast bounded by capsule). cars=true 43329888205 on 54906c4 running. Open rejects before tag: 41518/4 halo-top 6.9 mm3, 41594/8 slot corners.
+**Now:** Whole-car test 43329888205 on 54906c4: 15 jobs pass; fine and resolved timed out at 350 min, so NOT a pass (checkpoint chaining is with Part 2). Markings fix (branch p1-markings): 44028 legal, 44027 now only Part 4 slot corner (Q9); 44016 retest 43372602713 still 2 body pieces, tracing before merge. Slot-corner rejects are Part 4 support section (Q9), not Fault A; my own Fault A 41594/8 and halo-top 41518/4 still open.
 
 **Timeline:** 3 of 9 steps done
 
