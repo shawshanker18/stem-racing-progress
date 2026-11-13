@@ -188,7 +188,7 @@
   "updated": "2026-11-11",
   "now": "Timing noise and long runs done. The whole-car test run with chained long cars is going. Next: measure how far the drag reads above the wind tunnel, and fix or correct it.",
   "agent_state": "working",
-  "agent_note": "For Part 3 (search mesh, medium, no layers, 1000 steps, 2 cores, frozen starting case): same car on 9 machines repeats to 0.01 ms. Starting from the other airflow state moves a car by 0.50 ms on average (largest 1.3 ms) after removing the common shift; timing from both states and averaging gives 0.09 ms noise. A coarser mesh has not been measured. Messages to other chats are paused until the user writes.",
+  "agent_note": "Fixed constants for every car: rolling friction 0.010 (Part 3 range 0.005 to 0.020), wheels 1.15 g front and 1.29 g rear, wheel inertia 1.39e-7 kg m2, tether drag not modelled. No published measured values exist; sources in PROOF. Drag correction 1/1.09 applied (Q11). Messages to other chats paused until the user writes.",
   "needs_you": "",
   "log": [
     {
