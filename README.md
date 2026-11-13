@@ -62,7 +62,7 @@ Our team is building, part by part, a computer system that designs the fastest l
 - It must be right (checked against published wind-tunnel results), quiet (a tiny change gives a tiny time change) and give the same answer on every machine.
 - Every other part trusts it to say which car is faster.
 
-**Now:** Race model checked against the measured thrust (peak, timing and total push all match). New sensitivities: 0.2 ms per mN of drag, 7.5 ms per gram. Friction, wheel spin, tether and real weights are still placeholders until the team measures them. Mesh check passed; noise and repeat close when the whole-car test run finishes green.
+**Now:** Long-run chaining built and working: a solve stops before the 6 h limit, saves, and the next job continues. Chained vs unbroken differ by 0.002 ms, within machine-to-machine noise. A same-machine test (about 2.5 h) now checks the restart is exact; if it is, the whole-car test run moves to chained jobs and is started right after.
 
 **Timeline:** 1 of 10 steps done
 
