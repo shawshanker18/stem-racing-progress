@@ -179,7 +179,7 @@
   ],
   "status": "active",
   "updated": "2026-11-11",
-  "now": "2026-11-13: grid study, sizing (200 green) and carving tester done. Open before tag: markings fix (number/logo room kept in the carver, p1-markings a237d78, rejudge 43387299037 on 60 seeds), my Fault A 41594/8 and halo-top 41518/4, whole-car test green on one commit (Part 2 chaining for fine/resolved). Then tag, PROOF.md, 2,000-body test and sizing rerun in the same hour.",
+  "now": "Markings fix (number/logo room kept in carver, p1-markings a237d78): 60-car rejudge 43387299037 completed. Tag as soon as the whole-car test is green on one commit (waiting on Part 2 chaining); then Part 3 told at once. Open: Fault A 41594/8, halo-top 41518/4.",
   "log": [
     {
       "date": "2026-11-09",
