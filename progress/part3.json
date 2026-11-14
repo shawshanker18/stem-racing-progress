@@ -158,7 +158,7 @@
  ],
  "status": "active",
  "updated": "2026-11-14",
- "now": "Fine-mesh compass check: all 3 start cars (3.95, 3.90, 3.87 mm) finished, each carried across 2 jobs, so chaining works. Their 24 bump timings each are running 4 at a time and also chaining. Part 1 has tagged its carver; the carving loop next needs the same carry-on support for its fine-mesh car runs before it can start. Medium cars stay a method test only.",
+ "now": "Loop timings are now locked to the fine or resolved mesh, with a test that fails on medium. One chained fine loop step (run 43569631533) is timing as the end-to-end proof, and the full car tests (43569628984) are running. Fine compass: 4 cars (3.95, 3.90, 3.87, 3.81 mm); the 3.87 mm car is timing all 60 modes. Write-up: PROOF.md updated with the dropped fast map, the method test, the fine check and the loop plan.",
  "log": [
   {
    "date": "2026-11-09",
@@ -300,10 +300,10 @@
   {
    "title": "Write-up",
    "short": "Write-up",
-   "status": "todo",
-   "started": "",
+   "status": "doing",
+   "started": "2026-11-14",
    "finished": "",
-   "note": ""
+   "note": "PROOF.md has the dropped fast map, the medium method test, the fine-mesh check and the Part 5 loop plan; results are filled in as runs finish."
   },
   {
    "title": "Full clean rerun of every test",
