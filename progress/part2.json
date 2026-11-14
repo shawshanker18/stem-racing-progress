@@ -188,7 +188,7 @@
   "updated": "2026-11-11",
   "now": "Fine-mesh noise and repeat (the loop gate): two frozen fine starting cases are being built (each solve split over linked jobs); the repeat and 16-car noise tests run from them next. Write-up: proof file updated with every gate, run numbers, the drag correction and the fixed constants with sources.",
   "agent_state": "waiting_on_compute",
-  "agent_note": "Fixed constants for every car: rolling friction 0.010 (Part 3 range 0.005 to 0.020), wheels 1.15 g front and 1.29 g rear, wheel inertia 1.39e-7 kg m2, tether drag not modelled. No published measured values exist; sources in PROOF. Drag correction 1/1.09 applied (Q11). Messages to other chats paused until the user writes.",
+  "agent_note": "The fine-mesh repeat and noise cars must start from a frozen fine starting case, which takes two or three linked jobs (about 6 to 12 h) to build. Two are running and a third started on main; the 6-car repeat and 16-car noise sets go on main the moment one finishes.",
   "needs_you": "",
   "log": [
     {
