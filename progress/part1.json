@@ -109,8 +109,8 @@
         {
           "name": "Carved bodies (1 square = 1 body)",
           "cells": 2000,
-          "done": 368,
-          "failed": 4,
+          "done": 12,
+          "failed": 0,
           "short": "Carved bodies"
         },
         {
@@ -179,7 +179,7 @@
   ],
   "status": "active",
   "updated": "2026-11-14",
-  "now": "p1-stage-a-1 out (dd7427a). 2,000-body test: 372 of 2,000 judged (360 main + 12 anass), 368 legal, 0 crashes, 4 illegal, all Part 4 parts (50002/0 rear support; 50135, 50250, 50323 printed-part slivers), with Part 4. Queued: main 50420-50599 (43604885211, 43604916296, 43604944594), anass 50600-50623 (43604983245, 43605014987). Carver identical with claw zone (20/20 hashes); stage-a-2 waits on claw tests 43562041065. PROOF.md on main.",
+  "now": "ONE CARVE PATH: four carve paths built different bodies from the same seed. part1-simulation/carve.py is now the only one (p1-carve 7af8bc5): stress_cars, its rebuild and the lab call it; Part 3 step items to follow. Tests 43605323009, 20-body hash check 43605325775. The 360 p4_assembly cars on p1-stage-a-1 used the old raw carve, so they do not count; queued main batches cancelled. 2,000-body test restarts on the merge commit after cars=true and tag.",
   "log": [
     {
       "date": "2026-11-09",
