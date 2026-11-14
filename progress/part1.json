@@ -109,8 +109,8 @@
         {
           "name": "Carved bodies (1 square = 1 body)",
           "cells": 2000,
-          "done": 0,
-          "failed": 0,
+          "done": 368,
+          "failed": 4,
           "short": "Carved bodies"
         },
         {
