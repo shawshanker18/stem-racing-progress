@@ -179,7 +179,7 @@
   ],
   "status": "active",
   "updated": "2026-11-14",
-  "now": "p1-stage-a-1 out (dd7427a). 2,000-body test: batch 1 59 legal / 1 Part 4 support reject (50002/0 T7.12.1, legal in 3 lab builds) / 0 crash; batches 2-3 (43586226627, 43586228801) and 4-6 (43594704123, 43594737950, 43594768846, seeds 50180-50359) queued; anass: seeds 50360-50371 via p1_lab on the tag (43599729626). Same-body proof done: carved field and body identical 20/20 with the claw zone; stage-a-2 waits on claw tests 43562041065, then merge, cars=true, tag. 41608/1 legal. PROOF.md on main.",
+  "now": "p1-stage-a-1 out (dd7427a). 2,000-body test: 372 of 2,000 judged (360 main + 12 anass), 368 legal, 0 crashes, 4 illegal, all Part 4 parts (50002/0 rear support; 50135, 50250, 50323 printed-part slivers), with Part 4. Queued: main 50420-50599 (43604885211, 43604916296, 43604944594), anass 50600-50623 (43604983245, 43605014987). Carver identical with claw zone (20/20 hashes); stage-a-2 waits on claw tests 43562041065. PROOF.md on main.",
   "log": [
     {
       "date": "2026-11-09",
