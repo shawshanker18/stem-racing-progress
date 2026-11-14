@@ -179,7 +179,7 @@
   ],
   "status": "active",
   "updated": "2026-11-14",
-  "now": "TAGGED p1-stage-a-1 on dd7427a (cars=true 43453873060 green, all jobs). Part 3 told. Running on the tag: 2,000-body test batch 1 of 34 (43561978552, one car per job) and sizing rerun of 200 bodies (43561981406). Repro was deterministic; 41594/8 cleared by e70ad72, 41518/4 bisect running. Claw-zone request withdrawn by Part 4 (their supports part). PROOF.md next.",
+  "now": "p1-stage-a-1 is out on dd7427a (Part 3 is on it). Rejects named: 41594/8 cleared by e70ad72, 41518/4 by c371b29. Claw-ring zone (redundant with the wheel column, kept as a rule) rejudged legal on 44130/0 and 44430/0. Same-body proof: 20 bodies hashed on stage-a-1 (43569632670) and on the merge commit stage-a-2 (43569652478); then cars=true and tag p1-stage-a-2. 2,000-body batch 1 and sizing rerun queued on stage-a-1.",
   "log": [
     {
       "date": "2026-11-09",
