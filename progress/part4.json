@@ -192,8 +192,8 @@
                      }
                  ],
     "status":  "active",
-    "updated":  "2026-11-14T10:43:15Z",
-    "now":  "Fresh 180 on 4d594f6: 177 legal, 0 rejects (0 logo/number), 3 crashes. The crashes are Part 4's: the claw-trim web had zero height on bare beams; fixed in dc54fec, cars rerunning. Rear claw trace: the blocker is one support piece, a 0.7 mm slab (x 162.8-169.8, y 0-16.43, z 27.04-27.74) covering all 12 points; a lab (43586284542) logs why the trim left it. PROOF.md updated (4a54c50). Tag held.",
+    "updated":  "2026-11-14T14:27:26Z",
+    "now":  "Fresh 180: 177 legal, 0 rejects; the 3 crashes are fixed (dc54fec) and now legal. Car 50002/0 (Part 1 batch): rejected the same way twice, so it is repeatable, not random; a 20.6 mm support plate lifted into the pod pokes 2 mm outside the wheel's circle. A fix is proposed, waiting on the reviewer. Rear claw: the stress tool's quick rebuild uses a different body, so 44130 is rerunning with its files kept (43604931818). Tag held.",
     "log":  [
                 {
                     "date":  "2026-11-13",
