@@ -22,6 +22,13 @@
       ]
     },
     {
+      "name": "bigclaudiaburner-sketch",
+      "cap": 40,
+      "part": 3,
+      "note": "Part 3 loop/compass (added 2026-11-14, student, slow ramp)",
+      "repo": "stem-racing-compute"
+    },
+    {
       "name": "mxnviir",
       "cap": 40,
       "part": null,
@@ -73,7 +80,7 @@
     },
     {
       "name": "anasssssssss1",
-      "cap": 5,
+      "cap": 20,
       "part": 1,
       "note": "Part 1",
       "repo": "stem-car-compute",
