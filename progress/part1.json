@@ -179,7 +179,7 @@
   ],
   "status": "active",
   "updated": "2026-11-14",
-  "now": "Repro done: 41594/8 and 41518/4 fail twice on 6bcf377 (identical volumes) and are legal twice on dd7427a, so the result is deterministic, not flaky. Bisecting the clearing commit: e70ad72 (43512319448) vs its parent 2ca326e (43512326600). Whole-car test 43453873060 on dd7427a: 18 of 20 jobs pass, link 2 of fine/resolved still running. Not tagged yet: tag the moment it is green.",
+  "now": "TAGGED p1-stage-a-1 on dd7427a (cars=true 43453873060 green, all jobs). Part 3 told. Running on the tag: 2,000-body test batch 1 of 34 (43561978552, one car per job) and sizing rerun of 200 bodies (43561981406). Repro was deterministic; 41594/8 cleared by e70ad72, 41518/4 bisect running. Claw-zone request withdrawn by Part 4 (their supports part). PROOF.md next.",
   "log": [
     {
       "date": "2026-11-09",
