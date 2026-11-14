@@ -193,7 +193,7 @@
                  ],
     "status":  "active",
     "updated":  "2026-11-13T21:39:12Z",
-    "now":  "Rear claw cause found: the rear support plate ran at pod-roof height (z 27.2-27.4) into the claw gap at the wheel's inner corner. Fix 59c0d95 steps the plate down there and adds a gate; tests and rechecks of 44130/44430 are running. Whole-car tests on 30d92d0: all jobs green except long_fine_2, still running. The fresh 180 on HEAD goes out once the fix checks green.",
+    "now":  "Whole-car tests (cars=true) on 30d92d0 passed in full. Rear claw (44130, 44430): blocked by a piece of Part 4's supports.stl, not the body; which piece is unconfirmed (the plate trim in 4b183ff did not clear it). No fix until trace 43561847205 names the piece. Part setting ranges and part weights are on main (4d594f6); the nose range test failed on a box test car, fixed in 51a6c64, p4_tests 43567587748 running. Fresh 180 on 4d594f6 (43561652849, 43561682124, 43561711541) queued for runners. Tag held until every condition is met on one commit.",
     "log":  [
                 {
                     "date":  "2026-11-13",
@@ -352,10 +352,10 @@
                   {
                       "title":  "Real part weights",
                       "short":  "Real weights",
-                      "status":  "todo",
-                      "started":  "",
+                      "status":  "doing",
+                      "started":  "2026-11-14",
                       "finished":  "",
-                      "note":  ""
+                      "note":  "On main 4d594f6: each part's weight = volume x density, with the density and its source on every row (PA12 1.01 team spec, PLA 1.24 datasheet, foam 0.163 team spec). None weighed yet: flagged for the team's real print weights."
                   },
                   {
                       "title":  "Build files",
@@ -368,10 +368,10 @@
                   {
                       "title":  "Part setting ranges",
                       "short":  "Ranges",
-                      "status":  "todo",
-                      "started":  "",
+                      "status":  "doing",
+                      "started":  "2026-11-14",
                       "finished":  "",
-                      "note":  ""
+                      "note":  "On main 4d594f6: legal range of every tunable part setting (front/rear wing, nose, supports), found on the car from the part's own rule checks, each limit tested just inside and just outside. 45 of 48 tests pass; the nose test car is fixed in 51a6c64, rerunning."
                   },
                   {
                       "title":  "Write-up",
@@ -398,7 +398,7 @@
                       "note":  ""
                   }
               ],
-    "agent_state":  "working",
+    "agent_state":  "waiting_on_compute",
     "agent_note":  "Waiting on GitHub runners. Team items for the end (not blocking): print material and the printer's thinnest wall, part weights, a hand check of three cars, and whether one exported car can be made.",
     "needs_you":  null,
     "unlocks":  {
