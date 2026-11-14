@@ -158,7 +158,7 @@
  ],
  "status": "active",
  "updated": "2026-11-14",
- "now": "Loop timings are now locked to the fine or resolved mesh, with a test that fails on medium. One chained fine loop step (run 43569631533) is timing as the end-to-end proof, and the full car tests (43569628984) are running. Fine compass: 4 cars (3.95, 3.90, 3.87, 3.81 mm); the 3.87 mm car is timing all 60 modes. Write-up: PROOF.md updated with the dropped fast map, the method test, the fine check and the loop plan.",
+ "now": "Loop: one chained fine loop step passed end to end (mxnviir 43569631533). It now runs 3 chains sharing slots in turn, with a test. Start cars: chain 1 the plain start car, chain 2 seed 50047 (wider), chain 3 seed 50027 (front moved back, longer nose). Chains 2 and 3 are held until Part 4 checks that its two car-building routes agree. Unit tests: one old test needed the loop mesh set; fixed and re-running (43599694710). New account bigclaudiaburner-sketch: test run passed, but it gets only about 5 jobs at once, so at most 3 runs there. Fine compass: 4 cars timing.",
  "log": [
   {
    "date": "2026-11-09",
@@ -243,6 +243,10 @@
   ,{
    "date": "2026-11-14",
    "text": "Fine mesh works across jobs: all three fine start cars finished by carrying on into a second job. Their bump timings are running. Part 1 tagged its carver; the carving loop gets the same carry-on support next."
+  }
+  ,{
+   "date": "2026-11-14",
+   "text": "A carving-loop step on the fine mesh ran end to end across jobs. The loop now runs three chains from three different start cars; two of them wait for Part 4 to confirm the car-building check."
   }
  ],
  "agent_state": "working",
