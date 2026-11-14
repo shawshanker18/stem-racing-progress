@@ -179,7 +179,7 @@
   ],
   "status": "active",
   "updated": "2026-11-14",
-  "now": "p1-stage-a-1 out (dd7427a). 2,000-body test: batch 1 59 legal / 1 Part 4 support reject (50002/0 T7.12.1, legal in 3 lab builds) / 0 crash; batches 2-3 queued (43586226627, 43586228801). Same-body proof done: carved field and body identical 20/20 with the claw zone; stage-a-2 waits on claw tests 43562041065, then merge, cars=true, tag. 41608/1 legal. PROOF.md on main.",
+  "now": "p1-stage-a-1 out (dd7427a). 2,000-body test: batch 1 59 legal / 1 Part 4 support reject (50002/0 T7.12.1, legal in 3 lab builds) / 0 crash; batches 2-3 (43586226627, 43586228801) and 4-6 (43594704123, 43594737950, 43594768846, seeds 50180-50359) queued. Same-body proof done: carved field and body identical 20/20 with the claw zone; stage-a-2 waits on claw tests 43562041065, then merge, cars=true, tag. 41608/1 legal. PROOF.md on main.",
   "log": [
     {
       "date": "2026-11-09",
