@@ -192,8 +192,8 @@
                      }
                  ],
     "status":  "active",
-    "updated":  "2026-11-13T21:39:12Z",
-    "now":  "Whole-car tests (cars=true) on 30d92d0 passed in full. Rear claw (44130, 44430): blocked by a piece of Part 4's supports.stl, not the body; which piece is unconfirmed (the plate trim in 4b183ff did not clear it). No fix until trace 43561847205 names the piece. Part setting ranges and part weights are on main (4d594f6); the nose range test failed on a box test car, fixed in 51a6c64, p4_tests 43567587748 running. Fresh 180 on 4d594f6 (43561652849, 43561682124, 43561711541) queued for runners. Tag held until every condition is met on one commit.",
+    "updated":  "2026-11-14T10:43:15Z",
+    "now":  "Fresh 180 on 4d594f6: 177 legal, 0 rejects (0 logo/number), 3 crashes. The crashes are Part 4's: the claw-trim web had zero height on bare beams; fixed in dc54fec, cars rerunning. Rear claw trace: the blocker is one support piece, a 0.7 mm slab (x 162.8-169.8, y 0-16.43, z 27.04-27.74) covering all 12 points; a lab (43586284542) logs why the trim left it. PROOF.md updated (4a54c50). Tag held.",
     "log":  [
                 {
                     "date":  "2026-11-13",
@@ -398,7 +398,7 @@
                       "note":  ""
                   }
               ],
-    "agent_state":  "waiting_on_compute",
+    "agent_state":  "working",
     "agent_note":  "Waiting on GitHub runners. Team items for the end (not blocking): print material and the printer's thinnest wall, part weights, a hand check of three cars, and whether one exported car can be made.",
     "needs_you":  null,
     "unlocks":  {
