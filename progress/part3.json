@@ -157,8 +157,8 @@
   }
  ],
  "status": "active",
- "updated": "2026-11-13",
- "now": "Fine mesh only now (user decision: high mesh). Fine compass check on 2 cars, chained across 6-hour jobs: the 3.95 mm car is solving; the 3.90 mm car lost its machine (likely memory or disk) and is queued again with extra swap, freed disk and a memory/disk log. It moves to Part 2's slimmer-disk version once that passes its check. The 45 medium cars are a method test only; none judged yet.",
+ "updated": "2026-11-14",
+ "now": "Fine-mesh compass check: all 3 start cars (3.95, 3.90, 3.87 mm) finished, each carried across 2 jobs, so chaining works. Their 24 bump timings each are running 4 at a time and also chaining. Part 1 has tagged its carver; the carving loop next needs the same carry-on support for its fine-mesh car runs before it can start. Medium cars stay a method test only.",
  "log": [
   {
    "date": "2026-11-09",
@@ -239,6 +239,10 @@
   ,{
    "date": "2026-11-13",
    "text": "User decision: the compass and the carving loop use the fine mesh. Fine check on 2 cars started; one lost its machine after 2 hours (likely memory or disk) and was restarted with more room and a memory log."
+  }
+  ,{
+   "date": "2026-11-14",
+   "text": "Fine mesh works across jobs: all three fine start cars finished by carrying on into a second job. Their bump timings are running. Part 1 tagged its carver; the carving loop gets the same carry-on support next."
   }
  ],
  "agent_state": "working",
